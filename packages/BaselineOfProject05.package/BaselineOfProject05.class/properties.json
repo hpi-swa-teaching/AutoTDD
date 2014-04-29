@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfProject05",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfProject05",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
