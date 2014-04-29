@@ -1,0 +1,3 @@
+building
+deleteButtonLabel
+	^ 'Delete All'

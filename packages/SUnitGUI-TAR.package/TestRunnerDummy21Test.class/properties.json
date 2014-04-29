@@ -1,0 +1,14 @@
+{
+	"category" : "SUnitGUI-TAR-Dummy-Success-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestRunnerDummy21Test",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

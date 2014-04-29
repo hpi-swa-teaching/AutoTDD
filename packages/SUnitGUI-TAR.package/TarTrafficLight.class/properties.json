@@ -1,0 +1,28 @@
+{
+	"category" : "SUnitGUI-TAR",
+	"classinstvars" : [
+		"instances" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FB 7/17/2013 01:10:18.443",
+	"instvars" : [
+		"category",
+		"testCategory",
+		"testStatus",
+		"testSuite",
+		"trafficLightResults",
+		"extendResultButton",
+		"extendNameButton",
+		"resultsExpanded",
+		"nameExpanded",
+		"onButton",
+		"offButton",
+		"nameMorph",
+		"process",
+		"testRunningSemaphore",
+		"progressBar" ],
+	"name" : "TarTrafficLight",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

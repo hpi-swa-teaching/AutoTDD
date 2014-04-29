@@ -1,0 +1,3 @@
+building
+deleteButtonName
+	^ 'deleteButton'
