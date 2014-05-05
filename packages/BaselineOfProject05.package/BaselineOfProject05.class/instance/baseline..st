@@ -6,8 +6,10 @@ baseline: spec
 		do: [
 			spec
 				package: 'Project05-Core';
-				package: 'Project05-Tests' with: [spec requires: #('default')].
+				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
+				package: 'SUnitGUI-TAR';
+				package: 'SUnitGUI-TAR-Tests' with: [spec requires: #('SUnitGUI-TAR')].
 			spec
-				group: 'default' with: #('Project05-Core');
-				group: 'Tests' with: #('Project05-Tests');
+				group: 'default' with: #('Project05-Core' 'SUnitGUI-TAR');
+				group: 'Tests' with: #('Project05-Tests' 'SUnitGUI-TAR-Tests');
 				group: 'TravisCI' with: #('Tests')	]
