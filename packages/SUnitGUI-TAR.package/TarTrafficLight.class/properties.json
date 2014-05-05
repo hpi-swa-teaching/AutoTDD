@@ -17,6 +17,8 @@
 		"nameExpanded",
 		"onButton",
 		"offButton",
+		"foregroundButton",
+		"backgroundButton",
 		"nameMorph",
 		"process",
 		"testRunningSemaphore",
