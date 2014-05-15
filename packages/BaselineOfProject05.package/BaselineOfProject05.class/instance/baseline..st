@@ -4,12 +4,12 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
-			spec configuration: 'SwaUtilities' with: 
+			spec configuration: 'Widgets' with: 
 				[ spec
         				version: #stable;
        				repository: 						'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities' ].
 			spec
-				package: 'WidgetTests' with: [spec requires: 'SwaUtilities'];
+				package: 'WidgetTests' with: [spec requires: 'Widgets'];
 				package: 'Project05-Core';
 				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
 				package: 'SUnitGUI-TAR';
