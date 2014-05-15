@@ -10,9 +10,9 @@ baseline: spec
        				repository: 						'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities' ].
 			spec
 				package: 'WidgetTest' with: [spec requires: 'UiTestCase'];
-				package: 'Project05-Core';
+				package: 'Project05-Core' with: [spec requires: #('WidgetTest')];
 				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
-				package: 'SUnitGUI-TAR';
+				package: 'SUnitGUI-TAR' with: [spec requires: #('WidgetTest')];
 				package: 'SUnitGUI-TAR-Tests' with: [spec requires: #('SUnitGUI-TAR')].
 			spec
 				group: 'default' with: #('Project05-Core' 'SUnitGUI-TAR');
