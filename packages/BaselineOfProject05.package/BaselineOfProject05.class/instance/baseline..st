@@ -9,7 +9,7 @@ baseline: spec
      					className: 'ConfigurationOfWidgets';
 					versionString: #stable;
 					loads: #('tests');			
-       				repository: 						'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities';
+       				repository: 						'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
 					yourself ];
 				yourself.
 			spec
