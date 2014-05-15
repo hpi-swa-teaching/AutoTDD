@@ -4,9 +4,9 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
-			spec configuration: 'Widgets' with: 
+			spec project: 'Widgets' with: 
 				[ spec
-        				version: #stable;
+     					className: 'ConfigurationOfWidgets';					
        				repository: 						'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities' ].
 			spec
 				package: 'WidgetTests' with: [spec requires: 'Widgets'];
