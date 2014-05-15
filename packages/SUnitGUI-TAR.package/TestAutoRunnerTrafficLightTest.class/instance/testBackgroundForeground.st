@@ -15,7 +15,7 @@ testBackgroundForeground
 	self assert: sut backgroundButton enabled.
 	self deny: sut foregroundButton enabled.
 	self assert: sut wantsToBeTopmost.
-	self assert: sut submorphBefore = sut owner firstSubmorph.
+	self assert: sut owner firstSubmorph = sut.
 	ClassGettingTested addSelector: #fooMethod withMethod: method.
 	sut testRunningSemaphore wait. ]
 		ensure: [ ClassGettingTested removeSelector: #fooMethod ]

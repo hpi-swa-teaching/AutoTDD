@@ -7,4 +7,4 @@ morphicLayerNumber
 		ifTrue: [ layer := 12.]
 		ifFalse: [ layer := self valueOfProperty: #morphicLayerNumber ifAbsent: [100].].
 		
-	^ 12
+	^ 3
