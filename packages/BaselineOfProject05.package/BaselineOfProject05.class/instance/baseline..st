@@ -17,7 +17,7 @@ baseline: spec
 				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
 				package: 'SUnitGUI-TAR';
 				package: 'SUnitGUI-TAR-Tests' with: 
-					[spec requires: #('SUnitGUI-TAR')];
+					[spec requires: #('SUnitGUI-TAR' 'Widgets')];
 				yourself.
 			spec
 				group: 'default' with: #('Project05-Core' 'SUnitGUI-TAR');
