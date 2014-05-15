@@ -1,7 +1,8 @@
 accessing
 foregroundButtonClicked
-	self foregroundButton enabled: false.
-	self backgroundButton enabled: true.
-	"self listenForNotificationsAbout: self category withTestsIn: self testCategory"
-	"self sticky: false."
-	self comeToFront.
+	self inForeground
+		ifTrue: [ self foregroundButton label: 'pin'. ]
+		ifFalse: [ self foregroundButton label: 'inForeground'.
+			self comeToFront. ].
+	self inForeground: self inForeground not.
+	self setProperty: #morphicLayerNumber toValue: self morphicLayerNumber.

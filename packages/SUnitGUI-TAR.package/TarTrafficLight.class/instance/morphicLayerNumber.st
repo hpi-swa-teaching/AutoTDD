@@ -1,10 +1,9 @@
 as yet unclassified
 morphicLayerNumber
-	"morph is behind menus and balloons, but in front of most other stuff"
+	"morph can be behind menus and balloons, but in front of most other stuff or 
+	behaves like any other morph"
 	|layer|
-	"self halt."
-	self backgroundButton enabled 
-		ifTrue: [ layer := 12.]
-		ifFalse: [ layer := self valueOfProperty: #morphicLayerNumber ifAbsent: [100].].
-		
-	^ 3
+	self inForeground
+		ifTrue: [ layer := 3]
+		ifFalse: [ layer := 100].
+	^ layer

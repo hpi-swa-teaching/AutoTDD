@@ -1,4 +1,3 @@
-as yet unclassified
+accessing
 wantsToBeTopmost 
-	^ self backgroundButton enabled.
-	"^ true"
+	^ self inForeground.
