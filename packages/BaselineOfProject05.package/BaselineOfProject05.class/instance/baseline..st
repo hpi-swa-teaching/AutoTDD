@@ -4,8 +4,12 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
+			spec configuration: 'UiTestCase' with: [
+     				spec
+        				version: #stable;
+       				repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/SwaUtilities' ].
 			spec
-				package: 'WidgetTest-Support';
+				package: 'WidgetTest-Support' with: [spec requires: 'UiTestCase'];
 				package: 'Project05-Core';
 				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
 				package: 'SUnitGUI-TAR';
