@@ -4,7 +4,7 @@ createForegroundButton
 	self foregroundButton vResizing: false;
 		 hResizing: false;
 		 extent: 80 @ 20;
-		 position: self position + (200 @ 0);
+		 position: self position + (120 @ -20);
 		 label: 'Pin';
 		 "enabled: true;"
 		 action: #foregroundButtonClicked;
