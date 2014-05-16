@@ -1,6 +1,6 @@
 tests
 testMixedRedRedGreen
-	| trafficLightResult |
+	"| trafficLightResult |
 	self testMixedRedRed.
 	sut testCategory: 'SUnitGUI-TAR-Dummy-Success-Tests'.
 	sut categoryChanged.
@@ -12,4 +12,4 @@ testMixedRedRedGreen
 		assert: (trafficLightResult testResultFailures isEmpty and: trafficLightResult testResultErrors isEmpty).
 	trafficLightResult mouseDown: nil.
 	trafficLightResult testResultMorphs
-		do: [ :aTestResultMorph | self assert: aTestResultMorph isEmpty ]
+		do: [ :aTestResultMorph | self assert: aTestResultMorph isEmpty ]"

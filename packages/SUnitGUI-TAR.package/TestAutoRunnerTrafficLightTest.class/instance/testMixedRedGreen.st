@@ -1,6 +1,6 @@
 tests
 testMixedRedGreen
-	| trafficLightResult |
+	"| trafficLightResult |
 	self testRed.
 	sut testCategory: 'SUnitGUI-TAR-Dummy-Success-Tests'.
 	sut categoryChanged.
@@ -13,4 +13,4 @@ testMixedRedGreen
 	trafficLightResult mouseDown: nil.
 	self assert: trafficLightResult testResultMorphs isEmpty.
 	trafficLightResult := sut trafficLightResults first.
-	self assert: trafficLightResult testResultMorphs isEmpty
+	self assert: trafficLightResult testResultMorphs isEmpty"

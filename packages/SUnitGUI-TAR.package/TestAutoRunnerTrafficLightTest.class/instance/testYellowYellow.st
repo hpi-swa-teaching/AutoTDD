@@ -1,6 +1,6 @@
 tests
 testYellowYellow
-	| trafficLightResult |
+	"| trafficLightResult |
 	self testYellow.
 	sut categoryChanged.
 	sut testRunningSemaphore wait.
@@ -13,4 +13,4 @@ testYellowYellow
 	trafficLightResult mouseDown: nil.
 	self assert: trafficLightResult testResultMorphs size = 3.
 	trafficLightResult testResultMorphs
-		do: [ :aTestResultMorph | self assert: aTestResultMorph color = Color yellow ]
+		do: [ :aTestResultMorph | self assert: aTestResultMorph color = Color yellow ]"

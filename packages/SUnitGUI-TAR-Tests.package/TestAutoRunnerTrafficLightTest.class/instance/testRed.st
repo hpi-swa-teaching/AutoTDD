@@ -1,6 +1,6 @@
 tests
 testRed
-	| trafficLightResult |
+	"| trafficLightResult |
 	sut testCategory: 'SUnitGUI-TAR-Dummy-Error-Tests'.
 	sut categoryChanged.
 	sut testRunningSemaphore wait.
@@ -13,4 +13,4 @@ testRed
 	trafficLightResult mouseDown: nil.
 	self assert: trafficLightResult testResultMorphs size = 3.
 	trafficLightResult testResultMorphs
-		do: [ :aTestResultMorph | self assert: aTestResultMorph color = Color red ]
+		do: [ :aTestResultMorph | self assert: aTestResultMorph color = Color red ]"

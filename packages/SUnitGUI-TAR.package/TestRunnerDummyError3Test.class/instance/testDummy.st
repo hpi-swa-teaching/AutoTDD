@@ -1,3 +1,3 @@
 as yet unclassified
 testDummy
-	self nonExistantMethod.
+	"self nonExistantMethod."

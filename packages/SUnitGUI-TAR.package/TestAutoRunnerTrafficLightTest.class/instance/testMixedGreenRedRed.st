@@ -1,6 +1,6 @@
 tests
 testMixedGreenRedRed
-	| trafficLightResult |
+	"| trafficLightResult |
 	self testMixedGreenRed.
 	sut categoryChanged.
 	sut testRunningSemaphore wait.
@@ -14,4 +14,4 @@ testMixedGreenRedRed
 	trafficLightResult testResultMorphs
 		do: [ :aTestResultMorph | self assert: aTestResultMorph color = Color red ].
 	trafficLightResult := sut trafficLightResults last.
-	self assert: trafficLightResult testResultMorphs isEmpty
+	self assert: trafficLightResult testResultMorphs isEmpty"

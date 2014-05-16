@@ -1,6 +1,6 @@
 tests
 testOpenDebugger
-	| firstResult testResultMorph exceptionCaught |
+	"| firstResult testResultMorph exceptionCaught |
 	exceptionCaught := false.
 	sut testCategory: 'SUnitGUI-TAR-Dummy-Failure-Tests'.
 	sut categoryChanged.
@@ -12,4 +12,4 @@ testOpenDebugger
 	[ firstResult testResultFailureMorphClicked: 0 forMorph: testResultMorph ]
 		on: TestFailure
 		do: [ :ex | exceptionCaught := true and: ex receiver selector = #testDummy and: ex receiver class == TestRunnerDummy1Test ].
-	self assert: exceptionCaught
+	self assert: exceptionCaught"

@@ -1,3 +1,3 @@
 as yet unclassified
 testDummy
-	self assert: 1= 0.
+	"self assert: 1= 0."
