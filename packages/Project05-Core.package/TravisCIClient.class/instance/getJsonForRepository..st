@@ -11,4 +11,4 @@ getJsonForRepository: repo
 	body := response content.
 	^ body"
 	
-	^ self requestOn: 'repos/', repo, 'builds'
+	^ self requestOn: 'repos/', repo, '/builds'
