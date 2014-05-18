@@ -10,4 +10,4 @@ testApiConnect
 	response content; close.
 	self assert: response code = 200.
 	self assert: response content 
-		equals: 	'{""hello"":""world""}'"
+		equals: 	'{""hello"":""world""}"
