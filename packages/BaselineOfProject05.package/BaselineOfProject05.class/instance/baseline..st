@@ -18,7 +18,6 @@ baseline: spec
 						versionString: #stable;
 						loads: #('Core');			
        					repository: 'http://ss3.gemstone.com/ss/WebClient';
-						requires: #('SqueakSSL-Core');
 						yourself ];
 				yourself.
 			spec
@@ -30,7 +29,7 @@ baseline: spec
 					[ spec
      						repository: 'http://www.squeaksource.com/SqueakSSL';
 						yourself ];
-				package: 'Project05-Core' with: [spec requires: #('JSON WebClient')];
+				package: 'Project05-Core' with: [spec requires: #('JSON WebClient SqueakSSL-Core')];
 				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
 				package: 'SUnitGUI-TAR';
 				package: 'SUnitGUI-TAR-Tests' with: 
