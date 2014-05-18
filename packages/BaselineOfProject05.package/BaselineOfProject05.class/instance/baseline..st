@@ -4,16 +4,22 @@ baseline: spec
 	spec
 		for: #'common'
 		do: [
-			spec project: 'Widgets' with: 
-				[ spec
-     					className: 'ConfigurationOfWidgets';
-					versionString: #stable;
-					loads: #('tests');			
-       				repository: 						'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
-					yourself ];
+			spec
+				project: 'Widgets' with: 
+					[ spec
+     						className: 'ConfigurationOfWidgets';
+						versionString: #stable;
+						loads: #('tests');			
+       					repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
+						yourself ];
 				yourself.
 			spec
-				package: 'Project05-Core';
+				package: 'JSON' with: 
+					[ spec
+     						file: 'JSON-ul.35';	
+       					repository: 'http://www.squeaksource.com/JSON';
+						yourself ];
+				package: 'Project05-Core' with: [spec requires: #('JSON')];
 				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
 				package: 'SUnitGUI-TAR';
 				package: 'SUnitGUI-TAR-Tests' with: 
