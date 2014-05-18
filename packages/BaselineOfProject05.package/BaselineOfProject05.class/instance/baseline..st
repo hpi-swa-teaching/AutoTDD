@@ -18,7 +18,7 @@ baseline: spec
 						versionString: #stable;
 						loads: #('Core');			
        					repository: 'http://ss3.gemstone.com/ss/WebClient';
-						requires: 'SqueakSSL-Core';
+						requires: #('SqueakSSL-Core');
 						yourself ];
 				yourself.
 			spec
