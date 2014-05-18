@@ -2,4 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getJsonForRepository:" : "CA 5/18/2014 17:51" } }
+		"getJsonForRepository:" : "PS 5/18/2014 18:09",
+		"mimeType" : "PS 5/18/2014 18:04",
+		"requestOn:" : "PS 5/18/2014 18:08",
+		"travisApiUrl" : "PS 5/18/2014 18:06",
+		"userAgent" : "PS 5/18/2014 18:03" } }
