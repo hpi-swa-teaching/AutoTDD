@@ -12,14 +12,25 @@ baseline: spec
 						loads: #('tests');			
        					repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
 						yourself ];
+				project: 'WebClient' with: 
+					[ spec
+     						className: 'ConfigurationOfWebClient';
+						versionString: #stable;
+						loads: #('Core');			
+       					repository: 'http://ss3.gemstone.com/ss/WebClient';
+						requires: 'SqueakSSL-Core';
+						yourself ];
 				yourself.
 			spec
 				package: 'JSON' with: 
 					[ spec
-     						file: 'JSON-ul.35';	
-       					repository: 'http://www.squeaksource.com/JSON';
+     						repository: 'http://www.squeaksource.com/JSON';
 						yourself ];
-				package: 'Project05-Core' with: [spec requires: #('JSON')];
+				package: 'SqueakSSL-Core' with: 
+					[ spec
+     						repository: 'http://www.squeaksource.com/SqueakSSL';
+						yourself ];
+				package: 'Project05-Core' with: [spec requires: #('JSON WebClient')];
 				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
 				package: 'SUnitGUI-TAR';
 				package: 'SUnitGUI-TAR-Tests' with: 
