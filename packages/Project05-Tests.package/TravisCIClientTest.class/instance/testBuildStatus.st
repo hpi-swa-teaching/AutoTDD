@@ -1,7 +1,7 @@
 tests
 testBuildStatus
 
-	"| client state |
+	| client state |
 	client := TravisCIClient new.
 	state := client parseBuildStatusForRepository: self sampleRepository.
-	self assert: ((state = 'passed') or: [state = 'failed'])"
+	self assert: (self possibleBuildStatuses includes: state)

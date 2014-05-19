@@ -1,7 +1,7 @@
 tests
 testApiConnect
 
-	"| client response |
+	| client response |
 	client := TravisCIClient new.
 	response := client requestOn: ''.
-	self assert: response equals: self defaultAnswer"
+	self assert: response equals: self defaultAnswer
