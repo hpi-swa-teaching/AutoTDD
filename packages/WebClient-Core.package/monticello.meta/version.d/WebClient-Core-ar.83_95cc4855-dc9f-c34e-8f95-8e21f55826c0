@@ -1,0 +1,1 @@
+(name 'WebClient-Core-ar.83'message 'Fix a bug in WebClient''s generation of multipart/form-data which omitted the trailing crlf.'id '95cc4855-dc9f-c34e-8f95-8e21f55826c0'date '17 January 2011'time '10:18:23.165 pm'author 'ar'ancestors ((id '8f077c95-ed44-1c40-8652-af0c93d7a4d3'))stepChildren ())

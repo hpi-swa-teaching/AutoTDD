@@ -1,0 +1,1 @@
+(name 'WebClient-Core-klub.91'message '- fix: server to client messages shouldn''t be masked in WebSocket07- added more detailed comments about masking'id '8578e8b1-2c25-4d1f-b1e9-fb54d9cd294c'date '13 June 2012'time '5:02:51.488 pm'author 'klub'ancestors ((id '86573d28-fd8e-bc4c-ab40-ddf2b9af507b'))stepChildren ())

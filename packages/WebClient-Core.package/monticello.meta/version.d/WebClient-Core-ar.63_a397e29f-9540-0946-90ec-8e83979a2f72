@@ -1,0 +1,1 @@
+(name 'WebClient-Core-ar.63'message 'Adds OAuth support to WebUtils. Given the proper keys, WebUtils can now be used sign a request properly using the HMAC-SHA1 signature method.'id 'a397e29f-9540-0946-90ec-8e83979a2f72'date '12 August 2010'time '7:52:26.671 pm'author 'ar'ancestors ((id '773e30a9-c049-e14a-b731-6b1dc9fbe0bc'))stepChildren ())

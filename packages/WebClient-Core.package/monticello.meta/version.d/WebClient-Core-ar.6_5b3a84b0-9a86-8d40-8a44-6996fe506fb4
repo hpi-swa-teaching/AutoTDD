@@ -1,0 +1,1 @@
+(name 'WebClient-Core-ar.6'message 'A bit more server-side refactoring of auth to allow easier subclass extensions.'id '5b3a84b0-9a86-8d40-8a44-6996fe506fb4'date '30 March 2010'time '8:49:46 am'author 'ar'ancestors ((id '8c9b02d0-bb92-2743-bc89-fd3d3175de75'))stepChildren ())

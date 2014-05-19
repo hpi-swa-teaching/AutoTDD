@@ -1,0 +1,1 @@
+(name 'WebClient-Core-ar.41'message 'Two small changes:* Lowercase scheme just in case.* Provide correct https port for upcoming https support.'id '76e0f9fa-4cc1-6a46-bbfc-dab60f231a7c'date '22 July 2010'time '9:27:18.1 am'author 'ar'ancestors ((id 'bd2c7ca6-6998-2d40-bef5-357dc802d33b'))stepChildren ())

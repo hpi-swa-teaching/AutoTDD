@@ -1,0 +1,1 @@
+(name 'WebClient-Core-ar.8'message 'Add httpOnly field to cookie, better quoting with WebUtils.'id '818a3010-fb0f-c04d-bd42-34d985434b7c'date '31 March 2010'time '8:48:56 am'author 'ar'ancestors ((id 'e43a4440-fc50-7d45-964e-9820cd4f958f'))stepChildren ())

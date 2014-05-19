@@ -1,0 +1,1 @@
+(name 'WebClient-Core-ar.36'message 'Make WebClient register itself as default HTTPSocket handler when loaded and no other implementation is registered.'id '6d513d4a-d70a-4548-9895-0e73d6930f05'date '10 July 2010'time '2:16:34.917 pm'author 'ar'ancestors ((id 'cf5b4506-0af3-a348-bd69-a69f28a42017'))stepChildren ())

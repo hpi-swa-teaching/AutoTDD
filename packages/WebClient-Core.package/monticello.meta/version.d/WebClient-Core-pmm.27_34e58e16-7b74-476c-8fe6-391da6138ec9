@@ -1,0 +1,1 @@
+(name 'WebClient-Core-pmm.27'message '- fix for WebMessage >> #isPersistent- various Pharo compatibility fixes'id '34e58e16-7b74-476c-8fe6-391da6138ec9'date '19 June 2010'time '8:13:13 am'author 'pmm'ancestors ((id '474ab359-8935-e54c-8f81-0e23feed7fa7'))stepChildren ())

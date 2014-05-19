@@ -1,0 +1,1 @@
+(name 'WebClient-Core-ar.48'message 'Flush authentication headers selectively to make combined proxy and server auth work.'id '3c9d178d-1ecf-6e47-9ba5-505b78e9b3c5'date '25 July 2010'time '11:00:24.301 pm'author 'ar'ancestors ((id '06dc6d9e-f577-fa4f-b90f-31514be5f7ae'))stepChildren ())
