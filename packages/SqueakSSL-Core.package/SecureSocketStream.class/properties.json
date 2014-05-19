@@ -1,0 +1,18 @@
+{
+	"category" : "SqueakSSL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ar 7/25/2010 14:19",
+	"instvars" : [
+		"ssl",
+		"sendBuf",
+		"readBuf",
+		"decoded",
+		"certIssues" ],
+	"name" : "SecureSocketStream",
+	"pools" : [
+		 ],
+	"super" : "SocketStream",
+	"type" : "normal" }

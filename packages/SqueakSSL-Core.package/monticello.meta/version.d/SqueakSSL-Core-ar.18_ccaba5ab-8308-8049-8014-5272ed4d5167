@@ -1,0 +1,1 @@
+(name 'SqueakSSL-Core-ar.18'message 'Raise SqueakSSLCertificateError to allow clients to handle it explicitly.'id 'ccaba5ab-8308-8049-8014-5272ed4d5167'date '16 August 2011'time '7:16:38.564 pm'author 'ar'ancestors ((id '7b48a0d3-e9eb-4fb2-88b3-b102b005ce02'))stepChildren ())

@@ -1,0 +1,1 @@
+(name 'SqueakSSL-Core-ar.13'message 'SecureSocketStream>>binary must call super binary, not super ascii.'id 'f4b1bc5c-da10-a448-8d04-900aabd89481'date '9 November 2010'time '11:10:32.383 am'author 'ar'ancestors ((id '2dd05cbf-df2f-3742-ad3f-2bfcd0bf53d6'))stepChildren ())

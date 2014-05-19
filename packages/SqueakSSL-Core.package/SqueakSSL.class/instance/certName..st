@@ -1,0 +1,10 @@
+accessing
+certName: aString
+	"Sets the name of the (local) certificate to provide to the remote peer.
+	OpenSSL:
+		The name is the full path to a .pem file.
+	WinSSL:
+		The name is matched against the 'friendly name' of a certificate in the cert store.
+	"
+
+	^self primitiveSSL: handle setStringProperty: 1 toValue: (aString ifNil:[''])

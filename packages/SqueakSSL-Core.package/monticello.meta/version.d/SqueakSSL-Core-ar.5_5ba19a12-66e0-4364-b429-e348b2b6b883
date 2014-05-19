@@ -1,0 +1,1 @@
+(name 'SqueakSSL-Core-ar.5'message 'Use waitForDataIfClosed:[] in the convenience API to avoid an error if the remote gracefully closes the connection.'id '5ba19a12-66e0-4364-b429-e348b2b6b883'date '18 July 2010'time '8:40:16.202 pm'author 'ar'ancestors ((id '70611c5d-cb1d-b44d-bd98-ce5a899d4987'))stepChildren ())

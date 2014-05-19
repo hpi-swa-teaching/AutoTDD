@@ -25,10 +25,11 @@ baseline: spec
 					[ spec
      						repository: 'http://www.squeaksource.com/JSON';
 						yourself ];
-				package: 'SqueakSSL-Core' with: 
+				"package: 'SqueakSSL-Core' with: 
 					[ spec
      						repository: 'http://www.squeaksource.com/SqueakSSL';
-						yourself ];
+						yourself ];"
+				package: 'SqueakSSL-Core'; 
 				package: 'Project05-Core' with: [spec requires: #('JSON' 'WebClient' 'SqueakSSL-Core')];
 				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
 				package: 'SUnitGUI-TAR';

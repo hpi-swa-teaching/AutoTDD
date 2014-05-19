@@ -1,0 +1,14 @@
+{
+	"category" : "SqueakSSL-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "SqueakSSLCertificateError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }
