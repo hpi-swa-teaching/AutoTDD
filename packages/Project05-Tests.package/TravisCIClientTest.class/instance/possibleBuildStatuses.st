@@ -1,4 +1,4 @@
 as yet unclassified
 possibleBuildStatuses
 
-	^ #('passed' 'failed' 'errored' 'started' 'unknown')
+	^ #('canceled' 'created' 'errored' 'failed' 'passed' 'started' 'unknown')

@@ -2,9 +2,14 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getJsonForRepository:" : "PS 5/18/2014 23:31",
+		"getJsonForBuild:" : "PS 5/19/2014 14:38",
+		"getJsonForBuildsOfRepository:" : "PS 5/19/2014 14:33",
+		"getJsonForJob:" : "PS 5/19/2014 14:40",
+		"getJsonForRepository:" : "PS 5/19/2014 14:40",
 		"mimeType" : "PS 5/18/2014 18:04",
-		"parseBuildStatusForRepository:" : "PS 5/19/2014 12:51",
-		"requestOn:" : "PS 5/18/2014 18:16",
+		"parseBuildMatrixForBuild:" : "PS 5/19/2014 16:11",
+		"parseBuildStatusesForRepository:" : "PS 5/19/2014 14:48",
+		"parseCurrentBuildStatusForRepository:" : "PS 5/19/2014 14:45",
+		"requestOn:" : "PS 5/19/2014 14:45",
 		"travisApiUrl" : "PS 5/18/2014 18:06",
 		"userAgent" : "PS 5/18/2014 18:03" } }

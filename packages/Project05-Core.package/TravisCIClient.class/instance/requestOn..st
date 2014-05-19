@@ -9,4 +9,4 @@ requestOn: aString
 		request headerAt: 'Accept' put: self mimeType.
 	].
 	response content; close.
-	^ response content
+	^ Json new readFrom: response content readStream
