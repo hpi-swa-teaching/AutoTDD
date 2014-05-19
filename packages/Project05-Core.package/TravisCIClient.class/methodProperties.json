@@ -2,12 +2,12 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getJsonForBuild:" : "PS 5/19/2014 14:38",
-		"getJsonForBuildsOfRepository:" : "PS 5/19/2014 14:33",
+		"getJsonForBuild:" : "PS 5/19/2014 17:39",
+		"getJsonForBuildsOfRepository:" : "PS 5/19/2014 17:44",
 		"getJsonForJob:" : "PS 5/19/2014 14:40",
 		"getJsonForRepository:" : "PS 5/19/2014 14:40",
 		"mimeType" : "PS 5/18/2014 18:04",
-		"parseBuildMatrixForBuild:" : "PS 5/19/2014 16:11",
+		"parseBuildMatrixForBuild:" : "PS 5/19/2014 17:43",
 		"parseBuildStatusesForRepository:" : "PS 5/19/2014 14:48",
 		"parseCurrentBuildStatusForRepository:" : "PS 5/19/2014 14:45",
 		"requestOn:" : "PS 5/19/2014 14:45",
