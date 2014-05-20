@@ -1,13 +1,12 @@
 gui
 createForegroundButton
-	self foregroundButton: PluggableButtonMorph new.
-	self foregroundButton vResizing: false;
-		 hResizing: false;
-		 extent: 80 @ 20;
-		 position: self position + (120 @ -20);
-		 label: 'Pin';
-		 "enabled: true;"
-		 action: #foregroundButtonClicked;
-		 model: self.
+	self foregroundButton: ThreePhaseButtonMorph new.
+	self foregroundButton 
+		offImage: self getPinPng;
+		onImage: self getPinStickedPng;
+		extent: 35 @ 35;
+		position: self position + (120 @ -35);
+		actionSelector: #foregroundButtonClicked;
+		target: self.
 	self inForeground: false.
 	self addMorph: self foregroundButton
