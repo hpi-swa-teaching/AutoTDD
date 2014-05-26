@@ -3,5 +3,7 @@ displayCurrentBuildStatusForRepository: aString
 
 	| status |
 	status := self client parseCurrentBuildStatusForRepository: aString.
-	status = 'passed' 
-		ifTrue: [ self color: Color green ].
+	self
+		backgroundColor: (self convertColorForState: status);
+		color: Color black;
+		newContents: status

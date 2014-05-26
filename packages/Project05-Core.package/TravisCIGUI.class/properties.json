@@ -10,5 +10,5 @@
 	"name" : "TravisCIGUI",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "TextMorph",
 	"type" : "normal" }
