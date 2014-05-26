@@ -6,4 +6,5 @@ displayCurrentBuildStatusForRepository: aString
 	status := self parser parseCurrentBuildStatusForJsonOfRepository: json.
 	self
 		backgroundColor: (self convertColorForState: status);
-		newContents: status
+		newContents: status;
+		playSoundForState: status.
