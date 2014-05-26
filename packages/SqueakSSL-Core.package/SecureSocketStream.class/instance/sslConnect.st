@@ -10,7 +10,7 @@ sslConnect
 	[[result := squeakSSL connect: inbuf from: 1 to: inbuf size into: sendBuf.
 	result = 0] whileFalse:[
 		"Check for errors first"
-		(Delay forMilliseconds: 5) wait.
+		(Delay forMilliseconds: 7) wait.
 		result < -1 ifTrue:[^self error: 'SSL connect failed with code: ', result].
 
 		"If a token has been produced in the handshake, send it to the remote"
