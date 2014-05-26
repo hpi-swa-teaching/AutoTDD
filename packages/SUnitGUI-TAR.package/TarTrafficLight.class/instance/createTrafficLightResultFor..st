@@ -2,7 +2,7 @@ submorphs-add/remove
 createTrafficLightResultFor: aTestResult 
 	| trafficLightResult |
 	trafficLightResult := TarResult new.
-	trafficLightResult extent: 200 @ 20;
+	trafficLightResult extent: self class resultExtent;
 		 trafficLight: self.
 	self positionResult: trafficLightResult.
 	self addPredecessorFor: aTestResult to: trafficLightResult.

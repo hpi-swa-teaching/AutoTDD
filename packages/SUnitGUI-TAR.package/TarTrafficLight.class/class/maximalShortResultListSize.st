@@ -1,0 +1,4 @@
+constants
+maximalShortResultListSize
+
+	^ 2
