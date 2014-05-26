@@ -2,5 +2,6 @@ initialization
 initialize 
 
 	super initialize.
-	self openInWorld.
-	self color: Color gray
+	self
+		openInWorld;
+		backgroundColor: Color gray

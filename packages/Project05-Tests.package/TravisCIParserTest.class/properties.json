@@ -1,15 +1,14 @@
 {
-	"category" : "Project05-Core",
+	"category" : "Project05-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"parser" ],
-	"name" : "TravisCIGUI",
+		 ],
+	"name" : "TravisCIParserTest",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "TestCase",
 	"type" : "normal" }

@@ -1,9 +1,9 @@
 as yet unclassified
 displayCurrentBuildStatusForRepository: aString
 
-	| status |
-	status := self client parseCurrentBuildStatusForRepository: aString.
+	| status json |
+	json := self client getJsonForBuildsOfRepository: aString.
+	status := self parser parseCurrentBuildStatusForJsonOfRepository: json.
 	self
 		backgroundColor: (self convertColorForState: status);
-		color: Color black;
 		newContents: status
