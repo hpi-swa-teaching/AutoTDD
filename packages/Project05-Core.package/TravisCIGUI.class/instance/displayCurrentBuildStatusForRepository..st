@@ -6,4 +6,5 @@ displayCurrentBuildStatusForRepository: aString
 	self
 		backgroundColor: (self convertColorForState: status);
 		color: Color black;
-		newContents: status
+		newContents: status;
+		playSoundForState: status.
