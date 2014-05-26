@@ -1,0 +1,14 @@
+{
+	"category" : "Project05-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"client" ],
+	"name" : "TravisCIGUI",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }
