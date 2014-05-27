@@ -3,7 +3,6 @@ testInitialization
 
 	| gui |
 	gui := TravisCIGUI new.
-	self 
+	self
 		assert: gui client notNil;
-		assert: gui backgroundColor equals: Color gray.
-	gui delete
+		assert: gui parser notNil

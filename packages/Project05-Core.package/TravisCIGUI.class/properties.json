@@ -7,9 +7,13 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"client",
-		"parser" ],
+		"parser",
+		"builds",
+		"builder",
+		"selectedBuild",
+		"repository" ],
 	"name" : "TravisCIGUI",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "Object",
 	"type" : "normal" }
