@@ -1,6 +1,10 @@
 updating
 update
 
-	| json |
-	json := self client getJsonForBuildsOfRepository: self repository.
-	self builds: (self parser parseBuildHistoryForJsonOfRepository: json)
+	| json history |
+	json := self client getJsonForBuildsOfRepository: self repository.	
+	history := self parser parseBuildHistoryForJsonOfRepository: json.
+	self builds: (history collect: [ :build |
+		'#', (build at: #number),
+		String space, (build at: #state),
+		String space, (build at: #branch) ])

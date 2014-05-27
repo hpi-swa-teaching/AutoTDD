@@ -2,6 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"parseBuildHistoryForJsonOfRepository:" : "PS 5/27/2014 16:47",
-		"parseCurrentBuildForJsonOfRepository:" : "PS 5/27/2014 17:07",
-		"parseCurrentBuildStatusForJsonOfRepository:" : "PS 5/26/2014 17:41" } }
+		"parseBranchForJsonOfCommit:" : "PS 5/27/2014 20:18",
+		"parseBuildHistoryForJsonOfRepository:" : "PS 5/27/2014 20:37",
+		"parseCurrentBuildForJsonOfRepository:" : "PS 5/27/2014 19:58",
+		"parseCurrentBuildNumberForJsonOfRepository:" : "PS 5/27/2014 20:17",
+		"parseCurrentBuildStatusForJsonOfRepository:" : "PS 5/27/2014 20:17",
+		"parseCurrentCommitBranchForJsonOfRepository:" : "PS 5/27/2014 20:20",
+		"parseCurrentCommitMessageForJsonOfRepository:" : "PS 5/27/2014 20:20",
+		"parseMessageForJsonOfCommit:" : "PS 5/27/2014 20:16",
+		"parseNumberForJsonOfBuild:" : "PS 5/27/2014 20:17",
+		"parseStateForJsonOfBuild:" : "PS 5/27/2014 20:17" } }
