@@ -3,5 +3,5 @@ soundDictionary
 	
 	^IdentityDictionary newFrom: {
 		#green -> ['success.wav'].
-		#yellow -> ['success.wav'].
-		#red -> ['success.wav'] }	
+		#yellow -> ['fail.wav'].
+		#red -> ['fail.wav'] }	
