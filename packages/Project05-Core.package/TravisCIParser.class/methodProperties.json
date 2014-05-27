@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"parseBuildHistoryForJsonOfRepository:" : "PS 5/27/2014 13:44",
-		"parseBuildMatrixForJsonOfBuild:" : "PS 5/26/2014 15:16",
-		"parseBuildStatusesForJsonOfRepository:" : "PS 5/27/2014 13:36",
+		"parseBuildHistoryForJsonOfRepository:" : "PS 5/27/2014 16:47",
+		"parseCurrentBuildForJsonOfRepository:" : "PS 5/27/2014 17:07",
 		"parseCurrentBuildStatusForJsonOfRepository:" : "PS 5/26/2014 17:41" } }

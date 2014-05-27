@@ -6,5 +6,8 @@
 		"possibleBuildStatuses" : "PS 5/26/2014 15:24",
 		"sampleBuild" : "PS 5/26/2014 15:23",
 		"sampleRepositoryBuilds" : "PS 5/26/2014 18:04",
-		"testBuildMatrix" : "PS 5/26/2014 18:05",
-		"testBuildStatus" : "PS 5/26/2014 17:49" } }
+		"testCurrentBuild" : "PS 5/27/2014 17:06",
+		"testCurrentBuildStatus" : "PS 5/27/2014 17:02",
+		"testEmptyBuildHistory" : "PS 5/27/2014 17:13",
+		"testEmptyCurrentBuild" : "PS 5/27/2014 17:07",
+		"testEmptyCurrentBuildStatus" : "PS 5/27/2014 17:03" } }

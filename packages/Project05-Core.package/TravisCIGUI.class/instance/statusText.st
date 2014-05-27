@@ -1,8 +1,9 @@
 as yet unclassified
 statusText
 	
-	| status json |
+	| build json |
 	json := self client getJsonForBuildsOfRepository: self repository.
-	status := self parser parseCurrentBuildStatusForJsonOfRepository: json.
-	self playSoundForState: status.
-	^self repository, ': ', status
+	build := self parser parseCurrentBuildForJsonOfRepository: json.
+	self playSoundForState: (build at: #state).
+	^ '#', (build at: #number), ' ', (build at: #state), String crlf,
+		(build at: #branch), ' - ', (build at: #message)

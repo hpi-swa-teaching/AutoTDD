@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"possibleBuildStatuses" : "PS 5/27/2014 16:50",
+		"testColorForState" : "PS 5/27/2014 16:53",
 		"testInitialization" : "PS 5/27/2014 14:26" } }
