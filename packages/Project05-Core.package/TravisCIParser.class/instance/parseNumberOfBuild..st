@@ -1,4 +1,4 @@
 as yet unclassified
-parseNumberForJsonOfBuild: aJson
+parseNumberOfBuild: aJson
 
 	^ aJson at: 'number'

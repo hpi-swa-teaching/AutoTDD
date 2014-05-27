@@ -3,5 +3,5 @@ statusColor
 	
 	| status json |
 	json := self client getJsonForBuildsOfRepository: self repository.
-	status := self parser parseCurrentBuildStatusForJsonOfRepository: json.
+	status := self parser parseCurrentBuildStatusOfRepository: json.
 	^ self convertColorForState: status

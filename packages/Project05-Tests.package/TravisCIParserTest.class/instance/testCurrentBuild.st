@@ -3,7 +3,7 @@ testCurrentBuild
 
 	| parser build number state branch message |
 	parser := TravisCIParser new.
-	build := parser parseCurrentBuildForJsonOfRepository: self sampleRepositoryBuilds.
+	build := parser parseCurrentBuildOfRepository: self sampleRepositoryBuilds.
 	state := build at: #state.
 	number := build at: #number.
 	message := build at: #message.

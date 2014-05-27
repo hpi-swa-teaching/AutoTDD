@@ -3,7 +3,7 @@ testEmptyCurrentBuildStatus
 
 	| parser state |
 	parser := TravisCIParser new.
-	state := parser parseCurrentBuildStatusForJsonOfRepository: self emptyRepositoryBuilds.
+	state := parser parseCurrentBuildStatusOfRepository: self emptyRepositoryBuilds.
 	self
 		assert: (self possibleBuildStatuses includes: state);
 		assert: state equals: 'unknown'

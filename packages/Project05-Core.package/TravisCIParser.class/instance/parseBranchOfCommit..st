@@ -1,4 +1,4 @@
 as yet unclassified
-parseBranchForJsonOfCommit: aJson
+parseBranchOfCommit: aJson
 
 	^ aJson at: 'branch'

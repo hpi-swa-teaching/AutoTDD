@@ -1,4 +1,4 @@
 as yet unclassified
-parseStateForJsonOfBuild: aJson
+parseStateOfBuild: aJson
 
 	^ aJson at: 'state'

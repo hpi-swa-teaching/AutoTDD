@@ -2,13 +2,15 @@
 	"class" : {
 		 },
 	"instance" : {
-		"parseBranchForJsonOfCommit:" : "PS 5/27/2014 20:18",
-		"parseBuildHistoryForJsonOfRepository:" : "PS 5/27/2014 20:37",
-		"parseCurrentBuildForJsonOfRepository:" : "PS 5/27/2014 19:58",
-		"parseCurrentBuildNumberForJsonOfRepository:" : "PS 5/27/2014 20:17",
-		"parseCurrentBuildStatusForJsonOfRepository:" : "PS 5/27/2014 20:17",
-		"parseCurrentCommitBranchForJsonOfRepository:" : "PS 5/27/2014 20:20",
-		"parseCurrentCommitMessageForJsonOfRepository:" : "PS 5/27/2014 20:20",
-		"parseMessageForJsonOfCommit:" : "PS 5/27/2014 20:16",
-		"parseNumberForJsonOfBuild:" : "PS 5/27/2014 20:17",
-		"parseStateForJsonOfBuild:" : "PS 5/27/2014 20:17" } }
+		"parseBranchOfCommit:" : "PS 5/27/2014 20:56",
+		"parseBuildHistoryOfRepository:" : "PS 5/27/2014 21:04",
+		"parseBuildsOfRepository:" : "PS 5/27/2014 20:56",
+		"parseCommitsOfRepository:" : "PS 5/27/2014 20:56",
+		"parseCurrentBuildNumberOfRepository:" : "PS 5/27/2014 21:06",
+		"parseCurrentBuildOfRepository:" : "PS 5/27/2014 21:09",
+		"parseCurrentBuildStatusOfRepository:" : "PS 5/27/2014 21:07",
+		"parseCurrentCommitBranchOfRepository:" : "PS 5/27/2014 21:07",
+		"parseCurrentCommitMessageOfRepository:" : "PS 5/27/2014 21:08",
+		"parseMessageOfCommit:" : "PS 5/27/2014 21:03",
+		"parseNumberOfBuild:" : "PS 5/27/2014 21:04",
+		"parseStateOfBuild:" : "PS 5/27/2014 21:04" } }

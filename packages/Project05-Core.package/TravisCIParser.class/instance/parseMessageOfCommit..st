@@ -1,4 +1,4 @@
 as yet unclassified
-parseMessageForJsonOfCommit: aJson
+parseMessageOfCommit: aJson
 
 	^ aJson at: 'message'

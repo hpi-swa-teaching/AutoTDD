@@ -3,5 +3,5 @@ testEmptyBuildHistory
 
 	| parser history |
 	parser := TravisCIParser new.
-	history := parser parseBuildHistoryForJsonOfRepository: self emptyRepositoryBuilds.
+	history := parser parseBuildHistoryOfRepository: self emptyRepositoryBuilds.
 	self assert: history equals: #()
