@@ -1,5 +1,5 @@
 as yet unclassified
-parseCurrentBuildStatusOfRepository: aJson
+parseCurrentBuildStateOfRepository: aJson
 
 	| builds |
 	builds := self parseBuildsOfRepository: aJson.

@@ -5,4 +5,5 @@ testInitialization
 	gui := TravisCIGUI new.
 	self
 		assert: gui client notNil;
-		assert: gui parser notNil
+		assert: gui parser notNil;
+		assert: gui selectedBuild equals: 1

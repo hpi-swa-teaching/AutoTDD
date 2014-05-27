@@ -1,4 +1,4 @@
 accessing
 selectedBuild
 
-	^ selectedBuild ifNil: [ selectedBuild := 1 ]
+	^ selectedBuild
