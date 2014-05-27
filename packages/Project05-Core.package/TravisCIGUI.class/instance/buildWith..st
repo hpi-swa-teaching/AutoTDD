@@ -5,14 +5,14 @@ buildWith: aBuilder
 	window := aBuilder pluggableWindowSpec new
 		model: self; label: self label; extent: self extent;
 		children: (OrderedCollection new 
-			add: ((self buildBuildHistoryWith: aBuilder)
-				frame: self buildHistoryFrame;
+			add: ((self buildHistoryWith: aBuilder)
+				frame: self historyFrame;
 				yourself);
-			add: ((self buildBuildMatrixWith: aBuilder)
-				frame: self buildMatrixFrame;
+			add: ((self buildMatrixWith: aBuilder)
+				frame: self matrixFrame;
 				yourself);
-			add: ((self buildStatusWith: aBuilder)
-				frame: self statusFrame;
+			add: ((self buildStateWith: aBuilder)
+				frame: self stateFrame;
 				yourself);
 			yourself);
 		yourself.

@@ -1,5 +1,5 @@
 as yet unclassified
-statusText
+stateText
 	
 	| build json |
 	json := self client getJsonForBuildsOfRepository: self repository.

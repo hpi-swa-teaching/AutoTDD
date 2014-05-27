@@ -1,7 +1,7 @@
 building
-buildStatusWith: aBuilder
+buildStateWith: aBuilder
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
-		color: #statusColor;
-		getText: #statusText;
+		color: #stateColor;
+		getText: #stateText;
 		yourself.

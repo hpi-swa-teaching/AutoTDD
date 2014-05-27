@@ -7,4 +7,5 @@ update
 	self builds: (history collect: [ :build |
 		'#', (build at: #number),
 		String space, (build at: #state),
-		String space, (build at: #branch) ])
+		String space, (build at: #branch) ]).
+	self changed: #stateColor

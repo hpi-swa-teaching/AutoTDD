@@ -1,14 +1,12 @@
 {
 	"class" : {
 		"newForRepository:" : "PS 5/27/2014 13:48",
-		"openForRepository:" : "PS 5/27/2014 13:46" },
+		"openForRepository:" : "PL 5/27/2014 21:52" },
 	"instance" : {
-		"buildBuildHistoryWith:" : "PS 5/27/2014 13:41",
-		"buildBuildMatrixWith:" : "PS 5/27/2014 14:46",
-		"buildHistoryFrame" : "PS 5/27/2014 14:45",
-		"buildMatrixFrame" : "PS 5/27/2014 14:45",
-		"buildStatusWith:" : "PS 5/27/2014 14:24",
-		"buildWith:" : "PS 5/27/2014 14:45",
+		"buildHistoryWith:" : "PL 5/27/2014 21:41",
+		"buildMatrixWith:" : "PL 5/27/2014 21:41",
+		"buildStateWith:" : "PL 5/27/2014 21:38",
+		"buildWith:" : "PL 5/27/2014 21:40",
 		"builder" : "PS 5/27/2014 13:36",
 		"builder:" : "PS 5/27/2014 13:36",
 		"builds" : "PS 5/27/2014 13:42",
@@ -18,7 +16,9 @@
 		"colorDictionary" : "PL 5/26/2014 10:17",
 		"convertColorForState:" : "PS 5/27/2014 14:18",
 		"extent" : "PS 5/27/2014 14:43",
+		"historyFrame" : "PL 5/27/2014 21:42",
 		"label" : "PS 5/27/2014 14:43",
+		"matrixFrame" : "PL 5/27/2014 21:40",
 		"parser" : "PS 5/27/2014 14:43",
 		"parser:" : "PS 5/26/2014 15:08",
 		"playSoundForState:" : "PS 5/27/2014 15:52",
@@ -27,7 +27,7 @@
 		"selectedBuild" : "PS 5/27/2014 13:39",
 		"selectedBuild:" : "PS 5/27/2014 13:39",
 		"soundDictionary" : "CA 5/27/2014 10:43",
-		"statusColor" : "PS 5/27/2014 21:02",
-		"statusFrame" : "PS 5/27/2014 14:00",
-		"statusText" : "PS 5/27/2014 21:01",
-		"update" : "PS 5/27/2014 21:00" } }
+		"stateColor" : "PL 5/27/2014 21:44",
+		"stateFrame" : "PL 5/27/2014 21:39",
+		"stateText" : "PL 5/27/2014 21:43",
+		"update" : "PL 5/27/2014 21:42" } }

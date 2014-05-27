@@ -1,4 +1,4 @@
-as yet unclassified
+instance creation
 newForRepository: aString
 
 	^ self new

@@ -10,5 +10,5 @@
 	"name" : "TravisCIParser",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "Object",
 	"type" : "normal" }

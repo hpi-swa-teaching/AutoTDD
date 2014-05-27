@@ -1,4 +1,7 @@
-as yet unclassified
+opening
 openForRepository: aString
 	
-	^ ToolBuilder open: (self newForRepository: aString)
+	| gui |
+	gui := self newForRepository: aString.
+	ToolBuilder open: gui.
+	gui changed: #stateColor
