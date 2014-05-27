@@ -1,4 +1,5 @@
 accessing
-selectedBuild: anObject
+selectedBuild: aNumber
 
-	selectedBuild := anObject
+	selectedBuild := aNumber.
+	self changed: #selectedBuild

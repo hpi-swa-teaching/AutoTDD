@@ -3,6 +3,7 @@ buildHistoryWith: aBuilder
 	^ aBuilder pluggableListSpec new
 		model: self;
 		list: #builds;
-		getSelected: #selectedBuild;
-		setSelected: #selectedBuild:;
+		autoDeselect: false;
+		getIndex: #selectedBuild;
+		setIndex: #selectedBuild:;
 		yourself
