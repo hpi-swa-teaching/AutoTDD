@@ -3,6 +3,6 @@ playSoundForState: aState
 	| sound |
 	sound := (self soundDictionary at: aState asSymbol) value.
 	SoundPlayer stopReverb.
-	(SampledSound fromWaveFileNamed: 
-			((FileDirectory uri: sound) fullName)) play.
-					
+	(FileDirectory default fileExists: sound) ifTrue: [
+		(SampledSound fromWaveFileNamed: 
+			((FileDirectory uri: sound) fullName)) play. ]
