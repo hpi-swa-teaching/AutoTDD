@@ -3,4 +3,7 @@ selectedBuild: aNumber
 
 	"Good entry for displaying the build matrix ;)"
 	selectedBuild := aNumber.
-	self changed: #selectedBuild
+	Transcript show: aNumber; crlf.
+	self 
+		changed: #selectedBuild;
+		changed: #jobs

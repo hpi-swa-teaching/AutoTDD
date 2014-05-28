@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"parser",
-		"selectedBuild",
-		"repository",
-		"json",
-		"selectedJob" ],
-	"name" : "TravisCIGUI",
+		 ],
+	"name" : "TravisCILazyListMorph",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "LazyListMorph",
 	"type" : "normal" }

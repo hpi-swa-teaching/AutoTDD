@@ -1,4 +1,4 @@
 accessing
-extent
+extentConst
 	
 	^ 640 @ 480

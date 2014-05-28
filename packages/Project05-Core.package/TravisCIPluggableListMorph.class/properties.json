@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client",
-		"parser",
-		"selectedBuild",
-		"repository",
-		"json",
-		"selectedJob" ],
-	"name" : "TravisCIGUI",
+		 ],
+	"name" : "TravisCIPluggableListMorph",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "PluggableListMorph",
 	"type" : "normal" }
