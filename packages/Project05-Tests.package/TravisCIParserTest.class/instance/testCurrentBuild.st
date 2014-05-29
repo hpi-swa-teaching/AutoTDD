@@ -1,16 +1,12 @@
 tests
 testCurrentBuild
 
-	| parser build number state branch message |
+	| parser build |
 	parser := TravisCIParser new.
 	build := parser parseCurrentBuildOfRepository: self sampleRepositoryBuilds.
-	state := build at: #state.
-	number := build at: #number.
-	message := build at: #message.
-	branch := build at: #branch.
 	self
-		assert: (self possibleBuildStatuses includes: state);
-		assert: state equals: 'failed';
-		assert: number equals: '60';
-		assert: branch equals: 'master';
-		assert: message equals: 'Sound for Status Change added'
+		assert: (self possibleBuildStatuses includes: (build at: #state));
+		assert: (build at: #state) equals: 'failed';
+		assert: (build at: #number) equals: '60';
+		assert: (build at: #branch) equals: 'master';
+		assert: (build at: #message) equals: 'Sound for Status Change added'
