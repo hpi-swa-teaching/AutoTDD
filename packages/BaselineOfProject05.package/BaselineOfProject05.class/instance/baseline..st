@@ -25,13 +25,17 @@ baseline: spec
 					[ spec
      						repository: 'http://www.squeaksource.com/JSON';
 						yourself ];
+				package: 'VB-Regex' with: 
+					[ spec
+     						repository: 'http://www.squeaksource.com/Regex';
+						yourself ];
 				"package: 'SqueakSSL-Core' with: 
 					[ spec
      						repository: 'http://www.squeaksource.com/SqueakSSL';
 						yourself ];"
 				package: 'SqueakSSL-Core';
 				package: 'WebClient-Core'; 
-				package: 'Project05-Core' with: [spec requires: #('JSON' 'WebClient-Core' 'SqueakSSL-Core')];
+				package: 'Project05-Core' with: [spec requires: #('JSON' 'VB-Regex' 'WebClient-Core' 'SqueakSSL-Core')];
 				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
 				package: 'SUnitGUI-TAR';
 				package: 'SUnitGUI-TAR-Tests' with: 

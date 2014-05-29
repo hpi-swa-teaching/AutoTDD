@@ -2,10 +2,10 @@ accessing
 colorDictionary
 	
 	^IdentityDictionary newFrom: {
-		#canceled -> [ Color gray ].
-		#created -> [ Color yellow ].
-		#errored -> [ Color gray ].
-		#failed -> [ Color red ].
-		#passed -> [ Color fromArray: {0. 0.5. 0} ].
-		#started -> [ Color yellow ].
-		#unknown -> [ Color gray ] }	
+		#canceled -> [ self travisGray ].
+		#created -> [ self travisYellow ].
+		#errored -> [ self travisGray ].
+		#failed -> [ self travisRed ].
+		#passed -> [ self travisGreen ].
+		#started -> [ self travisYellow ].
+		#unknown -> [ self travisGray ] }	

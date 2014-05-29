@@ -1,14 +1,17 @@
 {
 	"class" : {
 		"newForRepository:" : "PS 5/28/2014 18:24",
-		"openForRepository:" : "PS 5/28/2014 18:25" },
+		"openForRepository:" : "PS 5/29/2014 20:41",
+		"validSlug" : "PS 5/29/2014 20:41",
+		"validate:" : "PS 5/29/2014 20:41" },
 	"instance" : {
 		"builds" : "PS 5/29/2014 19:03",
 		"buttonFrame" : "PS 5/29/2014 12:13",
 		"buttonLabel" : "PS 5/29/2014 12:05",
+		"changedValues" : "PS 5/29/2014 20:35",
 		"client" : "PS 5/27/2014 14:42",
 		"client:" : "PL 5/26/2014 09:38",
-		"colorDictionary" : "PS 5/28/2014 17:56",
+		"colorDictionary" : "PS 5/29/2014 20:14",
 		"convertColorForState:" : "PS 5/27/2014 14:18",
 		"createButton" : "PS 5/29/2014 12:13",
 		"createComponents" : "PS 5/29/2014 12:04",
@@ -40,4 +43,8 @@
 		"stateColor" : "PS 5/29/2014 19:03",
 		"stateFrame" : "PL 5/28/2014 12:30",
 		"stateText" : "PS 5/29/2014 19:03",
-		"update" : "PS 5/29/2014 19:16" } }
+		"travisGray" : "PS 5/29/2014 20:13",
+		"travisGreen" : "PS 5/29/2014 20:14",
+		"travisRed" : "PS 5/29/2014 20:12",
+		"travisYellow" : "PS 5/29/2014 20:14",
+		"update" : "PS 5/29/2014 20:35" } }
