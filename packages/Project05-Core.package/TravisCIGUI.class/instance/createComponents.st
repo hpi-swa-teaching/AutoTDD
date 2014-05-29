@@ -4,4 +4,5 @@ createComponents
 	self 
 		createHistory;
 		createState;
-		createMatrix
+		createMatrix;
+		createButton

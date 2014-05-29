@@ -3,8 +3,9 @@
 		 },
 	"instance" : {
 		"parseBranchOfCommit:" : "PS 5/27/2014 20:56",
+		"parseBranchOfCommitAt:ofCommitsOfRepository:" : "PS 5/29/2014 11:52",
 		"parseBuildAt:ofBuilds:" : "PS 5/29/2014 11:19",
-		"parseBuildHistoryOfRepository:" : "PS 5/27/2014 21:04",
+		"parseBuildHistoryOfRepository:" : "PS 5/29/2014 11:54",
 		"parseBuildsOfRepository:" : "PS 5/27/2014 20:56",
 		"parseCommitsOfRepository:" : "PS 5/27/2014 20:56",
 		"parseCurrentBuildNumberOfRepository:" : "PL 5/28/2014 12:20",
