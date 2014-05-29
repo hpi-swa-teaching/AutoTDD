@@ -10,7 +10,7 @@
 		"parser",
 		"selectedBuild",
 		"repository",
-		"json",
+		"jsons",
 		"selectedJob" ],
 	"name" : "TravisCIGUI",
 	"pools" : [

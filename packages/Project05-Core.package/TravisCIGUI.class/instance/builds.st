@@ -2,7 +2,7 @@ accessing
 builds
 
 	| history |
-	history := self parser parseBuildHistoryOfRepository: self json.
+	history := self parser parseBuildHistoryOfRepository: self repositoryJson.
 	^ (history collect: [ :build | Text new
 			append: 
 				'#',(build at: #number),

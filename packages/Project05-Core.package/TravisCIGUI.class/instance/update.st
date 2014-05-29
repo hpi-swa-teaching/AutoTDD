@@ -1,11 +1,11 @@
 updating
 update
 
-	| state |
-	self 
-		json: (self client getJsonForBuildsOfRepository: self repository).
-	state := self parser parseCurrentBuildStateOfRepository: self json.
-	self playSoundForState: state.
+	| state oldstate |
+	oldstate := self parser parseCurrentBuildStateOfRepository: self repositoryJson.
+	self repositoryJson: (self client getJsonForBuildsOfRepository: self repository).
+	state := self parser parseCurrentBuildStateOfRepository: self repositoryJson.
+	(oldstate ~= state) ifTrue: [self playSoundForState: state].
 	self
 		changed: #builds;
 		changed: #jobs;

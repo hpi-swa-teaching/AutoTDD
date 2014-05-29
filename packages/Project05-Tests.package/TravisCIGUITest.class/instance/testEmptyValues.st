@@ -3,7 +3,7 @@ testEmptyValues
 
 	| gui |
 	gui := TravisCIGUI new.
-	gui json: self emptyRepositoryBuilds.
+	gui repositoryJson: self emptyRepositoryBuilds.
 	self
 		assert: gui builds isArray;
 		assert: gui jobs isArray;
