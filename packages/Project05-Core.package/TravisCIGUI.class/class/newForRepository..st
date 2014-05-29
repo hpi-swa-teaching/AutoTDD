@@ -3,10 +3,10 @@ newForRepository: aString
 
 	| gui |
 	gui := self new.
-	gui
+	^ gui
 		repository: aString;
+		update;
 		extent: gui extentConst;
 		setLabel: gui label;
-		update;
-		createComponents.
-	^ gui
+		createComponents;
+		yourself

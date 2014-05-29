@@ -2,6 +2,11 @@
 	"class" : {
 		 },
 	"instance" : {
+		"emptyRepositoryBuilds" : "PS 5/28/2014 20:21",
 		"possibleBuildStatuses" : "PS 5/27/2014 16:50",
+		"sampleRepositoryBuilds" : "PS 5/28/2014 20:08",
 		"testColorForState" : "PS 5/27/2014 16:53",
-		"testInitialization" : "PL 5/28/2014 13:46" } }
+		"testCreateComponents" : "PS 5/28/2014 20:17",
+		"testEmptyValues" : "PS 5/28/2014 20:21",
+		"testInitialization" : "PL 5/28/2014 13:46",
+		"testValues" : "PS 5/28/2014 20:20" } }

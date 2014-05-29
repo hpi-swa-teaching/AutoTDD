@@ -1,5 +1,8 @@
 accessing
 jobs
 	
-	^ (self parser parseJobIdsOfBuild: ((self parser parseBuildsOfRepository: self json) at: self selectedBuild)) collect: [ :each |
+	| builds |
+	builds := self parser parseBuildsOfRepository: self json.
+	(builds size < self selectedBuild) ifTrue: [ ^#() ].
+	^ (self parser parseJobIdsOfBuild: (builds at: self selectedBuild)) collect: [ :each |
 		each asString]
