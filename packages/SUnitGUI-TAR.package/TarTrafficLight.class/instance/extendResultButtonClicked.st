@@ -1,4 +1,4 @@
-accessing
+event handling
 extendResultButtonClicked
 	self resultsExpanded
 		ifTrue: [ self showShortResults ]

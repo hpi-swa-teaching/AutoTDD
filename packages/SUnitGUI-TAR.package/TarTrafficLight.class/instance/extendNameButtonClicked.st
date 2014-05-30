@@ -1,4 +1,4 @@
-accessing
+event handling
 extendNameButtonClicked
 	self nameExpanded
 		ifTrue: [ self nameMorph visible: false.

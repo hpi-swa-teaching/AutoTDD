@@ -1,4 +1,4 @@
-gui
+accessing
 getPinStickedPng
 ^ (Form
 	extent: 35@35

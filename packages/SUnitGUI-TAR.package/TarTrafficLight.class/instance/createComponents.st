@@ -1,6 +1,7 @@
 gui
 createComponents
 	self createOffButton;
+		createSettingsButton; 
 		createForegroundButton;
 		createOnButton;
 		createNameMorph;

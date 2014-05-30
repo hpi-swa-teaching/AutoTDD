@@ -1,4 +1,4 @@
-accessing
+event handling
 foregroundButtonClicked
 	self inForeground
 		ifTrue: [ "self foregroundButton label: 'pin'." 

@@ -1,4 +1,4 @@
-accessing
+event handling
 onButtonClicked
 	self onButton enabled: false.
 	self offButton enabled: true.
