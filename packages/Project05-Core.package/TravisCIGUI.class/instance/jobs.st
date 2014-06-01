@@ -1,9 +1,11 @@
 accessing
 jobs
 
-	|jobs buildId|
-	buildId := ((self parser parseBuildHistoryOfRepository: self repositoryJson) 
-			at: self selectedBuild) at: #id.
+	|jobs buildId build|
+	
+	build := (self parser parseBuildHistoryOfRepository: self repositoryJson).
+	build ifEmpty: [ ^ build  ].
+	buildId := (build at: self selectedBuild) at: #id.
 	jobs := (self parser parseJobsOfBuild: (self client getJsonForBuild: buildId)).	
 	^ (jobs collect: [:job |
 		Text new append:
