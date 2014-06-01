@@ -1,16 +1,12 @@
 accessing
 jobs
 
-	|jobIds jobJson|
-	
-	jobIds := (self parser parseJobIdsOfBuildAt: self selectedBuild
-		ofBuildsOfRepository: self repositoryJson) collect: [ :each | each asString].
-		
-	^ (jobIds collect: [:jobId |
-		jobJson := self client getJsonForJob: jobId.
+	|jobs buildId|
+	buildId := ((self parser parseBuildHistoryOfRepository: self repositoryJson) 
+			at: self selectedBuild) at: #id.
+	jobs := (self parser parseJobsOfBuild: (self client getJsonForBuild: buildId)).	
+	^ (jobs collect: [:job |
 		Text new append:
-			'#',(self parser parseEnvOfJob: jobJson);
+			'#',(self parser parseEnvOfJob: job);
 			addAttribute: (TextColor new
-				color: (self convertColorForState: (self parser parseStateOfJob: jobJson)))])
-	
-	
+				color: (self convertColorForState: (self parser parseStateOfJob: job)))])
