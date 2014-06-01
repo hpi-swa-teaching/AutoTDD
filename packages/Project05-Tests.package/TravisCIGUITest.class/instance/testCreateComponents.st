@@ -7,7 +7,7 @@ testCreateComponents
 	gui createComponents.
 	self
 		assert: (gui submorphsSatisfying: [ :morph |
-			morph isKindOf: PluggableTextMorphPlus ]) size equals: 1;
+			morph isKindOf: PluggableTextMorphPlus ]) size equals: 2;
 		assert: (gui submorphsSatisfying: [ :morph |
 			morph isKindOf: TravisCIPluggableListMorph ]) size equals: 2;
 		assert: (gui submorphsSatisfying: [ :morph |

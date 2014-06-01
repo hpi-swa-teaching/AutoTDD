@@ -1,4 +1,7 @@
 as yet unclassified
 parseBranchOfCommitAt: aNumber ofCommitsOfRepository: aJson
 
-	^ self parseBranchOfCommit: ((self parseCommitsOfRepository: aJson) at: aNumber)
+	| commit commits |
+	commits := self primitiveParseCommitsOf: aJson.
+	commit := self primitiveParseAt: aNumber of: commits.
+	^ self primitiveParseBranchOf: commit

@@ -1,4 +1,4 @@
 as yet unclassified
-parseBuildsOfRepository: aJson
+primitiveParseBuildsOf: aJson
 
 	^ aJson at: 'builds'

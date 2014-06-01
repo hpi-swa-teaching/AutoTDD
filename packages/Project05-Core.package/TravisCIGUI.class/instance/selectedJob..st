@@ -2,4 +2,6 @@ accessing
 selectedJob: aNumber
 
 	selectedJob := aNumber.
-	self changed: #selectedJob
+	self
+		changed: #selectedJob;
+		changed: #log

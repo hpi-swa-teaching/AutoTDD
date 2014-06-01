@@ -2,6 +2,5 @@ as yet unclassified
 parseCurrentBuildStateOfRepository: aJson
 
 	| builds |
-	builds := self parseBuildsOfRepository: aJson.
-	builds ifEmpty: [^ 'unknown'].
-	^ self parseStateOfBuild: builds first
+	builds := self primitiveParseBuildsOf: aJson.
+	^ self primitiveParseStateOf: (self primitiveFirstOf: builds)

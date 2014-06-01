@@ -1,14 +1,11 @@
 accessing
 jobs
 
-	|jobs buildId build|
-	
-	build := (self parser parseBuildHistoryOfRepository: self repositoryJson).
-	build ifEmpty: [ ^ build  ].
-	buildId := (build at: self selectedBuild) at: #id.
-	jobs := (self parser parseJobsOfBuild: (self client getJsonForBuild: buildId)).	
-	^ (jobs collect: [:job |
-		Text new append:
-			'#',(self parser parseEnvOfJob: job);
+	| matrix id |
+	id := self parser parseIdOfBuildAt: self selectedBuild ofBuildsOfRepository: self repositoryJson.
+	matrix := (self parser parseBuildMatrixOfBuild: (self buildJsonFor: id)).	
+	^ (matrix collect: [ :job |
+		Text new
+			append: '#', (job at: #env);
 			addAttribute: (TextColor new
-				color: (self convertColorForState: (self parser parseStateOfJob: job)))])
+				color: (self convertColorForState: (job at: #state)))])

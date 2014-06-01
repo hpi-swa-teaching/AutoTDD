@@ -1,4 +1,4 @@
 as yet unclassified
-parseBuildAt: aNumber ofBuilds: aJson
+primitiveParseAt: aNumber of: aJson
 
 	^ aJson at: aNumber ifAbsent: [ JsonObject new ]

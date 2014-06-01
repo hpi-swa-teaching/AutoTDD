@@ -1,4 +1,4 @@
 as yet unclassified
-parseCommitsOfRepository: aJson
+primitiveParseCommitsOf: aJson
 
 	^ aJson at: 'commits'
