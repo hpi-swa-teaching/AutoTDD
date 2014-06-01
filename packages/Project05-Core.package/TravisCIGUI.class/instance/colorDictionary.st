@@ -7,5 +7,6 @@ colorDictionary
 		#errored -> [ self travisGray ].
 		#failed -> [ self travisRed ].
 		#passed -> [ self travisGreen ].
+		#queued -> [ self travisYellow ].
 		#started -> [ self travisYellow ].
 		#unknown -> [ self travisGray ] }	
