@@ -11,7 +11,8 @@
 		"selectedBuild",
 		"repository",
 		"jsons",
-		"selectedJob" ],
+		"selectedJob",
+		"logs" ],
 	"name" : "TravisCIGUI",
 	"pools" : [
 		 ],
