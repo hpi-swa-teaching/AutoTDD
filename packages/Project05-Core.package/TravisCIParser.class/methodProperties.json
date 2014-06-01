@@ -13,6 +13,7 @@
 		"parseCurrentCommitMessageOfRepository:" : "PS 6/1/2014 17:21",
 		"parseEnvOfJob:" : "PS 6/1/2014 17:08",
 		"parseIdOfBuildAt:ofBuildsOfRepository:" : "PS 6/1/2014 17:13",
+		"parseIdOfJobAt:ofBuild:" : "PS 6/1/2014 18:04",
 		"parseLogIdOfJobAt:ofBuild:" : "PS 6/1/2014 17:12",
 		"primitiveFirstOf:" : "PS 6/1/2014 17:19",
 		"primitiveParseAt:of:" : "PS 6/1/2014 17:12",
