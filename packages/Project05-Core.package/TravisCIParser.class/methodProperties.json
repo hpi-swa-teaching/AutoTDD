@@ -5,7 +5,7 @@
 		"parseBranchOfCommit:" : "PS 5/27/2014 20:56",
 		"parseBranchOfCommitAt:ofCommitsOfRepository:" : "PS 5/29/2014 11:52",
 		"parseBuildAt:ofBuilds:" : "PS 5/29/2014 11:19",
-		"parseBuildHistoryOfRepository:" : "PS 5/29/2014 11:54",
+		"parseBuildHistoryOfRepository:" : "sle 5/31/2014 17:17",
 		"parseBuildsOfRepository:" : "PS 5/27/2014 20:56",
 		"parseCommitsOfRepository:" : "PS 5/27/2014 20:56",
 		"parseCurrentBuildNumberOfRepository:" : "PL 5/28/2014 12:20",
@@ -13,8 +13,13 @@
 		"parseCurrentBuildStateOfRepository:" : "PS 5/27/2014 23:06",
 		"parseCurrentCommitBranchOfRepository:" : "PS 5/27/2014 21:07",
 		"parseCurrentCommitMessageOfRepository:" : "PS 5/27/2014 21:08",
+		"parseEnvOfJob:" : "sle 6/1/2014 11:22",
+		"parseIdOfBuild:" : "sle 5/31/2014 17:17",
+		"parseIdOfJob:" : "sle 5/31/2014 17:52",
 		"parseJobIdsOfBuild:" : "PS 5/29/2014 11:08",
 		"parseJobIdsOfBuildAt:ofBuildsOfRepository:" : "PS 5/29/2014 11:07",
+		"parseJobsOfRepository:" : "sle 5/31/2014 17:50",
 		"parseMessageOfCommit:" : "PS 5/27/2014 21:03",
 		"parseNumberOfBuild:" : "PS 5/27/2014 21:04",
-		"parseStateOfBuild:" : "PS 5/27/2014 21:04" } }
+		"parseStateOfBuild:" : "PS 5/27/2014 21:04",
+		"parseStateOfJob:" : "sle 6/1/2014 11:23" } }

@@ -10,6 +10,7 @@ parseBuildHistoryOfRepository: aJson
 		(IdentityDictionary new)
 			at: #number put: (self parseNumberOfBuild: build);
 			at: #state put: (self parseStateOfBuild: build);
+			at: #id put: (self parseIdOfBuild: build);
 			at: #branch	put: (self parseBranchOfCommitAt: index
 				ofCommitsOfRepository: aJson);
 			yourself ]
