@@ -3,11 +3,10 @@
 		 },
 	"instance" : {
 		"emptyRepositoryBuilds" : "PS 5/28/2014 20:21",
-		"possibleBuildStatuses" : "PS 6/1/2014 18:12",
+		"possibleBuildStates" : "PS 6/3/2014 00:44",
 		"sampleRepositoryBuilds" : "PS 5/28/2014 20:08",
-		"testColorForState" : "PS 5/27/2014 16:53",
+		"testColorForState" : "PS 6/3/2014 00:44",
 		"testCreateComponents" : "PS 6/2/2014 11:17",
-		"testEmptyValues" : "sle 6/1/2014 15:08",
-		"testInitialization" : "PS 6/1/2014 16:15",
+		"testInitialization" : "PS 6/2/2014 23:03",
 		"testValidateSlug" : "PS 5/29/2014 21:04",
-		"testValues" : "PS 5/31/2014 17:48" } }
+		"testValues" : "PS 6/3/2014 00:42" } }

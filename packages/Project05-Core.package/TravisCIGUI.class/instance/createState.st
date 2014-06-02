@@ -9,4 +9,4 @@ createState
 	state
 		getColorSelector: #stateColor.
 	self addMorph: state fullFrame: self stateFrame.
-	^state
+	^ state

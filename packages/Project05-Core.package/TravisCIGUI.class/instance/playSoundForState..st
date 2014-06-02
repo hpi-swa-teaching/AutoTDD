@@ -1,7 +1,8 @@
 as yet unclassified
 playSoundForState: aState
+
 	| sound |
-	sound := (self soundDictionary at: aState asSymbol) value.
+	sound := self convertSoundForState: aState.
 	SoundPlayer stopReverb.
 	(FileDirectory default fileExists: sound) ifTrue: [
 		(SampledSound fromWaveFileNamed: 

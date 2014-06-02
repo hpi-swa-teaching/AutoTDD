@@ -1,12 +1,14 @@
 tests
 testValues
 
-	| gui |
+	| gui samples |
+	samples := {self sampleRepositoryBuilds. self emptyRepositoryBuilds}.
 	gui := TravisCIGUI new.
-	gui repositoryJson: self sampleRepositoryBuilds.
-	self
-		assert: gui builds isArray;
-		assert: (gui builds allSatisfy: [ :each | each isString or: [ each isText ] ]);
-		assert: gui jobs isArray;
-		assert: (gui jobs allSatisfy: [ :each | each isString or: [ each isText ] ]);
-		assert: gui stateColor isColor
+	samples do: [ :each | 
+		gui repositoryJson: each.
+		self
+			assert: gui history isArray;
+			assert: (gui history allSatisfy: [ :build | build isString or: [ build isText ] ]);
+			assert: gui matrix isArray;
+			assert: (gui matrix allSatisfy: [ :job | job isString or: [ job isText ] ]);
+			assert: gui stateColor isColor ]

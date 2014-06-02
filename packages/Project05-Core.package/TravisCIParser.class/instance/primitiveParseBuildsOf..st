@@ -1,4 +1,4 @@
 as yet unclassified
 primitiveParseBuildsOf: aJson
 
-	^ aJson at: 'builds'
+	^ aJson at: 'builds' ifAbsent: [ Array new ]

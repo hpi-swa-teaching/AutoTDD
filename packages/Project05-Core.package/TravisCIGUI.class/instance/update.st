@@ -1,11 +1,11 @@
 updating
 update
 
-	| state oldstate |
-	oldstate := self parser parseCurrentBuildStateOfRepository: self repositoryJson.
+	| state oldState |
+	oldState := self parser parseCurrentBuildStateOfRepository: self repositoryJson.
 	self repositoryJson: (self client getJsonForBuildsOfRepository: self repository).
 	state := self parser parseCurrentBuildStateOfRepository: self repositoryJson.
-	(oldstate ~= state) ifTrue: [self playSoundForState: state].
+	(oldState ~= state) ifTrue: [ self playSoundForState: state ].
 	self logsDictionary: IdentityDictionary new.
 	self buildsDictionary: IdentityDictionary new.
 	self changedValues

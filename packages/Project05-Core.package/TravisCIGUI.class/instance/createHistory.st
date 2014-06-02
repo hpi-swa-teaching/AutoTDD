@@ -4,8 +4,8 @@ createHistory
 	| history |
 	history := TravisCIPluggableListMorph 
 		on: self
-		list: #builds
+		list: #history
 		selected: #selectedBuild
 		changeSelected: #selectedBuild:.
 	self addMorph: history fullFrame: self historyFrame.
-	^history
+	^ history

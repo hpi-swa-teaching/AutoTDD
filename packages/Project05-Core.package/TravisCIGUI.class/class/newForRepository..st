@@ -5,8 +5,7 @@ newForRepository: aString
 	gui := self new.
 	^ gui
 		repository: aString;
-		update;
-		extent: gui extentConst;
 		setLabel: gui label;
+		update;
 		createComponents;
 		yourself

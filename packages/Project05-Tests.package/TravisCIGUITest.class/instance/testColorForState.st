@@ -3,5 +3,5 @@ testColorForState
 
 	| gui |
 	gui := TravisCIGUI new.
-	self assert: (self possibleBuildStatuses allSatisfy: [ :state | 
+	self assert: (self possibleBuildStates allSatisfy: [ :state | 
 		(gui convertColorForState: state) isColor])

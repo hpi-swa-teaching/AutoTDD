@@ -4,14 +4,10 @@
 	"instance" : {
 		"emptyBuild" : "PS 6/1/2014 15:56",
 		"emptyRepositoryBuilds" : "PS 5/26/2014 17:46",
-		"possibleBuildStatuses" : "PS 6/1/2014 18:12",
+		"possibleBuildStates" : "PS 6/3/2014 00:44",
 		"sampleBuild" : "PS 5/26/2014 15:23",
 		"sampleRepositoryBuilds" : "PS 5/26/2014 18:04",
-		"testBuildHistory" : "PS 5/29/2014 11:43",
-		"testBuildMatrix" : "PS 6/1/2014 15:56",
-		"testCurrentBuild" : "PS 5/29/2014 11:18",
-		"testCurrentBuildStatus" : "PS 5/27/2014 23:06",
-		"testEmptyBuildHistory" : "PS 5/27/2014 21:00",
-		"testEmptyBuildMatrix" : "PS 6/1/2014 15:57",
-		"testEmptyCurrentBuild" : "PS 5/29/2014 11:20",
-		"testEmptyCurrentBuildStatus" : "PS 5/27/2014 23:06" } }
+		"testBuildHistory" : "PS 6/3/2014 00:40",
+		"testBuildMatrix" : "PS 6/3/2014 00:40",
+		"testCurrentBuildState" : "PS 6/3/2014 00:44",
+		"testEmptyCurrentBuildState" : "PS 6/3/2014 00:44" } }

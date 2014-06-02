@@ -6,13 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
+		"cache",
 		"client",
 		"parser",
-		"selectedBuild",
 		"repository",
-		"jsons",
-		"selectedJob",
-		"logs" ],
+		"selectedBuild",
+		"selectedJob" ],
 	"name" : "TravisCIGUI",
 	"pools" : [
 		 ],

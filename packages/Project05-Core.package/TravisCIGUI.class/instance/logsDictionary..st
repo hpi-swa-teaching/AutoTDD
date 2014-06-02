@@ -1,4 +1,4 @@
 as yet unclassified
 logsDictionary: anObject
 
-	^ self jsons at: #logs put: anObject
+	^ self cache at: #logs put: anObject

@@ -1,11 +1,13 @@
 tests
 testBuildMatrix
 
-	| parser matrix |
+	| parser matrix samples |
+	samples := {self sampleBuild. self emptyBuild}.
 	parser := TravisCIParser new.
-	matrix := parser parseBuildMatrixOfBuild: self sampleBuild.
+	samples do: [ :each |
+	matrix := parser parseBuildMatrixOfBuild: each.
 	self
 		assert: matrix isArray;
 		assert: (matrix allSatisfy: [ :build |
 			(build includesKey: #env) and: [
-				build includesKey: #state] ])
+				build includesKey: #state] ]) ]

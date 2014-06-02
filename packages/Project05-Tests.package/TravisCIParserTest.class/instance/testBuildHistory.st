@@ -1,12 +1,14 @@
 tests
 testBuildHistory
 
-	| parser history |
+	| parser history samples |
+	samples := {self sampleRepositoryBuilds. self emptyRepositoryBuilds}.
 	parser := TravisCIParser new.
-	history := parser parseBuildHistoryOfRepository: self sampleRepositoryBuilds.
-	self
-		assert: history isArray;
-		assert: (history allSatisfy: [ :build |
-			(build includesKey: #number) and: [
-				build includesKey: #state] and: [
-				build includesKey: #branch] ])
+	samples do: [ :each |
+		history := parser parseBuildHistoryOfRepository: each.
+		self
+			assert: history isArray;
+			assert: (history allSatisfy: [ :build |
+				(build includesKey: #number) and: [
+					build includesKey: #state] and: [
+					build includesKey: #branch] ]) ]

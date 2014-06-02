@@ -1,4 +1,4 @@
-accessing
+as yet unclassified
 repositoryJson: aJson
 
-	^self jsons at: #repository put: aJson
+	^ self cache at: #repository put: aJson

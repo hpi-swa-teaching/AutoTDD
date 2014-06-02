@@ -1,10 +1,9 @@
 as yet unclassified
 log
 
-	| buildId logid jobid log |
+	| buildId build logId jobId |
 	buildId := self parser parseIdOfBuildAt: self selectedBuild ofBuildsOfRepository: self repositoryJson.
-	jobid := self parser parseIdOfJobAt: self selectedJob ofBuild: (self buildJsonFor: buildId).
-	logid := self parser parseLogIdOfJobAt: self selectedJob ofBuild: (self buildJsonFor: buildId).
-	log := self logFor: jobid.
-	log first = $< ifTrue: [ log := self parser parseBodyOfLog: (self logJsonFor: logid) ].
-	^ log
+	build := self buildJsonFor: buildId.
+	jobId := self parser parseIdOfJobAt: self selectedJob ofBuild: build.
+	logId := self parser parseLogIdOfJobAt: self selectedJob ofBuild: build.
+	^ self logFor: jobId or: logId

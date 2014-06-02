@@ -6,5 +6,5 @@ openForRepository: aString
 	gui := self newForRepository: aString.
 	gui 
 		openInWorld;
-		extent: gui extentConst;
+		extent: self extent;
 		changedValues
