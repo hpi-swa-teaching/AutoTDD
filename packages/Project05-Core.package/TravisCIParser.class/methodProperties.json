@@ -4,8 +4,13 @@
 	"instance" : {
 		"parseBodyOfLog:" : "PS 6/1/2014 17:09",
 		"parseBranchOfCommitAt:ofCommitsOfRepository:" : "PS 6/1/2014 17:26",
+		"parseBuildAt:ofRepository:" : "PS 6/2/2014 11:12",
 		"parseBuildHistoryOfRepository:" : "PS 6/1/2014 17:13",
 		"parseBuildMatrixOfBuild:" : "PS 6/1/2014 17:10",
+		"parseBuildNumberAt:ofRepository:" : "PS 6/2/2014 11:10",
+		"parseBuildStateAt:ofRepository:" : "PS 6/2/2014 11:09",
+		"parseCommitBranchAt:ofRepository:" : "PS 6/2/2014 11:09",
+		"parseCommitMessageAt:ofRepository:" : "PS 6/2/2014 11:10",
 		"parseCurrentBuildNumberOfRepository:" : "PS 6/1/2014 17:21",
 		"parseCurrentBuildOfRepository:" : "PS 5/27/2014 23:06",
 		"parseCurrentBuildStateOfRepository:" : "PS 6/1/2014 17:16",

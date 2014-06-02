@@ -6,4 +6,5 @@ createComponents
 		createState;
 		createMatrix;
 		createButton;
-		createLog
+		createLog;
+		createSelectedState

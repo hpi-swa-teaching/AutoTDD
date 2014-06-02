@@ -1,7 +1,10 @@
 as yet unclassified
 stateText
 	
-	| build |
-	build := self parser parseCurrentBuildOfRepository: self repositoryJson.
-	^ '#', (build at: #number), ' ', (build at: #state), String crlf,
-		(build at: #branch), ' - ', (build at: #message)
+	| state |
+	state := self parser parseCurrentBuildStateOfRepository: self repositoryJson.
+	"^ '#', (build at: #number), ' ', (build at: #state), String crlf,
+		(build at: #branch), ' - ', (build at: #message)"
+	^ Text new
+		append: 'Current Build:', String crlf, state;
+		addAttribute: (TextAlignment new alignment: 2)

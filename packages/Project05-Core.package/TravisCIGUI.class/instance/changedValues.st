@@ -6,4 +6,6 @@ changedValues
 		changed: #jobs;
 		changed: #log;
 		changed: #stateColor;
-		changed: #stateText
+		changed: #stateText;
+		changed: #selectedStateColor;
+		changed: #selectedStateText
