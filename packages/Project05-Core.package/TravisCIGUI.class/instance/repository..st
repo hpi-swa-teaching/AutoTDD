@@ -1,4 +1,6 @@
 accessing
-repository: anObject
+repository: aString
 
-	repository := anObject
+	self validate: aString.
+	repository := aString.
+	self setLabel: self label

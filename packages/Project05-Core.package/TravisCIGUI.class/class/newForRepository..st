@@ -1,11 +1,6 @@
 instance creation
 newForRepository: aString
 
-	| gui |
-	gui := self new.
-	^ gui
+	^ self new
 		repository: aString;
-		setLabel: gui label;
-		update;
-		createComponents;
 		yourself

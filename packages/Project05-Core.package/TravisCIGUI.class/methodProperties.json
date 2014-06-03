@@ -1,10 +1,9 @@
 {
 	"class" : {
 		"extent" : "PS 6/2/2014 23:34",
-		"newForRepository:" : "PS 6/2/2014 23:35",
-		"openForRepository:" : "PS 6/2/2014 23:34",
-		"validSlug" : "PS 5/29/2014 20:41",
-		"validate:" : "PS 6/2/2014 23:36" },
+		"newForRepository:" : "PS 6/3/2014 12:24",
+		"openForRepository:" : "PS 6/3/2014 12:28",
+		"validSlug" : "PS 5/29/2014 20:41" },
 	"instance" : {
 		"buildJsonFor:" : "PS 6/3/2014 00:03",
 		"buildsDictionary" : "PS 6/2/2014 23:03",
@@ -42,11 +41,12 @@
 		"logsDictionary:" : "PS 6/2/2014 23:03",
 		"matrix" : "PS 6/3/2014 00:28",
 		"matrixFrame" : "PS 6/2/2014 23:51",
+		"open" : "PS 6/3/2014 12:28",
 		"parser" : "PS 5/27/2014 14:43",
 		"parser:" : "PS 5/26/2014 15:08",
 		"playSoundForState:" : "PS 6/2/2014 23:42",
 		"repository" : "PS 5/27/2014 13:48",
-		"repository:" : "PS 5/27/2014 13:48",
+		"repository:" : "PS 6/3/2014 12:24",
 		"repositoryJson" : "PS 6/3/2014 00:05",
 		"repositoryJson:" : "PS 6/2/2014 23:59",
 		"selectedBuild" : "PS 5/27/2014 22:57",
@@ -64,5 +64,6 @@
 		"travisGreen" : "PS 5/29/2014 20:14",
 		"travisRed" : "PS 5/29/2014 20:12",
 		"travisYellow" : "PS 5/29/2014 20:14",
-		"update" : "PS 6/3/2014 00:00",
+		"update" : "PS 6/3/2014 12:08",
+		"validate:" : "PS 6/3/2014 12:24",
 		"verticalLines" : "PS 6/2/2014 13:25" } }

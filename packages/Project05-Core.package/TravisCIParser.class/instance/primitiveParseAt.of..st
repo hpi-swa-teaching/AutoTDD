@@ -1,4 +1,4 @@
 as yet unclassified
-primitiveParseAt: aNumber of: aJson
+primitiveParseAt: aNumber of: anArray
 
-	^ aJson at: aNumber ifAbsent: [ JsonObject new ]
+	^ anArray at: aNumber ifAbsent: [ JsonObject new ]

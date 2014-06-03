@@ -1,4 +1,4 @@
 as yet unclassified
 primitiveParseEnvOf: aJson
 
-	^ aJson at: 'env'
+	^ aJson at: 'env' ifAbsent: [ '' ]

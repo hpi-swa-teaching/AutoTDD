@@ -5,7 +5,7 @@ update
 	oldState := self parser parseCurrentBuildStateOfRepository: self repositoryJson.
 	self repositoryJson: (self client getJsonForBuildsOfRepository: self repository).
 	state := self parser parseCurrentBuildStateOfRepository: self repositoryJson.
-	(oldState ~= state) ifTrue: [ self playSoundForState: state ].
 	self logsDictionary: IdentityDictionary new.
 	self buildsDictionary: IdentityDictionary new.
-	self changedValues
+	self changedValues.
+	(oldState ~= state) ifTrue: [ self playSoundForState: state ]

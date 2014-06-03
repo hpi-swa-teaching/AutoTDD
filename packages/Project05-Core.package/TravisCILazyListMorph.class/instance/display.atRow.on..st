@@ -1,6 +1,7 @@
 displaying
-display: item  atRow: row on: canvas
+display: item atRow: row on: canvas
 	"display the given item at row row"
+	"copied from SWALint"
 	| drawBounds color col |
 	drawBounds := self drawBoundsForRow: row.
 	drawBounds := drawBounds intersect: self bounds.
