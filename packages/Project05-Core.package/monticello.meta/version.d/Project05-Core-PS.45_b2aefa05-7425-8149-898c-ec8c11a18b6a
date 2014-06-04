@@ -1,0 +1,1 @@
+(name 'Project05-Core-PS.45'message 'Implemented Observer PatternNew class TravisCIRepository which represents our data storageOne can attach multiple GUIs to a TravisCIRepository'id 'b2aefa05-7425-8149-898c-ec8c11a18b6a'date '4 June 2014'time '1:59:12.616 pm'author 'PS'ancestors ((id 'bfbb52e2-1c56-9d4d-9923-9ff32dd6b6dd'))stepChildren ())

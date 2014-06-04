@@ -1,6 +1,6 @@
 instance creation
 newForRepository: aString
 
-	^ self new
-		repository: aString;
-		yourself
+	| data |
+	data := TravisCIRepository newForRepository: aString.
+	^ self newWithData: data

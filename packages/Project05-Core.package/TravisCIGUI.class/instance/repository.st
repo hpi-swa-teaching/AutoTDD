@@ -1,4 +1,4 @@
 accessing
 repository
 
-	^ repository
+	^ self data repository

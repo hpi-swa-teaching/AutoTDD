@@ -6,13 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"parser",
-		"selectedBuild",
-		"selectedJob",
-		"data",
-		"previousState" ],
-	"name" : "TravisCIGUI",
+		"cache",
+		"client",
+		"repository",
+		"observers",
+		"parser" ],
+	"name" : "TravisCIRepository",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "Object",
 	"type" : "normal" }

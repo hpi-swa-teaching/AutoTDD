@@ -2,8 +2,7 @@ tests
 testCreateComponents
 
 	| gui |
-	gui := TravisCIGUI new.
-	gui repositoryJson: self sampleRepositoryBuilds.
+	gui := TravisCIGUI newWithData: TravisCIRepository new.
 	gui createComponents.
 	self
 		assert: (gui submorphsSatisfying: [ :morph |

@@ -5,7 +5,7 @@ createButton
 	button := PluggableButtonMorph
 		on: self
 		getState: #isOn
-		action: #update
+		action: #updateData
 		label: #buttonLabel.
 	self addMorph: button fullFrame: self buttonFrame.
 	^ button
