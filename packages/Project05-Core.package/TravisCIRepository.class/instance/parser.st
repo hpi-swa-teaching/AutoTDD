@@ -1,4 +1,4 @@
 accessing
 parser
 	
-	^ parser ifNil: [parser := TravisCIParser new]
+	^ parser ifNil: [ parser := TravisCIParser new ]

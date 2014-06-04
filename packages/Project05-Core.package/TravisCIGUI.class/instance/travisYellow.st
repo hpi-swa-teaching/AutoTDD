@@ -1,4 +1,4 @@
 as yet unclassified
 travisYellow
 
-	^ Color fromArray: {231. 215. 0} / 255
+	^ Color r: 231 g: 215 b: 0 range: 255

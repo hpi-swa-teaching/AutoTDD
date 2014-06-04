@@ -1,4 +1,4 @@
 as yet unclassified
 travisGreen
 
-	^ Color fromArray: {13. 129. 54} / 255
+	^ Color r: 13 g: 129 b: 54 range: 255

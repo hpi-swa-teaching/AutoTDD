@@ -1,4 +1,4 @@
 accessing
 client
 	
-	^ client	ifNil: [client := TravisCIClient new]
+	^ client	ifNil: [ client := TravisCIClient new ]

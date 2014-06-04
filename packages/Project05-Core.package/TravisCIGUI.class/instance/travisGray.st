@@ -1,4 +1,4 @@
 as yet unclassified
 travisGray
 
-	^ Color fromArray: {168. 168. 169} / 255
+	^ Color r: 168 g: 168 b: 169 range: 255

@@ -1,7 +1,7 @@
 as yet unclassified
 soundDictionary
 	
-	^IdentityDictionary newFrom: {
+	^ IdentityDictionary newFrom: {
 		#canceled 	-> ['fail.wav'].
 		#created 	-> ['success.wav'].
 		#errored 	-> ['fail.wav'].

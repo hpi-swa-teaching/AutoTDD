@@ -3,8 +3,8 @@ matrix
 
 	| matrix id |
 	id := self parser parseIdOfBuildAt: self selectedBuild
-		ofBuildsOfRepository: self repositoryJson.
-	matrix := self parser parseBuildMatrixOfBuild: (self buildJsonFor: id).	
+		ofBuildsOfRepository: self data repositoryJson.
+	matrix := self parser parseBuildMatrixOfBuild: (self data buildJsonFor: id).
 	^ matrix collect: [ :job |
 		Text new
 			append: '#', (job at: #number), String space, (job at: #env);
