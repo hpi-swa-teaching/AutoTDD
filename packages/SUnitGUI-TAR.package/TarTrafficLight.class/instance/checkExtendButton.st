@@ -4,4 +4,4 @@ checkExtendButton
 		ifTrue: [ self extendResultButton visible: true ].
 	self resultsExpanded
 		ifTrue: [ self showLongResults ]
-		ifFalse: [ self showShortResults ]
+		ifFalse: [ self showShortResults ] 

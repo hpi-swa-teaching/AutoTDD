@@ -7,7 +7,7 @@ setUpTravisButton
 		hResizing: false;
 		color: (Color r: 1.0 g: 0.0 b: 0.0);
 		extent:  200 @ 20;
-		position: self position + (0 @ 100);
+		position: self topRight + (0 @ 100);
 		label: 'Activate Travis';
 		action: #onTravisButtonClicked;
 		model: self.

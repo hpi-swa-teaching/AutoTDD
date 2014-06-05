@@ -1,5 +1,6 @@
 tests
 testMixedRedRed
+	^self
 	"| trafficLightResult |
 	sut testCategory: 'SUnitGUI-TAR-Dummy-Error-Tests'.
 	sut categoryChanged.

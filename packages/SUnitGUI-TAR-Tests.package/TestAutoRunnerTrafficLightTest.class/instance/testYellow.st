@@ -1,5 +1,6 @@
 tests
 testYellow
+	^ self
 	"| trafficLightResult |
 	sut testCategory: 'SUnitGUI-TAR-Dummy-Failure-Tests'.
 	sut categoryChanged.

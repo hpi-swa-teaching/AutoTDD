@@ -4,7 +4,7 @@ setUpUrlField
 	
 	self urlField
 		extent: 200@40; 
-		position: self position + (0 @ 40);
+		position: self topRight + (0 @ 40);
 		fontName: 'Arial' size: 4; 
 		contents: self travisSource.
 	
