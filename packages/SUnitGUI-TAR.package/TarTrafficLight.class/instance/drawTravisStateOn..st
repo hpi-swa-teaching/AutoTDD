@@ -8,5 +8,5 @@ drawTravisStateOn: aCanvas
 	form :=  (dictionary at: #green) value.
 	image := ImageMorph new 
 		image: form;
-		position: self position + (80@0).		
+		position: self position + (70@25).		
 	aCanvas drawMorph: image.

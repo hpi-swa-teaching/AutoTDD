@@ -5,7 +5,7 @@ createOnOffButton
 		offImage: self getOffPng;
 		onImage: self getOnPng;
 		extent: 40 @ 40;
-		position: self position + (120 @ 0);
+		position: self position + (120 @ 20);
 		actionSelector: #onOffButtonClicked;
 		state: #on;
 		target: self.

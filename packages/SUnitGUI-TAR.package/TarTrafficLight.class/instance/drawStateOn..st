@@ -8,5 +8,5 @@ drawStateOn: aCanvas
 	form :=  (dictionary at: self testStatus) value.
 	image := ImageMorph new 
 		image: form;
-		position: self position + (40@0).		
+		position: self position + (20@25).		
 	aCanvas drawMorph: image.
