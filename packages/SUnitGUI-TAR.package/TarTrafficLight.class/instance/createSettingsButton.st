@@ -5,7 +5,7 @@ createSettingsButton
 	transColor := (TranslucentColor new alpha: 0).
 	button 
 		extent:  45 @ 45;
-		position: self position + (120 @ 40);
+		position: self position + (120 @ 60);
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #settingsButtonClicked;
