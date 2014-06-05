@@ -1,0 +1,14 @@
+{
+	"category" : "SUnitGUI-TAR-Dummy-Error-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestRunnerDummyError3Test",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+building
+resumeButtonLabel
+	^ 'Resume All'

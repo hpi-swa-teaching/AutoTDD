@@ -1,0 +1,1 @@
+(name 'SUnitGUI-eem.56'message 'Filter prompt needs to check for both nil and empty stringto prevent cancel from destroying current patterns.'id 'c155ae36-4f30-4a86-9ce5-2b1c8dd3de40'date '20 September 2012'time '2:04:20.328 pm'author 'eem'ancestors ((id '2a734976-4fc9-414d-8884-986f5bf9ff58'))stepChildren ())

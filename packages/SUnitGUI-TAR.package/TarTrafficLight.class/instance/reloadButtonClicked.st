@@ -1,0 +1,3 @@
+accessing
+reloadButtonClicked
+	self runTests.

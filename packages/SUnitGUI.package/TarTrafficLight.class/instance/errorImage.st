@@ -1,5 +1,5 @@
 as yet unclassified
-failImage
+errorImage
 	^ (Form
 	extent: 40@40
 	depth: 32

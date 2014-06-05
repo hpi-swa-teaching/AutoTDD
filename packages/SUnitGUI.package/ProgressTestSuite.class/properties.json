@@ -1,0 +1,14 @@
+{
+	"category" : "SUnitGUI-TAR",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"valueHolder" ],
+	"name" : "ProgressTestSuite",
+	"pools" : [
+		 ],
+	"super" : "TestSuite",
+	"type" : "normal" }

@@ -1,0 +1,16 @@
+{
+	"category" : "SUnitGUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"hasRun",
+		"reference",
+		"method" ],
+	"name" : "TestCoverage",
+	"pools" : [
+		 ],
+	"super" : "ProtoObject",
+	"type" : "normal" }

@@ -1,0 +1,1 @@
+(name 'SUnitGUI-onierstrasz.38'message 'Added possibility to declare classNamesNotUnderTest on the class side.Refcatored runCoverage into several helper methods.'id '4460a65c-a708-4756-a791-76823503075f'date '15 May 2009'time '4:40:43 pm'author 'onierstrasz'ancestors ((id 'eabb844a-3c15-4f02-ac7d-e203a1815d8f'))stepChildren ())

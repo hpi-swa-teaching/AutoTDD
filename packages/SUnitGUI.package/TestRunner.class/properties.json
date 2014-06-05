@@ -1,0 +1,27 @@
+{
+	"category" : "SUnitGUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "<historical>",
+	"instvars" : [
+		"categories",
+		"categoriesSelected",
+		"classes",
+		"classIndex",
+		"classesSelected",
+		"failedList",
+		"failedSelected",
+		"errorList",
+		"errorSelected",
+		"lastUpdate",
+		"result",
+		"previousRun",
+		"categoryPattern",
+		"classPattern" ],
+	"name" : "TestRunner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

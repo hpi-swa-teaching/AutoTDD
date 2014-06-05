@@ -1,0 +1,1 @@
+(name 'SUnitGUI-lr.32'message '- do not offer to test coverage of kernel/collection/exception/sunit packages, that will only crash the system- do not consider methods with <ignoreForCoverage> annotation'id '2f2dfca5-cc58-41e7-9f54-4dbcbe03e6dc'date '1 April 2009'time '1:58:26 pm'author 'lr'ancestors ((id 'd441a2c1-50ac-4a21-825c-22d1519399b6'))stepChildren ())

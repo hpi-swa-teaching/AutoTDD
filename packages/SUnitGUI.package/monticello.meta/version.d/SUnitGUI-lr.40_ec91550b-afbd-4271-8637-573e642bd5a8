@@ -1,0 +1,1 @@
+(name 'SUnitGUI-lr.40'message '- fixed test runner class selection bug- move polymorph overrides to SUnitGUI package'id 'ec91550b-afbd-4271-8637-573e642bd5a8'date '4 July 2009'time '3:15:47 pm'author 'lr'ancestors ((id 'b2eb4ffa-551f-4170-aa37-67065656acc7'))stepChildren ())

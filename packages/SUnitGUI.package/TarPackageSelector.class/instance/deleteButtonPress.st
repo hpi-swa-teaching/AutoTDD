@@ -1,0 +1,3 @@
+action
+deleteButtonPress
+	TarTrafficLight deleteAllInstances
