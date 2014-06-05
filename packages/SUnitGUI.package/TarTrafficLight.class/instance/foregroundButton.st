@@ -1,3 +1,0 @@
-accessing
-foregroundButton
-	^ foregroundButton

@@ -1,3 +1,0 @@
-accessing
-baseTestClass
-	^ TestCase

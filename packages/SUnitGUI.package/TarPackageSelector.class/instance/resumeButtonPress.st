@@ -1,3 +1,0 @@
-action
-resumeButtonPress
-	TarTrafficLight resumeTestAutoRunner

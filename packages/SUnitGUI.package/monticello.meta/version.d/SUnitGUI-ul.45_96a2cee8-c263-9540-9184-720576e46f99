@@ -1,1 +1,0 @@
-(name 'SUnitGUI-ul.45'message '- replace sends of #ifNotNilDo: to #ifNotNil:, #ifNil:ifNotNilDo: to #ifNil:ifNotNil:, #ifNotNilDo:ifNil: to #ifNotNil:ifNil:'id '96a2cee8-c263-9540-9184-720576e46f99'date '12 December 2009'time '2:48:24 am'author 'ul'ancestors ((id '802a880a-fe7a-4e3b-8bf6-6bb56a3008cb'))stepChildren ())

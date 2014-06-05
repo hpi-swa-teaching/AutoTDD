@@ -1,3 +1,0 @@
-accessing
-reloadButtonClicked
-	self runTests.

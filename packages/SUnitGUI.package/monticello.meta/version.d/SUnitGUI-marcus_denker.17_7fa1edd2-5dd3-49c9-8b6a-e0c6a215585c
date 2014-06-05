@@ -1,1 +1,0 @@
-(name 'SUnitGUI-marcus_denker.17'message '- ifNotNilDo: calls renamed- Issue 232:	Recreate Special Objects Array should preserve external semaphores + Fix'id '7fa1edd2-5dd3-49c9-8b6a-e0c6a215585c'date '10 November 2008'time '10:09:15 am'author 'marcus.denker'ancestors ((id '31a36e20-453c-4206-8ecf-b2ccc0433efb'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'SUnitGUI-lr.30'message '- do not wrap abstract methods, they won''t be called anyway- update the history even after coverage is run'id '31164449-d840-4bea-a286-5f8e3983ddaf'date '1 April 2009'time '11:53:19 am'author 'lr'ancestors ((id '1b499357-ce31-41e7-a35e-45a69d9c677c'))stepChildren ())

@@ -1,3 +1,0 @@
-action
-addButtonPress
-	^ self openWidget

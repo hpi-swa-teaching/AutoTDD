@@ -1,1 +1,0 @@
-(name 'SUnitGUI-lr.34'message '- added the method TestCase>>#packageNamesUnderTest that can be overridden in TestCase sub-classes to let the test runner automatically know what code to instrument'id 'cb929632-fb33-4298-afe9-75983ceeb8ed'date '12 April 2009'time '12:34:19 am'author 'lr'ancestors ((id 'fb131513-4c9a-41bc-83eb-74094c207088'))stepChildren ())

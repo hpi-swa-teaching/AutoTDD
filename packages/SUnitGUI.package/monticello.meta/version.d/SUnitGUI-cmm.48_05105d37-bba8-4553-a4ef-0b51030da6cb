@@ -1,1 +1,0 @@
-(name 'SUnitGUI-cmm.48'message '- Corrected reference to MessageSet>>#openMessageList:... to utilize the ToolSet api.'id '05105d37-bba8-4553-a4ef-0b51030da6cb'date '2 March 2010'time '5:42:44.01 pm'author 'cmm'ancestors ((id '23bcaf05-27ca-4045-a54a-e27bd620cb8b'))stepChildren ())

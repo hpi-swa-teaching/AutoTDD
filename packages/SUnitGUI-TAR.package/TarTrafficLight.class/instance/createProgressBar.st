@@ -4,6 +4,7 @@ createProgressBar
 	self progressBar 
 		extent: 60@10;
 		position: self position + (20@110);
+		borderWidth: 0;
 		color: (Color
 				r: 233
 				g: 233

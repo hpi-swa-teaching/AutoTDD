@@ -1,1 +1,0 @@
-(name 'SUnitGUI-stephane_ducasse.41'message 'Issue 927:	SLICE-FixClassSelectionInTestRunner	- fixed test runner class selection bug	- move polymorph overrides to SUnitGUI package'id 'd4755864-1548-4f67-9db2-cd526d07f786'date '4 July 2009'time '3:43:41 pm'author 'stephane.ducasse'ancestors ((id 'ec91550b-afbd-4271-8637-573e642bd5a8'))stepChildren ())

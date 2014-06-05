@@ -1,3 +1,0 @@
-building
-deleteButtonLabel
-	^ 'Delete All'

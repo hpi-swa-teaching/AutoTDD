@@ -1,3 +1,0 @@
-tests
-fooMethod
-	^ nil

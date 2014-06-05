@@ -8,6 +8,4 @@ createComponents
 		createExtendResultButton;
 		createExtendNameButton;
 		createProgressBar;
-		createLocalText;
-		createTravisText;
 		setYellowLight
