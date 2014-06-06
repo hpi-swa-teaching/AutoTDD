@@ -1,3 +1,4 @@
 accessing
 extendNameButton
-	^ extendNameButton
+	
+	^ self submorphNamed: 'extendNameButton'

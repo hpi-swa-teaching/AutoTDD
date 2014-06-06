@@ -1,4 +1,4 @@
 accessing
 onOffButton
 
-	^ onOffButton
+	^self submorphNamed: 'localOnOffButton'

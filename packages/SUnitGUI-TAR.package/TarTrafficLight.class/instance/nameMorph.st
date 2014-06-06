@@ -1,3 +1,4 @@
 accessing
 nameMorph
-	^ nameMorph
+	
+	^ self submorphNamed: 'nameMorph'

@@ -1,3 +1,4 @@
 accessing
 extendResultButton
-	^ extendResultButton
+	
+	^ self submorphNamed: 'extendResultButton'

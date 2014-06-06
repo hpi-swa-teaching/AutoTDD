@@ -1,7 +1,7 @@
 drawing
 drawBackgroundOn: aCanvas
 	aCanvas
-		frameAndFillRectangle: (self position extent: 200 @ 130)
+		frameAndFillRectangle: (self position extent: 225 @ 150)
 		fillColor: (Color
 				r: 250
 				g: 250

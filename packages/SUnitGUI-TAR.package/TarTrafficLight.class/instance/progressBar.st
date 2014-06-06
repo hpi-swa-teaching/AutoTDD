@@ -1,3 +1,4 @@
 accessing
 progressBar
-	^ progressBar
+	
+	^  self submorphNamed: 'progressBar'

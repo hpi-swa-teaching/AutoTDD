@@ -1,13 +1,16 @@
 gui
 createExtendNameButton
-	self extendNameButton: PluggableButtonMorphPlus new.
-	self extendNameButton vResizing: false;
-		 hResizing: false;
-		 extent: 120 @ 15;
-		 position: self position + (0 @ -15);
-		 visible: true;
-		 label: '^';
-		 action: #extendNameButtonClicked;
-		 model: self.
-	self nameExpanded: false.
-	self addMorph: self extendNameButton
+	
+	| button |
+	button := ThreePhaseButtonMorph new
+		offImage: self getExpand;
+		onImage: self getCollapse;
+		extent: 20 @ 20;
+		position: self position + (70 @ 15);
+		actionSelector: #extendNameButtonClicked;
+		target: self;
+		name: 'extendNameButton';
+		yourself.
+	self
+		addMorph: button;
+		nameExpanded: false

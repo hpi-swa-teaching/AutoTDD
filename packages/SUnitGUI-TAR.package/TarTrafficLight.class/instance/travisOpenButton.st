@@ -1,4 +1,4 @@
 accessing
 travisOpenButton
 
-	^ travisOpenButton
+	^ self submorphNamed: 'travisOpenButton'

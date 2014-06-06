@@ -1,5 +1,6 @@
 drawing
-drawOn: aCanvas 
+drawOn: aCanvas
+
 	self drawBackgroundOn: aCanvas;
 		drawStateOn: aCanvas;
 		drawTravisStateOn: aCanvas;

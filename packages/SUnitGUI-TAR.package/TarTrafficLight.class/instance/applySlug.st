@@ -1,3 +1,4 @@
 event handling
-applyUrl
+applySlug
+	
 	self travisSource: self urlField contents.  

@@ -1,9 +1,10 @@
 gui
 createProgressBar
-	self progressBar: ProgressBarMorph new.
-	self progressBar 
-		extent: 60@10;
-		position: self position + (20@110);
+	
+	| progressBar |
+	progressBar := ProgressBarMorph new
+		extent: 80@10;
+		position: self position + (15@125);
 		borderWidth: 0;
 		color: (Color
 				r: 233
@@ -14,5 +15,7 @@ createProgressBar
 				r: 194
 				g: 211
 				b: 230
-				range: 255).
-	self addMorph: self progressBar.
+				range: 255);
+		name: 'progressBar';
+		yourself.
+	self addMorph: progressBar.

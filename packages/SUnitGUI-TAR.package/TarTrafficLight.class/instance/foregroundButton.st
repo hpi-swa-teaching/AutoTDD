@@ -1,3 +1,4 @@
 accessing
 foregroundButton
-	^ foregroundButton
+	
+	^  self submorphNamed: 'foregroundButton'

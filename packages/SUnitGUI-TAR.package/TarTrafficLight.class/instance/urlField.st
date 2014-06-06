@@ -1,3 +1,4 @@
 accessing
 urlField
-	^urlField
+	
+	^ self submorphNamed: 'urlField'

@@ -1,14 +1,14 @@
 event handling
 onTravisButtonClicked
-	self useTravis  
-		ifFalse: [self travisButton 
-					 color: (Color r: 0.0 g: 1.0 b: 0.0);
-					 label: 'Deactivate Travis'.
-				self data: (TravisCIRepository newForRepository: self travisSource asString).
-				self data attach: self.
-				self useTravis: true.]
-		ifTrue: [self travisButton 
-					 color: (Color r: 1.0 g: 0.0 b: 0.0);
-					 label: 'Activate Travis'.
-				self data deattach: self.
-				self useTravis: false.].
+	
+	self useTravis: self useTravis not.
+	self useTravis
+		ifTrue: [
+			self travisOnOffButton state: #on.
+			self data: (TravisCIRepository newForRepository: self travisSource asString).
+			self data attach: self.
+			self changed]
+		ifFalse: [
+			self travisOnOffButton state: #off.
+			self data deattach: self.
+			self changed ]

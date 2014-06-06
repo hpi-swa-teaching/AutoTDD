@@ -1,14 +1,14 @@
 gui
 createOpenTravisButton
-	self travisOpenButton: PluggableButtonMorphPlus new.
 	
-	self travisOpenButton 
-		vResizing: false;
-		hResizing: false;
-		label: 'Open Travis'; 
-		extent:  200 @ 20;
-		position: self topRight + (0 @ 120);
-		action: #openTravisDialog;
-		model: self.	
-		
-	self addMorph: self travisOpenButton.
+	| button transColor|
+	button := IconicButton new labelGraphic: self getOpenTravisButton.
+	transColor := (TranslucentColor new alpha: 0).
+	button 
+		extent:  20 @ 20;
+		position: self position + (150 @ 15);
+		color: transColor;
+		borderColor: transColor;
+		actionSelector: #openTravisDialog;
+		target: self.
+	self addMorph: button.

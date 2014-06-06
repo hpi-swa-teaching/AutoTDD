@@ -1,4 +1,4 @@
 accessing
 isTesting
 
-	^ isTesting
+	^ isTesting ifNil: [ isTesting := true ]

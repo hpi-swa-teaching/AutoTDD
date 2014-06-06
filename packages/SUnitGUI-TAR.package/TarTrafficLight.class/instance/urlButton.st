@@ -1,3 +1,4 @@
 accessing
 urlButton 
-	^urlButton.
+	
+	^ self submorphNamed: 'urlButton'

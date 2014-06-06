@@ -1,7 +1,7 @@
 gui
-closeMenu 
+closeMenu
+
 	self urlField delete.
-	self travisButton delete.
+	self travisOnOffButton delete.
+	self localOnOffButton delete.
 	self urlButton delete.
-	
-	self travisOpenButton delete.

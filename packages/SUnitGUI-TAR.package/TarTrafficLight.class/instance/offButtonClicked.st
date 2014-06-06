@@ -1,3 +1,3 @@
 event handling
 offButtonClicked
-	self isTesting ifTrue: [self onOffButtonClicked ]
+	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self

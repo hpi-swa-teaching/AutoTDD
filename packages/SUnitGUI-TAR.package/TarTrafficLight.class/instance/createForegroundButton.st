@@ -1,12 +1,16 @@
 gui
 createForegroundButton
-	self foregroundButton: ThreePhaseButtonMorph new.
-	self foregroundButton 
+	
+	| button |
+	button := ThreePhaseButtonMorph new
 		offImage: self getPinPng;
 		onImage: self getPinStickedPng;
-		extent: 35 @ 35;
-		position: self position + (160 @ 60);
+		extent: 30 @ 30;
+		position: self topRight + (-35 @ 75);
 		actionSelector: #foregroundButtonClicked;
-		target: self.
-	self inForeground: false.
-	self addMorph: self foregroundButton
+		target: self;
+		name: 'foregroundButton';
+		yourself.
+	self
+		addMorph: button;
+		inForeground: false
