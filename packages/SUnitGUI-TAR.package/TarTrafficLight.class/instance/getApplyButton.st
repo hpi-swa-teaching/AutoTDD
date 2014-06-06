@@ -1,6 +1,5 @@
-as yet unclassified
+accessing
 getApplyButton
-
 	^ (Form
 	extent: 56@22
 	depth: 32

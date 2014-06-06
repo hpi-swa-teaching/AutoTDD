@@ -2,9 +2,9 @@ drawing
 drawStateOn: aCanvas 
 	| form dictionary image |
 	dictionary := IdentityDictionary newFrom: 
-		{	#green -> [self passedImage.]. 
-			#red -> [self failImage.].
-			#yellow -> [self errorImage.].}.
+		{	#green -> [self getPassed.]. 
+			#red -> [self getFail.].
+			#yellow -> [self getError.].}.
 	form :=  (dictionary at: self testStatus) value.
 	image := ImageMorph new 
 		image: form;

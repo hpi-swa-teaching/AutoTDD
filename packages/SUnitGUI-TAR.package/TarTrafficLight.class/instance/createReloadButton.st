@@ -1,7 +1,7 @@
 gui
 createReloadButton
 	| button transColor|
-	button := IconicButton new labelGraphic: self reloadImage.
+	button := IconicButton new labelGraphic: self getReload.
 	transColor := (TranslucentColor new alpha: 0).
 	button 
 		extent:  30 @ 30;

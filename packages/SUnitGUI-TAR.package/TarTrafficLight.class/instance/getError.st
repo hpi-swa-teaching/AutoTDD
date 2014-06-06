@@ -1,5 +1,5 @@
-as yet unclassified
-errorImage
+accessing
+getError
 	^ (Form
 	extent: 40@40
 	depth: 32

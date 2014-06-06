@@ -1,6 +1,5 @@
-as yet unclassified
+accessing
 getOpenTravisButton
-
 	^ (Form
 	extent: 25@24
 	depth: 32
