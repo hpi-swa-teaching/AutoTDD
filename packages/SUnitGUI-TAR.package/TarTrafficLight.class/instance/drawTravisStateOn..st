@@ -13,5 +13,5 @@ drawTravisStateOn: aCanvas
 	ifFalse: [form :=  (dictionary at: #unknown) value.].
 	image := ImageMorph new 
 		image: form;
-		position: self position + (105@50).		
+		position: self position + (112@50).		
 	aCanvas drawMorph: image.

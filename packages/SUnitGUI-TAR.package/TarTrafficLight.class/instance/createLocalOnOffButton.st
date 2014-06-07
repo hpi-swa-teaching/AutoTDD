@@ -5,7 +5,7 @@ createLocalOnOffButton
 	button := ThreePhaseButtonMorph new 
 		offImage: self getOffPng;
 		onImage: self getOnPng;
-		extent: 40 @ 20;
+		extent: 28 @ 19;
 		position: self position + (225@0) + (90 @ 10);
 		actionSelector: #onOffButtonClicked;
 		state: #on;

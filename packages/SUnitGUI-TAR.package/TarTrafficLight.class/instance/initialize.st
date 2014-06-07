@@ -5,3 +5,4 @@ initialize
 	self createComponents.
 	self setProperty: #morphicLayerNumber toValue: self morphicLayerNumber.
 	self openInWorld.
+	self runTests.

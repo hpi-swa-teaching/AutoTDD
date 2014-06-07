@@ -6,7 +6,7 @@ createForegroundButton
 		offImage: self getPinPng;
 		onImage: self getPinStickedPng;
 		extent: 30 @ 30;
-		position: self topRight + (-35 @ 75);
+		position: self topRight + (-25 @ 80);
 		actionSelector: #foregroundButtonClicked;
 		target: self;
 		name: 'foregroundButton';

@@ -4,7 +4,7 @@ createProgressBar
 	| progressBar |
 	progressBar := ProgressBarMorph new
 		extent: 80@10;
-		position: self position + (15@125);
+		position: self position + (12@125);
 		borderWidth: 0;
 		color: (Color
 				r: 233
