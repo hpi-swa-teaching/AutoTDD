@@ -22,8 +22,10 @@ install:
    - ./build_image.sh
    - ln -s $PROJECT_HOME/images $IMAGES_PATH/travis_images
    - ls $IMAGES_PATH
-   - ls $IMAGES_PATH/travis_images   
+   - echo $IMAGES_PATH
+   - ls $IMAGES_PATH/travis_images
    - ls $PROJECT_HOME/images
+   - echo $PROJECT_HOME
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
