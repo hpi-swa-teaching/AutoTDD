@@ -28,3 +28,6 @@ install:
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
 script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose 
+
+after_script:
+	- ls $BUILD_PATH/travisCI
