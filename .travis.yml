@@ -20,9 +20,6 @@ install:
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
-   - echo $BUILD_PATH
-   - ls $BUILD_PATH
-   - ls $BUILD_PATH/travisCI
    - mkdir -p $BUILD_PATH/travisCI
    - ln -s $PROJECT_HOME/images $BUILD_PATH/travisCI/travis_images
    - ls $BUILD_PATH/travisCI
