@@ -21,8 +21,7 @@
 		"useTravis",
 		"isTesting",
 		"data",
-		"parser",
-		"state" ],
+		"parser" ],
 	"name" : "TarTrafficLight",
 	"pools" : [
 		 ],

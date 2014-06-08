@@ -1,3 +1,4 @@
 accessing
 inForeground
-	^ inForeground
+	
+	^ inForeground ifNil: [ inForeground := false ]

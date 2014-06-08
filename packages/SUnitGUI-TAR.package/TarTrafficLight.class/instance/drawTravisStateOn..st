@@ -3,9 +3,9 @@ drawTravisStateOn: aCanvas
 	| form dictionary image |
 	dictionary := IdentityDictionary newFrom: 
 		{	#passed -> [self getPassed.]. 
-			#failed -> [self getFail.].
-			#created -> [self getError.].
-			#started -> [self getError.].
+			#failed -> [self getError.].
+			#created -> [self getFail.].
+			#started -> [self getFail.].
 			#unknown -> [self getUnknown.].
 			#canceled -> [self getUnknown.].
 			#errored -> [self getUnknown.]}.

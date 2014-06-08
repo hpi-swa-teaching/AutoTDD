@@ -9,4 +9,4 @@ runTests
 		self createTrafficLightResultFor: result.
 		result dispatchResultsIntoHistory.
 		self testRunningSemaphore signal ] ] fork.
-	self data ifNotNil: [self data update]
+	self updateData

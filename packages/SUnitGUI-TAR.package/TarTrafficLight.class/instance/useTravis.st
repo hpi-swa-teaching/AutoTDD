@@ -1,3 +1,4 @@
 accessing
 useTravis
-	^useTravis ifNil: [useTravis := false]
+
+	^ useTravis ifNil: [useTravis := false]
