@@ -30,4 +30,4 @@ install:
 script: $BUILDER_CI_HOME/testTravisCI.sh # -verbose 
 
 after_script:
-	- ls $BUILD_PATH/travisCI
+   - ls $BUILD_PATH/travisCI
