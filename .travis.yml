@@ -20,15 +20,7 @@ install:
    - source build_env_vars
    - ln -s $PROJECT_HOME $GIT_PATH
    - ./build_image.sh
-   - ln -s $PROJECT_HOME/images $IMAGES_PATH/travis_images
-   - echo $BUILDER_CI_HOME
-   - echo $BASE_PATH
-   - echo $BUILD_PATH
-   - echo $SCRIPTS_PATH
-   - echo $SOURCES_PATH
-   - echo $VM_PATH
-   - echo $BUILD_CACHE
-   - echo $GIT_PATH
+   - ln -s $PROJECT_HOME/images $BUILD_PATH/travisCI/travis_images
 
 # use a different script if you want to customize how travis tests are run
 # use verbose flag to dump transcript unconditionally
