@@ -6,5 +6,4 @@ createTestResultMorphWithOffset: anOffset colored: aColor
 		position: self topRight + ( -1 @ ((self height - 1) * anOffset));
 		borderWidth: 1;
 		borderColor: self class darkGray;
-		on: #mouseDown send: #testResultFailureMorphClicked:forMorph: to: self;
 		yourself

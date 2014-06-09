@@ -4,7 +4,6 @@ createComponents
 	self createSettingsButton; 
 		createForegroundButton;
 		createReloadButton;
-		createNameMorph;
 		createExtendResultButton;
 		createExtendNameButton;
 		createProgressBar;

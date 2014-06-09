@@ -1,17 +1,11 @@
 event handling
 extendNameButtonClicked
 	
+	self nameExpanded: self nameExpanded not.
 	self nameExpanded
-		ifFalse: [ | morph |
-			morph := self nameMorph.
-			self removeMorph: morph.
-			self addMorph: morph.
-			self nameMorph visible: true.
+		ifTrue: [ 
+			self createNameMorph.
 			self extendNameButton state: #on ]
-		ifTrue: [  | morph |
-			morph := self nameMorph.
-			self removeMorph: morph.
-			self addMorph: morph.
-			self nameMorph visible: false.
-			self extendNameButton state: #off ].
-	self nameExpanded: self nameExpanded not
+		ifFalse: [
+			self nameMorph delete.
+			self extendNameButton state: #off ]
