@@ -5,11 +5,7 @@ onTravisButtonClicked
 	self useTravis
 		ifTrue: [
 			self travisOnOffButton state: #on.
-			self data: (TravisCIRepository newForRepository: self travisSource asString).
-			self data attach: self.
-			self update ]
+			self data: (TravisCIRepository newForRepository: self travisSource asString) ]
 		ifFalse: [
 			self travisOnOffButton state: #off.
-			self data deattach: self.
-			self data: nil.
-			self update ]
+			self data: nil ]
