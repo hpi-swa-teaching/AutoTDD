@@ -4,7 +4,7 @@ showErrorsWithOffset: aOffset
 	offset := aOffset.
 	self testResultErrors keysAndValuesDo: [ :erroredTestCaseName :isNew |
 		| testResultMorph |
-		testResultMorph := self createTestResultMorphWithOffset: offset colored: Color red.
+		testResultMorph := self createTestResultMorphWithOffset: offset colored: self red.
 		self createTestResultTextOn: testResultMorph withText: erroredTestCaseName consider: isNew;
 			createDelegateMorphOn: testResultMorph.
 		self testResultMorphs at: erroredTestCaseName asString put: testResultMorph.

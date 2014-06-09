@@ -6,6 +6,6 @@ createDelegateMorph
 		extent: 200@20;
 		position: self position;
 		color: Color transparent;
-		borderWidth: 1;
+		borderWidth: 0;
 		on: #mouseDown send: #mouseDown: to: self.
 	self addMorph: delegateMorph

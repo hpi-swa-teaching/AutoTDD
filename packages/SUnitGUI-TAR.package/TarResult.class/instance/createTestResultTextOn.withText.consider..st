@@ -7,4 +7,4 @@ createTestResultTextOn: aTestResultMorph withText: aCaseName consider: aBoolean
 		ifTrue: [ testResultText contents: '* ', aCaseName ]
 		ifFalse: [ testResultText contents: aCaseName ].
 	aTestResultMorph addMorph: testResultText;
-		extent: testResultText extent + (10@0)
+		extent: (testResultText width + 10) @ self height

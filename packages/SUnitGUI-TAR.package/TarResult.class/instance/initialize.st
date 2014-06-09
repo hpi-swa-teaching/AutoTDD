@@ -2,7 +2,8 @@ initialization
 initialize
 	super initialize.
 	self 
-		borderWidth: 0;
+		borderWidth: 1;
+		borderColor: self darkGray;
 		addTimeStamp;
 		createDelegateMorph;
 		cancelled: false;
