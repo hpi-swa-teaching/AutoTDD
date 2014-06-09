@@ -1,6 +1,7 @@
 drawing
-drawTravisStateOn: aCanvas 
-	| form dictionary image |
+drawTravisStateOn: aCanvas
+
+	| form dictionary |
 	dictionary := IdentityDictionary newFrom: 
 		{	#passed -> [self getPassed.]. 
 			#failed -> [self getError.].
@@ -11,7 +12,4 @@ drawTravisStateOn: aCanvas
 			#errored -> [self getUnknown.]}.
 	self useTravis ifTrue: [form :=  (dictionary at: self state) value.]
 	ifFalse: [form :=  (dictionary at: #unknown) value.].
-	image := ImageMorph new 
-		image: form;
-		position: self position + (112@50).		
-	aCanvas drawMorph: image.
+	aCanvas translucentImage: form at: self position + (112@50)
