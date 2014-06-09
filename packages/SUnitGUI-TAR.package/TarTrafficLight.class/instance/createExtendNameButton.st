@@ -1,16 +1,18 @@
 gui
 createExtendNameButton
 	
-	| button |
+	| button state |
+	state := self resultsExpanded
+		ifTrue: [ #on ]
+		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new
 		offImage: self getExpand;
 		onImage: self getCollapse;
 		extent: 20 @ 20;
-		position: self position + (55 @ 10);
+		position: self position + (55 @ 12);
 		actionSelector: #extendNameButtonClicked;
+		state: state;
 		target: self;
 		name: 'extendNameButton';
 		yourself.
-	self
-		addMorph: button;
-		nameExpanded: false
+	self addMorph: button

@@ -1,3 +1,4 @@
 accessing
 nameExpanded
-	^ nameExpanded
+	
+	^ nameExpanded ifNil: [ nameExpanded := false ]

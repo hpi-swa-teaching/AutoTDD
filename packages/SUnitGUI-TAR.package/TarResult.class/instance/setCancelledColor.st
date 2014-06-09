@@ -3,8 +3,8 @@ setCancelledColor
 	(self testResultFailures notEmpty) ifFalse: [
 		self cancelled 
 			ifTrue: [
-				self color: Color gray ] 
+				self color: self gray ] 
 			ifFalse: [
-				self color: Color green.
+				self color: self green.
 				self trafficLight setGreenLight ]
 	]

@@ -1,3 +1,4 @@
 accessing
 resultsExpanded
-	^ resultsExpanded
+	
+	^ resultsExpanded ifNil: [ resultsExpanded := false ]

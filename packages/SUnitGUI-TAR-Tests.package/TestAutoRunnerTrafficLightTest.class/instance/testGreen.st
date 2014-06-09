@@ -6,7 +6,7 @@ testGreen
 	sut testRunningSemaphore wait.
 	trafficLightResult := sut trafficLightResults first.
 	self assert: sut testStatus = #green.
-	self assert: trafficLightResult color = Color green.
+	self assert: trafficLightResult color = trafficLightResult green.
 	self assert: trafficLightResult testResultFailures isEmpty.
 	self assert: trafficLightResult testResultErrors isEmpty.
 	trafficLightResult mouseDown: nil.
