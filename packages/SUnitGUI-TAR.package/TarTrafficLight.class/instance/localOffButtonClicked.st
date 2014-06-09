@@ -1,3 +1,4 @@
 event handling
-offButtonClicked
+localOffButtonClicked
+	
 	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self

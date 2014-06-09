@@ -9,8 +9,8 @@ createLocalOnOffButton
 		offImage: self getOffPng;
 		onImage: self getOnPng;
 		extent: 28 @ 19;
-		position: self position + (225@0) + (90 @ 10);
-		actionSelector: #onOffButtonClicked;
+		position: self settingsPosition + (90 @ 10);
+		actionSelector: #localOnOffButtonClicked;
 		state: state;
 		target: self;
 		name: 'localOnOffButton';

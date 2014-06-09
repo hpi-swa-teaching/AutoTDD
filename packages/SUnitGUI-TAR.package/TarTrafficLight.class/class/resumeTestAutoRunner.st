@@ -1,4 +1,4 @@
 utility
 resumeTestAutoRunner
 	TarTrafficLight instances
-		do: [:instance | instance onButtonClicked]
+		do: [:instance | instance localOnButtonClicked]

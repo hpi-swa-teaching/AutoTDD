@@ -1,7 +1,8 @@
 drawing
 drawSettingsBackgroundOn: aCanvas
+	
 	aCanvas
-		frameAndFillRectangle: ((self position + (225@0)) extent: 225 @ 150)
-		fillColor: self gray
+		frameAndFillRectangle: (self settingsPosition extent: self class settingsExtent)
+		fillColor: self class gray
 		borderWidth: 0
 		borderColor: Color black

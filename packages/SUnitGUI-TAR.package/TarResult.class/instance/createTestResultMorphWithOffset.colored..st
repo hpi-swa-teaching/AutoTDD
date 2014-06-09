@@ -1,10 +1,10 @@
 morphcreation
-createTestResultMorphWithOffset: aOffset colored: aColor
-	| testResultMorph |
-	testResultMorph := RectangleMorph new.
-	testResultMorph color: aColor;
-		position: self position + ((self width - 1)@(20*aOffset));
+createTestResultMorphWithOffset: anOffset colored: aColor
+	
+	^ RectangleMorph new
+		color: aColor;
+		position: self topRight + ( -1 @ ((self height - 1) * anOffset));
 		borderWidth: 1;
-		borderColor: self darkGray;
-		on: #mouseDown send: #testResultFailureMorphClicked:forMorph: to: self.
-	^ testResultMorph
+		borderColor: self class darkGray;
+		on: #mouseDown send: #testResultFailureMorphClicked:forMorph: to: self;
+		yourself

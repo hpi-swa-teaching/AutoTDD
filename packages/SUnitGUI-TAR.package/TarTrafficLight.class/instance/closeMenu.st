@@ -1,8 +1,8 @@
 gui
 closeMenu
 
-	self extent: 225@150.
-	self urlField delete.
+	self extent: self class extent.
+	self slugField delete.
 	self travisOnOffButton delete.
 	self localOnOffButton delete.
-	self urlButton delete.
+	self applyButton delete.

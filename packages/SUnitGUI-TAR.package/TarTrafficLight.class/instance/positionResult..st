@@ -7,5 +7,5 @@ positionResult: aTarResult
 			(first or: self resultsExpanded)
 				ifTrue: [ first := false ]
 				ifFalse: [ aResult visible: false ].
-			aResult position: aResult position + (0 @ 19) ].
-	aTarResult position: self position + (0 @ (self height))
+			aResult position: aResult position + (0 @ (self class resultExtent y - 1)) ].
+	aTarResult position: self bottomLeft

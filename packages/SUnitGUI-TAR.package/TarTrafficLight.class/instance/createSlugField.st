@@ -4,16 +4,12 @@ createSlugField
 	| textField |
 	textField := TextFieldMorph new
 		extent: 215@20; 
-		position: self position + (225@0) + (5 @ 95);
-		fontName: 'Roboto' size: 15; 
+		position: self settingsPosition + (5 @ 95);
+		fontName: self class fontName size: self class fontSize; 
 		contents: self travisSource;
-		color: (Color
-				r: 250
-				g: 250
-				b: 248
-				range: 255);
+		color: self class lightGray;
 		borderWidth: 0;
-		name: 'urlField';
+		name: 'slugField';
 		yourself.
 	self addMorph: textField.
 	

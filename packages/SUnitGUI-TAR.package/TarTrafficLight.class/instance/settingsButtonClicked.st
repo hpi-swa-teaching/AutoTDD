@@ -1,8 +1,7 @@
 event handling
 settingsButtonClicked
-	"self fitSubmorphs."
+	
+	self settingsVisible: self settingsVisible not.
 	self settingsVisible 
-		ifFalse: [self createSettingsMenu.
-				self settingsVisible: true.]
-		ifTrue: [self closeMenu.
-				self settingsVisible: false.]
+		ifTrue: [ self createSettingsMenu ]
+		ifFalse: [ self closeMenu ]

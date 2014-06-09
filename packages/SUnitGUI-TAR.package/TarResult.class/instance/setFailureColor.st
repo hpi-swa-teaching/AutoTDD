@@ -1,4 +1,4 @@
 coloring
 setFailureColor
-	self color: self yellow.
+	self color: self class yellow.
 	self trafficLight setYellowLight

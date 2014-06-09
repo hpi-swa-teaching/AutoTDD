@@ -9,8 +9,8 @@ createTravisOnOffButton
 		offImage: self getOffPng;
 		onImage: self getOnPng;
 		extent: 28 @ 19;
-		position: self position + (225@0) + (90 @ 45);
-		actionSelector: #onTravisButtonClicked;
+		position: self settingsPosition + (90 @ 45);
+		actionSelector: #travisOnOffButtonClicked;
 		state: state;
 		target: self;
 		name: 'travisOnOffButton';

@@ -6,11 +6,11 @@ createApplyButton
 	transColor := (TranslucentColor new alpha: 0).
 	button 
 		extent: 60 @ 20;
-		position: self position + (225@0) + (160 @ 120);
+		position: self settingsPosition + (160 @ 120);
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #applySlug;
 		target: self;
-		name: 'urlButton';
+		name: 'applyButton';
 		yourself.
 	self addMorph: button.

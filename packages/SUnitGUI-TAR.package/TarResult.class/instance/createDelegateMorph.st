@@ -3,7 +3,7 @@ createDelegateMorph
 	| delegateMorph |
 	delegateMorph := RectangleMorph new.
 	delegateMorph 
-		extent: 200@20;
+		extent: TarTrafficLight resultExtent;
 		position: self position;
 		color: Color transparent;
 		borderWidth: 0;

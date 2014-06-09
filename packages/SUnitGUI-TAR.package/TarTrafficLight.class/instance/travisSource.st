@@ -1,3 +1,4 @@
 accessing
 travisSource
-	^travisSource
+	
+	^ travisSource ifNil: [ travisSource := 'User/Repository' ]

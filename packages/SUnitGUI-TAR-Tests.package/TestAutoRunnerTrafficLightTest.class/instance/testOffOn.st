@@ -7,12 +7,12 @@ testOffOn
 	sut testRunningSemaphore wait.
 	self assert: sut trafficLightResults size = 1.
 	sut settingsButtonClicked.
-	sut onOffButtonClicked.
+	sut localOnOffButtonClicked.
 	self assert: sut onOffButton isOn not.
 	self deny: sut onOffButton isOn.
 	ClassGettingTested addSelector: #fooMethod withMethod: method.
 	self assert: sut trafficLightResults size = 1.
-	sut onOffButtonClicked.
+	sut localOnOffButtonClicked.
 	self deny: sut onOffButton isOn not.
 	self assert: sut onOffButton isOn.
 	ClassGettingTested addSelector: #fooMethod withMethod: method.

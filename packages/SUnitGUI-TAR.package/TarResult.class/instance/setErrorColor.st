@@ -1,4 +1,4 @@
 coloring
 setErrorColor
-	self color: self red. 
+	self color: self class red. 
 	self trafficLight setRedLight

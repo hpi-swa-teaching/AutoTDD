@@ -1,4 +1,7 @@
 drawing
 drawLineOn: aCanvas
 
-	aCanvas line: (self position + (225@35)) to: (self topRight + (0@35)) color: self darkGray
+	aCanvas
+		line: (self settingsPosition + (0 @ 35))
+		to: (self topRight + (0 @ 35))
+		color: self class darkGray

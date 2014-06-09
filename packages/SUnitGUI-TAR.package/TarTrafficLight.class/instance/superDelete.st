@@ -1,4 +1,5 @@
 submorphs-add/remove
 superDelete
-	self offButtonClicked.
+	
+	self localOffButtonClicked.
 	super delete

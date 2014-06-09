@@ -1,4 +1,4 @@
 utility
 pauseTestAutoRunner
 	TarTrafficLight instances
-		do: [:instance | instance offButtonClicked]
+		do: [:instance | instance localOffButtonClicked]

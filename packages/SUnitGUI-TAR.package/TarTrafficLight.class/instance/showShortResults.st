@@ -1,5 +1,6 @@
 drawing
 showShortResults
+	
 	| counter |
 	self extendResultButton position:
 		self bottomLeft +

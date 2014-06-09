@@ -1,9 +1,8 @@
 gui
 createSettingsMenu
 	
-	self extent: 450@150.
-	(self travisSource) ifNil: [self travisSource: 'User/Repository'.].
 	self
+		extent: (self class extent + (self class settingsExtent x @ 0));
 		createTravisOnOffButton;
 		createLocalOnOffButton;
 		createSlugField;

@@ -1,6 +1,7 @@
 submorphs-add/remove
 delete
-	self offButtonClicked.
+	
+	self localOffButtonClicked.
 	self class instances
 		remove: self
 		ifAbsent: [ ].
