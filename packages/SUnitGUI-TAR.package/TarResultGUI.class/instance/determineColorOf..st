@@ -1,10 +1,12 @@
 as yet unclassified
 determineColorOf: aTestResult
 
-	^ aTestResult hasErrors
+	^ aTestResult ifNotNil: [
+		aTestResult hasErrors
 			ifTrue: [ Color red ]
 			ifFalse: [ aTestResult hasFailures
 				ifTrue: [ Color yellow ]
 				ifFalse: [ aTestResult hasPassed
 					ifTrue: [ Color green ]
-					ifFalse: [ Color gray ] ] ]
+					ifFalse: [ Color gray ] ] ] ]
+		ifNil: [ Color gray ]

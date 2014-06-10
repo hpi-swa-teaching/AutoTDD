@@ -1,4 +1,7 @@
 as yet unclassified
 selectedStateText
 
-	^ (self data results at: self selectedResult ifAbsent: [ ^ String empty ]) printString
+	|text|
+	text := (self data results at: self selectedResult ifAbsent: [ ^ String empty ]).
+	text ifNil: [^ 'Build canceled.'].
+	^ text printString

@@ -3,6 +3,7 @@ matrix
 
 	| test matrix |
 	test := self data results at: self selectedResult ifAbsent: [ ^#() ].
+	test ifNil: [ ^#() ].
 	self tests: OrderedCollection new.
 	self tests
 		addAll: test errors;
