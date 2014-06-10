@@ -1,4 +1,4 @@
 colors
 darkGray
 
-	^ Color r: 128 g: 128 b: 128 range: 255
+	^ Color r: 168 g: 168 b: 169 range: 255

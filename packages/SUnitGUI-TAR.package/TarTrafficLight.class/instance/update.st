@@ -2,5 +2,6 @@ as yet unclassified
 update
 
 	self
+		updateTravisState;
 		updateLocalState;
-		updateTravisState
+		changed

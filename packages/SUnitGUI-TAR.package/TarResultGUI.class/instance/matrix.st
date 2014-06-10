@@ -1,30 +1,27 @@
 as yet unclassified
 matrix
 
-	| test matrix |
-	test := self data results at: self selectedResult ifAbsent: [ ^#() ].
-	test ifNil: [ ^#() ].
-	self tests: OrderedCollection new.
-	self tests
+	| test |
+	test := self data results at: self selectedResult ifAbsent: [ TestResult new ].
+	self tests: (OrderedCollection new
 		addAll: test errors;
 		addAll: test failures;
-		addAll: test passed.
-	matrix := OrderedCollection new.
-	^ matrix
+		addAll: test passed).
+	^ OrderedCollection new
 		addAll: (test errors collect: [ :each | 
 			Text new
 				append: each asString;
 				addAttribute: (TextColor new
-					color: Color red)]);
+					color: self class red)]);
 		addAll: (test failures collect: [ :each | 
 			Text new
 				append: each asString;
 				addAttribute: (TextColor new
-					color: Color yellow)]);
+					color: self class yellow)]);
 		addAll: (test passed collect: [ :each | 
 			Text new
 				append: each asString;
 				addAttribute: (TextColor new
-					color: Color green)]);
+					color: self class green)]);
 		yourself
 		

@@ -5,4 +5,5 @@ createComponents
 		createHistory;
 		createMatrix;
 		createButton;
-		createSelectedState
+		createSelectedState;
+		createProgressBar

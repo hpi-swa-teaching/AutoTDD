@@ -8,4 +8,4 @@ createHistory
 		selected: #selectedResult
 		changeSelected: #selectedResult:.
 	self addMorph: history fullFrame: self historyFrame.
-	^ history
+	history autoDeselect: false

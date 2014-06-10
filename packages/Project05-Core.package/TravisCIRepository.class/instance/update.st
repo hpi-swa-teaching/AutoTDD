@@ -1,9 +1,6 @@
 as yet unclassified
 update
 
-	self
-		clearCache;
-		notify.
-	Transcript show: 'foo'; crlf.
+	self clearCacheAndNotify.
 	self timer terminate.
 	self initializeTimer

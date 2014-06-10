@@ -1,5 +1,5 @@
 as yet unclassified
-horizontalLines
+veerticalLines
 
 	| textLineHeight textOffset listLineHeight listOffset
 		upperLine middleLine listLines textLines |
@@ -11,4 +11,4 @@ horizontalLines
 	listOffset := 7.
 	upperLine := textLines * textLineHeight + textOffset.
 	middleLine := listLines * listLineHeight + listOffset + upperLine.
-	^ {{upperLine}. {upperLine. middleLine. -30}}
+	^ {{20}. {upperLine. -30}}

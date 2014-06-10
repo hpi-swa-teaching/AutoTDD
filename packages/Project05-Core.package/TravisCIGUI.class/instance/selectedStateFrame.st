@@ -2,8 +2,8 @@ building
 selectedStateFrame
 
 	^ LayoutFrame new
-		leftFraction: 0 offset: self horizontalLines first;
+		leftFraction: 0 offset: self verticalLines first;
 		topFraction: 0 offset: 0;
 		rightFraction: 1 offset: 0;
-		bottomFraction: 0 offset: (self verticalLines second first);
+		bottomFraction: 0 offset: (self horizontalLines second first);
 		yourself

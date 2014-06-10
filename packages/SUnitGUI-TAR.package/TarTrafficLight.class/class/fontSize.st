@@ -1,4 +1,4 @@
 as yet unclassified
 fontSize
 
-	^ 15
+	^ 18

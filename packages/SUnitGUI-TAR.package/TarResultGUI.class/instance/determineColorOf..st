@@ -1,12 +1,10 @@
 as yet unclassified
 determineColorOf: aTestResult
 
-	^ aTestResult ifNotNil: [
-		aTestResult hasErrors
-			ifTrue: [ Color red ]
+	^ aTestResult runCount isZero
+		ifTrue: [ self class gray ]
+		ifFalse: [ aTestResult hasErrors
+			ifTrue: [ self class red ]
 			ifFalse: [ aTestResult hasFailures
-				ifTrue: [ Color yellow ]
-				ifFalse: [ aTestResult hasPassed
-					ifTrue: [ Color green ]
-					ifFalse: [ Color gray ] ] ] ]
-		ifNil: [ Color gray ]
+				ifTrue: [ self class yellow ]
+				ifFalse: [ self class green ] ] ]
