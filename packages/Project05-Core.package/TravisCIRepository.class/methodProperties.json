@@ -1,6 +1,7 @@
 {
 	"class" : {
 		"newForRepository:" : "PS 6/4/2014 13:48",
+		"refreshInterval" : "PS 6/10/2014 13:04",
 		"validSlug" : "PS 6/4/2014 12:13" },
 	"instance" : {
 		"attach:" : "PS 6/4/2014 11:51",
@@ -11,7 +12,9 @@
 		"clearCache" : "PS 6/4/2014 16:30",
 		"client" : "PS 6/4/2014 16:28",
 		"client:" : "PS 6/4/2014 11:25",
-		"deattach:" : "PS 6/4/2014 11:51",
+		"deattach:" : "PS 6/10/2014 12:48",
+		"initialize" : "PS 6/10/2014 13:06",
+		"initializeTimer" : "PS 6/10/2014 13:06",
 		"isNotAvailableYet:" : "PS 6/4/2014 11:30",
 		"logFor:or:" : "PS 6/4/2014 18:05",
 		"logsDictionary" : "PS 6/4/2014 11:33",
@@ -26,5 +29,7 @@
 		"requireBuild:" : "PS 6/4/2014 18:10",
 		"requireLog:or:" : "PS 6/4/2014 18:07",
 		"requireRepository" : "PS 6/4/2014 20:24",
-		"update" : "PS 6/4/2014 16:21",
+		"timer" : "PS 6/10/2014 12:38",
+		"timer:" : "PS 6/10/2014 12:38",
+		"update" : "PS 6/10/2014 13:10",
 		"validate:" : "PS 6/4/2014 12:12" } }

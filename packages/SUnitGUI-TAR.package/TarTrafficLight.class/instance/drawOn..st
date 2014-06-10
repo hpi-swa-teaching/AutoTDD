@@ -4,7 +4,6 @@ drawOn: aCanvas
 	self
 		drawBackgroundOn: aCanvas;
 		drawStateOn: aCanvas;
-		drawTravisStateOn: aCanvas;
 		drawLocalText: aCanvas;
 		drawTravisText: aCanvas;
 		drawSettingsOn: aCanvas

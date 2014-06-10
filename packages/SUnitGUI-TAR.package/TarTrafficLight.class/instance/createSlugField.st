@@ -11,5 +11,5 @@ createSlugField
 		borderWidth: 0;
 		name: 'slugField';
 		yourself.
-	self addMorph: textField.
+	self addMorph: textField
 	

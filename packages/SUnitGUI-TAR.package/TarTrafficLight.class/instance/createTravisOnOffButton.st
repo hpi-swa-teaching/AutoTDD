@@ -8,11 +8,11 @@ createTravisOnOffButton
 	button := ThreePhaseButtonMorph new
 		offImage: self getOffPng;
 		onImage: self getOnPng;
-		extent: 28 @ 19;
 		position: self settingsPosition + (90 @ 45);
 		actionSelector: #travisOnOffButtonClicked;
 		state: state;
 		target: self;
 		name: 'travisOnOffButton';
 		yourself.
+	button extent: (button offImage extent max: button onImage extent).
 	self addMorph: button

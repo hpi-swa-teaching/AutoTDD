@@ -1,11 +1,13 @@
 gui
 createComponents
 	
-	self createSettingsButton; 
+	self
+		createSettingsButton; 
 		createForegroundButton;
 		createReloadButton;
 		createExtendResultButton;
 		createExtendNameButton;
+		createTravisStateButton;
 		createProgressBar;
-		createOpenTravisButton;
-		setYellowLight
+		setYellowLight;
+		update

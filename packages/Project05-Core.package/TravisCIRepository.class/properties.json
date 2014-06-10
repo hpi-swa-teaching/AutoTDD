@@ -10,7 +10,8 @@
 		"client",
 		"repository",
 		"observers",
-		"parser" ],
+		"parser",
+		"timer" ],
 	"name" : "TravisCIRepository",
 	"pools" : [
 		 ],

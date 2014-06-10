@@ -8,7 +8,6 @@ createExtendResultButton
 	button := ThreePhaseButtonMorph new
 		offImage: self getCollapse;
 		onImage: self getExpand;
-		extent: 20 @ 20;
 		position: self position + (39 @ 150);
 		actionSelector: #extendResultButtonClicked;
 		state: state;
@@ -16,4 +15,5 @@ createExtendResultButton
 		name: 'extendResultButton';
 		visible: false;
 		yourself.
+	button extent: (button offImage extent max: button onImage extent).
 	self addMorph: button

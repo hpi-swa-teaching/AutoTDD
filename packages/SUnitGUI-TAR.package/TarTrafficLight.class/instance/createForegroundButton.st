@@ -8,11 +8,11 @@ createForegroundButton
 	button := ThreePhaseButtonMorph new
 		offImage: self getPinPng;
 		onImage: self getPinStickedPng;
-		extent: 30 @ 30;
 		position: self topRight + (-25 @ 80);
 		actionSelector: #foregroundButtonClicked;
 		state: state;
 		target: self;
 		name: 'foregroundButton';
 		yourself.
+	button extent: (button offImage extent max: button onImage extent).
 	self addMorph: button

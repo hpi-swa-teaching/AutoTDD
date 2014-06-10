@@ -3,4 +3,6 @@ update
 
 	self
 		clearCache;
-		notify
+		notify.
+	self timer terminate.
+	self initializeTimer

@@ -1,4 +1,6 @@
 accessing
 repository
 
-	^ self data repository
+	^ self data 
+		ifNil: [ String empty ]
+		ifNotNil: [ self data repository ]

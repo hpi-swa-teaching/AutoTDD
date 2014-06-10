@@ -3,5 +3,5 @@ initialize
 
 	super initialize.
 	self 
-		selectedBuild: 0;
-		selectedJob: 0
+		selectedBuild: 1;
+		selectedJob: 1

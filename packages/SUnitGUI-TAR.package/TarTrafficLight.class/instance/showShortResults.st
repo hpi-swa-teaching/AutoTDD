@@ -9,5 +9,5 @@ showShortResults
 	counter := self class maximalShortResultListSize.
 	self trafficLightResults
 		do: [ :aResult | counter = 0
-				ifTrue: [ aResult visible: false ]
+				ifTrue: [ aResult hide ]
 				ifFalse: [ counter := counter - 1 ] ]
