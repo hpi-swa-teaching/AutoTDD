@@ -9,10 +9,9 @@
 		"parser",
 		"selectedBuild",
 		"selectedJob",
-		"data",
 		"previousState" ],
 	"name" : "TravisCIGUI",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "TestRunnerGUI",
 	"type" : "normal" }

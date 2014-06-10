@@ -10,4 +10,5 @@ testCreateComponents
 		assert: (gui submorphsSatisfying: [ :morph |
 			morph isKindOf: TravisCIPluggableListMorph ]) size equals: 2;
 		assert: (gui submorphsSatisfying: [ :morph |
-			morph isKindOf: PluggableButtonMorph ]) size equals: 1
+			morph isKindOf: PluggableButtonMorph ]) size equals: 1.
+	gui delete

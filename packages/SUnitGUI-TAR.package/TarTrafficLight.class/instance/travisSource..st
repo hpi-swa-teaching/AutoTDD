@@ -3,4 +3,4 @@ travisSource: aSource
 	
 	travisSource := aSource.
 	self useTravis ifTrue: [
-		self data: (TravisCIRepository newForRepository: self travisSource) ]
+		self travisData: (TravisCIRepository newForRepository: self travisSource) ]

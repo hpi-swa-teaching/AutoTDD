@@ -1,3 +1,4 @@
 action
 deleteButtonPress
-	TarTrafficLight deleteAllInstances
+	
+	TarResults deleteAllInstances

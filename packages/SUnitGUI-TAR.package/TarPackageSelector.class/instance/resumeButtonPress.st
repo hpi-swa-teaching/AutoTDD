@@ -1,3 +1,4 @@
 action
 resumeButtonPress
-	TarTrafficLight resumeTestAutoRunner
+	
+	TarResults resumeTestAutoRunner

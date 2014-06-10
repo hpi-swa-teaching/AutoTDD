@@ -2,7 +2,7 @@ gui
 createLocalOnOffButton
 	
 	| button state |
-	state := self isTesting
+	state := self useLocal
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new 

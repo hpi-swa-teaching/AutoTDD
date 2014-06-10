@@ -1,10 +1,7 @@
 {
 	"class" : {
-		"extent" : "PS 6/2/2014 23:34",
 		"newForRepository:" : "PS 6/4/2014 13:48",
-		"newWithData:" : "PS 6/4/2014 13:46",
-		"openForRepository:" : "PS 6/3/2014 12:28",
-		"openWithData:" : "PS 6/8/2014 12:49" },
+		"openForRepository:" : "PS 6/10/2014 14:46" },
 	"instance" : {
 		"buttonFrame" : "PS 6/2/2014 12:04",
 		"buttonLabel" : "PS 6/3/2014 00:03",
@@ -21,9 +18,6 @@
 		"createMatrix" : "PS 6/2/2014 23:56",
 		"createSelectedState" : "PS 6/2/2014 23:50",
 		"createState" : "PS 6/2/2014 23:50",
-		"data" : "PS 6/4/2014 12:41",
-		"data:" : "PS 6/10/2014 12:55",
-		"delete" : "PS 6/10/2014 12:55",
 		"history" : "PS 6/4/2014 17:51",
 		"historyFrame" : "PS 6/2/2014 23:51",
 		"horizontalLines" : "PS 6/2/2014 11:59",
@@ -34,7 +28,6 @@
 		"logFrame" : "PS 6/2/2014 23:51",
 		"matrix" : "PS 6/4/2014 17:51",
 		"matrixFrame" : "PS 6/2/2014 23:51",
-		"open" : "PS 6/4/2014 13:11",
 		"parser" : "PS 5/27/2014 14:43",
 		"parser:" : "PS 5/26/2014 15:08",
 		"playSoundForState:" : "PS 6/2/2014 23:42",

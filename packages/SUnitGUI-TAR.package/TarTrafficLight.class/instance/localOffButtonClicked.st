@@ -1,4 +1,4 @@
 event handling
 localOffButtonClicked
 	
-	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self
+	self useLocal: false

@@ -2,7 +2,7 @@ language: erlang
 
 # Choose which platforms you want your builds run against (done in parallel)
 env:
-   #- ST=Squeak-4.4
+   - ST=Squeak-4.4
    - ST=Squeak-4.5
    - ST=Squeak-Trunk
 

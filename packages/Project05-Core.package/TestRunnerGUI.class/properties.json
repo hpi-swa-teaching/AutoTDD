@@ -1,0 +1,14 @@
+{
+	"category" : "Project05-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data" ],
+	"name" : "TestRunnerGUI",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

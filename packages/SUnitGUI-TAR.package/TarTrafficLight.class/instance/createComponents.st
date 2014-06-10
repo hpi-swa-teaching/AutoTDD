@@ -5,9 +5,8 @@ createComponents
 		createSettingsButton; 
 		createForegroundButton;
 		createReloadButton;
-		createExtendResultButton;
 		createExtendNameButton;
+		createLocalStateButton;
 		createTravisStateButton;
 		createProgressBar;
-		setYellowLight;
 		update

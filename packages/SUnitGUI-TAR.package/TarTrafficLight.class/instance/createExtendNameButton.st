@@ -2,7 +2,7 @@ gui
 createExtendNameButton
 	
 	| button state |
-	state := self resultsExpanded
+	state := self nameExpanded
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new

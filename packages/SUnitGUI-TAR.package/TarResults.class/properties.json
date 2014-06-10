@@ -1,0 +1,20 @@
+{
+	"category" : "SUnitGUI-TAR",
+	"classinstvars" : [
+		"instances" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"process",
+		"results",
+		"observers",
+		"category",
+		"testCategory",
+		"testSuite",
+		"testRunningSemaphore" ],
+	"name" : "TarResults",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

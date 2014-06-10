@@ -1,3 +1,4 @@
 accessing
 reloadButtonClicked
-	self runTests.
+	
+	self updateData.

@@ -2,8 +2,5 @@ submorphs-add/remove
 delete
 	
 	self useTravis: false.
-	self localOffButtonClicked.
-	self class instances
-		remove: self
-		ifAbsent: [ ].
+	self useLocal: false.
 	super delete

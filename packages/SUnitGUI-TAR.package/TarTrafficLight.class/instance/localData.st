@@ -1,0 +1,4 @@
+accessing
+localData
+
+	^ localData

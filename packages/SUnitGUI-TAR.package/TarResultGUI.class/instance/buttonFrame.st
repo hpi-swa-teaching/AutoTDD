@@ -1,0 +1,12 @@
+as yet unclassified
+buttonFrame
+
+	| width left |
+	width := 100.
+	left := (self horizontalLines first) / 2 - (width/2).
+	^ LayoutFrame new
+		leftFraction: 0.5 offset: left;
+		topFraction: 1 offset: self verticalLines second last;
+		rightFraction: 0.5 offset: left + width;
+		bottomFraction: 1 offset: 0;
+		yourself

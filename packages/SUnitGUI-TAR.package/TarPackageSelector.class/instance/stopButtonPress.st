@@ -1,3 +1,4 @@
 action
 stopButtonPress
-	TarTrafficLight pauseTestAutoRunner
+	
+	TarResults pauseTestAutoRunner
