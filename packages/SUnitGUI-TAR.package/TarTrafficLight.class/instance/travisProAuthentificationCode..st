@@ -1,4 +1,5 @@
 accessing
 travisProAuthentificationCode: aCode
 	
-	travisSource := aCode.
+	travisProAuthentificationCode := aCode.
+	self travisData ifNotNil: [ self travisData token: self travisProAuthentificationCode ]

@@ -11,7 +11,9 @@
 		"repository",
 		"observers",
 		"parser",
-		"timer" ],
+		"timer",
+		"useTravisPro",
+		"token" ],
 	"name" : "TravisCIRepository",
 	"pools" : [
 		 ],

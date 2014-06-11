@@ -1,4 +1,6 @@
 as yet unclassified
 travisApiUrl
 
-	^ 'https://api.travis-ci.org/'
+	^ self useTravisPro
+		ifTrue: [ 'https://api.travis-ci.com/' ]
+		ifFalse: [ 'https://api.travis-ci.org/' ]

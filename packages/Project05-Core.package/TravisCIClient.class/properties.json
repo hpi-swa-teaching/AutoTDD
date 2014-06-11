@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"webClient" ],
+		"webClient",
+		"useTravisPro",
+		"token" ],
 	"name" : "TravisCIClient",
 	"pools" : [
 		 ],

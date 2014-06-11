@@ -1,4 +1,4 @@
 accessing
 travisProAuthentificationCode
 	
-	^ travisProAuthentificationCode ifNil: [ travisProAuthentificationCode := 'AuthCode' ]
+	^ travisProAuthentificationCode ifNil: [ travisProAuthentificationCode := 'YOUR TRAVIS ACCESS TOKEN' ]
