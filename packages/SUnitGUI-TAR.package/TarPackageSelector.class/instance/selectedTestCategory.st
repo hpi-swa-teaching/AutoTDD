@@ -1,3 +1,3 @@
 accessing-categories
 selectedTestCategory
-	^ selectedTestCategory
+	^ 0

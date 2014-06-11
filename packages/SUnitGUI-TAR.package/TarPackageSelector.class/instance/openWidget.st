@@ -1,4 +1,4 @@
 action
 openWidget
-	(self selectedCategory notNil and: [ self selectedTestCategory notNil ]) 
-		ifTrue: [ ^ TarTrafficLight initializeForCategory: self selectedCategory withTestsIn: self selectedTestCategory ]
+	(self selectedCategories notEmpty and: [ self selectedTestCategories notEmpty ]) 
+		ifTrue: [ ^ TarTrafficLight initializeForCategories: self selectedCategories withTestsIn: self selectedTestCategories ]

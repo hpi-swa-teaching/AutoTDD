@@ -1,14 +1,18 @@
 gui
 createNameMorph
 	
-	| morph text |
+	| morph text contents |
 	morph := RectangleMorph new
 		color: self class gray;
 		borderWidth: 0;
 		name: 'nameMorph';
 		yourself.
+	contents := 'Categories:'.
+	self categories do: [ :each | contents := contents, ' ', each ].
+	contents := contents, ' Test Categories:'.
+	self testCategories do: [ :each | contents := contents, ' ', each ].
 	text := TextMorph new
-		contents: 'Category: ', self category, ' Test Category: ', self testCategory;
+		contents: contents;
 		fontName: self class fontName size: self class fontSize;
 		color: self class fontColor;
 		position: morph position + (5 @ 0).

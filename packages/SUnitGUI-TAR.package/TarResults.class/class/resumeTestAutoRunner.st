@@ -2,4 +2,4 @@ as yet unclassified
 resumeTestAutoRunner
 
 	self instances
-		do: [ :instance | instance listenForNotificationsAbout: instance category withTestsIn: instance testCategory ]
+		do: [ :instance | instance listenForNotificationsAbout: instance categories withTestsIn: instance testCategories ]

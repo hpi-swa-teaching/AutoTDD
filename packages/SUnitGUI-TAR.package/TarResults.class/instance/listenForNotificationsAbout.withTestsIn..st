@@ -1,5 +1,5 @@
 as yet unclassified
-listenForNotificationsAbout: categoryName withTestsIn: testCategoryName
+listenForNotificationsAbout: categories withTestsIn: testCategories
 
 	SystemChangeNotifier uniqueInstance
 		notify: self
@@ -9,5 +9,5 @@ listenForNotificationsAbout: categoryName withTestsIn: testCategoryName
 		notify: self
 		ofSystemChangesOfItem: #class
 		using: #methodChanged:.
-	self category: categoryName.
-	self testCategory: testCategoryName
+	self categories: categories.
+	self testCategories: testCategories
