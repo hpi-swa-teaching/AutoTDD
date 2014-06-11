@@ -10,7 +10,9 @@
 		"categories",
 		"testCategories",
 		"selectedCategory",
-		"selectedTestCategory" ],
+		"selectedCategories",
+		"selectedTestCategory",
+		"selectedTestCategories" ],
 	"name" : "TarPackageSelector",
 	"pools" : [
 		 ],

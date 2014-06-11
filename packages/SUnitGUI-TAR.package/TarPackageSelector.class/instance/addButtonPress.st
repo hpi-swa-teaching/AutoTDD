@@ -1,3 +1,4 @@
 action
 addButtonPress
+	
 	^ self openWidget

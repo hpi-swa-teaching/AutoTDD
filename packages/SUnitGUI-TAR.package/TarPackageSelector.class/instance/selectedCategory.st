@@ -1,3 +1,3 @@
 accessing-categories
 selectedCategory
-	^ selectedCategory
+	^ 0

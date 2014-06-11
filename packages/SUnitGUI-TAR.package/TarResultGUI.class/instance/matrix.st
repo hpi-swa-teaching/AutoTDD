@@ -6,7 +6,8 @@ matrix
 	self tests: (OrderedCollection new
 		addAll: test errors;
 		addAll: test failures;
-		addAll: test passed).
+		addAll: test passed;
+		yourself).
 	^ OrderedCollection new
 		addAll: (test errors collect: [ :each | 
 			Text new

@@ -1,8 +1,10 @@
 building
 buildCategoryWith: aBuilder
-	^ aBuilder pluggableListSpec new
+	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
 		list: #categories;
-		getSelected: #selectedCategory;
-		setSelected: #selectedCategory:;
+		getIndex: #selectedCategory;
+		setIndex: #selectedCategory:;
+		getSelectionList: #categoryAt:;
+		setSelectionList: #categoryAt:put:;
 		yourself

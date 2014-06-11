@@ -4,6 +4,6 @@ useLocal: aBoolean
 	useLocal := aBoolean.
 	aBoolean
 		ifTrue: [
-			self localData: (TarResults initializeForCategory: self category withTestsIn: self testCategory) ]
+			self localData: (TarResults initializeForCategories: self categories withTestsIn: self testCategories) ]
 		ifFalse: [
 			self localData: nil ]

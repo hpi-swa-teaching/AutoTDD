@@ -1,6 +1,6 @@
 as yet unclassified
-category
+testCategories
 
 	^ self data 
 		ifNil: [ String empty ]
-		ifNotNil: [ self data category ]
+		ifNotNil: [ self data testCategories ]

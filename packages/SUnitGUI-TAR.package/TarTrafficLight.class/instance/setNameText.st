@@ -1,5 +1,5 @@
 utility
 setNameText
-	| hintText |
+	"| hintText |
 	hintText := 'Category: ', self category, String crlf, 'Test Category: ', self testCategory.
-	self balloonText: hintText
+	self balloonText: hintText"
