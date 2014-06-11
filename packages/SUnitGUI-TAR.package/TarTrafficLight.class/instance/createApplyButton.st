@@ -6,7 +6,7 @@ createApplyButton
 	button := IconicButton new
 		labelGraphic: self getApplyButton;
 		extent: 60 @ 20;
-		position: self settingsPosition + (160 @ 120);
+		position: self settingsPosition + (90 @ 75);
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #applySlug;

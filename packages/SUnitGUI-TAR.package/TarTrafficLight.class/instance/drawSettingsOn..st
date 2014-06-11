@@ -6,5 +6,6 @@ drawSettingsOn: aCanvas
 			drawSettingsBackgroundOn: aCanvas;
 			drawLocalOnOffText: aCanvas;
 			drawTravisOnOffText: aCanvas;
+			drawTravisProOnOffText: aCanvas;
 			drawSlugText: aCanvas;
 			drawLineOn: aCanvas ]

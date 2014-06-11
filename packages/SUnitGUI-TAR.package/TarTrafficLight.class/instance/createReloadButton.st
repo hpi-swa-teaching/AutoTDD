@@ -4,8 +4,8 @@ createReloadButton
 	transColor := (TranslucentColor new alpha: 0).
 	button := IconicButton new
 		labelGraphic: self getReload;
-		extent:  30 @ 30;
-		position: self topRight + (-35 @ 40);
+		"extent:  30 @ 30;"
+		position: self topRight + (-30 @ (self height /3));
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #reloadButtonClicked;

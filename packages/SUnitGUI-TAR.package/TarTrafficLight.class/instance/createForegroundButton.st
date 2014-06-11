@@ -8,7 +8,7 @@ createForegroundButton
 	button := ThreePhaseButtonMorph new
 		offImage: self getPinPng;
 		onImage: self getPinStickedPng;
-		position: self topRight + (-25 @ 80);
+		position: self topRight + (-30 @ (self height /2) );
 		actionSelector: #foregroundButtonClicked;
 		state: state;
 		target: self;
