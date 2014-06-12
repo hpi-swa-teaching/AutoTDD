@@ -1,4 +1,4 @@
 drawing
 drawTravisText: aCanvas
 
-	self drawText: 'Travis CI' on: aCanvas at: (self position + (95@15))
+	self drawText: 'Travis CI' on: aCanvas centeredAt: (self position + (self travisAxis @ 15))

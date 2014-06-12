@@ -10,4 +10,5 @@ updateLocalState
 	(self localStateButton)
 		labelGraphic: (dictionary at: self localState) value;
 		extent: (self localStateButton findA: SketchMorph) extent.
-	self playSoundForState: self localState
+	self playSoundForState: self localState.
+	self center: self localStateButton at: (self position + (self localAxis @ 30))

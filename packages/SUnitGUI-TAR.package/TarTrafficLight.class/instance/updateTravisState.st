@@ -12,4 +12,5 @@ updateTravisState
 			#errored -> [self getUnknown.]}.
 	(self travisStateButton)
 		labelGraphic: (dictionary at: self travisState) value;
-		extent: (self travisStateButton findA: SketchMorph) extent
+		extent: (self travisStateButton findA: SketchMorph) extent.
+	self center: self travisStateButton at: (self position + (self travisAxis @ 30))

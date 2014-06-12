@@ -1,4 +1,4 @@
 drawing
 drawLocalText: aCanvas
 	
-	self drawText: 'Local' on: aCanvas at: (self position + (15 @ 15))
+	self drawText: 'Local' on: aCanvas centeredAt: (self position + (self localAxis @ 15))
