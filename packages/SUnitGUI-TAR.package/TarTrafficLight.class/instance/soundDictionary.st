@@ -2,6 +2,7 @@ accessing
 soundDictionary
 	
 	^IdentityDictionary newFrom: {
-		#green -> ['success.wav'].
-		#yellow -> ['fail.wav'].
-		#red -> ['fail.wav'] }	
+		#passed -> ['success.wav'].
+		#failed -> ['fail.wav'].
+		#unknown -> ['fail.wav'].
+		#errored -> ['fail.wav'] }	

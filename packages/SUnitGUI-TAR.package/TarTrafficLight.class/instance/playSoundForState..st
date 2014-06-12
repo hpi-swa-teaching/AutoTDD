@@ -1,6 +1,8 @@
 accessing
 playSoundForState: aState
+	
 	| sound |
-	sound := (self soundDictionary at: aState asSymbol) value.
-	SoundPlayer stopReverb.
-	(self loadSound: sound) play
+	self isMuted ifFalse: 
+		[sound := (self soundDictionary at: aState asSymbol) value.
+		SoundPlayer stopReverb.
+		(self loadSound: sound) play]

@@ -18,7 +18,8 @@
 		"useLocal",
 		"localData",
 		"travisData",
-		"parser" ],
+		"parser",
+		"isMuted" ],
 	"name" : "TarTrafficLight",
 	"pools" : [
 		 ],

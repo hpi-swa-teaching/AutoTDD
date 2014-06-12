@@ -9,4 +9,5 @@ createComponents
 		createLocalStateButton;
 		createTravisStateButton;
 		createProgressBar;
+		createMuteButton;
 		update
