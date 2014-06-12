@@ -1,0 +1,4 @@
+tests
+fooMethod
+	
+	^ nil

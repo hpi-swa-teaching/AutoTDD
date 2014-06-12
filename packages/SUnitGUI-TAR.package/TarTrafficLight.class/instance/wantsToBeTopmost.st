@@ -1,3 +1,4 @@
 accessing
 wantsToBeTopmost 
-	^ self inForeground.
+	
+	^ self inForeground or: [ super wantsToBeTopmost ]
