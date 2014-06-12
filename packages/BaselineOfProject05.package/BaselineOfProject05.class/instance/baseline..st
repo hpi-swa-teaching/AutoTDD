@@ -23,7 +23,8 @@ baseline: spec
 			spec
 				package: 'JSON' with: 
 					[ spec
-     						repository: 'http://www.squeaksource.com/JSON';
+     						file: 'JSON-ul.35';	
+       					repository: 'http://www.squeaksource.com/JSON';
 						yourself ];
 				package: 'VB-Regex' with: 
 					[ spec
