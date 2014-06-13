@@ -1,4 +1,4 @@
 action
 resumeButtonPress
 	
-	TarResults resumeTestAutoRunner
+	TarTestAutoRunner resumeTestAutoRunner

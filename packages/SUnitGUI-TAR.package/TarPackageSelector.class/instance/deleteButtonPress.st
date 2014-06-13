@@ -1,4 +1,4 @@
 action
 deleteButtonPress
 	
-	TarResults deleteAllInstances
+	TarTestAutoRunner deleteAllInstances

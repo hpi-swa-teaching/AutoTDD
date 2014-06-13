@@ -3,6 +3,6 @@ testMorphDelete
 	
 	| newWidget numberOfWidgetsBefore |
 	newWidget := TarTrafficLight initializeForCategories: #('SUnitGUI') withTestsIn: #('SUnitGUI-Tests-Dummy').
-	numberOfWidgetsBefore := TarResults instances size.
+	numberOfWidgetsBefore := TarTestAutoRunner instances size.
 	newWidget delete.
-	self assert: TarResults instances size = (numberOfWidgetsBefore - 1)
+	self assert: TarTestAutoRunner instances size = (numberOfWidgetsBefore - 1)
