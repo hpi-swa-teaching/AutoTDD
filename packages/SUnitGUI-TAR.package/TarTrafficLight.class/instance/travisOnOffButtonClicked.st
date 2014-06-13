@@ -4,4 +4,5 @@ travisOnOffButtonClicked
 	self useTravis: self useTravis not.
 	self travisOnOffButton state: (self useTravis
 		ifTrue: [ #on ]
-		ifFalse: [ #off ])
+		ifFalse: [ #off ]).
+	(self useTravis not and: self useTravisPro) ifTrue: [ self travisProOnOffButtonClicked ]
