@@ -1,0 +1,20 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		"instances" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"process",
+		"results",
+		"observers",
+		"categories",
+		"testCategories",
+		"testSuite",
+		"testRunningSemaphore" ],
+	"name" : "TarTestAutoRunner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

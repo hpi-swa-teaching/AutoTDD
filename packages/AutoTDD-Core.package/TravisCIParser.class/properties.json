@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PS 5/27/2014 21:38",
+	"instvars" : [
+		 ],
+	"name" : "TravisCIParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

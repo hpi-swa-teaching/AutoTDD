@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"parser",
+		"selectedBuild",
+		"selectedJob",
+		"previousState" ],
+	"name" : "TravisCIGUI",
+	"pools" : [
+		 ],
+	"super" : "TestRunnerGUI",
+	"type" : "normal" }

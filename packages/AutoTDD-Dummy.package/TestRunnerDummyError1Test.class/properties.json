@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Dummy-Error-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TestRunnerDummyError1Test",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

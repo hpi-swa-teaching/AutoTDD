@@ -1,1 +1,0 @@
-(name 'Project05-Core-PS.3'message 'Added methods for TravisCIClientconstants: userAgent, mimeType, travisApiUrlrequestOn: for requests on TravisAPI'id '88dc01e7-9ea2-a24f-bb60-bbe1635eb0f3'date '18 May 2014'time '6:11:47.297 pm'author 'PS'ancestors ((id '9c8f9369-b947-4320-add1-30fa6df710a6'))stepChildren ())

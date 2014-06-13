@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data" ],
+	"name" : "TestRunnerGUI",
+	"pools" : [
+		 ],
+	"super" : "SystemWindow",
+	"type" : "normal" }

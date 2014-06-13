@@ -35,15 +35,16 @@ baseline: spec
      						repository: 'http://www.squeaksource.com/SqueakSSL';
 						yourself ];"
 				package: 'SqueakSSL-Core';
-				package: 'WebClient-Core'; 
-				package: 'Project05-Core' with: [spec requires: #('JSON' 'VB-Regex' 'WebClient-Core' 'SqueakSSL-Core')];
-				package: 'Project05-Tests' with: [spec requires: #('Project05-Core')];
-				package: 'SUnitGUI-TAR';
-				package: 'SUnitGUI-TAR-Tests' with: 
-					[spec requires: #('SUnitGUI-TAR' 'Widgets')];
+				package: 'WebClient-Core';
+				package: 'AutoTDD-Core' with: [spec requires: #('libraries')];
+				package: 'AutoTDD-GUI';
+				package: 'AutoTDD-Dummy';
+				package: 'AutoTDD-Tests' with: [spec requires: #('default' 'dummies' 'Widgets')];
 				yourself.
 			spec
-				group: 'default' with: #('Project05-Core' 'SUnitGUI-TAR');
-				group: 'Tests' with: #('Project05-Tests' 'SUnitGUI-TAR-Tests');
+				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
+				group: 'libraries' with: #('JSON' 'VB-Regex' 'WebClient-Core' 'SqueakSSL-Core');
+				group: 'dummies' with: #('AutoTDD-Dummy');
+				group: 'Tests' with: #('AutoTDD-Tests');
 				group: 'TravisCI' with: #('Tests')	];
 				yourself

@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Dummy-Category",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ClassGettingTested",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
