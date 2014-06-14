@@ -6,6 +6,6 @@ testApply
 	self assert: sut travisProAuthentificationCode equals: 'YOUR TRAVIS ACCESS TOKEN'.
 	sut slugField contents: 'A/B'.
 	sut authCodeField contents: 'foo'.
-	sut applySlug.
+	sut applyButtonClicked.
 	self assert: sut travisSource equals: 'A/B'.
 	self assert: sut travisProAuthentificationCode equals: 'foo'

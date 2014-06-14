@@ -8,9 +8,10 @@
 	"instvars" : [
 		"tests",
 		"selectedResult",
-		"selectedTest" ],
+		"selectedTest",
+		"parser" ],
 	"name" : "TarGUI",
 	"pools" : [
 		 ],
-	"super" : "TestRunnerGUI",
+	"super" : "AutoTDDGUI",
 	"type" : "normal" }

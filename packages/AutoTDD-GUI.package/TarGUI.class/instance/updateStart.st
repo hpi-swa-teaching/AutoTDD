@@ -1,4 +1,5 @@
 as yet unclassified
 updateStart
 
-	(self submorphNamed: 'progressBar') value: self data testSuite valueHolder
+	self progressBar ifNotNilDo: [ :progressBar |
+		progressBar value: self data testSuite valueHolder ]

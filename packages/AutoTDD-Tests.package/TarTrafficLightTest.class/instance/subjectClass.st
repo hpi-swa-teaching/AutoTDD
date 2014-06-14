@@ -1,4 +1,4 @@
 tests
 subjectClass
 	
-	^ TarTrafficLight
+	^ AutoTDDTrafficLight

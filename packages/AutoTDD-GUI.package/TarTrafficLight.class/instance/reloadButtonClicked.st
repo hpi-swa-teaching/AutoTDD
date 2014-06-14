@@ -1,4 +1,0 @@
-accessing
-reloadButtonClicked
-	
-	self updateData.

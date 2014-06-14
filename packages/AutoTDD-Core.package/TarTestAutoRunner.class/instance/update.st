@@ -3,5 +3,5 @@ update
 
 	self process isTerminated
 		ifFalse: [ self process terminate.
-			self createTrafficLightResultFor: TestResult new ].
+			self addResult: TestResult new ].
 	self runTests

@@ -1,0 +1,30 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		"instances" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FB 7/17/2013 01:10:18.443",
+	"instvars" : [
+		"categories",
+		"testCategories",
+		"nameExpanded",
+		"inForeground",
+		"settingsVisible",
+		"travisSource",
+		"travisProAuthentificationCode",
+		"useTravis",
+		"useTravisPro",
+		"useLocal",
+		"localData",
+		"travisData",
+		"travisParser",
+		"localParser",
+		"isMuted",
+		"previousLocalState",
+		"previousTravisState" ],
+	"name" : "AutoTDDTrafficLight",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

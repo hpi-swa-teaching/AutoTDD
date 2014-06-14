@@ -8,7 +8,7 @@ runTests
 		self notifyStart.
 		result := self testSuite run.
 		self notifyEnd.
-		self createTrafficLightResultFor: result.
+		self addResult: result.
 		result dispatchResultsIntoHistory.
 		self testRunningSemaphore signal.
 		self notify ] ] fork

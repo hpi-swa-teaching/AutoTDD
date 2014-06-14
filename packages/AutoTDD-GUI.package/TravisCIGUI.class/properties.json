@@ -13,5 +13,5 @@
 	"name" : "TravisCIGUI",
 	"pools" : [
 		 ],
-	"super" : "TestRunnerGUI",
+	"super" : "AutoTDDGUI",
 	"type" : "normal" }
