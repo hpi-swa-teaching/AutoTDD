@@ -1,8 +1,6 @@
 updating
 update
 
-	| state |
-	state := self parser parseCurrentBuildStateOfRepository: self data repositoryJson.
-	self changedValues.	
-	(state ~= self previousState) ifTrue: [ self playSoundForState: state ].
-	self previousState: state
+	self changedValues.
+	(self state ~= self previousState) ifTrue: [ self playSoundForState: self state ].
+	self previousState: self state

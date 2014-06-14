@@ -1,14 +1,14 @@
 {
-	"category" : "AutoTDD-Tests",
+	"category" : "AutoTDD-GUI",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"widgetBag" ],
-	"name" : "TarTrafficLightTest",
+		 ],
+	"name" : "AutoTDDPluggableListMorph",
 	"pools" : [
 		 ],
-	"super" : "UiTestCase",
+	"super" : "PluggableListMorph",
 	"type" : "normal" }

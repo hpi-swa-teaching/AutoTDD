@@ -1,4 +1,4 @@
-gui
+components
 createTravisProOnOffButton
 	
 	| button state |

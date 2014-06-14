@@ -2,7 +2,7 @@ as yet unclassified
 createMatrix
 
 	| matrix |
-	matrix := TravisCIPluggableListMorph 
+	matrix := AutoTDDPluggableListMorph 
 		on: self
 		list: #matrix
 		selected: #selectedTest

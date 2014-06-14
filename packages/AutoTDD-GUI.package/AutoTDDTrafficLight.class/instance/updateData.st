@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateData 
 
 	self travisData ifNotNil: [ self travisData update ].

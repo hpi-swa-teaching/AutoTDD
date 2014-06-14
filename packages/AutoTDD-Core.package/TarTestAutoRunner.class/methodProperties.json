@@ -6,7 +6,7 @@
 		"pauseTestAutoRunner" : "PS 6/10/2014 18:05",
 		"resumeTestAutoRunner" : "PS 6/11/2014 11:19" },
 	"instance" : {
-		"addResult:" : "PS 6/14/2014 12:34",
+		"addResult:" : "PS 6/14/2014 12:49",
 		"attach:" : "PS 6/10/2014 13:46",
 		"categories" : "PS 6/11/2014 11:16",
 		"categories:" : "PS 6/11/2014 11:16",
@@ -15,7 +15,7 @@
 		"initializeForCategories:withTestsIn:" : "PS 6/11/2014 11:14",
 		"invalidateTestSuite" : "PS 6/10/2014 14:10",
 		"listenForNotificationsAbout:withTestsIn:" : "PS 6/11/2014 11:15",
-		"methodChanged:" : "PS 6/11/2014 11:19",
+		"methodChanged:" : "PS 6/14/2014 12:52",
 		"notify" : "PS 6/10/2014 13:47",
 		"notifyEnd" : "PS 6/10/2014 17:31",
 		"notifyStart" : "PS 6/10/2014 17:31",
@@ -25,11 +25,11 @@
 		"process:" : "PS 6/10/2014 14:14",
 		"results" : "PS 6/10/2014 15:45",
 		"results:" : "PS 6/10/2014 13:46",
-		"runTests" : "PS 6/14/2014 12:34",
+		"runTests" : "PS 6/14/2014 12:51",
 		"testCategories" : "PS 6/11/2014 11:16",
 		"testCategories:" : "PS 6/11/2014 11:20",
 		"testRunningSemaphore" : "PS 6/10/2014 14:16",
 		"testRunningSemaphore:" : "PS 6/10/2014 14:16",
 		"testSuite" : "PS 6/11/2014 11:22",
 		"testSuite:" : "PS 6/10/2014 14:11",
-		"update" : "PS 6/14/2014 12:34" } }
+		"update" : "PS 6/14/2014 12:52" } }

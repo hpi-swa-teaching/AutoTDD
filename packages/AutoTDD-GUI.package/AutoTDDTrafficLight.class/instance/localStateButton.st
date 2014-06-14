@@ -1,4 +1,4 @@
-accessing
+submorphs
 localStateButton
 
 	^ self submorphNamed: 'localStateButton'

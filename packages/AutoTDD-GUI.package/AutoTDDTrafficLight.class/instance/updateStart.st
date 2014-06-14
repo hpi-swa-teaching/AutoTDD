@@ -1,4 +1,4 @@
-utility
+updating
 updateStart
 	
 	self progressBar ifNotNilDo: [ :progressBar | 

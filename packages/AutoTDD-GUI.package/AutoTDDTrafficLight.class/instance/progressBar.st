@@ -1,4 +1,4 @@
-accessing
+submorphs
 progressBar
 	
 	^ self submorphNamed: 'progressBar'

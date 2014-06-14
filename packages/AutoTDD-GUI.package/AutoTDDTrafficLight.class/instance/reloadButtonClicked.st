@@ -1,4 +1,4 @@
-accessing
+event handling
 reloadButtonClicked
 	
 	self updateData

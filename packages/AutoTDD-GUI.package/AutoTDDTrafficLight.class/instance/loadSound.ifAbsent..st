@@ -1,4 +1,4 @@
-as yet unclassified
+resources
 loadSound: aString ifAbsent: aBlock
 
 	| sound |

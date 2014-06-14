@@ -1,4 +1,4 @@
-accessing
+submorphs
 slugField
 	
 	^ self submorphNamed: 'slugField'

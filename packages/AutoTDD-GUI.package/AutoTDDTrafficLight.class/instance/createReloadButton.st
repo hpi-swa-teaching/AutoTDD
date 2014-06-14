@@ -1,4 +1,4 @@
-gui
+components
 createReloadButton
 	| button transColor|
 	transColor := (TranslucentColor new alpha: 0).

@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 settingsPosition
 
 	^ self position + (self class extent x @ 0)

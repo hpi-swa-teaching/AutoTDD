@@ -1,7 +1,7 @@
 as yet unclassified
 update
 
-	self process isTerminated
-		ifFalse: [ self process terminate.
+	self process isTerminated ifFalse: [
+			self process terminate.
 			self addResult: TestResult new ].
 	self runTests

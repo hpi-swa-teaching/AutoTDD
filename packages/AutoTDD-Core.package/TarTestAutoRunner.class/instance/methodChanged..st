@@ -5,5 +5,6 @@ methodChanged: methodChangeEvent
 	changedCategory := methodChangeEvent itemClass category.
 	(self testCategories includes: changedCategory)
 		ifTrue: [ self invalidateTestSuite ].
-	((self categories includes: changedCategory) or: [self testCategories includes: changedCategory])
+	((self categories includes: changedCategory)
+		or: [self testCategories includes: changedCategory])
 		ifTrue: [ self update ]

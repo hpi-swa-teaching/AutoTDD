@@ -1,4 +1,4 @@
-as yet unclassified
+accessing-categories
 categoryAt: anInteger put: aBoolean
 
 	selectedCategories := self selectedCategories

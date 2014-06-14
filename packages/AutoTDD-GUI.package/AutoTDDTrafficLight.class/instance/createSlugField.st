@@ -1,4 +1,4 @@
-gui
+components
 createSlugField
 	
 	| textField |

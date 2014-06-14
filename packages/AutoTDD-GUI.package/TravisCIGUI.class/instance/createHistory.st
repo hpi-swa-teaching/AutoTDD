@@ -2,7 +2,7 @@ building
 createHistory
 
 	| history |
-	history := TravisCIPluggableListMorph 
+	history := AutoTDDPluggableListMorph 
 		on: self
 		list: #history
 		selected: #selectedBuild

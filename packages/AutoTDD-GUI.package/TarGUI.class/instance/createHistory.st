@@ -2,7 +2,7 @@ as yet unclassified
 createHistory
 
 	| history |
-	history := TravisCIPluggableListMorph 
+	history := AutoTDDPluggableListMorph 
 		on: self
 		list: #history
 		selected: #selectedResult

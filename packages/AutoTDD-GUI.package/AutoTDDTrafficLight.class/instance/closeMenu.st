@@ -1,4 +1,4 @@
-gui
+utility
 closeMenu
 
 	self extent: self class extent.

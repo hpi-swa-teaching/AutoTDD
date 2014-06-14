@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 openTravisDialog
 	
 	self useTravis ifFalse: [ ^ self ].

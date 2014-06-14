@@ -1,4 +1,4 @@
-gui
+components
 createNameMorph
 	
 	| morph text contents |

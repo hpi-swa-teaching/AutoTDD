@@ -1,4 +1,4 @@
-accessing
+resources
 soundDictionary
 	
 	^ IdentityDictionary newFrom: {

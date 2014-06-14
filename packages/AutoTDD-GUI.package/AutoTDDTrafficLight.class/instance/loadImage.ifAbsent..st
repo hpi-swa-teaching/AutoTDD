@@ -1,4 +1,4 @@
-as yet unclassified
+resources
 loadImage: aString ifAbsent: aBlock
 
 	| image |

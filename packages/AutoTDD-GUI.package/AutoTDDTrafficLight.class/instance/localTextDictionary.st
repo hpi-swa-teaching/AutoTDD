@@ -1,4 +1,4 @@
-as yet unclassified
+local
 localTextDictionary
 	
 	^ IdentityDictionary newFrom: {

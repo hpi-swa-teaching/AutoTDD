@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 openLocalDialog
 	
 	self useLocal ifFalse: [ ^ self ].

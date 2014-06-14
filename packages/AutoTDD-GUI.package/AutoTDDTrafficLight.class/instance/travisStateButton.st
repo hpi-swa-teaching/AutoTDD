@@ -1,4 +1,4 @@
-accessing
+submorphs
 travisStateButton
 
 	^ self submorphNamed: 'travisStateButton'

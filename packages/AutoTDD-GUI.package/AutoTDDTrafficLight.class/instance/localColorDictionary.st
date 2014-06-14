@@ -1,4 +1,4 @@
-as yet unclassified
+local
 localColorDictionary
 	
 	^ IdentityDictionary newFrom: {

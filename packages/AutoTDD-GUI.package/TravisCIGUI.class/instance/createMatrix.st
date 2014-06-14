@@ -2,7 +2,7 @@ building
 createMatrix
 
 	| matrix |
-	matrix := TravisCIPluggableListMorph 
+	matrix := AutoTDDPluggableListMorph 
 		on: self
 		list: #matrix
 		selected: #selectedJob

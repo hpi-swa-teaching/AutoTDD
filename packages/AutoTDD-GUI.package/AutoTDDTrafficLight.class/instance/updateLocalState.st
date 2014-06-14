@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateLocalState
 
 	self localStateButton ifNotNil: [

@@ -1,4 +1,4 @@
-as yet unclassified
+travis
 travisTextDictionary
 	
 	^ IdentityDictionary newFrom: {

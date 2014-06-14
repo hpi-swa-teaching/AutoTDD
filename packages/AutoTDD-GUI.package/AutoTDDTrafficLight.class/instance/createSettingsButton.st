@@ -1,4 +1,4 @@
-gui
+components
 createSettingsButton
 	
 	| button transColor |

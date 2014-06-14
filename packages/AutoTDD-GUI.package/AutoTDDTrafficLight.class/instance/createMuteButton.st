@@ -1,4 +1,4 @@
-gui
+components
 createMuteButton
 	
 	| button state |
