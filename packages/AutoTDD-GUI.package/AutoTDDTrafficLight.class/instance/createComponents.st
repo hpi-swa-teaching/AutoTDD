@@ -5,9 +5,5 @@ createComponents
 		createSettingsButton; 
 		createForegroundButton;
 		createReloadButton;
-		createExtendNameButton;
-		createLocalStateButton;
-		createTravisStateButton;
-		createProgressBar;
-		createMuteButton;
-		update
+		createMuteButton.
+	self modules do: [ :each | each createComponents ]

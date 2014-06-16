@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data" ],
+		"data",
+		"parser" ],
 	"name" : "AutoTDDGUI",
 	"pools" : [
 		 ],

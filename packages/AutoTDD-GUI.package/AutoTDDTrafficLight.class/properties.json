@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "FB 7/17/2013 01:10:18.443",
 	"instvars" : [
-		"nameExpanded",
 		"inForeground",
 		"settingsVisible",
 		"isMuted",
-		"localHandler",
-		"travisHandler" ],
+		"modules" ],
 	"name" : "AutoTDDTrafficLight",
 	"pools" : [
 		 ],

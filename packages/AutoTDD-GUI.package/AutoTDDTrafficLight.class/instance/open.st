@@ -6,5 +6,4 @@ open
 		createComponents;
 		openInWorld;
 		setProperty: #morphicLayerNumber toValue: self morphicLayerNumber;
-		update;
 		yourself

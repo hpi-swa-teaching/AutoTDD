@@ -1,13 +1,13 @@
 tests
 testExpandName
 	
-	self assert: sut nameMorph isNil.
-	self deny: sut nameExpanded.
-	sut extendNameButtonClicked.
-	self assert: sut nameMorph notNil.
-	self assert: sut nameExpanded.
-	self assert: sut nameMorph submorphs first contents equals:
+	self assert: sut local nameMorph isNil.
+	self deny: sut local nameExpanded.
+	sut local extendNameButtonClicked.
+	self assert: sut local nameMorph notNil.
+	self assert: sut local nameExpanded.
+	self assert: sut local nameMorph submorphs first contents equals:
 		'Categories: AutoTDD-Dummy-Category Test Categories: ', 		'AutoTDD-Dummy-Success-Tests'.
-	sut extendNameButtonClicked.
-	self assert: sut nameMorph isNil.
-	self deny: sut nameExpanded
+	sut local extendNameButtonClicked.
+	self assert: sut local nameMorph isNil.
+	self deny: sut local nameExpanded

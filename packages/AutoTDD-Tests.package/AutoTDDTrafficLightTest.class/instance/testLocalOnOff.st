@@ -5,17 +5,17 @@ testLocalOnOff
 	[ method := (self class >> #fooMethod) copy.
 	method methodClass: ClassGettingTested.
 	ClassGettingTested addSelector: #fooMethod withMethod: method.
-	sut localData testRunningSemaphore wait.
-	self assert: sut localData results size equals: 1.
+	sut local data testRunningSemaphore wait.
+	self assert: sut local data results size equals: 1.
 	sut settingsButtonClicked.
-	self assert: sut localOnOffButton isOn.
-	sut localOnOffButtonClicked.
-	self deny: sut localOnOffButton isOn.
+	self assert: sut local onOffButton isOn.
+	sut local onOffButtonClicked.
+	self deny: sut local onOffButton isOn.
 	ClassGettingTested addSelector: #fooMethod withMethod: method.
-	self assert: sut localData isNil.
-	sut localOnOffButtonClicked.
-	self assert: sut localOnOffButton isOn.
+	self assert: sut local data isNil.
+	sut local onOffButtonClicked.
+	self assert: sut local onOffButton isOn.
 	ClassGettingTested addSelector: #fooMethod withMethod: method.
-	sut localData testRunningSemaphore wait.
-	self assert: sut localData results size equals: 1 ]
+	sut local data testRunningSemaphore wait.
+	self assert: sut local data results size equals: 1 ]
 		ensure: [ ClassGettingTested removeSelector: #fooMethod ]

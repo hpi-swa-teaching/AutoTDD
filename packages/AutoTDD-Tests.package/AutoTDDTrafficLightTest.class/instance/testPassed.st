@@ -1,7 +1,7 @@
 tests
 testPassed
 	
-	sut testCategories: #('AutoTDD-Dummy-Success-Tests').
+	sut local testCategories: #('AutoTDD-Dummy-Success-Tests').
 	sut updateData.
-	sut localData testRunningSemaphore wait.
-	self assert: sut localState equals: #passed
+	sut local data testRunningSemaphore wait.
+	self assert: sut local state equals: #passed

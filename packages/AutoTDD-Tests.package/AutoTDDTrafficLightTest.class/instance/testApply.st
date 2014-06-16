@@ -2,10 +2,10 @@ tests
 testApply
 	
 	sut settingsButtonClicked.
-	self assert: sut travisSource equals: 'User/Repository'.
-	self assert: sut travisProAuthentificationCode equals: 'YOUR TRAVIS ACCESS TOKEN'.
-	sut slugField contents: 'A/B'.
-	sut authCodeField contents: 'foo'.
-	sut applyButtonClicked.
-	self assert: sut travisSource equals: 'A/B'.
-	self assert: sut travisProAuthentificationCode equals: 'foo'
+	self assert: sut travis travisSource equals: 'User/Repository'.
+	self assert: sut travis token equals: 'YOUR TRAVIS ACCESS TOKEN'.
+	sut travis slugField contents: 'A/B'.
+	sut travis tokenField contents: 'foo'.
+	sut travis applyButtonClicked.
+	self assert: sut travis travisSource equals: 'A/B'.
+	self assert: sut travis token equals: 'foo'

@@ -1,0 +1,10 @@
+components
+createTravisModule
+
+	| module |
+	module := TravisCITrafficLightModule new
+		tl: self;
+		position: self position + (75 @ 10);
+		yourself.
+	self addMorph: module.
+	self travis: module

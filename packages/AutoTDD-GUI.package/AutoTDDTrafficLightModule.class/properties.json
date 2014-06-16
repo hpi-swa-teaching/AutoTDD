@@ -1,0 +1,18 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"use",
+		"parser",
+		"previousState",
+		"tl" ],
+	"name" : "AutoTDDTrafficLightModule",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

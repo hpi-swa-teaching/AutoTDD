@@ -8,8 +8,7 @@
 	"instvars" : [
 		"tests",
 		"selectedResult",
-		"selectedTest",
-		"parser" ],
+		"selectedTest" ],
 	"name" : "TarGUI",
 	"pools" : [
 		 ],

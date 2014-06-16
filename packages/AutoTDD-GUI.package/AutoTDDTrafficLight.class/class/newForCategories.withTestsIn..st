@@ -1,6 +1,7 @@
 initialization
 newForCategories: categories withTestsIn: testCategories 
 	
-	^ self new
-		initializeForCategories: categories withTestsIn: testCategories;
-		yourself
+	| morph |
+	morph := self new.
+	morph local initializeForCategories: categories withTestsIn: testCategories.
+	^ morph

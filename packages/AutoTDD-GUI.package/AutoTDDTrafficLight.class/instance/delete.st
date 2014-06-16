@@ -1,6 +1,5 @@
 submorphs-add/remove
 delete
 	
-	self useTravis: false.
-	self useLocal: false.
+	self modules do: [ :each | each delete ].
 	super delete
