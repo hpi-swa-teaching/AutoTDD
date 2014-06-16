@@ -1,4 +1,4 @@
-utility
+as yet unclassified
 playSoundForState: aState
 	
 	self isMuted ifFalse: [

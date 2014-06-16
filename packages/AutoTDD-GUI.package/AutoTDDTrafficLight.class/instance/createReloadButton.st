@@ -3,7 +3,7 @@ createReloadButton
 	| button transColor|
 	transColor := (TranslucentColor new alpha: 0).
 	button := IconicButton new
-		labelGraphic: (self loadImageAt: #reload);
+		labelGraphic: (self imageProvider loadImageAt: #reload);
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #reloadButtonClicked;

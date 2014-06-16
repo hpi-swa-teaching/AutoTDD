@@ -4,9 +4,9 @@ createApplyButton
 	| button transColor|
 	transColor := (TranslucentColor new alpha: 0).
 	button := IconicButton new
-		labelGraphic: (self tl loadImageAt: #apply);
+		labelGraphic: (self imageProvider loadImageAt: #apply);
 		extent: 60 @ 20;
-		position: self tl settingsPosition + (90 @ 75);
+		position: self owner settingsPosition + (90 @ 75);
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #applyButtonClicked;

@@ -1,4 +1,4 @@
 as yet unclassified
 drawProOnOffText: aCanvas
 
-	self drawText: 'Pro' on: aCanvas at: (self tl settingsPosition + (130@45))
+	self drawText: 'Pro' on: aCanvas at: (self owner settingsPosition + (130@45))

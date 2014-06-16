@@ -4,7 +4,7 @@ createSettingsButton
 	| button transColor |
 	transColor := (TranslucentColor new alpha: 0).
 	button := IconicButton new
-		labelGraphic: (self loadImageAt: #gear);
+		labelGraphic: (self imageProvider loadImageAt: #gear);
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #settingsButtonClicked;

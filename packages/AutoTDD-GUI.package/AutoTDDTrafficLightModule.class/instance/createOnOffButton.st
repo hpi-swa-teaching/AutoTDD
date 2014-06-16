@@ -6,9 +6,9 @@ createOnOffButton
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new 
-		offImage: (self tl loadImageAt: #off);
-		onImage: (self tl loadImageAt: #on);
-		position: self tl settingsPosition + self onOffButtonPosition;
+		offImage: (self imageProvider loadImageAt: #off);
+		onImage: (self imageProvider loadImageAt: #on);
+		position: self owner settingsPosition + self onOffButtonPosition;
 		actionSelector: #onOffButtonClicked;
 		state: state;
 		target: self;

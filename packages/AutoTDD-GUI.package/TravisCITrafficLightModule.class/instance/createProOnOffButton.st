@@ -6,9 +6,9 @@ createProOnOffButton
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new
-		offImage: (self tl loadImageAt: #off);
-		onImage: (self tl loadImageAt: #on);
-		position: self tl settingsPosition + (160 @ 45);
+		offImage: (self imageProvider loadImageAt: #off);
+		onImage: (self imageProvider loadImageAt: #on);
+		position: self owner settingsPosition + (160 @ 45);
 		actionSelector: #proOnOffButtonClicked;
 		state: state;
 		target: self;

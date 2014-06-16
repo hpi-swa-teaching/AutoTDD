@@ -3,7 +3,7 @@ createLocalModule
 
 	| module |
 	module := TarTrafficLightModule new
-		tl: self;
+		soundPlayer: self soundPlayer;
 		position: self position + (5 @ 10);
 		yourself.
 	self addMorph: module.

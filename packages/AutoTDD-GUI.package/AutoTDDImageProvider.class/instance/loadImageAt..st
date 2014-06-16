@@ -1,4 +1,4 @@
-resources
+as yet unclassified
 loadImageAt: aSymbol
 
 	| name |

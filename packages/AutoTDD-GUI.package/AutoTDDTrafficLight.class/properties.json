@@ -8,8 +8,9 @@
 	"instvars" : [
 		"inForeground",
 		"settingsVisible",
-		"isMuted",
-		"modules" ],
+		"modules",
+		"imageProvider",
+		"soundPlayer" ],
 	"name" : "AutoTDDTrafficLight",
 	"pools" : [
 		 ],

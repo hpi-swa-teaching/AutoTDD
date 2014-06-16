@@ -1,4 +1,4 @@
-resources
+as yet unclassified
 imageDictionary
 
 	^ IdentityDictionary newFrom: {
@@ -8,6 +8,8 @@ imageDictionary
 		#expand		-> [ 'ExpandButton.png' ].
 		#failed			-> [ 'YellowBulb.png' ].
 		#gear			-> [ 'SettingsGear.png' ].
+		#mute 			-> [ 'muteButton.png' ].
+		#unmute		-> [ 'unmuteButton.png' ].
 		#off 			-> [ 'OffButton.png' ].
 		#on			-> [ 'OnButton.png' ].
 		#passed		-> [ 'GreenBulb.png' ].

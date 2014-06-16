@@ -3,7 +3,7 @@ createTravisModule
 
 	| module |
 	module := TravisCITrafficLightModule new
-		tl: self;
+		soundPlayer: self soundPlayer;
 		position: self position + (75 @ 10);
 		yourself.
 	self addMorph: module.

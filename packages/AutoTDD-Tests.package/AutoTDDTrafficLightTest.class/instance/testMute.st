@@ -1,8 +1,8 @@
 tests
 testMute
 	
-	self assert: sut isMuted.
+	self assert: sut soundPlayer isMuted.
 	sut muteButtonClicked.
-	self deny: sut isMuted.
+	self deny: sut soundPlayer isMuted.
 	sut muteButtonClicked.
-	self assert: sut isMuted
+	self assert: sut soundPlayer isMuted

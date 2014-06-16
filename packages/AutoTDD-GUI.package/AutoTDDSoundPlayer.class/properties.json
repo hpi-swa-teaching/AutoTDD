@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data",
-		"use",
-		"parser",
-		"previousState",
-		"soundPlayer",
-		"imageProvider" ],
-	"name" : "AutoTDDTrafficLightModule",
+		"isMuted" ],
+	"name" : "AutoTDDSoundPlayer",
 	"pools" : [
 		 ],
-	"super" : "Morph",
+	"super" : "Object",
 	"type" : "normal" }

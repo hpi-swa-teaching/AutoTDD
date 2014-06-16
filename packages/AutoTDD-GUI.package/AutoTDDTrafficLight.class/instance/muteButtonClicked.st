@@ -1,7 +1,7 @@
 event handling
 muteButtonClicked
 
-	self isMuted: self isMuted not.
-	self isMuted
+	self soundPlayer isMuted: self soundPlayer isMuted not.
+	self soundPlayer isMuted
 		ifTrue: [	self muteButton state: #on. ]
 		ifFalse: [ self muteButton state: #off. ]

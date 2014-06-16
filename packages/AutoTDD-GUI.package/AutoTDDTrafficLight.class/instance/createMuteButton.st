@@ -2,12 +2,12 @@ components
 createMuteButton
 	
 	| button state |
-	state := self isMuted 
+	state := self soundPlayer isMuted 
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new
-		offImage: (self loadImage: 'unmuteButton.png');
-		onImage: (self loadImage: 'muteButton.png');
+		offImage: (self imageProvider loadImageAt: #unmute);
+		onImage: (self imageProvider loadImageAt: #mute);
 		actionSelector: #muteButtonClicked;
 		state: state;
 		target: self;
