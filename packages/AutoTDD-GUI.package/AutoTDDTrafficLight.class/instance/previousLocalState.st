@@ -1,4 +1,4 @@
 accessing
 previousLocalState
 
-	^ previousLocalState
+	^ self localHandler previousState

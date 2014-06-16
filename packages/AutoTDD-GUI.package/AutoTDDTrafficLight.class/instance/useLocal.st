@@ -1,4 +1,4 @@
 accessing
 useLocal
 
-	^ useLocal ifNil: [ useLocal := true ]
+	^ self localHandler use

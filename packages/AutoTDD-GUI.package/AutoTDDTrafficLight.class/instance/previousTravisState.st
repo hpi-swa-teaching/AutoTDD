@@ -1,4 +1,4 @@
 accessing
 previousTravisState
 
-	^ previousTravisState
+	^ self travisHandler previousState

@@ -1,4 +1,4 @@
 accessing
 travisData
 
-	^ travisData
+	^ self travisHandler data

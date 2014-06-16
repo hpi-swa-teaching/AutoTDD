@@ -1,4 +1,4 @@
 accessing
 travisParser
 
-	^ travisParser ifNil: [ travisParser := TravisCIParser new ]
+	^ self travisHandler parser

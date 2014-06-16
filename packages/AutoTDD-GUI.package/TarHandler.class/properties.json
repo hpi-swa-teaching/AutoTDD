@@ -1,0 +1,15 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"categories",
+		"testCategories" ],
+	"name" : "TarHandler",
+	"pools" : [
+		 ],
+	"super" : "AutoTDDHandler",
+	"type" : "normal" }

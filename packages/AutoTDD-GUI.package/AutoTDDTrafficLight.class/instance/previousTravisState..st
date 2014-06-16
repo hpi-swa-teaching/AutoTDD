@@ -1,4 +1,4 @@
 accessing
 previousTravisState: anObject
 
-	previousTravisState := anObject
+	self travisHandler previousState: anObject

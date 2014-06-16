@@ -1,4 +1,4 @@
 accessing
 previousLocalState: anObject
 
-	previousLocalState := anObject
+	self localHandler previousState: anObject

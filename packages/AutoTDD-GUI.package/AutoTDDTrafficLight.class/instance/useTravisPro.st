@@ -1,4 +1,4 @@
 accessing
 useTravisPro
 
-	^ useTravisPro ifNil: [useTravisPro := false]
+	^ self travisHandler usePro

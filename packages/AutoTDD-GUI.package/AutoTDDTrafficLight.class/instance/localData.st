@@ -1,4 +1,4 @@
 accessing
 localData
 
-	^ localData
+	^ self localHandler data

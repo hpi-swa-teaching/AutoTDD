@@ -1,4 +1,4 @@
 accessing
 testCategories: anObject
 
-	testCategories := anObject
+	self localHandler testCategories: anObject

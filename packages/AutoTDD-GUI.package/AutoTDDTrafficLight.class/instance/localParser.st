@@ -1,4 +1,4 @@
 accessing
 localParser
 
-	^ localParser ifNil: [ localParser := TarParser new ]
+	^ self localHandler parser

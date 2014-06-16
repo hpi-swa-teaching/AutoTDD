@@ -1,4 +1,4 @@
 accessing
 localParser: anObject
 
-	localParser := anObject
+	self localHandler parser: anObject

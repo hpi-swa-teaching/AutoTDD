@@ -1,4 +1,4 @@
 accessing
 travisParser: anObject
 
-	travisParser := anObject
+	self travisHandler parser: anObject

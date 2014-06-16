@@ -1,4 +1,4 @@
 accessing
 travisSource
 	
-	^ travisSource ifNil: [ travisSource := 'User/Repository' ]
+	^ self travisHandler travisSource

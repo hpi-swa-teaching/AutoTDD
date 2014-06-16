@@ -1,4 +1,4 @@
 accessing
 categories: anObject
 
-	categories := anObject
+	self localHandler categories: anObject
