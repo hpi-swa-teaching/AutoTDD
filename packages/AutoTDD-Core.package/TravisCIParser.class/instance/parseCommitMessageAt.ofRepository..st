@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseCommitMessageAt: aNumber ofRepository: aJson
 
 	| commits |

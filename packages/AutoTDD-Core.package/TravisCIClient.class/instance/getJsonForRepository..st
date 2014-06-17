@@ -1,4 +1,4 @@
-as yet unclassified
+data-processing
 getJsonForRepository: aString
 
 	^ self requestOn: 'repos/', aString

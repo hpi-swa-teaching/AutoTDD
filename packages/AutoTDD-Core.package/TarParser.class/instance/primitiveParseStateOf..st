@@ -1,4 +1,4 @@
-as yet unclassified
+primitve-parsing
 primitiveParseStateOf: aTestResult
 
 	^ aTestResult runCount isZero

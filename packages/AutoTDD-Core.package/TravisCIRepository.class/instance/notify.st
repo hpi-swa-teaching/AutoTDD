@@ -1,4 +1,4 @@
-as yet unclassified
+observation
 notify
 
 	self observers do: [ :each | each update ]

@@ -1,5 +1,6 @@
-as yet unclassified
+pause/resume
 pauseTestAutoRunner
 	
 	self instances
-		do: [ :instance | SystemChangeNotifier uniqueInstance noMoreNotificationsFor: instance ]
+		do: [ :instance | 
+			SystemChangeNotifier uniqueInstance noMoreNotificationsFor: instance ]

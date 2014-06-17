@@ -8,7 +8,7 @@
 		"buildJsonFor:" : "PS 6/4/2014 18:02",
 		"buildsDictionary" : "PS 6/4/2014 11:28",
 		"cache" : "PS 6/4/2014 11:26",
-		"cache:" : "PS 6/4/2014 11:25",
+		"cache:" : "SLe 6/17/2014 11:48",
 		"clearCache" : "PS 6/4/2014 16:30",
 		"clearCacheAndNotify" : "PS 6/10/2014 23:48",
 		"client" : "PS 6/4/2014 16:28",
@@ -18,7 +18,7 @@
 		"initialize" : "PS 6/11/2014 13:58",
 		"initializeTimer" : "PS 6/10/2014 23:48",
 		"isNotAvailableYet:" : "PS 6/4/2014 11:30",
-		"logFor:or:" : "PS 6/4/2014 18:05",
+		"logFor:or:" : "SLe 6/17/2014 11:34",
 		"logsDictionary" : "PS 6/4/2014 11:33",
 		"notify" : "PS 6/4/2014 11:26",
 		"observers" : "PS 6/4/2014 11:25",
@@ -29,7 +29,7 @@
 		"repository:" : "PS 6/4/2014 13:09",
 		"repositoryJson" : "PS 6/4/2014 20:24",
 		"requireBuild:" : "PS 6/4/2014 18:10",
-		"requireLog:or:" : "PS 6/4/2014 18:07",
+		"requireLog:or:" : "SLe 6/17/2014 11:36",
 		"requireRepository" : "PS 6/4/2014 20:24",
 		"timer" : "PS 6/10/2014 12:38",
 		"timer:" : "PS 6/10/2014 12:38",
@@ -38,4 +38,4 @@
 		"update" : "PS 6/10/2014 23:48",
 		"useTravisPro" : "PS 6/11/2014 13:45",
 		"useTravisPro:" : "PS 6/11/2014 13:47",
-		"validate:" : "PS 6/4/2014 12:12" } }
+		"validate:" : "SLe 6/17/2014 11:32" } }

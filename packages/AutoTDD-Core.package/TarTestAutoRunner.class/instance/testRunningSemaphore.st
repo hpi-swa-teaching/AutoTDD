@@ -1,5 +1,4 @@
 accessing
 testRunningSemaphore
 
-	^ testRunningSemaphore
-		ifNil: [ testRunningSemaphore := Semaphore new ]
+	^ testRunningSemaphore ifNil: [ testRunningSemaphore := Semaphore new ]

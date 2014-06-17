@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 initializeForCategories: categories withTestsIn: testCategories
 	
 	^ self new
