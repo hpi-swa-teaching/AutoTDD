@@ -1,4 +1,4 @@
-as yet unclassified
+opening
 extent
 
 	^ 640 @ 480

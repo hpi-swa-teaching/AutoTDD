@@ -1,4 +1,4 @@
-as yet unclassified
+objects from disk
 loadImageAt: aSymbol
 
 	| name |

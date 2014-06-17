@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 fontName
 
 	^ 'Bitmap DejaVu Sans'

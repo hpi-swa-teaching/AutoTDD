@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 nameMorph
 	
 	^ self submorphNamed: 'nameMorph'

@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawStateTextOn: aCanvas
 
 	| text color |

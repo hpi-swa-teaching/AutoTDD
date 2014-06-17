@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawOnOffTextOn: aCanvas
 
 	self subclassResponsibility

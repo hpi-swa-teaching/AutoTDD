@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateEnd
 	
 	self progressBar ifNotNilDo: [ :progressBar | progressBar hide ]

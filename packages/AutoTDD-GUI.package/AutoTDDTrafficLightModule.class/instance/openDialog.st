@@ -1,4 +1,4 @@
-as yet unclassified
+open/close
 openDialog
 
 	self use ifFalse: [ ^ self ].

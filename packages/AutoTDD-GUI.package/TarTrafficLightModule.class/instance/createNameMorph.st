@@ -1,4 +1,4 @@
-as yet unclassified
+building
 createNameMorph
 	
 	| morph text contents |

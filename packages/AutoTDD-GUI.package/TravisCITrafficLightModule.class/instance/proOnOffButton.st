@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - ui
 proOnOffButton
 
 	^ self submorphNamed: 'proOnOffButton'

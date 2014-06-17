@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - ui
 slugField
 
 	^ self submorphNamed: 'slugField'

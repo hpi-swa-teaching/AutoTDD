@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeData
 
 	^ self data: (TravisCIRepository newForRepository: self travisSource)

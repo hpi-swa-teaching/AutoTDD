@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 proOnOffButtonClicked
 
 	self usePro: self usePro not.

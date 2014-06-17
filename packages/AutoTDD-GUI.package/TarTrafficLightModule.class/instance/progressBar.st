@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - ui
 progressBar
 
 	^ self submorphNamed: 'progressBar'

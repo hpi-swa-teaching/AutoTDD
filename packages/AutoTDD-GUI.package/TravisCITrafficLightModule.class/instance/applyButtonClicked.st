@@ -1,4 +1,4 @@
-as yet unclassified
+event handling
 applyButtonClicked
 
 	self travisSource: self slugField contents asString.

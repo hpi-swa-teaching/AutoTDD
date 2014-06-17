@@ -1,4 +1,4 @@
-as yet unclassified
+objects from disk
 loadImage: aString ifAbsent: aBlock
 
 	| image |

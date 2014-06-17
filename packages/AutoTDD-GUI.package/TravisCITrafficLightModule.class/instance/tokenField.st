@@ -1,4 +1,4 @@
-as yet unclassified
+accessing - ui
 tokenField
 
 	^ self submorphNamed: 'tokenField'

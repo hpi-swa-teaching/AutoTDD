@@ -1,4 +1,4 @@
-as yet unclassified
+drawing
 drawSettingsOn: aCanvas
 
 	super drawSettingsOn: aCanvas.

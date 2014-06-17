@@ -1,4 +1,4 @@
-as yet unclassified
+open/close
 closeSettings
 
 	super closeSettings.

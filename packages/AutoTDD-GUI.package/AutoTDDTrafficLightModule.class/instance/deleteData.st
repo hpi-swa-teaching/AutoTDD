@@ -1,4 +1,4 @@
-as yet unclassified
+open/close
 deleteData
 
 	self data: nil

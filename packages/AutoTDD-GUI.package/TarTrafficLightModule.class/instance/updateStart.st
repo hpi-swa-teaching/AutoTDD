@@ -1,4 +1,4 @@
-as yet unclassified
+updating
 updateStart
 	
 	self progressBar ifNotNilDo: [ :progressBar | 

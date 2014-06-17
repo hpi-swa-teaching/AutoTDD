@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 extendNameButtonClicked
 	
 	self nameExpanded: self nameExpanded not.

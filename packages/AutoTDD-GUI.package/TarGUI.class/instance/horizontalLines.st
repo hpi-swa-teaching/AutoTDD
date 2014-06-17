@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 horizontalLines
 
 	| textLineHeight textOffset listLineHeight listOffset
