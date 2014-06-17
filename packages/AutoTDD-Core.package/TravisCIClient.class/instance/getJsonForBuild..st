@@ -1,4 +1,4 @@
-as yet unclassified
+data-processing
 getJsonForBuild: aString
 
 	^ self requestOn: 'builds/', aString

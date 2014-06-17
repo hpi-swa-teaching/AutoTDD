@@ -1,4 +1,4 @@
-as yet unclassified
+test-running
 methodChanged: methodChangeEvent
 
 	| changedCategory |

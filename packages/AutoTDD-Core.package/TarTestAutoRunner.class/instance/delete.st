@@ -1,4 +1,4 @@
-as yet unclassified
+initialize-release
 delete
 	
 	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self.

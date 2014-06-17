@@ -1,4 +1,4 @@
-as yet unclassified
+primitive-parsing
 primitiveParseNumberOf: aJson
 
 	^ aJson at: 'number' ifAbsent: [ '0' ]

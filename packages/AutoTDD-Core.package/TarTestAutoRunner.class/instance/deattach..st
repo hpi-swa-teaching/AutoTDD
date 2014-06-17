@@ -1,4 +1,4 @@
-as yet unclassified
+observation
 deattach: anObserver
 
 	self observers remove: anObserver.

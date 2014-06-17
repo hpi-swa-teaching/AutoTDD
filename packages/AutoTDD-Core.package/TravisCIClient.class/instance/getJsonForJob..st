@@ -1,4 +1,4 @@
-as yet unclassified
+data-processing
 getJsonForJob: aString
 
 	^ self requestOn: 'jobs/', aString

@@ -1,4 +1,4 @@
-as yet unclassified
+test-running
 invalidateTestSuite
 
 	self testSuite: nil

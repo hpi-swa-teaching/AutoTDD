@@ -1,4 +1,4 @@
-as yet unclassified
+test-running
 listenForNotificationsAbout: categories withTestsIn: testCategories
 
 	SystemChangeNotifier uniqueInstance

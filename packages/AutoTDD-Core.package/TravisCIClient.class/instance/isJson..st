@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 isJson: aString
 
 	^ (aString at: 1 ifAbsent: [ ^ false ]) = ${

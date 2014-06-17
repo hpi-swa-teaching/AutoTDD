@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseBranchOfCommitAt: aNumber ofCommitsOfRepository: aJson
 
 	| commit commits |

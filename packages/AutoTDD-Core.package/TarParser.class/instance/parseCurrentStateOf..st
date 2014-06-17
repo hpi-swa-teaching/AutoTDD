@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseCurrentStateOf: aTestResultCollection
 
 	^ self primitiveParseStateOf: (self primitiveParseFirstOf: aTestResultCollection)

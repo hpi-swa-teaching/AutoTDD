@@ -1,5 +1,4 @@
 accessing
 process
 
-	^ process
-		ifNil: [ process := Process new ]
+	^ process ifNil: [ process := Process new ]

@@ -1,4 +1,4 @@
-as yet unclassified
+data-processing
 getJsonForLog: aString
 
 	^ self requestOn: 'logs/', aString

@@ -1,4 +1,4 @@
-as yet unclassified
+test-running
 addResult: aTestResult
 
 	self results addFirst: aTestResult.

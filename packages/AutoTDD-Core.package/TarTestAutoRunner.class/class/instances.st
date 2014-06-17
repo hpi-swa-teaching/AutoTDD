@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 instances
 	
 	^ instances ifNil: [ instances := OrderedCollection new ]

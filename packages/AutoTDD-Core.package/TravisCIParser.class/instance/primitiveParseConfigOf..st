@@ -1,4 +1,4 @@
-as yet unclassified
+primitive-parsing
 primitiveParseConfigOf: aJson
 
 	^ aJson at: 'config'

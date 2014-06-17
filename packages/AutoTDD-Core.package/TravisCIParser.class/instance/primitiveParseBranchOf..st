@@ -1,4 +1,4 @@
-as yet unclassified
+primitive-parsing
 primitiveParseBranchOf: aJson
 
 	^ aJson at: 'branch' ifAbsent: [ '' ]
