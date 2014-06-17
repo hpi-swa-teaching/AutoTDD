@@ -1,4 +1,4 @@
-primitve-parsing
+primitive-parsing
 primitiveParseStateOf: aTestResult
 
 	^ aTestResult runCount isZero
