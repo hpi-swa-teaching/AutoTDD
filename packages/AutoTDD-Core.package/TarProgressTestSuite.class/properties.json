@@ -6,14 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cache",
-		"client",
-		"repository",
-		"timer",
-		"usePro",
-		"token" ],
-	"name" : "TravisCIRepository",
+		"valueHolder" ],
+	"name" : "TarProgressTestSuite",
 	"pools" : [
 		 ],
-	"super" : "AutoTDDDataSource",
+	"super" : "TestSuite",
 	"type" : "normal" }

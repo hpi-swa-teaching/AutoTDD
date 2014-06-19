@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"parser" : "PS 6/19/2014 12:38" },
 	"instance" : {
 		"buttonFrame" : "PS 6/10/2014 22:35",
 		"buttonLabel" : "PS 6/3/2014 00:03",
@@ -9,7 +9,6 @@
 		"changedValues" : "PS 6/3/2014 00:22",
 		"colorDictionary" : "PS 6/10/2014 22:05",
 		"convertColorForState:" : "PS 6/2/2014 23:36",
-		"convertSoundForState:" : "PS 6/2/2014 23:42",
 		"createComponents" : "PS 6/2/2014 11:17",
 		"createHistory" : "PS 6/14/2014 14:40",
 		"createLog" : "PS 6/2/2014 23:50",
@@ -26,9 +25,6 @@
 		"logFrame" : "PS 6/10/2014 22:36",
 		"matrix" : "PS 6/4/2014 17:51",
 		"matrixFrame" : "PS 6/10/2014 22:36",
-		"parser" : "PS 5/27/2014 14:43",
-		"parser:" : "PS 5/26/2014 15:08",
-		"playSoundForState:" : "PS 6/2/2014 23:42",
 		"previousState" : "PS 6/4/2014 13:13",
 		"previousState:" : "PS 6/4/2014 13:13",
 		"repository" : "PS 6/10/2014 12:58",
@@ -39,7 +35,6 @@
 		"selectedStateColor" : "PS 6/4/2014 17:17",
 		"selectedStateFrame" : "PS 6/10/2014 22:36",
 		"selectedStateText" : "PS 6/4/2014 17:17",
-		"soundDictionary" : "PS 6/4/2014 18:13",
 		"state" : "PS 6/14/2014 14:54",
 		"stateColor" : "PS 6/14/2014 14:55",
 		"stateFrame" : "PS 6/10/2014 22:36",

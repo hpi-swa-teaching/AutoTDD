@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"valueHolder" ],
-	"name" : "ProgressTestSuite",
+		"observers" ],
+	"name" : "AutoTDDDataSource",
 	"pools" : [
 		 ],
-	"super" : "TestSuite",
+	"super" : "Object",
 	"type" : "normal" }

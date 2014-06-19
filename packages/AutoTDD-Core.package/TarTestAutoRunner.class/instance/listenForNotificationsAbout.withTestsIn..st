@@ -9,5 +9,6 @@ listenForNotificationsAbout: categories withTestsIn: testCategories
 		notify: self
 		ofSystemChangesOfItem: #class
 		using: #methodChanged:.
-	self categories: categories.
-	self testCategories: testCategories
+	self
+		categories: categories;
+		testCategories: testCategories

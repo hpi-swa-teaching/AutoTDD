@@ -14,4 +14,5 @@ testValidateSlug
 		should: [repo validate: ' a/b'] raise: Error;
 		should: [repo validate: 'a/b '] raise: Error;
 		should: [repo validate: 'a/b/c'] raise: Error;
-		should: [repo validate: 'ab'] raise: Error
+		should: [repo validate: 'ab'] raise: Error.
+	repo delete

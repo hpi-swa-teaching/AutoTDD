@@ -6,7 +6,8 @@ runTests
 	self process: [ self testSuite tests ifNotEmpty: [ 
 		self notifyStart.
 		result := self testSuite run.
-		self notifyEnd.
-		self addResult: result.
+		self
+			notifyEnd;
+			addResult: result.
 		result dispatchResultsIntoHistory.
 		self testRunningSemaphore signal ] ] fork

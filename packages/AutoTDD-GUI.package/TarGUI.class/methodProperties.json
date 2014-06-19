@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"parser" : "PS 6/19/2014 12:37" },
 	"instance" : {
 		"buttonFrame" : "PS 6/10/2014 22:34",
 		"buttonLabel" : "PS 6/10/2014 15:06",
@@ -22,7 +22,6 @@
 		"label" : "PS 6/11/2014 11:18",
 		"matrix" : "PS 6/14/2014 12:26",
 		"matrixFrame" : "PS 6/10/2014 22:35",
-		"parser" : "PS 6/14/2014 12:17",
 		"progressBar" : "PS 6/14/2014 12:35",
 		"progressBarFrame" : "PS 6/10/2014 22:35",
 		"selectedResult" : "PS 6/10/2014 13:40",

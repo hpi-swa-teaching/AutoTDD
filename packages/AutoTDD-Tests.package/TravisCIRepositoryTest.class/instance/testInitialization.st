@@ -3,4 +3,5 @@ testInitialization
 
 	| repo |
 	repo := TravisCIRepository new.
-	self assert: repo client notNil
+	self assert: repo client notNil.
+	repo delete

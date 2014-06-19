@@ -1,4 +1,7 @@
 accessing
 webClient
 
-	^ webClient ifNil: [webClient := WebClient new userAgent: self userAgent]
+	^ webClient ifNil: [
+		webClient := WebClient new
+			userAgent: self userAgent;
+			yourself ]
