@@ -5,6 +5,6 @@ requireLog: aNumber or: anotherNumber
 		ifTrue: [ JsonObject new ]
 		ifFalse: [ | log |
 			log := self client getTextForLog: aNumber.
-			(self isNotAvailableYet: log)
-				ifTrue: [ self client getJsonForLog: anotherNumber ]
-				ifFalse: [ self wrapAsJson: log ] ]
+			log
+				ifEmpty: [ self client getJsonForLog: anotherNumber ]
+				ifNotEmpty: [ self wrapAsJson: log ] ]
