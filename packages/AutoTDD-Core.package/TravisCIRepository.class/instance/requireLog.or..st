@@ -2,10 +2,9 @@ data-processing
 requireLog: aNumber or: anotherNumber
 
 	aNumber negative
-		ifTrue: [ ^ String empty ]
+		ifTrue: [ ^ JsonObject new ]
 		ifFalse: [ | log |
 			log := self client getTextForLog: aNumber.
-			(self isNotAvailableYet: log) ifTrue: 
-				[ log := self parser parseBodyOfLog:
-					(self client getJsonForLog: anotherNumber) ].
-			^ log ]
+			^ (self isNotAvailableYet: log)
+				ifTrue: [ self client getJsonForLog: anotherNumber ]
+				ifFalse: [ self wrapAsJson: log ] ]

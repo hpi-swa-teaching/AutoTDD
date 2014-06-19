@@ -3,6 +3,4 @@ testInitialization
 
 	| repo |
 	repo := TravisCIRepository new.
-	self
-		assert: repo client notNil;
-		assert: repo parser notNil
+	self assert: repo client notNil

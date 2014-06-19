@@ -10,9 +10,8 @@
 		"client",
 		"repository",
 		"observers",
-		"parser",
 		"timer",
-		"useTravisPro",
+		"usePro",
 		"token" ],
 	"name" : "TravisCIRepository",
 	"pools" : [

@@ -6,4 +6,4 @@ log
 	build := self data buildJsonFor: buildId.
 	jobId := self parser parseIdOfJobAt: self selectedJob ofBuild: build.
 	logId := self parser parseLogIdOfJobAt: self selectedJob ofBuild: build.
-	^ self data logFor: jobId or: logId
+	^ self parser parseBodyOfLog: (self data logFor: jobId or: logId)

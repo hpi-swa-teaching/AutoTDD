@@ -2,6 +2,6 @@ initialization
 initializeData
 
 	self data: ((TravisCIRepository newForRepository: self travisSource)
-		useTravisPro: self usePro;
+		usePro: self usePro;
 		token: self token;
 		yourself)

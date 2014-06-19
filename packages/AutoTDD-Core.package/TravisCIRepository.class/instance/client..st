@@ -3,5 +3,5 @@ client: anObject
 
 	client := anObject.
 	self client
-		useTravisPro: self useTravisPro;
+		usePro: self usePro;
 		token: self token
