@@ -14,5 +14,5 @@ createMuteButton
 		name: 'muteButton';
 		yourself.
 	button extent: (button offImage extent max: button onImage extent).
-	self center: button at: self position + (self buttonAxis @ 100).
+	self center: button at: self position + (self buttonAxis @ 107).
 	self addMorph: button
