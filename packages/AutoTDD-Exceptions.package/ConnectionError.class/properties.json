@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ConnectionError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

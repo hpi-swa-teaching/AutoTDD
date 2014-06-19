@@ -1,4 +1,4 @@
 as yet unclassified
 defaultAction
 
-	^ UIManager default inform: self messageText
+	^ UIManager default inform: 'No valid slug provided'
