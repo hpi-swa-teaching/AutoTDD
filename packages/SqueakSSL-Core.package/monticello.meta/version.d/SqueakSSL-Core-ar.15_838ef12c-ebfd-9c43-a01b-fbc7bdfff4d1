@@ -1,1 +1,0 @@
-(name 'SqueakSSL-Core-ar.15'message 'SecureSocketStream needs to drain any pending data in #receiveData: as well as #atEnd to avoid false responses when SSL state hasn''t been drained yet.'id '838ef12c-ebfd-9c43-a01b-fbc7bdfff4d1'date '22 November 2010'time '6:50:04.884 pm'author 'ar'ancestors ((id 'a8bed35b-4117-7b42-9dab-0c36f40e3e4f'))stepChildren ())

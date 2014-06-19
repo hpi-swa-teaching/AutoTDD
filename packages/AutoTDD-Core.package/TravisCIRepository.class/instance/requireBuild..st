@@ -1,6 +1,6 @@
 data-processing
 requireBuild: aNumber
 
-	aNumber negative
-		ifTrue: [ ^ JsonObject new ]
-		ifFalse: [ ^ self client getJsonForBuild: aNumber ]
+	^ aNumber negative
+		ifTrue: [ JsonObject new ]
+		ifFalse: [ self client getJsonForBuild: aNumber ]

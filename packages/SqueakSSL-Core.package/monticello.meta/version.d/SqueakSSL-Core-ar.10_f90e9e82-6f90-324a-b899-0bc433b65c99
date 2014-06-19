@@ -1,1 +1,0 @@
-(name 'SqueakSSL-Core-ar.10'message 'SecureSocketStream>>sslAccept: takes the cert name to be used in the ssl handshake.'id 'f90e9e82-6f90-324a-b899-0bc433b65c99'date '29 July 2010'time '6:48:16.352 pm'author 'ar'ancestors ((id 'd85a7019-dbbd-e74f-9b23-8864e91684f5'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'WebClient-Core-ar.15'message 'Promote a few operations from WebRequest to WebMessage. Update benchmarks.'id 'bbc708c3-ec1f-4844-8798-e2fcb37c9e81'date '4 May 2010'time '9:31:41 am'author 'ar'ancestors ((id '820c7550-9c7e-c74c-ab2e-2b916756a3bf'))stepChildren ())

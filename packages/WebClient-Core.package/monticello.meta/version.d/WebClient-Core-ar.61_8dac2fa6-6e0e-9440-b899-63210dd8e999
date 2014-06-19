@@ -1,1 +1,0 @@
-(name 'WebClient-Core-ar.61'message 'Implement RFC 2616 rules prohibiting automatic redirect for 302 and 307 responses when the request method is other than ''HEAD'' or ''GET''.'id '8dac2fa6-6e0e-9440-b899-63210dd8e999'date '10 August 2010'time '9:18:02.69 am'author 'ar'ancestors ((id 'bc6cad6d-9259-0e42-932b-3725e70d9ab7'))stepChildren ())

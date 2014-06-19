@@ -1,1 +1,0 @@
-(name 'WebClient-Core-ar.40'message 'Fix  url parsing to extract the scheme properly instead of hardcoding the offsets for ''http://''.'id 'bd2c7ca6-6998-2d40-bef5-357dc802d33b'date '21 July 2010'time '9:09:21.499 pm'author 'ar'ancestors ((id '323f0676-2ffd-4b49-9601-856078cca274'))stepChildren ())

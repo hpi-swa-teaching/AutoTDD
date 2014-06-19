@@ -1,1 +1,0 @@
-(name 'WebClient-Core-ar.28'message 'Only close the socket in WebResponse>>content; otherwise no response can be sent back. Also correct a typo in initialization.'id '7a043d52-7d80-bb49-a720-2565590cce20'date '19 June 2010'time '12:07:51.45 am'author 'ar'ancestors ((id '34e58e16-7b74-476c-8fe6-391da6138ec9'))stepChildren ())

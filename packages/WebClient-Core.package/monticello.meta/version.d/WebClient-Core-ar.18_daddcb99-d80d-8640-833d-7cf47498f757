@@ -1,1 +1,0 @@
-(name 'WebClient-Core-ar.18'message 'Fixes a bug in proxy server handling when the proxy port was different from port 80.'id 'daddcb99-d80d-8640-833d-7cf47498f757'date '10 May 2010'time '9:30:57 am'author 'ar'ancestors ((id 'f6eb0e8d-5b75-8548-b676-2ea5ea6214af'))stepChildren ())

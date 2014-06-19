@@ -1,1 +1,0 @@
-(name 'SqueakSSL-Core-ar.7'message 'Adds SecureSocketStream, a subclass of SocketStream with SqueakSSL/TLS support.'id 'b92aeb87-a54b-2a4f-8b96-811ace204d72'date '25 July 2010'time '4:35:12.201 pm'author 'ar'ancestors ((id '419034eb-c4bc-450c-ac6d-97ac89232045'))stepChildren ())

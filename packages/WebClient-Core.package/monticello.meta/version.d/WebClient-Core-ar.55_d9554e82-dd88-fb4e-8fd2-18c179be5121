@@ -1,1 +1,0 @@
-(name 'WebClient-Core-ar.55'message 'Fix cookie domain comparison and make sure that when reading a request from a SocketStream it''s in ascii mode.'id 'd9554e82-dd88-fb4e-8fd2-18c179be5121'date '4 August 2010'time '9:25:30.111 pm'author 'ar'ancestors ((id 'fe88752b-b353-ec45-88e1-c6fa4022e3e6'))stepChildren ())

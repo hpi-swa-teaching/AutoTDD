@@ -1,1 +1,0 @@
-(name 'WebClient-Core-ar.80'message 'Make sure proxy requests have a Proxy-Connection: keep-alive header. This appears to be necessary for Squid to accept NTLM auth requests.'id '1b8cc298-3f00-3840-9169-297e61530300'date '23 September 2010'time '6:50:22.44 pm'author 'ar'ancestors ((id '8da3e77c-554e-7948-b8f8-69408a2b61d1'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'WebClient-Core-SvenVanCaekenberghe.25'message 'replaced all invocations of #squeakToUtf8 with a direct use of a converter'id '58fec5b3-d6e1-4eae-9da7-b6da160c4874'date '14 June 2010'time '8:35:14 pm'author 'SvenVanCaekenberghe'ancestors ((id '92b7f407-8df1-4472-962b-45d99f2364b8'))stepChildren ())

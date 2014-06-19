@@ -1,1 +1,0 @@
-(name 'WebClient-Core-ar.39'message 'Update WebClient and WebServer to 1.2 to indicate presence of WebSockets and multipart/form-data handling.'id '323f0676-2ffd-4b49-9601-856078cca274'date '21 July 2010'time '12:14:16.246 am'author 'ar'ancestors ((id '7659b0e2-2617-b046-8813-1f75b428db77'))stepChildren ())

@@ -1,1 +1,0 @@
-(name 'WebClient-Core-ar.22'message 'Fix bug in WebServer>>sessionAt:put:. Provide convenience method for sending formatted XML responses.'id '7b9952c6-ec48-cb46-8d89-388f9d56b128'date '11 May 2010'time '11:45:38 am'author 'ar'ancestors ((id 'afdefd49-9778-7845-bc5f-b049eaf842ff'))stepChildren ())

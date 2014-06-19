@@ -12,13 +12,13 @@ baseline: spec
 						loads: #('tests');			
        					repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
 						yourself ];
-				"project: 'WebClient' with: 
+				project: 'WebClient' with: 
 					[ spec
      						className: 'ConfigurationOfWebClient';
 						versionString: #stable;
 						loads: #('Core');			
        					repository: 'http://ss3.gemstone.com/ss/WebClient';
-						yourself ];"
+						yourself ];
 				yourself.
 			spec
 				package: 'JSON' with: 
@@ -30,20 +30,19 @@ baseline: spec
 					[ spec
      						repository: 'http://www.squeaksource.com/Regex';
 						yourself ];
-				"package: 'SqueakSSL-Core' with: 
+				package: 'SqueakSSL-Core' with: 
 					[ spec
      						repository: 'http://www.squeaksource.com/SqueakSSL';
-						yourself ];"
-				package: 'SqueakSSL-Core';
-				package: 'WebClient-Core';
-				package: 'AutoTDD-Core' with: [spec requires: #('libraries')];
+						yourself ];
+				package: 'AutoTDD-Core' with: [spec requires: #('libraries' 'AutoTDD-Exceptions')];
 				package: 'AutoTDD-GUI';
 				package: 'AutoTDD-Dummy';
+				package: 'AutoTDD-Exceptions';
 				package: 'AutoTDD-Tests' with: [spec requires: #('default' 'dummies' 'Widgets')];
 				yourself.
 			spec
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
-				group: 'libraries' with: #('JSON' 'VB-Regex' 'WebClient-Core' 'SqueakSSL-Core');
+				group: 'libraries' with: #('JSON' 'VB-Regex' 'WebClient' 'SqueakSSL-Core');
 				group: 'dummies' with: #('AutoTDD-Dummy');
 				group: 'Tests' with: #('AutoTDD-Tests');
 				group: 'TravisCI' with: #('Tests')	];
