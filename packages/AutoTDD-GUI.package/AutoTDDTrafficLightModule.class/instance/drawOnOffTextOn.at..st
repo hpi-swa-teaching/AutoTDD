@@ -1,4 +1,4 @@
 drawing
-drawOnOffTextOn: aCanvas
+drawOnOffTextOn: aCanvas at: aPoint
 
 	self subclassResponsibility

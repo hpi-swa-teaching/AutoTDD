@@ -1,4 +1,0 @@
-building
-createSettingsComponents
-
-	self createOnOffButton

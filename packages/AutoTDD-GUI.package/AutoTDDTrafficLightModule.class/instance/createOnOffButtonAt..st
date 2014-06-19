@@ -1,18 +1,18 @@
-accessing
-createProOnOffButton
+building
+createOnOffButtonAt: aPoint
 	
 	| button state |
-	state := self usePro
+	state := self use
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
-	button := ThreePhaseButtonMorph new
+	button := ThreePhaseButtonMorph new 
 		offImage: (self imageProvider loadImageAt: #off);
 		onImage: (self imageProvider loadImageAt: #on);
-		position: self owner settingsPosition + (160 @ 45);
-		actionSelector: #proOnOffButtonClicked;
+		position: aPoint + self onOffButtonPosition;
+		actionSelector: #onOffButtonClicked;
 		state: state;
 		target: self;
-		name: 'proOnOffButton';
+		name: 'onOffButton';
 		yourself.
 	button extent: (button offImage extent max: button onImage extent).
 	self addMorph: button

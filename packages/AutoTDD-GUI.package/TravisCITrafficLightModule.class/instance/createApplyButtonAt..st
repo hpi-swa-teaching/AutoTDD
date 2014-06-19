@@ -1,12 +1,12 @@
-accessing
-createApplyButton
+building
+createApplyButtonAt: aPoint
 	
 	| button transColor|
 	transColor := (TranslucentColor new alpha: 0).
 	button := IconicButton new
 		labelGraphic: (self imageProvider loadImageAt: #apply);
 		extent: 60 @ 20;
-		position: self owner settingsPosition + (90 @ 75);
+		position: aPoint + (90 @ 75);
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #applyButtonClicked;

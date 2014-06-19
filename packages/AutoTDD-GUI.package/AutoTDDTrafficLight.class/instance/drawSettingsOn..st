@@ -5,4 +5,4 @@ drawSettingsOn: aCanvas
 		self
 			drawSettingsBackgroundOn: aCanvas;
 			drawLineOn: aCanvas.
-		self modules do: [ :each | each drawSettingsOn: aCanvas ] ]
+		self modules do: [ :each | each drawSettingsOn: aCanvas at: self settingsPosition ] ]
