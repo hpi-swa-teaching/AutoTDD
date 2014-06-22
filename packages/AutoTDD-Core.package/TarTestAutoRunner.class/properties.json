@@ -15,5 +15,5 @@
 	"name" : "TarTestAutoRunner",
 	"pools" : [
 		 ],
-	"super" : "AutoTDDDataSource",
+	"super" : "TarDataSource",
 	"type" : "normal" }

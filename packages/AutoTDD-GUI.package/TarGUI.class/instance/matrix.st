@@ -2,7 +2,7 @@ as yet unclassified
 matrix
 
 	| test |
-	test := self data results at: self selectedResult ifAbsent: [ TestResult new ].
+	test := self parser parseResultAt: self selectedResult of: self data results.
 	self tests: OrderedCollection new.
 	^ OrderedCollection new
 		addAll: (test errors collect: [ :each | 

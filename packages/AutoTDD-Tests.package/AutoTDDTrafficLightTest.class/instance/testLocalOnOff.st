@@ -12,7 +12,7 @@ testLocalOnOff
 	sut local onOffButtonClicked.
 	self deny: sut local onOffButton isOn.
 	ClassGettingTested addSelector: #fooMethod withMethod: method.
-	self assert: sut local data isNil.
+	self assert: sut local data isNullObject.
 	sut local onOffButtonClicked.
 	self assert: sut local onOffButton isOn.
 	ClassGettingTested addSelector: #fooMethod withMethod: method.

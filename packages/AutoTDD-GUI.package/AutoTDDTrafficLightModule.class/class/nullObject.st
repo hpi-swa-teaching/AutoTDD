@@ -1,4 +1,4 @@
 constants
-prefix
+nullObject
 
 	self subclassResponsibility

@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TarNullDataSource",
+	"pools" : [
+		 ],
+	"super" : "TarDataSource",
+	"type" : "normal" }

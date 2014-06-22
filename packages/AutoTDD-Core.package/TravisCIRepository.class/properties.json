@@ -15,5 +15,5 @@
 	"name" : "TravisCIRepository",
 	"pools" : [
 		 ],
-	"super" : "AutoTDDDataSource",
+	"super" : "TravisCIDataSource",
 	"type" : "normal" }

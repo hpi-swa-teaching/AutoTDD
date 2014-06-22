@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TravisCINoValidSlugError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

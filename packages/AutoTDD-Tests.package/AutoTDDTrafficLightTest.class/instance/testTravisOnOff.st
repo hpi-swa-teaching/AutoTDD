@@ -3,7 +3,7 @@ testTravisOnOff
 	
 	sut settingsButtonClicked.
 	self deny: sut travis onOffButton isOn.
-	self assert: sut travis data isNil.
+	self assert: sut travis data isNullObject.
 	"sut travisOnOffButtonClicked.
 	self assert: sut travisOnOffButton isOn.
 	self deny: sut travisData isNil.

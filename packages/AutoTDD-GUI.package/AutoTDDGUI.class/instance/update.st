@@ -1,4 +1,4 @@
 updating
 update
 
-	self subclassResponsibility
+	self changedValues

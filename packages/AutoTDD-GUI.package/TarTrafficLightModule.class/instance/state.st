@@ -2,7 +2,5 @@ accessing
 state
 
 	| data |
-	data := self data
-		ifNil: [ OrderedCollection new ]
-		ifNotNil: [ self data results ].
+	data := self data results.
 	^ (self parser parseCurrentStateOf: data)
