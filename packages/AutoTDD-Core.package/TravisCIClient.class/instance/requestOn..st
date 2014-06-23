@@ -7,9 +7,11 @@ requestOn: aString
 		request headerAt: 'Accept' put: self mimeType.
 		self usePro ifTrue: [
 			request headerAt: 'Authorization' put: ('token ', self token) ] ].
-	response content; close. ] on: Error do: [ :error |
-		TravisCIConnectionError signal: 'Connection failed: ', error messageText.
+	response content; close ] on: Error do: [ :error |
+		[ TravisCIConnectionError signal: 'Connection failed: ', error messageText ] fork.
 		^ JsonObject new ].
 	^ (response code = 200)
 		ifTrue: [ Json readFrom: response content readStream ]
-		ifFalse: [ JsonObject new ]
+		ifFalse: [
+			self throwExceptionForResponseCode: response code.
+			JsonObject new ]

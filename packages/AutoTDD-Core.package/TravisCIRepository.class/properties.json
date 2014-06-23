@@ -9,9 +9,7 @@
 		"cache",
 		"client",
 		"repository",
-		"timer",
-		"usePro",
-		"token" ],
+		"timer" ],
 	"name" : "TravisCIRepository",
 	"pools" : [
 		 ],

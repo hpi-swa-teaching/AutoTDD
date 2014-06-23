@@ -1,11 +1,10 @@
 constants
 extendNameButtonClicked
 	
-	self nameExpanded: self nameExpanded not.
 	self nameExpanded
-		ifTrue: [ 
+		ifFalse: [ 
 			self createNameMorph.
 			self extendNameButton state: #on ]
-		ifFalse: [
+		ifTrue: [
 			self nameMorph delete.
 			self extendNameButton state: #off ]

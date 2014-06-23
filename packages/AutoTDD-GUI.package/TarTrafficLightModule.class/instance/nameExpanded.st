@@ -1,4 +1,6 @@
 accessing
 nameExpanded
 	
-	^ nameExpanded ifNil: [ nameExpanded := false ]
+	^ self nameMorph
+		ifNil: [ false ]
+		ifNotNil: [ true ]
