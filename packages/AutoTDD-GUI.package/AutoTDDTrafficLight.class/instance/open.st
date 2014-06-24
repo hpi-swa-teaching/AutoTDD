@@ -2,7 +2,7 @@ utility
 open
 	
 	^ self
-		extent: self class extent;
+		extent: self baseExtent;
 		createComponents;
 		openInWorld;
 		setProperty: #morphicLayerNumber toValue: self morphicLayerNumber;

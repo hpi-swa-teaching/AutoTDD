@@ -1,4 +1,4 @@
 accessing
 settingsPosition
 
-	^ self position + (self class extent x @ 0)
+	^ self position + (self baseExtent x @ 0)

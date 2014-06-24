@@ -7,6 +7,7 @@ createReloadButton
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #reloadButtonClicked;
+		name: 'reloadButton';
 		target: self;
 		yourself.
 	button extent: (button findA: SketchMorph) extent.

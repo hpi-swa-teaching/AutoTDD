@@ -5,5 +5,6 @@ createComponents
 		createSettingsButton; 
 		createForegroundButton;
 		createReloadButton;
-		createMuteButton.
+		createMuteButton;
+		positionButtons.
 	self modules do: [ :each | each createComponents ]

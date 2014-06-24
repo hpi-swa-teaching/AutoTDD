@@ -8,7 +8,6 @@ createOnOffButtonAt: aPoint
 	button := ThreePhaseButtonMorph new 
 		offImage: (self imageProvider loadImageAt: #off);
 		onImage: (self imageProvider loadImageAt: #on);
-		position: aPoint + self onOffButtonPosition;
 		actionSelector: #onOffButtonClicked;
 		state: state;
 		target: self;

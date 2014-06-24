@@ -1,4 +1,4 @@
 layout
 buttonAxis
 
-	^ 160
+	^ self baseExtent x - 15

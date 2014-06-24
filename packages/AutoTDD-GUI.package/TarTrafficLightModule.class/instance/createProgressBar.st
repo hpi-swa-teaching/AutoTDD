@@ -3,7 +3,7 @@ createProgressBar
 	
 	| progressBar |
 	progressBar := ProgressBarMorph new
-		extent: (self owner width - 20) @ 10;
+		extent: (self owner baseExtent x - 20) @ 10;
 		borderWidth: 0;
 		color: self class gray;
 		progressColor: self class lightBlue;

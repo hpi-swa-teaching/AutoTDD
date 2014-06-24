@@ -6,7 +6,6 @@ createApplyButtonAt: aPoint
 	button := IconicButton new
 		labelGraphic: (self imageProvider loadImageAt: #apply);
 		extent: 60 @ 20;
-		position: aPoint + (90 @ 75);
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #applyButtonClicked;

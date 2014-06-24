@@ -8,6 +8,7 @@ createSettingsButton
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #settingsButtonClicked;
+		name: 'settingsButton';
 		target: self;
 		yourself.
 	button extent: (button findA: SketchMorph) extent.

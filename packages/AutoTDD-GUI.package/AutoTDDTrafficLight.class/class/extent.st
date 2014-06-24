@@ -1,4 +1,4 @@
 constants
 extent
 
-	^ 175 @ 150
+	^ 95 @ 150
