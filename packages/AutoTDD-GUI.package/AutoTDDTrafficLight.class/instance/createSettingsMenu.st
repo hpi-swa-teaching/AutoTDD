@@ -1,5 +1,5 @@
 components
 createSettingsMenu
 	
-	self updateExtent.
+	self extent: self fullExtent.
 	self modules do: [ :each | each createSettingsComponentsAt: self settingsPosition ]

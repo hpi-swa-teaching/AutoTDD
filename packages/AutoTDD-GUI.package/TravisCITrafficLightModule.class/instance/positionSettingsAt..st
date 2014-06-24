@@ -1,8 +1,12 @@
 as yet unclassified
 positionSettingsAt: aPoint
 
+	| morphs |
 	super positionSettingsAt: aPoint.
-	self applyButton ifNotNilDo: [ :button | button position: aPoint + (90 @ 75) ].
-	self proOnOffButton ifNotNilDo: [ :button | button position: aPoint + (160 @ 45) ].
-	self slugField ifNotNilDo: [ :button | button position: aPoint + (5 @ 95) ].
-	self tokenField ifNotNilDo: [ :button | button position: aPoint + (5 @ 120) ]
+	morphs := {
+		{self applyButton. 90 @ 75}.
+		{self proOnOffButton. 160 @ 45}.
+		{self slugField. 5 @ 95}.
+		{self tokenField. 5 @ 120}. }.
+	morphs do: [ :each |
+		each first ifNotNilDo: [ :morph | morph position: aPoint + each second ] ]

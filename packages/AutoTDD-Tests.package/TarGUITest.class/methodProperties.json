@@ -2,4 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"testValues" : "PS 6/13/2014 14:25" } }
+		"setUp" : "PS 6/24/2014 16:54",
+		"subjectClass" : "PS 6/24/2014 16:51",
+		"testInitialization" : "PS 6/24/2014 17:00",
+		"testValues" : "PS 6/24/2014 16:54" } }

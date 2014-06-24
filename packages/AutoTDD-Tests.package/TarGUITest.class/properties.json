@@ -10,5 +10,5 @@
 	"name" : "TarGUITest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "UiTestCase",
 	"type" : "normal" }

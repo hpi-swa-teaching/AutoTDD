@@ -1,8 +1,11 @@
 as yet unclassified
 positionButtons
 
-	self
-		center: self reloadButton at: self position + (self buttonAxis @ 50);
-		center: self foregroundButton at: self position + (self buttonAxis @ 80);
-		center: self settingsButton at: self position + (self buttonAxis @ 20);
-		center: self muteButton at: self position + (self buttonAxis @ 107)
+	| buttons |
+	buttons := {
+		{self reloadButton. 50}.
+		{self foregroundButton. 80}.
+		{self settingsButton. 20}.
+		{self muteButton. 107} }.
+	buttons do: [ :each |
+		self center: each first at: self position + (self buttonAxis @ each second) ]

@@ -10,5 +10,5 @@
 	"name" : "TravisCIGUITest",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "UiTestCase",
 	"type" : "normal" }

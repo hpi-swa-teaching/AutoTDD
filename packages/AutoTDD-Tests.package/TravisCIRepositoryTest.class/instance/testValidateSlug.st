@@ -1,18 +1,15 @@
 tests
 testValidateSlug
 
-	| repo |
-	repo := TravisCIRepository new.
 	self
-		shouldnt: [repo validate: 'a/b'] raise: Error;
-		shouldnt: [repo validate: 'a0/-b'] raise: Error;
-		should: [repo validate: 'a/'] raise: Error;
-		should: [repo validate: '/b'] raise: Error;
-		should: [repo validate: '/'] raise: Error;
-		should: [repo validate: 'a /b'] raise: Error;
-		should: [repo validate: 'a/ b'] raise: Error;
-		should: [repo validate: ' a/b'] raise: Error;
-		should: [repo validate: 'a/b '] raise: Error;
-		should: [repo validate: 'a/b/c'] raise: Error;
-		should: [repo validate: 'ab'] raise: Error.
-	repo delete
+		shouldnt: [repository repository: 'a/b'] raise: TravisCINoValidSlugError;
+		shouldnt: [repository repository: 'a0/-b'] raise: TravisCINoValidSlugError;
+		should: [repository repository: 'a/'] raise: TravisCINoValidSlugError;
+		should: [repository repository: '/b'] raise: TravisCINoValidSlugError;
+		should: [repository repository: '/'] raise: TravisCINoValidSlugError;
+		should: [repository repository: 'a /b'] raise: TravisCINoValidSlugError;
+		should: [repository repository: 'a/ b'] raise: TravisCINoValidSlugError;
+		should: [repository repository: ' a/b'] raise: TravisCINoValidSlugError;
+		should: [repository repository: 'a/b '] raise: TravisCINoValidSlugError;
+		should: [repository repository: 'a/b/c'] raise: TravisCINoValidSlugError;
+		should: [repository repository: 'ab'] raise: TravisCINoValidSlugError

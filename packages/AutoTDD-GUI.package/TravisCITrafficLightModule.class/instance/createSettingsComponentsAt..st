@@ -2,8 +2,8 @@ building
 createSettingsComponentsAt: aPoint
 
 	self
-		createApplyButtonAt: aPoint;
-		createSlugFieldAt: aPoint;
-		createTokenFieldAt: aPoint;
-		createProOnOffButtonAt: aPoint.
+		createApplyButton;
+		createSlugField;
+		createTokenField;
+		createProOnOffButton.
 	super createSettingsComponentsAt: aPoint

@@ -4,6 +4,7 @@ matrix
 	| test matrix |
 	test := self parser parseResultAt: self selectedResult of: self data results.
 	self tests: OrderedCollection new.
+	"Usage of addAll: mixes up the order of the elements in matrix and tests"
 	matrix := OrderedCollection new.
 	test errors do: [ :each | 
 		self tests add: each.

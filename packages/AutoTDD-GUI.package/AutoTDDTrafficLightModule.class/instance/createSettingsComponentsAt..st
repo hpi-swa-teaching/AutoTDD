@@ -2,5 +2,5 @@ building
 createSettingsComponentsAt: aPoint
 
 	self
-		createOnOffButtonAt: aPoint;
+		createOnOffButton;
 		positionSettingsAt: aPoint
