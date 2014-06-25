@@ -1,4 +1,5 @@
 as yet unclassified
 showModule
 
-	self stateButton show
+	self extent: self class extent.
+	super createComponents

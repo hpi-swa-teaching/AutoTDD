@@ -1,4 +1,5 @@
 as yet unclassified
 hideModule
 
-	self stateButton hide	
+	self stateButton ifNotNilDo: [ :button | button delete ].
+	self extent: 0@0
