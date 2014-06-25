@@ -15,5 +15,6 @@ imageDictionary
 		#passed		-> [ 'GreenBulb.png' ].
 		#pin			-> [ 'Pin.png' ].
 		#pinSticked	-> [ 'PinActive.png' ].
+		#quit			-> [ 'quitButton.png' ].
 		#reload		-> [ 'Reload.png' ].
 		#unknown		-> [ 'GreyBulb.png' ]. }

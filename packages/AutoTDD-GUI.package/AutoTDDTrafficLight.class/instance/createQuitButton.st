@@ -4,7 +4,7 @@ createQuitButton
 	| button transColor|
 	transColor := (TranslucentColor new alpha: 0).
 	button := IconicButton new
-		labelGraphic: (self imageProvider loadImageAt: #reload);
+		labelGraphic: (self imageProvider loadImageAt: #quit);
 		color: transColor;
 		borderColor: transColor;
 		actionSelector: #quitButtonClicked;
