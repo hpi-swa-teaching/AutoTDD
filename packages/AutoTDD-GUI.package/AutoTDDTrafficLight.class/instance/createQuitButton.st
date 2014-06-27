@@ -12,5 +12,5 @@ createQuitButton
 		target: self;
 		yourself.
 	button extent: (button findA: SketchMorph) extent.
-	self center: button at: self position + (10 @ 10).
+	self center: button at: (self topLeft) + (10 @ 5).
 	self addMorph: button
