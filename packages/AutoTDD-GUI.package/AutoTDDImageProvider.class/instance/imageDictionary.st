@@ -3,9 +3,9 @@ imageDictionary
 
 	^ IdentityDictionary newFrom: {
 		#apply 			-> [ 'ApplyButton.png' ].
-		#collapse		-> [ 'CollapseButton.png' ].
+		#collapse		-> [ 'infoButtonInactive.png' ].
 		#errored		-> [ 'RedBulb.png' ].
-		#expand		-> [ 'ExpandButton.png' ].
+		#expand		-> [ 'infoButtonActive.png' ].
 		#failed			-> [ 'YellowBulb.png' ].
 		#gear			-> [ 'SettingsGear.png' ].
 		#mute 			-> [ 'muteButton.png' ].
