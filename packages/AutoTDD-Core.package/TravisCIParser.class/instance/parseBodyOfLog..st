@@ -1,4 +1,4 @@
 parsing
 parseBodyOfLog: aJson
 
-	^ self primitiveParseBodyOf: (self primitiveParseLogOf: aJson)
+	^ self removeProgressFromLog: (self primitiveParseBodyOf: (self primitiveParseLogOf: aJson))
