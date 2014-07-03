@@ -2,7 +2,7 @@ constants
 horizontalLines
 
 	| textLineHeight textOffset listLineHeight listOffset
-		upperLine middleLine listLines textLines |
+		upperLine middleLine listLines textLines stateLine |
 	textLines := 2.
 	listLines := 3.
 	textLineHeight := 16.
@@ -11,4 +11,5 @@ horizontalLines
 	listOffset := 7.
 	upperLine := textLines * textLineHeight + textOffset.
 	middleLine := listLines * listLineHeight + listOffset + upperLine.
-	^ {{upperLine}. {upperLine. middleLine. -30}}
+	stateLine := listLines * listLineHeight + listOffset  + middleLine.
+	^ {{upperLine}. {upperLine. middleLine. stateLine. -30}}

@@ -7,4 +7,5 @@ createComponents
 		createMatrix;
 		createButton;
 		createLog;
+		createSelectedJobState;
 		createSelectedState
