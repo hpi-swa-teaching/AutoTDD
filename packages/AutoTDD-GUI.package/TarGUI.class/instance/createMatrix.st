@@ -7,5 +7,5 @@ createMatrix
 		list: #matrix
 		selected: #selectedTest
 		changeSelected: #selectedTest:.
-	self addMorph: matrix fullFrame: self matrixFrame.	
+	self window addMorph: matrix fullFrame: self matrixFrame.	
 	^ matrix

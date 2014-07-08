@@ -4,5 +4,6 @@
 	"instance" : {
 		"setUp" : "PS 6/24/2014 16:54",
 		"subjectClass" : "PS 6/24/2014 16:51",
+		"tearDown" : "PL 7/8/2014 18:04",
 		"testInitialization" : "PS 6/24/2014 17:00",
 		"testValues" : "PS 6/24/2014 16:54" } }

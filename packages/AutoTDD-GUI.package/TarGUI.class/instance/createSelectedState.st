@@ -8,5 +8,5 @@ createSelectedState
 		accept: nil.
 	state
 		getColorSelector: #selectedStateColor.
-	self addMorph: state fullFrame: self selectedStateFrame.
+	self window addMorph: state fullFrame: self selectedStateFrame.
 	^ state

@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"data",
-		"parser" ],
+		"parser",
+		"window" ],
 	"name" : "AutoTDDGUI",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "Model",
 	"type" : "normal" }

@@ -1,4 +1,4 @@
 accessing
 progressBar
 
-	^ self submorphNamed: 'progressBar'
+	^ self window submorphNamed: 'progressBar'

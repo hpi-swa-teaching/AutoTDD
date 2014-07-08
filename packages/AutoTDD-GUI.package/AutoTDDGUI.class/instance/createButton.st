@@ -7,5 +7,5 @@ createButton
 		getState: #isOn
 		action: #updateData
 		label: #buttonLabel.
-	self addMorph: button fullFrame: self buttonFrame.
+	self window addMorph: button fullFrame: self buttonFrame.
 	^ button

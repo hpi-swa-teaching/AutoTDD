@@ -2,4 +2,4 @@ open/close
 delete
 
 	self data: nil.
-	super delete
+	self window closeBoxHit

@@ -8,5 +8,5 @@ createSelectedJobState
 		accept: nil.
 	state
 		getColorSelector: #selectedJobStateColor.
-	self addMorph: state fullFrame: self selectedJobStateFrame.
+	self window addMorph: state fullFrame: self selectedJobStateFrame.
 	^ state

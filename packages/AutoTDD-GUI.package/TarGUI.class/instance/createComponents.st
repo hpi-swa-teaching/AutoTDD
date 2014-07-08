@@ -1,6 +1,7 @@
 building
 createComponents
 
+	super createComponents.
 	self 
 		createHistory;
 		createMatrix;

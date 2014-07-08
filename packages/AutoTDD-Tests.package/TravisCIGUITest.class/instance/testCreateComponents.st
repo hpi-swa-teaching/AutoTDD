@@ -2,9 +2,9 @@ tests
 testCreateComponents
 
 	self
-		assert: (sut submorphsSatisfying: [ :morph |
+		assert: (sut window submorphsSatisfying: [ :morph |
 			morph isKindOf: PluggableTextMorphPlus ]) size equals: 4;
-		assert: (sut submorphsSatisfying: [ :morph |
+		assert: (sut window submorphsSatisfying: [ :morph |
 			morph isKindOf: AutoTDDPluggableListMorph ]) size equals: 2;
-		assert: (sut submorphsSatisfying: [ :morph |
+		assert: (sut window submorphsSatisfying: [ :morph |
 			morph isKindOf: PluggableButtonMorph ]) size equals: 1

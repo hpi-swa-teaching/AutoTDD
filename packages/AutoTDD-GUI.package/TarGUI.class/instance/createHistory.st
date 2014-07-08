@@ -7,5 +7,5 @@ createHistory
 		list: #history
 		selected: #selectedResult
 		changeSelected: #selectedResult:.
-	self addMorph: history fullFrame: self historyFrame.
+	self window addMorph: history fullFrame: self historyFrame.
 	history autoDeselect: false

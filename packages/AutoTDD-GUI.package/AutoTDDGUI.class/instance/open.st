@@ -1,9 +1,9 @@
 open/close
 open
 
-	^ self
+	self window: SystemWindow new.
+	self
 		createComponents;
-		openInWorld;
-		extent: self class extent;
-		update;
-		yourself
+		update.
+	self window openInWorld.
+	self window extent: self class extent
