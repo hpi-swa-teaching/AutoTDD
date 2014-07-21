@@ -1,3 +1,4 @@
 building
 stopButtonLabel
+
 	^ 'Stop All'

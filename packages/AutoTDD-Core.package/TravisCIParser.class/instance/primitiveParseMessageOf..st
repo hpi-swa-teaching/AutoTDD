@@ -1,4 +1,4 @@
 primitive-parsing
 primitiveParseMessageOf: aJson
 
-	^ aJson at: 'message' ifAbsent: [ '' ]
+	^ aJson at: 'message' ifAbsent: [ String empty ]

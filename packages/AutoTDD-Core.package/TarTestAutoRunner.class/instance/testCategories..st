@@ -1,6 +1,6 @@
 accessing
 testCategories: aTestCategories
 
-	testCategories ~= aTestCategories ifTrue: [
+	self testCategories ~= aTestCategories ifTrue: [
 		testCategories := aTestCategories.
 		self invalidateTestSuite ]

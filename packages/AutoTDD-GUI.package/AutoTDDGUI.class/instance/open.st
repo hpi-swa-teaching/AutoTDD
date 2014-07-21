@@ -5,5 +5,6 @@ open
 	self
 		createComponents;
 		update.
-	self window openInWorld.
-	self window extent: self class extent
+	self window
+		openInWorld;
+		extent: self class extent

@@ -1,4 +1,4 @@
 primitive-parsing
 primitiveParseBranchOf: aJson
 
-	^ aJson at: 'branch' ifAbsent: [ '' ]
+	^ aJson at: 'branch' ifAbsent: [ String empty ]

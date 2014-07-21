@@ -7,6 +7,6 @@ createProgressBar
 		color: Color red;
 		progressColor: self class lightBlue;
 		name: 'progressBar';
+		color: self class lightGray;
 		yourself.
-	self window addMorph: progressBar fullFrame: self progressBarFrame.
-	progressBar color: self class lightGray
+	self window addMorph: progressBar fullFrame: self progressBarFrame

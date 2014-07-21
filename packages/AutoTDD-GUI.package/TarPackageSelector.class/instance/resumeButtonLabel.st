@@ -1,3 +1,4 @@
 building
 resumeButtonLabel
+	
 	^ 'Resume All'

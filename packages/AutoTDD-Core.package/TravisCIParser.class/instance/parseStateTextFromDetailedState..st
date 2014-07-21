@@ -1,10 +1,10 @@
 as yet unclassified
 parseStateTextFromDetailedState: aString
 
-	((self parseNumberOfErrorsFromDetailedState: aString) > 0) 
-		ifTrue: [^self parseErrorsFromDetailedState: aString].
-	((self parseNumberOfFailuresFromDetailedState: aString) > 0) 
-		ifTrue: [^self parseFailuresFromDetailedState: aString].
-	((self parseNumberOfPassesFromDetailedState: aString) > 0) 
-		ifTrue: [^self parsePassesFromDetailedState: aString].
-	^ ''
+	(self parseNumberOfErrorsFromDetailedState: aString) strictlyPositive 
+		ifTrue: [ ^ self parseErrorsFromDetailedState: aString ].
+	(self parseNumberOfFailuresFromDetailedState: aString) strictlyPositive 
+		ifTrue: [ ^ self parseFailuresFromDetailedState: aString ].
+	(self parseNumberOfPassesFromDetailedState: aString) strictlyPositive 
+		ifTrue: [ ^ self parsePassesFromDetailedState: aString ].
+	^ String empty

@@ -1,5 +1,5 @@
 data-processing
 validate: aString
 
-	(aString matchesRegex: self class validSlug) ifFalse: 
-			[ TravisCINoValidSlugError signal ]
+	(aString matchesRegex: self class validSlug)
+		ifFalse: [ TravisCINoValidSlugError signal ]

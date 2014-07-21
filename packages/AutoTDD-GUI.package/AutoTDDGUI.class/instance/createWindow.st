@@ -1,8 +1,8 @@
 building
 createWindow 
 
-	self window: SystemWindow new.
-	self window
+	self window: (SystemWindow new
 		model: self;
-		setLabel: self label.
+		setLabel: self label;
+		yourself)
 	

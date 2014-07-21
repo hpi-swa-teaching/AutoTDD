@@ -2,10 +2,11 @@ building
 createHistory
 
 	| history |
-	history := AutoTDDPluggableListMorph 
+	history := (AutoTDDPluggableListMorph 
 		on: self
 		list: #history
 		selected: #selectedResult
-		changeSelected: #selectedResult:.
-	self window addMorph: history fullFrame: self historyFrame.
-	history autoDeselect: false
+		changeSelected: #selectedResult:)
+			autoDeselect: false;
+			yourself.
+	self window addMorph: history fullFrame: self historyFrame

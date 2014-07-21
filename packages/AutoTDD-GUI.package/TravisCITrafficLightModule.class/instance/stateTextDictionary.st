@@ -2,13 +2,13 @@ constants
 stateTextDictionary
 
 	| stateText |
-	stateText := self parser parseStateTextFromLog: (self logForCurrentBuildsFirstJob).
+	stateText := self parser parseStateTextFromLog: self logForCurrentBuildsFirstJob.
 	^ IdentityDictionary newFrom: {
 		#canceled 	-> [ 'Canceled' ].
 		#created 	-> [ 'Created' ].
-		#errored 	-> [ (stateText = '') ifFalse: stateText ifTrue: 'Errored' ].
-		#failed 		-> [ (stateText = '') ifFalse: stateText ifTrue: 'Failed' ].
-		#passed 	-> [ (stateText = '') ifFalse: stateText ifTrue: 'Passed' ].
+		#errored 	-> [ stateText ifEmpty: [ 'Errored' ] ].
+		#failed 		-> [ stateText ifEmpty: [ 'Failed' ] ].
+		#passed 	-> [ stateText ifEmpty: [ 'Passed' ] ].
 		#queued 	-> [ 'Queued' ].
 		#started 	-> [ 'Started' ].
 		#unknown 	-> [ 'Unknown' ] }

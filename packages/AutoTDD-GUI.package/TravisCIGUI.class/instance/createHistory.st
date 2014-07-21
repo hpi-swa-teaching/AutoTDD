@@ -7,5 +7,4 @@ createHistory
 		list: #history
 		selected: #selectedBuild
 		changeSelected: #selectedBuild:.
-	self window addMorph: history fullFrame: self historyFrame.
-	^ history
+	self window addMorph: history fullFrame: self historyFrame

@@ -1,8 +1,7 @@
 {
 	"class" : {
-		 },
+		"defaultResource" : "PS 7/22/2014 00:33",
+		"defaultUri" : "PS 7/22/2014 00:34" },
 	"instance" : {
-		"imageDictionary" : "SLe 6/30/2014 13:53",
-		"loadImage:" : "PS 6/16/2014 23:14",
-		"loadImage:ifAbsent:" : "PS 6/16/2014 23:14",
-		"loadImageAt:" : "PS 6/16/2014 23:14" } }
+		"primitiveLoadResource:" : "PS 7/22/2014 00:35",
+		"resourceDictionary" : "PS 7/22/2014 00:31" } }

@@ -6,13 +6,14 @@ createForegroundButton
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new
-		offImage: (self imageProvider loadImageAt: #pin);
-		onImage: (self imageProvider loadImageAt: #pinSticked);
+		offImage: (self imageProvider loadResourceAt: #pin);
+		onImage: (self imageProvider loadResourceAt: #pinSticked);
 		actionSelector: #foregroundButtonClicked;
 		state: state;
 		target: self;
 		name: 'foregroundButton';
 		yourself.
 	button extent: (button offImage extent max: button onImage extent).
-	self center: button at: self position + (self buttonAxis @ 80).
-	self addMorph: button
+	self
+		center: button at: self position + (self buttonAxis @ 80);
+		addMorph: button

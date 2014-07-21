@@ -2,7 +2,7 @@ constants
 imageDictionary
 
 	^ IdentityDictionary newFrom: {
-		#errored		-> [ #errored ].
-		#failed			-> [ #failed ].
-		#passed		-> [ #passed ].
-		#unknown		-> [ #unknown ]. }
+		#errored		-> #errored.
+		#failed			-> #failed.
+		#passed		-> #passed.
+		#unknown		-> #unknown. }

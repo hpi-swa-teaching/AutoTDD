@@ -1,4 +1,4 @@
 as yet unclassified
 testLoadAbsent
 
-	self assert: (AutoTDDImageProvider new loadImage: 'foo.png') isForm
+	self assert: (AutoTDDImageProvider new loadResource: 'foo.png') isForm

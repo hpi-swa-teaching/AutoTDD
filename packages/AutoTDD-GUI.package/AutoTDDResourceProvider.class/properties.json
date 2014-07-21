@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "AutoTDDResourceProvider",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

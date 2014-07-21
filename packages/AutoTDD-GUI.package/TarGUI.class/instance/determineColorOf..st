@@ -1,4 +1,4 @@
 as yet unclassified
 determineColorOf: aTestResult
 
-	^ (self colorDictionary at: (self parser primitiveParseStateOf: aTestResult)) value
+	^ self colorDictionary at: (self parser primitiveParseStateOf: aTestResult)

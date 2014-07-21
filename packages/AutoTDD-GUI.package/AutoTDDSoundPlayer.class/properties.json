@@ -10,5 +10,5 @@
 	"name" : "AutoTDDSoundPlayer",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AutoTDDResourceProvider",
 	"type" : "normal" }

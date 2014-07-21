@@ -7,5 +7,4 @@ createMatrix
 		list: #matrix
 		selected: #selectedJob
 		changeSelected: #selectedJob:.
-	self window addMorph: matrix fullFrame: self matrixFrame.	
-	^ matrix
+	self window addMorph: matrix fullFrame: self matrixFrame

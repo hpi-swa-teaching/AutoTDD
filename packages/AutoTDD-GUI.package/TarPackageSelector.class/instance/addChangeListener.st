@@ -1,5 +1,6 @@
 accessing
 addChangeListener
+	
 	SystemChangeNotifier uniqueInstance 
 		notify: self ofSystemChangesOfItem: #class change: #Added using: #update;
 		notify: self ofSystemChangesOfItem: #category change: #Added using: #update;

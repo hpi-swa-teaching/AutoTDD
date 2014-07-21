@@ -3,4 +3,4 @@ playSoundForState: aState
 	
 	self isMuted ifFalse: [
 		SoundPlayer stopReverb.
-		(self loadSoundAt: aState asSymbol) play]
+		(self loadResourceAt: aState) play ]

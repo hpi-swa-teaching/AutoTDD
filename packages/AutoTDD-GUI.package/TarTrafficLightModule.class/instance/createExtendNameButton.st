@@ -6,8 +6,8 @@ createExtendNameButton
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new
-		offImage: (self imageProvider loadImageAt: #expand);
-		onImage: (self imageProvider loadImageAt: #collapse);
+		offImage: (self imageProvider loadResourceAt: #expand);
+		onImage: (self imageProvider loadResourceAt: #collapse);
 		actionSelector: #extendNameButtonClicked;
 		state: state;
 		target: self;

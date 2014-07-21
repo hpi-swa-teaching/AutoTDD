@@ -6,5 +6,6 @@ createTravisModule
 		soundPlayer: self soundPlayer;
 		position: self position + (75 @ 10);
 		yourself.
-	self addMorph: module.
-	self travis: module
+	self
+		addMorph: module;
+		travis: module

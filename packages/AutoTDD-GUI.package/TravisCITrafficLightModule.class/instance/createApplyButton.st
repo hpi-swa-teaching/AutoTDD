@@ -4,7 +4,7 @@ createApplyButton
 	| button transColor|
 	transColor := (TranslucentColor new alpha: 0).
 	button := IconicButton new
-		labelGraphic: (self imageProvider loadImageAt: #apply);
+		labelGraphic: (self imageProvider loadResourceAt: #apply);
 		extent: 60 @ 20;
 		color: transColor;
 		borderColor: transColor;

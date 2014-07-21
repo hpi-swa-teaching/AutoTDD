@@ -1,6 +1,4 @@
 accessing
 state
 
-	| data |
-	data := self data results.
-	^ (self parser parseCurrentStateOf: data)
+	^ self parser parseCurrentStateOf: self data results

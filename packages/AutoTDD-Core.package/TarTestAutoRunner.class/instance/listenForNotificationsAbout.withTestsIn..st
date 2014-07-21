@@ -4,8 +4,7 @@ listenForNotificationsAbout: categories withTestsIn: testCategories
 	SystemChangeNotifier uniqueInstance
 		notify: self
 		ofSystemChangesOfItem: #method
-		using: #methodChanged:.
-	SystemChangeNotifier uniqueInstance
+		using: #methodChanged:;
 		notify: self
 		ofSystemChangesOfItem: #class
 		using: #methodChanged:.

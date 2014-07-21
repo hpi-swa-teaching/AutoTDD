@@ -3,7 +3,7 @@ update
 
 	self stateButton ifNotNilDo: [ :button |
 		button
-			labelGraphic: (self imageProvider loadImageAt: (self imageDictionary at: self state) value) value;
+			labelGraphic: (self imageProvider loadResourceAt: (self imageDictionary at: self state));
 			extent: (button findA: SketchMorph) extent.
 		(self state ~= self previousState) ifTrue: [
 			self soundPlayer playSoundForState: self state ].

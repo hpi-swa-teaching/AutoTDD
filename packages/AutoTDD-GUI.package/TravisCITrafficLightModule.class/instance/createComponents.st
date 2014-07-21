@@ -1,5 +1,5 @@
 building
 createComponents
 
-	super createComponents.
+	self basicCreateComponents.
 	self applyVisibility

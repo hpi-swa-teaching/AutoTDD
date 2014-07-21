@@ -10,5 +10,5 @@
 	"name" : "AutoTDDImageProvider",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "AutoTDDResourceProvider",
 	"type" : "normal" }

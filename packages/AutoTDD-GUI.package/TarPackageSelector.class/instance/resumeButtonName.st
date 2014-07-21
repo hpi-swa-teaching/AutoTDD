@@ -1,3 +1,4 @@
 building
 resumeButtonName
+
 	^ 'resumeButton'
