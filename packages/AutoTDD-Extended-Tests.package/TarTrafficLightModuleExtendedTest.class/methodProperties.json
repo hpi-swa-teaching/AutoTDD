@@ -1,0 +1,10 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "PL 7/25/2014 13:26",
+		"subjectClass" : "PL 7/25/2014 13:26",
+		"tearDown" : "PL 7/25/2014 13:26",
+		"testErrored" : "PL 7/25/2014 13:27",
+		"testFailed" : "PL 7/25/2014 13:27",
+		"testPassed" : "PL 7/25/2014 13:26" } }
