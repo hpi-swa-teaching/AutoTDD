@@ -1,16 +1,14 @@
 {
-	"category" : "AutoTDD-GUI",
+	"category" : "AutoTDD-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data",
-		"parser",
-		"window" ],
-	"name" : "ATDDGUI",
+		 ],
+	"name" : "ATDDResourceProvider",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "Object",
 	"type" : "normal" }

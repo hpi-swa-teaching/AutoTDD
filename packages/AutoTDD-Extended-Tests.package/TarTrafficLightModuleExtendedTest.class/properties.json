@@ -4,7 +4,7 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PL 7/25/2014 15:24",
 	"instvars" : [
 		"widgetBag" ],
 	"name" : "TarTrafficLightModuleExtendedTest",

@@ -1,4 +1,4 @@
 accessing
 soundPlayer
 
-	^ soundPlayer ifNil: [ soundPlayer := AutoTDDSoundPlayer new ]
+	^ soundPlayer ifNil: [ soundPlayer := ATDDSoundPlayer new ]

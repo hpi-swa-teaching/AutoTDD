@@ -6,11 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tests",
-		"selectedResult",
-		"selectedTest" ],
-	"name" : "TARGUI",
+		"selectedBuild",
+		"selectedJob",
+		"logFrame" ],
+	"name" : "TCIStatusGUI",
 	"pools" : [
 		 ],
-	"super" : "ATDDGUI",
+	"super" : "ATDDStatusGUI",
 	"type" : "normal" }

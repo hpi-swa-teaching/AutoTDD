@@ -1,5 +1,5 @@
 {
-	"category" : "AutoTDD-GUI",
+	"category" : "AutoTDD-Core",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ATDDResourceProvider",
+	"name" : "ATDDImageProvider",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDResourceProvider",
 	"type" : "normal" }

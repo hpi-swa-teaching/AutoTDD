@@ -1,4 +1,4 @@
 constants
 gui
 
-	^ TARGUI
+	^ TARStatusGUI

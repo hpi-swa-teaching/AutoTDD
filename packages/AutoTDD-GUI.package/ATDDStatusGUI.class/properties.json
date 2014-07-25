@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ATDDImageProvider",
+		"data",
+		"parser",
+		"window" ],
+	"name" : "ATDDStatusGUI",
 	"pools" : [
 		 ],
-	"super" : "ATDDResourceProvider",
+	"super" : "Model",
 	"type" : "normal" }

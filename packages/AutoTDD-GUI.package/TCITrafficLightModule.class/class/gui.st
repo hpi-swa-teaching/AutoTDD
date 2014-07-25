@@ -1,4 +1,4 @@
 constants
 gui
 
-	^ TCIGUI
+	^ TCIStatusGUI

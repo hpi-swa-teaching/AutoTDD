@@ -2,7 +2,7 @@ as yet unclassified
 testInitialization
 
 	| tar |
-	tar := TarNullDataSource new.
+	tar := TARNullDataSource new.
 	self
 		assert: tar results notNil;
 		assert: tar results isSequenceable;
