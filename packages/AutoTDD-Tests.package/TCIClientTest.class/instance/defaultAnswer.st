@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 defaultAnswer
 
 	^ '{"hello":"world"}'

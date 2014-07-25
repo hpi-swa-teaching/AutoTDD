@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseStateTextFromDetailedState: aString
 
 	(self parseNumberOfErrorsFromDetailedState: aString) strictlyPositive 

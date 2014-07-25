@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 clearCache
 
 	self cache: nil

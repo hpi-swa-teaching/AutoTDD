@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 isInCategories: aCategory
 
 	^ self categories includes: aCategory

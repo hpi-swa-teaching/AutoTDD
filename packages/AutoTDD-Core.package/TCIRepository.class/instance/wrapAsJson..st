@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 wrapAsJson: aLog
 
 	^ JsonObject new

@@ -1,4 +1,4 @@
-as yet unclassified
+priv handling
 defaultAction
 
 	^ UIManager default inform: self messageText

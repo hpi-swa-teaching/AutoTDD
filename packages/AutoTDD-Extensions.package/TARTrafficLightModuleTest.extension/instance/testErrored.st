@@ -1,4 +1,4 @@
-as yet unclassified
+*AutoTDD-Extensions-tests
 testErrored
 	
 	sut local testCategories: #('AutoTDD-Dummy-Error-Tests').

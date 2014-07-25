@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseDetailedStateFromLog: aString
 
 	| matches stateRegex trimRegex newline |

@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 showModule
 
 	self extent: self class extent.

@@ -1,4 +1,4 @@
-as yet unclassified
+loading
 loadResource: aString ifAbsent: aBlock
 
 	| fileName |

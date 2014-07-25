@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 categories
 
 	^ self data categories

@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 convertColorForState: aString
 	
 	^ self colorDictionary at: aString asSymbol

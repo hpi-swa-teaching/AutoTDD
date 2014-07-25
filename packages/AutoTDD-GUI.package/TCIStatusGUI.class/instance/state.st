@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 state
 
 	^ self parser parseCurrentBuildStateOfRepository: self data repositoryJson

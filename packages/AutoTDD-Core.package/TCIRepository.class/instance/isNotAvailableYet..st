@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 isNotAvailableYet: aLog
 
 	^ aLog first = $<

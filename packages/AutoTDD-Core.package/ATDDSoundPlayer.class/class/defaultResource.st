@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 defaultResource
 
 	^ SampledSound samples: Array new samplingRate: 1

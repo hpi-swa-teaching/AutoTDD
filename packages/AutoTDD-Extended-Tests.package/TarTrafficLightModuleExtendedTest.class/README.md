@@ -1,1 +1,0 @@
-Outsource into new category in order to let Travis-CI pass.

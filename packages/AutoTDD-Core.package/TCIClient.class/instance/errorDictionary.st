@@ -1,5 +1,5 @@
-as yet unclassified
+constants
 errorDictionary
 
 	^ IdentityDictionary newFrom: {
-		403 	-> [ TravisCIAccessDeniedError signal ] }
+		403 	-> [ TCIAccessDeniedError signal ] }

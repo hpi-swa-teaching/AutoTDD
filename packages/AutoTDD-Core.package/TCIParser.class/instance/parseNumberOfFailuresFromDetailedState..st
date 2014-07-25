@@ -1,4 +1,4 @@
-as yet unclassified
+parsing
 parseNumberOfFailuresFromDetailedState: aString
 
 	| match |

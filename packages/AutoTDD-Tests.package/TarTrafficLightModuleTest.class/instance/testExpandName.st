@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testExpandName
 	
 	self assert: sut local nameMorph isNil.

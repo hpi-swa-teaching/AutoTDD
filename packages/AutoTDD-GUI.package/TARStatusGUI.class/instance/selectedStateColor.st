@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedStateColor
 
 	^ self determineColorOf: (self parser

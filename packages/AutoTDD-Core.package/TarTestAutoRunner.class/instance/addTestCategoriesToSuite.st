@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 addTestCategoriesToSuite
 
 	self testCategories do: [ :testCategory |

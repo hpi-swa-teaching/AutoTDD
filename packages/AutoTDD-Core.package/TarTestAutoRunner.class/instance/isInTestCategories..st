@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 isInTestCategories: aCategory
 
 	^ self testCategories includes: aCategory

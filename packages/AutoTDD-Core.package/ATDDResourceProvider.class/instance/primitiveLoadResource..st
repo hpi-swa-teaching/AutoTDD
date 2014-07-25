@@ -1,4 +1,4 @@
-as yet unclassified
+loading
 primitiveLoadResource: aString
 
 	self subclassResponsibility

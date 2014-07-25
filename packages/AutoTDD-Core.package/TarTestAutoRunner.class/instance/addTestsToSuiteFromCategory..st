@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 addTestsToSuiteFromCategory: aCategory
 
 	(Smalltalk organization listAtCategoryNamed: aCategory) do: [ :each |

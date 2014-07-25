@@ -1,4 +1,4 @@
-as yet unclassified
+utility
 hideModule
 
 	self stateButton ifNotNilDo: [ :button | button delete ].

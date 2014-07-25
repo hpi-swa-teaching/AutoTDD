@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 stateColor
 	
 	^ self convertColorForState: self state

@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 settingsComponents
 
 	^ OrderedCollection newFrom: {self onOffButton}

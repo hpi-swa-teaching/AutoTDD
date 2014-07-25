@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 repository
 
 	self subclassResponsibility

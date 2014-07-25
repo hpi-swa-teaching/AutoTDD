@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testPassed
 	
 	sut local testCategories: #('AutoTDD-Dummy-Success-Tests').

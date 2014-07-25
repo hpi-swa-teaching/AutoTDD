@@ -1,4 +1,4 @@
-objects from disk
+loading
 primitiveLoadResource: aString
 
 	^ SampledSound fromWaveFileNamed: ((FileDirectory uri: aString) fullName)
