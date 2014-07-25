@@ -12,8 +12,8 @@
 		"testCategories",
 		"testSuite",
 		"testRunningSemaphore" ],
-	"name" : "TarTestAutoRunner",
+	"name" : "TARTestAutoRunner",
 	"pools" : [
 		 ],
-	"super" : "TarDataSource",
+	"super" : "TARDataSource",
 	"type" : "normal" }

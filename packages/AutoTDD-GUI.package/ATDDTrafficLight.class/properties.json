@@ -1,0 +1,18 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "FB 7/17/2013 01:10:18.443",
+	"instvars" : [
+		"inForeground",
+		"settingsVisible",
+		"modules",
+		"imageProvider",
+		"soundPlayer" ],
+	"name" : "ATDDTrafficLight",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

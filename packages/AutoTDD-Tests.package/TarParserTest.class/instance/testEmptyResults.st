@@ -2,5 +2,5 @@ tests
 testEmptyResults
 
 	| parser |
-	parser := TarParser new.
+	parser := TARParser new.
 	self assert: (parser parseCurrentStateOf: OrderedCollection new) equals: #unknown.

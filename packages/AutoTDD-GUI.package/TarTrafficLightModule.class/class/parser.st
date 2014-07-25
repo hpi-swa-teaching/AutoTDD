@@ -1,4 +1,4 @@
 constants
 parser
 
-	^ TarParser
+	^ TARParser

@@ -8,8 +8,8 @@
 	"instvars" : [
 		"categories",
 		"testCategories" ],
-	"name" : "TarTrafficLightModule",
+	"name" : "TARTrafficLightModule",
 	"pools" : [
 		 ],
-	"super" : "AutoTDDTrafficLightModule",
+	"super" : "ATDDTrafficLightModule",
 	"type" : "normal" }

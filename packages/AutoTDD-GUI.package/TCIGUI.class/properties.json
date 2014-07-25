@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedBuild",
+		"selectedJob",
+		"logFrame" ],
+	"name" : "TCIGUI",
+	"pools" : [
+		 ],
+	"super" : "ATDDGUI",
+	"type" : "normal" }

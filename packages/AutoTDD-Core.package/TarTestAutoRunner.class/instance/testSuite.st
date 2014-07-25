@@ -2,6 +2,6 @@ accessing
 testSuite
 
 	^ testSuite ifNil: [ 
-		testSuite := TarProgressTestSuite named: 'Auto TestSuite'.
+		testSuite := TARProgressTestSuite named: 'Auto TestSuite'.
 		self addTestCategoriesToSuite.
 		testSuite ]

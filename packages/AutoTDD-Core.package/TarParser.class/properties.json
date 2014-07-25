@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TarParser",
+	"name" : "TARParser",
 	"pools" : [
 		 ],
 	"super" : "Object",

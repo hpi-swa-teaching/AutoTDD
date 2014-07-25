@@ -2,7 +2,7 @@ as yet unclassified
 testInitialization
 
 	| tar |
-	tar := TarTestAutoRunner new.
+	tar := TARTestAutoRunner new.
 	self
 		assert: tar process notNil;
 		assert: tar results notNil;

@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"widgetBag" ],
-	"name" : "TarTrafficLightModuleTest",
+	"name" : "TARTrafficLightModuleTest",
 	"pools" : [
 		 ],
 	"super" : "UiTestCase",

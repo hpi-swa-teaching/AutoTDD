@@ -4,7 +4,7 @@ testAdd
 	| newWidget numberOfWidgetsBefore |
 	packageSelector selectedCategories: #('Tools-Browser').
 	packageSelector selectedTestCategories: #('ToolsTests-Browser').
-	numberOfWidgetsBefore := TarTestAutoRunner instances size. 
+	numberOfWidgetsBefore := TARTestAutoRunner instances size. 
 	newWidget := packageSelector addButtonPress.
-	self assert: TarTestAutoRunner instances size equals: (1 + numberOfWidgetsBefore).
+	self assert: TARTestAutoRunner instances size equals: (1 + numberOfWidgetsBefore).
 	newWidget delete

@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TarGUITest",
+	"name" : "TARGUITest",
 	"pools" : [
 		 ],
 	"super" : "UiTestCase",

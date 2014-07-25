@@ -1,4 +1,4 @@
 as yet unclassified
 parser
 
-	^ TarParser
+	^ TARParser

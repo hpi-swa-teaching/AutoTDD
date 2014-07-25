@@ -3,7 +3,7 @@ setUp
 
 	super setUp.
 	(sut
-		data: (TarTestAutoRunner
+		data: (TARTestAutoRunner
 			initializeForCategories: #('AutoTDD-Dummy-Category')
 			withTestsIn: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Failure-Tests'
 				'AutoTDD-Dummy-Error-Tests'));

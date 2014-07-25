@@ -4,6 +4,6 @@ initializeForCategories: categories withTestsIn: testCategories
 	self
 		categories: categories;
 		testCategories: testCategories;
-		data: (TarTestAutoRunner
+		data: (TARTestAutoRunner
 			initializeForCategories: categories
 			withTestsIn: testCategories)

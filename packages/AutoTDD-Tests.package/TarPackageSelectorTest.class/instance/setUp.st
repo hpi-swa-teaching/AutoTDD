@@ -2,4 +2,4 @@ running
 setUp
 	
 	super setUp.
-	packageSelector := TarPackageSelector new
+	packageSelector := TARPackageSelector new

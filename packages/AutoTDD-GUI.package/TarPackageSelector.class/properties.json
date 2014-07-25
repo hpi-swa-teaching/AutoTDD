@@ -13,7 +13,7 @@
 		"selectedCategories",
 		"selectedTestCategory",
 		"selectedTestCategories" ],
-	"name" : "TarPackageSelector",
+	"name" : "TARPackageSelector",
 	"pools" : [
 		 ],
 	"super" : "Object",

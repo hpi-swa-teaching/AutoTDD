@@ -2,7 +2,7 @@ building
 createMatrix
 
 	| matrix |
-	matrix := AutoTDDPluggableListMorph 
+	matrix := ATDDPluggableListMorph 
 		on: self
 		list: #matrix
 		selected: #selectedTest

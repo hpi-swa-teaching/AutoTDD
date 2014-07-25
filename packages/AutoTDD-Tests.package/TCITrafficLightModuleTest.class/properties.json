@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"widgetBag" ],
+	"name" : "TCITrafficLightModuleTest",
+	"pools" : [
+		 ],
+	"super" : "UiTestCase",
+	"type" : "normal" }

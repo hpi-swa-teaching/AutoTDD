@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"travisSource",
+		"usePro",
+		"token" ],
+	"name" : "TCITrafficLightModule",
+	"pools" : [
+		 ],
+	"super" : "ATDDTrafficLightModule",
+	"type" : "normal" }

@@ -1,8 +1,8 @@
 {
 	"class" : {
-		"gui" : "PS 6/16/2014 10:08",
+		"gui" : "mp 7/25/2014 14:25",
 		"nullObject" : "PS 6/22/2014 16:57",
-		"parser" : "PS 6/16/2014 09:54",
+		"parser" : "mp 7/25/2014 14:34",
 		"use" : "PS 6/16/2014 10:17" },
 	"instance" : {
 		"categories" : "PS 6/16/2014 10:00",
@@ -17,8 +17,8 @@
 		"extendNameButtonClicked" : "PS 6/23/2014 15:55",
 		"failureString" : "PS 7/9/2014 19:50",
 		"imageDictionary" : "PS 7/9/2014 19:41",
-		"initializeData" : "PS 7/9/2014 13:38",
-		"initializeForCategories:withTestsIn:" : "PS 6/16/2014 16:20",
+		"initializeData" : "mp 7/25/2014 14:32",
+		"initializeForCategories:withTestsIn:" : "mp 7/25/2014 14:32",
 		"nameExpanded" : "PS 7/9/2014 13:39",
 		"nameMorph" : "PS 6/16/2014 16:45",
 		"onOffButtonPosition" : "PS 6/16/2014 14:31",

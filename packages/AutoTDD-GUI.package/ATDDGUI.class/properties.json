@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"parser",
+		"window" ],
+	"name" : "ATDDGUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

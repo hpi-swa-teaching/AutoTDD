@@ -2,7 +2,7 @@ building
 createHistory
 
 	| history |
-	history := (AutoTDDPluggableListMorph 
+	history := (ATDDPluggableListMorph 
 		on: self
 		list: #history
 		selected: #selectedResult

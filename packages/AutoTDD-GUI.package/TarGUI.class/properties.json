@@ -9,8 +9,8 @@
 		"tests",
 		"selectedResult",
 		"selectedTest" ],
-	"name" : "TarGUI",
+	"name" : "TARGUI",
 	"pools" : [
 		 ],
-	"super" : "AutoTDDGUI",
+	"super" : "ATDDGUI",
 	"type" : "normal" }

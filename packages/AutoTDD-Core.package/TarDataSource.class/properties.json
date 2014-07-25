@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TarDataSource",
+	"name" : "TARDataSource",
 	"pools" : [
 		 ],
-	"super" : "AutoTDDDataSource",
+	"super" : "ATDDDataSource",
 	"type" : "normal" }
