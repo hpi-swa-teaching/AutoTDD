@@ -36,14 +36,14 @@ baseline: spec
 						yourself ];
 				package: 'AutoTDD-Core' with: [spec requires: #('libraries' 'AutoTDD-Exceptions')];
 				package: 'AutoTDD-GUI';
-				package: 'AutoTDD-Dummy';
+				package: 'AutoTDD-Dummy-Success-Tests';
 				package: 'AutoTDD-Exceptions';
 				package: 'AutoTDD-Tests' with: [spec requires: #('default' 'dummies' 'Widgets')];
 				yourself.
 			spec
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
 				group: 'libraries' with: #('JSON' 'VB-Regex' 'WebClient' 'SqueakSSL-Core');
-				group: 'dummies' with: #('AutoTDD-Dummy');
+				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests');
 				group: 'Tests' with: #('AutoTDD-Tests');
 				group: 'TravisCI' with: #('Tests')	];
 				yourself
