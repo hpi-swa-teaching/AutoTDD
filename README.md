@@ -1,8 +1,8 @@
-SWTI2014-Project-05
+AutoTDD with Travis-CI Support
 ===================
-[![Build Status](https://travis-ci.org/SWTI2014/SWTI2014-Project-05.svg)](https://travis-ci.org/SWTI2014/SWTI2014-Project-05)
+[![Build Status](https://travis-ci.org/SWTI2014/AutoTDD.svg)](https://travis-ci.org/SWTI2014/AutoTDD)
 
 ##Documentation
-[Documentation](https://github.com/SWTI2014/SWTI2014-Project-05/wiki/Documentation)
+[Documentation](https://github.com/SWTI2014/AutoTDD/wiki/Documentation)
 
-[HTTPS Requests to Travis](https://github.com/SWTI2014/SWTI2014-Project-05/wiki/Communicating-with-Travis)
+[HTTPS Requests to Travis](https://github.com/SWTI2014/AutoTDD/wiki/Communicating-with-Travis)
