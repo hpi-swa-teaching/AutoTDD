@@ -1,8 +1,8 @@
 AutoTDD with Travis-CI Support
 ===================
-[![Build Status](https://travis-ci.org/SWTI2014/AutoTDD.svg)](https://travis-ci.org/SWTI2014/AutoTDD)
+[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/AutoTDD.svg)](https://travis-ci.org/HPI-SWA-Teaching/AutoTDD)
 
 ##Documentation
-[Documentation](https://github.com/SWTI2014/AutoTDD/wiki/Documentation)
+[Documentation](https://github.com/HPI-SWA-Teaching/AutoTDD/wiki/Documentation)
 
-[HTTPS Requests to Travis](https://github.com/SWTI2014/AutoTDD/wiki/Communicating-with-Travis)
+[HTTPS Requests to Travis](https://github.com/HPI-SWA-Teaching/AutoTDD/wiki/Communicating-with-Travis)
