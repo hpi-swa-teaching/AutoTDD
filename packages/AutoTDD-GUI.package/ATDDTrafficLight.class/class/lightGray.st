@@ -1,4 +1,4 @@
 colors
 lightGray
 
-	^ Color r: 250 g: 250 b: 248 range: 255
+	^ Color r: 237 g: 236 b: 232 range: 255

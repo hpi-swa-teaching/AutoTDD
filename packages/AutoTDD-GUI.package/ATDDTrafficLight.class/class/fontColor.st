@@ -1,4 +1,4 @@
 constants
 fontColor
 
-	^ self blue
+	^ ATDDTrafficLight blue

@@ -6,4 +6,4 @@ drawLineOn: aCanvas
 	aCanvas
 		line: (self settingsPosition + point)
 		to: (self topRight + point)
-		color: self class darkGray
+		color: Preferences workspaceWindowColor

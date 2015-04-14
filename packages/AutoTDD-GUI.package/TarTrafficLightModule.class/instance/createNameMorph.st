@@ -3,7 +3,7 @@ createNameMorph
 	
 	| morph text contents |
 	morph := RectangleMorph new
-		color: self class gray;
+		color: ATDDTrafficLight gray;
 		borderWidth: 0;
 		name: 'nameMorph';
 		yourself.

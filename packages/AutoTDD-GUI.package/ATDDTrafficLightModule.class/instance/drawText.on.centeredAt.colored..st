@@ -4,7 +4,7 @@ drawText: aString on: aCanvas centeredAt: aPoint colored: aColor
 	| text |
 	text := (TextMorph new
 		contents: aString;
-		fontName: self class fontName size: self class fontSize;
+		fontName: ATDDTrafficLight fontName size: ATDDTrafficLight fontSize;
 		color: aColor;
 		yourself).
 	self center: text at: aPoint.

@@ -1,4 +1,4 @@
 accessing
 drawText: aString on: aCanvas at: aPoint
 	
-	self drawText: aString on: aCanvas at: aPoint colored: self class fontColor
+	self drawText: aString on: aCanvas at: aPoint colored: ATDDTrafficLight fontColor

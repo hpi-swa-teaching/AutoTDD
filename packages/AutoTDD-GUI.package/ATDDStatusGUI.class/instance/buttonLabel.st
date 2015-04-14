@@ -1,4 +1,4 @@
-constants
+open/close
 buttonLabel
 
 	^ 'Update'

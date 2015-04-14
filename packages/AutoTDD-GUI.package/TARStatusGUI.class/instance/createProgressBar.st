@@ -5,8 +5,8 @@ createProgressBar
 	progressBar := ProgressBarMorph new
 		borderWidth: 0;
 		color: Color red;
-		progressColor: self class lightBlue;
+		progressColor: ATDDTrafficLight lightBlue;
 		name: 'progressBar';
-		color: self class lightGray;
+		color: ATDDTrafficLight lightGray;
 		yourself.
 	self window addMorph: progressBar fullFrame: self progressBarFrame

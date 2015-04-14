@@ -1,0 +1,4 @@
+colors
+backgroundColor
+
+	^ Preferences defaultWindowColor
