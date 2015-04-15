@@ -13,8 +13,8 @@ createNameMorph
 	self testCategories do: [ :each | contents := contents, ' ', each ].
 	text := TextMorph new
 		contents: contents;
-		fontName: self class fontName size: self class fontSize;
-		color: self class fontColor;
+		fontName: ATDDTrafficLight fontName size: ATDDTrafficLight fontSize;
+		color: ATDDTrafficLight fontColor;
 		position: morph position + (5 @ 0).
 	morph
 		addMorph: text;
