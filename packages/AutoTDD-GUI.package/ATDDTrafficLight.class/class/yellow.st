@@ -1,4 +1,4 @@
 colors
 yellow
 
-	^ Color r: 231 g: 215 b: 0 range: 255
+	^ Color r: 220 g: 120 b: 0 range: 255
