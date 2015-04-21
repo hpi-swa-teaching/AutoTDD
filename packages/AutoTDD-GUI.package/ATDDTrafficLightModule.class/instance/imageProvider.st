@@ -1,4 +1,4 @@
 accessing
 imageProvider
 
-	^ imageProvider ifNil: [ imageProvider := ATDDImageProvider new ]
+	^ imageProvider ifNil: [ imageProvider := ATDDInImageProvider new ]
