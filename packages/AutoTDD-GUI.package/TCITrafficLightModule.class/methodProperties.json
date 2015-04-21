@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"applyButtonOffset" : "FN 4/21/2015 20:43",
 		"gui" : "PL 7/25/2014 15:15",
 		"nullObject" : "mp 7/25/2014 14:33",
 		"parser" : "mp 7/25/2014 14:35",
@@ -9,7 +10,7 @@
 		"applyButtonClicked" : "PS 6/19/2014 13:46",
 		"applyVisibility" : "PS 6/24/2014 13:40",
 		"basicCreateComponents" : "PS 7/9/2014 13:41",
-		"createApplyButton" : "FN 4/21/2015 19:31",
+		"createApplyButton" : "FN 4/21/2015 20:43",
 		"createComponents" : "PS 7/9/2014 13:40",
 		"createProOnOffButton" : "PS 7/22/2014 00:39",
 		"createSettingsComponentsAt:" : "PS 6/24/2014 16:03",
