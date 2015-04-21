@@ -4,12 +4,21 @@ AutoTDD with Travis-CI Support
 
 ## Installation
 
-1. Load `BaselineOfAutoTDD` from the [packages](https://github.com/HPI-SWA-Teaching/AutoTDD/tree/master/packages) folder with [filetree/metacello-work](https://github.com/dalehenrich/metacello-work).
+1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
 2. Load the project with:
 ```smalltalk
-BaselineOfAutoTDD project latestVersion load
+Metacello new
+  baseline: 'AutoTDD';
+  repository: 'github://HPI-SWA-Teaching/AutoTDD:master/packages';
+  get.
+  
+Metacello new
+  baseline: 'AutoTDD';
+  repository: 'github://HPI-SWA-Teaching/AutoTDD:master/packages';
+  onConflict: [:ex | ex allow];
+  load
 ```
-2. Put the [AutoTDD](https://github.com/HPI-SWA-Teaching/AutoTDD/tree/master/resources) folder into your `Resources` folder.
+2. *Optional:* Put the [AutoTDD](https://github.com/HPI-SWA-Teaching/AutoTDD/tree/master/resources) folder into your `Resources` folder.
 3. Now you can open the *Test Auto Runner* via *Apps*.
 
 ##Documentation
