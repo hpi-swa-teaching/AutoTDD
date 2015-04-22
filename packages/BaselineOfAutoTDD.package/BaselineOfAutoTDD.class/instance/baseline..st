@@ -7,10 +7,9 @@ baseline: spec
 			spec
 				project: 'Widgets' with: 
 					[ spec
-     						className: 'ConfigurationOfWidgets';
-						versionString: #stable;
+     						className: 'BaselineOfWidgets';
 						loads: #('tests');			
-       					repository: 'http://www.hpi.uni-potsdam.de/hirschfeld/squeaksource/MetacelloRepository';
+       					repository: 'github://marceltaeumel/widgets/repository';
 						yourself ];
 				yourself.
 			spec
@@ -34,6 +33,6 @@ baseline: spec
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
 				group: 'libraries' with: #('JSON' 'VB-Regex');
 				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Category');
-				group: 'Tests' with: #('AutoTDD-Tests');
+				group: 'Tests' with: #('AutoTDD-Tests', 'Widgets');
 				group: 'TravisCI' with: #('Tests')	];
 				yourself

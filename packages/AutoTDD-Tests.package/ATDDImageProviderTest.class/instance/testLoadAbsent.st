@@ -1,4 +1,4 @@
 tests
 testLoadAbsent
 
-	self assert: (ATDDImageProvider new loadResource: 'foo.png') isForm
+	self assert: (ATDDImageProvider new loadResourceAt: 'foo') isForm
