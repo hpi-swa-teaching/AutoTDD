@@ -11,10 +11,10 @@ Metacello new
   repository: 'filetree://', gitPath, '/AutoTDD/packages';
   get.
 
-Metacello new
+[Metacello new
   baseline: 'AutoTDD';
   repository: 'filetree://', gitPath, '/AutoTDD/packages';
-  load: 'TravisCI'.
+  load: 'TravisCI'] on: AssertionFailure do: [:e | e resume].
 
 "Run the tests"
 TravisCIHarness
