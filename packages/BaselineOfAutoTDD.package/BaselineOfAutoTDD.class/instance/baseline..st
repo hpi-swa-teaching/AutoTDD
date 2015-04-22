@@ -6,18 +6,17 @@ baseline: spec
 		do: [
 			spec
 				baseline: 'Widgets' with: 
-					[ spec repository: 'github://marceltaeumel/widgets/repository' ];
+					[ spec
+						loads: #('Tests');
+						repository: 'github://fniephaus/widgets:patch-1/repository' ];
 				yourself.
 			spec
 				package: 'JSON' with: 
 					[ spec
-     						file: 'JSON-ul.35';	
-       					repository: 'http://www.squeaksource.com/JSON';
-						yourself ];
+     					file: 'JSON-ul.35';	
+       					repository: 'http://www.squeaksource.com/JSON' ];
 				package: 'VB-Regex' with: 
-					[ spec
-     						repository: 'http://www.squeaksource.com/Regex';
-						yourself ];
+					[ spec repository: 'http://www.squeaksource.com/Regex' ];
 				package: 'AutoTDD-Core' with: [spec requires: #('libraries' 'AutoTDD-Exceptions')];
 				package: 'AutoTDD-GUI';
 				package: 'AutoTDD-Dummy-Success-Tests';
