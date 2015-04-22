@@ -2,7 +2,7 @@ generation
 generateSoundMethods
 
 	self resourceDictionary values asSet do: [:value |
-		(self loadResource: value ifAbsent: [nil]) ifNotNil: [:sound |
+		(self loadResource: value, '.wav' ifAbsent: [nil]) ifNotNil: [:sound |
 			| l r |
 			l := sound sounds first. r := sound sounds last.
 			self class

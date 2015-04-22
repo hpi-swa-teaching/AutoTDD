@@ -18,8 +18,14 @@ Metacello new
   onConflict: [:ex | ex allow];
   load
 ```
-2. *Optional:* Put the [AutoTDD](https://github.com/HPI-SWA-Teaching/AutoTDD/tree/master/resources) folder into your `Resources` folder.
-3. Now you can open the *Test Auto Runner* via *Apps*.
+Now you can open the **Test Auto Runner** via *Apps*.
+
+## Customizations
+If the [AutoTDD](https://github.com/HPI-SWA-Teaching/AutoTDD/tree/master/resources) folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's images and sounds into your image:
+```smalltalk
+ATDDImageProvider new generateImageMethods.
+ATDDSoundPlayer new generateSoundMethods
+```
 
 ##Documentation
 [Documentation](https://github.com/HPI-SWA-Teaching/AutoTDD/wiki/Documentation)

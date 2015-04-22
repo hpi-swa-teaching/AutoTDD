@@ -1,4 +1,4 @@
 accessing
 soundPlayer
 
-	^ soundPlayer ifNil: [ soundPlayer := ATDDInSoundPlayer new ]
+	^ soundPlayer ifNil: [ soundPlayer := ATDDSoundPlayer new ]

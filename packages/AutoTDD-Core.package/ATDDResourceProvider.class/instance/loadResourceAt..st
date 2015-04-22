@@ -1,6 +1,7 @@
 loading
 loadResourceAt: aSymbol
 
-	| name |
-	name := self resourceDictionary at: aSymbol.
-	^ self loadResource: name
+	^ self resources at: aSymbol ifAbsentPut: [
+		(self respondsTo: aSymbol)
+			ifFalse: [self class defaultResource]
+			ifTrue: [self perform: aSymbol]]

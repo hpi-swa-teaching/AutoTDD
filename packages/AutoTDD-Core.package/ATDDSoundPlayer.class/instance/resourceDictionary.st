@@ -2,10 +2,10 @@ constants
 resourceDictionary
 	
 	^ IdentityDictionary newFrom: {
-		#canceled 	-> 'fail.wav'.
-		#created 	-> 'success.wav'.
-		#errored 	-> 'fail.wav'.
-		#failed 		-> 'fail.wav'.
-		#passed 	-> 'success.wav'.
-		#started 	-> 'success.wav'.
-		#unknown 	-> 'success.wav' }	
+		#canceled 	-> 'fail'.
+		#created 	-> 'success'.
+		#errored 	-> 'fail'.
+		#failed 		-> 'fail'.
+		#passed 	-> 'success'.
+		#started 	-> 'success'.
+		#unknown 	-> 'success' }

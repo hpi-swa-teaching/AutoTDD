@@ -1,6 +1,6 @@
 playing
 playSoundForState: aState
-	
-	self isMuted ifFalse: [
-		SoundPlayer stopReverb.
-		(self loadResourceAt: aState) play ]
+
+	(self isMuted not and: [self resourceDictionary includesKey: aState])
+		ifTrue: [SoundPlayer stopReverb.
+				(self loadResourceAt: (self resourceDictionary at: aState) asSymbol) play]
