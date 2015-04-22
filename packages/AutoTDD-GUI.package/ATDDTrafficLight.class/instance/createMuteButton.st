@@ -6,8 +6,8 @@ createMuteButton
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new
-		offImage: (self imageProvider loadResourceAt: #unmute);
-		onImage: (self imageProvider loadResourceAt: #mute);
+		offImage: (self imageProvider loadResourceAt: #soundActive);
+		onImage: (self imageProvider loadResourceAt: #soundInactive);
 		actionSelector: #muteButtonClicked;
 		state: state;
 		target: self;
@@ -15,5 +15,5 @@ createMuteButton
 		yourself.
 	button extent: (button offImage extent max: button onImage extent).
 	self
-		center: button at: self position + (self buttonAxis @ 107);
+		center: button at: self position + (self buttonAxis @ 100);
 		addMorph: button

@@ -1,4 +1,4 @@
 colors
 red
 
-	^ Color r: 225 g: 0 b: 0 range: 255
+	^ Color r: 219 g: 66 b: 60 range: 255

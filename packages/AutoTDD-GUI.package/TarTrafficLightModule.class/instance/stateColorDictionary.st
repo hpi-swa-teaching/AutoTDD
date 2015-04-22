@@ -5,4 +5,4 @@ stateColorDictionary
 		#errored 	-> [ ATDDTrafficLight red ].
 		#failed 		-> [ ATDDTrafficLight yellow ].
 		#passed 	-> [ ATDDTrafficLight green ].
-		#unknown 	-> [ ATDDTrafficLight darkGray ] }
+		#unknown 	-> [ ATDDTrafficLight fontColor ] }

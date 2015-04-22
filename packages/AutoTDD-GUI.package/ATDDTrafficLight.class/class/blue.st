@@ -1,4 +1,4 @@
 colors
 blue
 
-	^ Color r: 74 g: 93 b: 132 range: 255
+	^ Color r: 99 g: 164 b: 163 range: 255

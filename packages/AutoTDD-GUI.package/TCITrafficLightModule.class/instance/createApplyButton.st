@@ -11,5 +11,5 @@ createApplyButton
 		target: self;
 		name: 'applyButton';
 		yourself.
-	button extent: (button findA: SketchMorph) extent + self class applyButtonOffset.
+	button extent: (button findA: SketchMorph) extent - (0@6).
 	self addMorph: button.

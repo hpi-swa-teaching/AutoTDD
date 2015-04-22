@@ -1,4 +1,4 @@
-constants
+colors
 fontColor
 
-	^ ATDDTrafficLight blue
+	^ Color r: 102 g: 102 b: 102 range: 255

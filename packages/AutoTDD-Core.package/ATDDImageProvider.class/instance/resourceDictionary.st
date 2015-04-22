@@ -2,19 +2,19 @@ constants
 resourceDictionary
 
 	^ IdentityDictionary newFrom: {
-		#apply 			-> 'ApplyButton.png'.
-		#collapse		-> 'infoButtonInactive.png'.
-		#errored		-> 'RedBulb.png'.
-		#expand		-> 'infoButtonActive.png'.
-		#failed			-> 'YellowBulb.png'.
-		#gear			-> 'SettingsGear.png'.
-		#mute 			-> 'muteButton.png'.
-		#unmute		-> 'unmuteButton.png'.
-		#off 			-> 'OffButton.png'.
-		#on			-> 'OnButton.png'.
-		#passed		-> 'GreenBulb.png'.
-		#pin			-> 'Pin.png'.
-		#pinSticked	-> 'PinActive.png'.
-		#quit			-> 'quitButton.png'.
-		#reload		-> 'Reload.png'.
-		#unknown		-> 'GreyBulb.png'. }
+		#apply 			-> 'apply.png'.
+		#errored		-> 'bulb_red.png'.
+		#failed			-> 'bulb_yellow.png'.
+		#infoActive		-> 'info_active.png'.
+		#infoInactive	-> 'info_inactive.png'.
+		#toggleOff		-> 'toggle_off.png'.
+		#toggleOn		-> 'toggle_on.png'.
+		#passed		-> 'bulb_green.png'.
+		#pinInactive      -> 'pin_inactive.png'.
+		#pinActive	       -> 'pin_active.png'.
+		#quit			-> 'quit.png'.
+		#reload		-> 'reload.png'.
+		#settings		-> 'settings.png'.
+		#soundActive   -> 'sound_active.png'.
+		#soundInactive  -> 'sound_inactive.png'.
+		#unknown		-> 'bulb_grey.png'. }

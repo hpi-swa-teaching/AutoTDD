@@ -6,8 +6,8 @@ createForegroundButton
 		ifTrue: [ #on ]
 		ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new
-		offImage: (self imageProvider loadResourceAt: #pin);
-		onImage: (self imageProvider loadResourceAt: #pinSticked);
+		offImage: (self imageProvider loadResourceAt: #pinInactive);
+		onImage: (self imageProvider loadResourceAt: #pinActive);
 		actionSelector: #foregroundButtonClicked;
 		state: state;
 		target: self;

@@ -6,7 +6,7 @@ createProgressBar
 		extent: (self owner baseExtent x - 20) @ 10;
 		borderWidth: 0;
 		color: ATDDTrafficLight gray;
-		progressColor: ATDDTrafficLight lightBlue;
+		progressColor: ATDDTrafficLight blue;
 		name: 'progressBar';
 		visible: false;
 		yourself.

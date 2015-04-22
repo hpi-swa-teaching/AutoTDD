@@ -2,11 +2,11 @@ constants
 stateColorDictionary
 
 	^ IdentityDictionary newFrom: {
-		#canceled 	-> [ ATDDTrafficLight darkGray ].
+		#canceled 	-> [ ATDDTrafficLight gray ].
 		#created 	-> [ ATDDTrafficLight yellow ].
-		#errored 	-> [ ATDDTrafficLight darkGray ].
+		#errored 	-> [ ATDDTrafficLight gray ].
 		#failed 		-> [ ATDDTrafficLight red ].
 		#passed 	-> [ ATDDTrafficLight green ].
 		#queued 	-> [ ATDDTrafficLight yellow ].
 		#started 	-> [ ATDDTrafficLight yellow ].
-		#unknown 	-> [ ATDDTrafficLight darkGray ] }
+		#unknown 	-> [ ATDDTrafficLight gray ] }

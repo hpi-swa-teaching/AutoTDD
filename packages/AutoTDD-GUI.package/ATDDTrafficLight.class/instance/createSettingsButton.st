@@ -1,17 +1,14 @@
 components
 createSettingsButton
 	
-	| button transColor |
-	transColor := (TranslucentColor new alpha: 0).
-	button := IconicButton new
-		labelGraphic: (self imageProvider loadResourceAt: #gear);
-		color: transColor;
-		borderColor: transColor;
+	| button |
+	button := ThreePhaseButtonMorph new
+		offImage: (self imageProvider loadResourceAt: #settingsInactive);
+		onImage: (self imageProvider loadResourceAt: #settingsActive);
 		actionSelector: #settingsButtonClicked;
-		name: 'settingsButton';
+		state: #off;
 		target: self;
+		name: 'settingsButton';
 		yourself.
-	button extent: (button findA: SketchMorph) extent.
-	self
-		center: button at: self position + (self buttonAxis @ 20);
-		addMorph: button
+	button extent: (button offImage extent max: button onImage extent).
+	self addMorph: button
