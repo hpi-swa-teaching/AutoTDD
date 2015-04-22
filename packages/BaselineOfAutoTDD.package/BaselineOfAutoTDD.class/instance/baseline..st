@@ -5,12 +5,8 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				project: 'Widgets' with: 
-					[ spec
-     						className: 'BaselineOfWidgets';
-						loads: #('tests');			
-       					repository: 'github://marceltaeumel/widgets/repository';
-						yourself ];
+				baseline: 'Widgets' with: 
+					[ spec repository: 'github://marceltaeumel/widgets/repository' ];
 				yourself.
 			spec
 				package: 'JSON' with: 
