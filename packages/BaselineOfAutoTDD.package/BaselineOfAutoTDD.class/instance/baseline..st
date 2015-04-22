@@ -33,6 +33,6 @@ baseline: spec
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
 				group: 'libraries' with: #('JSON' 'VB-Regex');
 				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Category');
-				group: 'Tests' with: #('AutoTDD-Tests', 'Widgets');
+				group: 'Tests' with: #('AutoTDD-Tests' 'Widgets');
 				group: 'TravisCI' with: #('Tests')	];
 				yourself
