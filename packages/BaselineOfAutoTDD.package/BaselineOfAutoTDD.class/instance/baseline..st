@@ -7,7 +7,7 @@ baseline: spec
 			spec
 				baseline: 'Widgets' with: 
 					[ spec
-						loads: #('Tests');
+						loads: #('tests');
 						repository: 'github://fniephaus/widgets:patch-1/repository' ];
 				yourself.
 			spec
