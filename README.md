@@ -10,11 +10,6 @@ AutoTDD with Travis-CI Support
 Metacello new
   baseline: 'AutoTDD';
   repository: 'github://HPI-SWA-Teaching/AutoTDD:master/packages';
-  get.
-  
-Metacello new
-  baseline: 'AutoTDD';
-  repository: 'github://HPI-SWA-Teaching/AutoTDD:master/packages';
   onConflict: [:ex | ex allow];
   load
 ```
