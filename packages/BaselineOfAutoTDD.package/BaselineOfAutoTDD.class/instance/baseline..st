@@ -8,7 +8,7 @@ baseline: spec
 				baseline: 'Widgets' with: 
 					[ spec
 						loads: #('tests');
-						repository: 'github://fniephaus/widgets:patch-1/repository' ];
+						repository: 'github://hpi-swa/widgets:master/repository' ];
 				yourself.
 			spec
 				package: 'JSON' with: 
