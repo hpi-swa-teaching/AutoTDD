@@ -13,5 +13,5 @@ parseStateTextFromXML: aXMLDocument
 		ifTrue: [ (failures = 1) ifTrue:[^'', 1, ' Failure']. ^ '', failures, ' Failures' ].
 	tests := self parseNumberOf: 'tests' fromXML: aXMLDocument.
 	tests strictlyPositive 
-		ifTrue: [ (errors = 1) ifTrue:[^'', 1, ' Pass']. ^ '', tests, ' Tests' ].
+		ifTrue: [ (errors = 1) ifTrue:[^'', 1, ' Pass']. ^ '', tests, ' Passes' ].
 	^ String empty
