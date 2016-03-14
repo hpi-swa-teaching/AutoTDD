@@ -1,0 +1,13 @@
+SmalltalkCISpec {
+  #loading : [
+    SCIMetacelloLoadSpec {
+      #baseline : 'AutoTDD',
+      #directory : 'packages',
+      #load : [ 'TravisCI' ],
+      #platforms : [ #squeak ]
+    }
+  ],
+  #testing : {
+    #categories : [ 'AutoTDD-*' ]
+  }
+}
