@@ -22,7 +22,7 @@ ATDDImageProvider new generateImageMethods.
 ATDDSoundPlayer new generateSoundMethods
 ```
 
-##Documentation
+## Documentation
 [Documentation](https://github.com/HPI-SWA-Teaching/AutoTDD/wiki/Documentation)
 
 [HTTPS Requests to Travis](https://github.com/HPI-SWA-Teaching/AutoTDD/wiki/Communicating-with-Travis)
