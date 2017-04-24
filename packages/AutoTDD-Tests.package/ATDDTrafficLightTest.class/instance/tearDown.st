@@ -2,4 +2,4 @@ running
 tearDown
 	
 	super tearDown.
-	widgetBag do: [ :widget | widget delete. ]
+	widgetBag ifNotNil: [ :w | w do: [ :widget | widget delete. ] ]
