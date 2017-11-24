@@ -1,6 +1,6 @@
 AutoTDD with Travis-CI Support
 ===================
-[![Build Status](https://travis-ci.org/HPI-SWA-Teaching/AutoTDD.svg)](https://travis-ci.org/HPI-SWA-Teaching/AutoTDD)
+[![Build Status](https://travis-ci.org/hpi-swa-teaching/AutoTDD.svg)](https://travis-ci.org/hpi-swa-teaching/AutoTDD)
 
 ## Installation
 
@@ -9,20 +9,20 @@ AutoTDD with Travis-CI Support
 ```smalltalk
 Metacello new
   baseline: 'AutoTDD';
-  repository: 'github://HPI-SWA-Teaching/AutoTDD:master/packages';
+  repository: 'github://hpi-swa-teaching/AutoTDD:master/packages';
   onConflict: [:ex | ex allow];
   load
 ```
 Now you can open the **Test Auto Runner** via *Apps*.
 
 ## Customizations
-If the [AutoTDD](https://github.com/HPI-SWA-Teaching/AutoTDD/tree/master/resources) folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's images and sounds into your image:
+If the [AutoTDD](https://github.com/hpi-swa-teaching/AutoTDD/tree/master/resources) folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's images and sounds into your image:
 ```smalltalk
 ATDDImageProvider new generateImageMethods.
 ATDDSoundPlayer new generateSoundMethods
 ```
 
 ## Documentation
-[Documentation](https://github.com/HPI-SWA-Teaching/AutoTDD/wiki/Documentation)
+[Documentation](https://github.com/hpi-swa-teaching/AutoTDD/wiki/Documentation)
 
-[HTTPS Requests to Travis](https://github.com/HPI-SWA-Teaching/AutoTDD/wiki/Communicating-with-Travis)
+[HTTPS Requests to Travis](https://github.com/hpi-swa-teaching/AutoTDD/wiki/Communicating-with-Travis)
