@@ -1,4 +1,4 @@
 data-processing
 getTextForLog: aString
 
-	^ self requestAWSOn: 'jobs/', aString, '/log.txt'
+	^ self requestAPIOn: 'jobs/', aString, '/log.txt?deansi=true'
