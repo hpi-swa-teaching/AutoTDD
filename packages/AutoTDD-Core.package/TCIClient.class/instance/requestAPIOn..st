@@ -1,8 +1,8 @@
 data-processing
-requestAWSOn: aString
+requestAPIOn: aString
 
 	| response url |
-	url := self awsUrl, aString.
+	url := self travisApiUrl, aString.
 	response := self webClient httpGet: url do: [ :request |
 		request headerAt: 'Accept' put: '*/*' ].
 	response content; close.
