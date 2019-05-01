@@ -1,4 +1,3 @@
 action
-resumeButtonPress
-	
+resumeButtonPress	
 	TARTestAutoRunner resumeTestAutoRunner

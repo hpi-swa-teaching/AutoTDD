@@ -1,6 +1,5 @@
 building
 buildDeleteButtonWith: aBuilder
-	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		name: self deleteButtonName;

@@ -12,7 +12,8 @@
 		"selectedCategory",
 		"selectedCategories",
 		"selectedTestCategory",
-		"selectedTestCategories" ],
+		"selectedTestCategories",
+		"categoryPattern" ],
 	"name" : "TARPackageSelector",
 	"pools" : [
 		 ],

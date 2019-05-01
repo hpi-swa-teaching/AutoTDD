@@ -1,6 +1,5 @@
 updating
-update
-	
+update	
 	self 
 		updateCategories; 
 		updateTestCategories

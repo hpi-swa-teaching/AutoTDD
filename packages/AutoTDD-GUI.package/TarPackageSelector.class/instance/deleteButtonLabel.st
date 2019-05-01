@@ -1,4 +1,3 @@
 building
 deleteButtonLabel
-
 	^ 'Delete All'

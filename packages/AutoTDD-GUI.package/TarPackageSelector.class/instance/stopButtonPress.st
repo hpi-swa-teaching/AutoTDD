@@ -1,4 +1,3 @@
 action
-stopButtonPress
-	
+stopButtonPress	
 	TARTestAutoRunner pauseTestAutoRunner

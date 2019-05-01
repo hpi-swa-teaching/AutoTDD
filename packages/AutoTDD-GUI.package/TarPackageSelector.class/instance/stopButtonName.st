@@ -1,4 +1,3 @@
 building
 stopButtonName
-
 	^ 'stopButton'

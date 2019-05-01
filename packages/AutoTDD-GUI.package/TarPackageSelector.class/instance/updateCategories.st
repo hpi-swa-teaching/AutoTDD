@@ -1,4 +1,4 @@
 updating
 updateCategories
-
-	self categories: self findCategories
+	self categories:
+		self findCategories

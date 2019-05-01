@@ -1,6 +1,5 @@
 building
 buildWith: aBuilder
-	
 	| window |
 	self builder: aBuilder.
 	window := aBuilder pluggableWindowSpec new
@@ -26,4 +25,5 @@ buildWith: aBuilder
 				yourself);
 			yourself);
 		yourself.
+
 	^ aBuilder build: window

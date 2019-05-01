@@ -1,6 +1,5 @@
 building
 buildStopButtonWith: aBuilder
-	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		name: self stopButtonName;
