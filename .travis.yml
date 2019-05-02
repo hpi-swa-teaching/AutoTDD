@@ -3,3 +3,4 @@ sudo: false
 smalltalk:
   - Squeak-trunk
   - Squeak-5.2
+  
