@@ -1,0 +1,3 @@
+building
+categoryCheckBoxState
+	^ self classwiseCategorySelection

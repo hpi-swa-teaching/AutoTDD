@@ -1,9 +1,10 @@
 building
-buildTestCategoryWith: aBuilder	
+buildTestCategoryWith: aBuilder
+	
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;
+		list: #testCategories;		
 		menu: #testCategoryMenu:;
-		list: #testCategoriesList;
 		getIndex: #selectedTestCategory;
 		setIndex: #selectedTestCategory:;
 		getSelectionList: #testCategoryAt:;

@@ -1,0 +1,3 @@
+building
+testCategoryLabelText
+	^ 'run tests:'

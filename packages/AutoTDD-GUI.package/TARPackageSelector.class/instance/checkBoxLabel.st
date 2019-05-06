@@ -1,0 +1,3 @@
+building
+checkBoxLabel
+	^ 'classwise selection'

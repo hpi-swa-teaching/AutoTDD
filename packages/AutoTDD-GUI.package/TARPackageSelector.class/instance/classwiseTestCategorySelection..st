@@ -1,0 +1,5 @@
+accessing
+classwiseTestCategorySelection: anObject
+
+	classwiseTestCategorySelection := anObject.
+	self handleClasswiseTestCategorySelectionChange
