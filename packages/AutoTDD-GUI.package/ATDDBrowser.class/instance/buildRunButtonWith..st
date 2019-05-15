@@ -1,8 +1,8 @@
 as yet unclassified
-buildRemoveButtonWith: aBuilder
+buildRunButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		action: #removeSelectedWatchers;
-		label: 'Remove';
+		action: #runSelectedWatchers;
+		label: 'Run';
 		enabled: true;
 		yourself

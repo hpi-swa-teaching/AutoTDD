@@ -6,7 +6,8 @@ buildWatcherButtonsWith: aBuilder
 		children: (OrderedCollection new
 			add: (self buildAddButtonWith: aBuilder);
 			add: (self buildPauseButtonWith: aBuilder);
-			add: (self buildRefreshButtonWith: aBuilder);
+			add: (self buildResumeButtonWith: aBuilder);
+			add: (self buildRunButtonWith: aBuilder);
 			add: (self buildEditButtonWith: aBuilder);
 			add: (self buildRemoveButtonWith: aBuilder);
 			yourself);

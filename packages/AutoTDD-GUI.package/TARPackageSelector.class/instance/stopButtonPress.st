@@ -1,3 +1,4 @@
 action
-stopButtonPress	
+stopButtonPress
+	self flag: #deprecated
 	TARTestAutoRunner pauseTestAutoRunner

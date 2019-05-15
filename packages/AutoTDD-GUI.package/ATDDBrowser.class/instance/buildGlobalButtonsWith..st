@@ -5,6 +5,7 @@ buildGlobalButtonsWith: aBuilder
 		layout: #horizontal;
 		children: (OrderedCollection new
 			add: (self buildGlobalPauseButtonWith: aBuilder);
-			add: (self buildGlobalRefreshButtonWith: aBuilder);
+			add: (self buildGlobalResumeButtonWith: aBuilder);
+			add: (self buildGlobalRunButtonWith: aBuilder);
 			yourself);
 		yourself.

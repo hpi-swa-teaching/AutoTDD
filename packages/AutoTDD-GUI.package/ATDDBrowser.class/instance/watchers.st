@@ -1,3 +1,3 @@
 as yet unclassified
 watchers
-	^ self class Watcher
+	^ self class Watchers

@@ -1,3 +1,0 @@
-building
-resumeButtonLabel	
-	^ 'Resume All'

@@ -4,9 +4,6 @@ buildButtonsWith: aBuilder
 		model: self;
 		layout: #horizontal;
 		children: (OrderedCollection new
-			add: (self buildAddButtonWith: aBuilder);
-			add: (self buildStopButtonWith: aBuilder);
-			add: (self buildResumeButtonWith: aBuilder);
-			add: (self buildDeleteButtonWith: aBuilder);
+			add: (self buildSaveButtonWith: aBuilder);
 			yourself);
 		yourself.

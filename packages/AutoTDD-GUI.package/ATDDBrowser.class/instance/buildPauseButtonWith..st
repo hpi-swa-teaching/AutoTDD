@@ -2,7 +2,7 @@ as yet unclassified
 buildPauseButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		action: #addButtonPress;
+		action: #pauseSelectedWatchers;
 		label: 'Pause';
 		enabled: true;
 		yourself

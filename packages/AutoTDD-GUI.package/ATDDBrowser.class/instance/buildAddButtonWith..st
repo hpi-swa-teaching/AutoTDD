@@ -2,7 +2,7 @@ as yet unclassified
 buildAddButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		action: #addButtonPress;
+		action: #addWatcher;
 		label: 'Add';
 		enabled: true;
 		yourself

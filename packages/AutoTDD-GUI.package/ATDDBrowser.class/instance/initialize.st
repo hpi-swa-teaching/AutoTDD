@@ -1,8 +1,8 @@
 as yet unclassified
 initialize
-	"self class Watcher add:
+	"self watchers add:
 		(ATDDWatcher newWithConfig:
 			(Dictionary new
 				at: 'name'
-				put: 'pups';
+				put: 'leon';
 				yourself))"

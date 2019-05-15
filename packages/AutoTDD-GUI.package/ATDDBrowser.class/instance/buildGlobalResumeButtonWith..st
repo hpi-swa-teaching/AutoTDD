@@ -1,8 +1,8 @@
 as yet unclassified
-buildGlobalRefreshButtonWith: aBuilder
+buildGlobalResumeButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		action: #addButtonPress;
-		label: 'Refresh All';
+		action: #resumeAllWatchers;
+		label: 'Resume All';
 		enabled: true;
 		yourself

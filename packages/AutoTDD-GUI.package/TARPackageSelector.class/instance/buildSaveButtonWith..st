@@ -1,8 +1,8 @@
 building
-buildAddButtonWith: aBuilder
+buildSaveButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		action: #addButtonPress;
-		label: 'Add';
+		action: #saveWatcher;
+		label: 'Save';
 		enabled: true;
 		yourself

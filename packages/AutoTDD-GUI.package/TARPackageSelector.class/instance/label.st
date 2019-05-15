@@ -1,3 +1,3 @@
 accessing-ui
 label
-	^ 'Test Auto Runner'
+	^ 'Settings for: ', self watcher name

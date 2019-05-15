@@ -2,7 +2,7 @@ as yet unclassified
 buildGlobalPauseButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		action: #addButtonPress;
+		action: #pauseAllWatchers;
 		label: 'Pause All';
 		enabled: true;
 		yourself

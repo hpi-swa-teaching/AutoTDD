@@ -1,8 +1,8 @@
 as yet unclassified
-buildRefreshButtonWith: aBuilder
+buildResumeButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		action: #addButtonPress;
-		label: 'Refresh';
+		action: #resumeSelectedWatchers;
+		label: 'Resume';
 		enabled: true;
 		yourself
