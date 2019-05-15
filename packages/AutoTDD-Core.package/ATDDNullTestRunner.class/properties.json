@@ -1,17 +1,14 @@
 {
 	"category" : "AutoTDD-Core",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"localTestRunner",
-		"travisTestRunner",
-		"paused" ],
-	"name" : "ATDDWatcher",
+		 ],
+	"name" : "ATDDNullTestRunner",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDTestRunner",
 	"type" : "normal" }

@@ -3,5 +3,16 @@
 		"newWithConfig:" : "vxr 5/15/2019 20:53" },
 	"instance" : {
 		"asString" : "vxr 5/15/2019 20:57",
+		"initialize" : "ls 5/15/2019 19:54",
+		"localTestRunner" : "ls 5/15/2019 19:43",
+		"localTestRunner:" : "ls 5/15/2019 19:28",
 		"name" : "vxr 5/15/2019 20:51",
-		"name:" : "vxr 5/15/2019 20:57" } }
+		"name:" : "vxr 5/15/2019 20:57",
+		"pause" : "ls 5/15/2019 19:53",
+		"paused" : "ls 5/15/2019 19:53",
+		"paused:" : "ls 5/15/2019 19:53",
+		"resume" : "ls 5/15/2019 19:53",
+		"run" : "ls 5/15/2019 19:55",
+		"stop" : "ls 5/15/2019 19:52",
+		"travisTestRunner" : "ls 5/15/2019 19:40",
+		"travisTestRunner:" : "ls 5/15/2019 19:28" } }

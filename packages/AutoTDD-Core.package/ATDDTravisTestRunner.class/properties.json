@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
-		"localTestRunner",
-		"travisTestRunner",
-		"paused" ],
-	"name" : "ATDDWatcher",
+		 ],
+	"name" : "ATDDTravisTestRunner",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDTestRunner",
 	"type" : "normal" }
