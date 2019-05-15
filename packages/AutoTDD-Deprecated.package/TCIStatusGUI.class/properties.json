@@ -1,15 +1,15 @@
 {
-	"category" : "AutoTDD-GUI",
+	"category" : "AutoTDD-Deprecated",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"tests",
-		"selectedResult",
-		"selectedTest" ],
-	"name" : "TARStatusGUI",
+		"selectedBuild",
+		"selectedJob",
+		"logFrame" ],
+	"name" : "TCIStatusGUI",
 	"pools" : [
 		 ],
 	"super" : "ATDDStatusGUI",

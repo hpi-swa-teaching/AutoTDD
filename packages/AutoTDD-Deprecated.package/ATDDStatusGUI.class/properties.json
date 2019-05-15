@@ -1,14 +1,16 @@
 {
-	"category" : "AutoTDD-GUI",
+	"category" : "AutoTDD-Deprecated",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ATDDLazyListMorph",
+		"data",
+		"parser",
+		"window" ],
+	"name" : "ATDDStatusGUI",
 	"pools" : [
 		 ],
-	"super" : "LazyListMorph",
+	"super" : "Model",
 	"type" : "normal" }

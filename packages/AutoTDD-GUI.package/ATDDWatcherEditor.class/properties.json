@@ -21,7 +21,7 @@
 		"selectedTestCategoryClasses",
 		"classwiseCategorySelection",
 		"classwiseTestCategorySelection" ],
-	"name" : "TARPackageSelector",
+	"name" : "ATDDWatcherEditor",
 	"pools" : [
 		 ],
 	"super" : "Object",

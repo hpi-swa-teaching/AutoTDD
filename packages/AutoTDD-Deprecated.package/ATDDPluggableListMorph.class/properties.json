@@ -1,16 +1,14 @@
 {
-	"category" : "AutoTDD-GUI",
+	"category" : "AutoTDD-Deprecated",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"data",
-		"parser",
-		"window" ],
-	"name" : "ATDDStatusGUI",
+		 ],
+	"name" : "ATDDPluggableListMorph",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "PluggableListMorph",
 	"type" : "normal" }

@@ -1,15 +1,14 @@
 {
-	"category" : "AutoTDD-GUI",
+	"category" : "AutoTDD-Deprecated",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"travisSource",
-		"usePro",
-		"token" ],
-	"name" : "TCITrafficLightModule",
+		"categories",
+		"testCategories" ],
+	"name" : "TARTrafficLightModule",
 	"pools" : [
 		 ],
 	"super" : "ATDDTrafficLightModule",
