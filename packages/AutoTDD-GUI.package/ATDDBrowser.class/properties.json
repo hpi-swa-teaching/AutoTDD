@@ -1,0 +1,15 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"Watcher" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"builder",
+		"selectedWatchers" ],
+	"name" : "ATDDBrowser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
