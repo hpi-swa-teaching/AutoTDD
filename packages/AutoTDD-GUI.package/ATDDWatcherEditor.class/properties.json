@@ -20,7 +20,8 @@
 		"selectedTestCategories",
 		"selectedTestCategoryClasses",
 		"classwiseCategorySelection",
-		"classwiseTestCategorySelection" ],
+		"classwiseTestCategorySelection",
+		"window" ],
 	"name" : "ATDDWatcherEditor",
 	"pools" : [
 		 ],

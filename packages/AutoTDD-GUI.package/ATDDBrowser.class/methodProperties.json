@@ -7,7 +7,7 @@
 		"open" : "vxr 5/15/2019 20:02",
 		"registerInWorldMenu" : "vxr 5/15/2019 21:54" },
 	"instance" : {
-		"addWatcher" : "vxr 5/15/2019 21:42",
+		"addWatcher" : "swi 5/16/2019 00:42",
 		"buildAddButtonWith:" : "vxr 5/15/2019 21:20",
 		"buildEditButtonWith:" : "vxr 5/15/2019 21:27",
 		"buildGlobalButtonsWith:" : "vxr 5/15/2019 22:08",
@@ -35,7 +35,7 @@
 		"pauseSelectedWatchers" : "vxr 5/15/2019 22:09",
 		"pauseWatcher:" : "vxr 5/15/2019 22:09",
 		"removeSelectedWatchers" : "vxr 5/15/2019 21:09",
-		"removeWatchers:" : "vxr 5/15/2019 21:18",
+		"removeWatchers:" : "swi 5/16/2019 00:05",
 		"resumeAllWatchers" : "vxr 5/15/2019 22:10",
 		"resumeSelectedWatchers" : "vxr 5/15/2019 22:09",
 		"resumeWatcher:" : "vxr 5/15/2019 22:09",

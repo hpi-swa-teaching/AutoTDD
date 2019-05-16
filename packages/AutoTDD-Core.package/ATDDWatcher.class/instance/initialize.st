@@ -1,3 +1,5 @@
-as yet unclassified
+initialization
 initialize
-	self paused: false
+	self
+		applyDefaultConfiguration;
+		addChangeListener

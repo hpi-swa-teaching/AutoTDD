@@ -2,8 +2,6 @@ initialization
 initialize 
 	
 	super initialize.
- 	self 
-		classwiseCategorySelection: false;
-		classwiseTestCategorySelection: false;
+ 	self
 		addChangeListener;
-		update
+		loadWatcher

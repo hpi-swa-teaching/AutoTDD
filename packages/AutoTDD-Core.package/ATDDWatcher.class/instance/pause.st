@@ -1,3 +1,3 @@
-accessing
+behavior
 pause
 	self paused: true

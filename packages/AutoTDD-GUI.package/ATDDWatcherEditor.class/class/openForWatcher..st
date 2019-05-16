@@ -1,6 +1,10 @@
 instance creation
 openForWatcher: aWatcher
 	| packageSelector |
-	packageSelector := self new.
-	packageSelector watcher: aWatcher.
-	^ ToolBuilder open: packageSelector
+	self flag: #todo.
+	packageSelector := self basicNew.
+	packageSelector
+		watcher: aWatcher;
+		initialize.
+	^ packageSelector window: (ToolBuilder open: packageSelector)
+	

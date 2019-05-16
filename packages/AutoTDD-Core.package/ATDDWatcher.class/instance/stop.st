@@ -1,3 +1,3 @@
-accessing
+behavior
 stop
 	^self
