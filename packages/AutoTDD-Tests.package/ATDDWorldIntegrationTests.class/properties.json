@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ATDDWorldIntegrationTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

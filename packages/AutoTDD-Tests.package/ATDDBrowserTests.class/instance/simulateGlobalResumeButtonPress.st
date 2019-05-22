@@ -1,0 +1,3 @@
+ui-simulation
+simulateGlobalResumeButtonPress
+	browser resumeAllWatchers

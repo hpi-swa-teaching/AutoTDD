@@ -1,4 +1,0 @@
-tests
-subjectClass
-	
-	^ ATDDTrafficLight
