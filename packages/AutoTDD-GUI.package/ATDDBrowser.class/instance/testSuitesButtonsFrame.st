@@ -1,4 +1,4 @@
-as yet unclassified
+building
 testSuitesButtonsFrame
 	^ LayoutFrame new
 		leftFraction: 0 offset: 0;

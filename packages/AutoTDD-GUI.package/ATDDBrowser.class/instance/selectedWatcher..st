@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 selectedWatcher: aWatcher
 	self changed: #selectedWatcher

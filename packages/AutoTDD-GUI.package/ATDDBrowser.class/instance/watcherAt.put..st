@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 watcherAt: anInteger put: aBoolean
 
 	self selectedWatchers: (self selectedWatchers

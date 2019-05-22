@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 Watchers
 	^ Watchers ifNil: [ Watchers := OrderedCollection new ]

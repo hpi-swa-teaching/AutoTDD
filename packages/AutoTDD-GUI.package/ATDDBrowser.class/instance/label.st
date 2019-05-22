@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 label
-	^ 'Test Auto Runner'
+	^ self class defaultLabel

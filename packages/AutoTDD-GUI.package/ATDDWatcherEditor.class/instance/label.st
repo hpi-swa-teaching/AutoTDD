@@ -1,3 +1,3 @@
 accessing-ui
 label
-	^ 'Settings for: ', self watcher name
+	^ self class defaultLabelFor: self watcher name

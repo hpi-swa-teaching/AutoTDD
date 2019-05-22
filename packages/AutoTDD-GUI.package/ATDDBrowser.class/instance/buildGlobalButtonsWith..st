@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildGlobalButtonsWith: aBuilder
 	^ aBuilder pluggablePanelSpec new
 		model: self;

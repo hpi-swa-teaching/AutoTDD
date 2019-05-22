@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildPauseButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;

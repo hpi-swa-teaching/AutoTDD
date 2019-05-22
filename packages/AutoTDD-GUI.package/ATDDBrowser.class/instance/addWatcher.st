@@ -1,7 +1,4 @@
-as yet unclassified
+action
 addWatcher
-	| defaultWatcher |
-	defaultWatcher := ATDDWatcher new.
-	self watchers add: defaultWatcher.
-	self changed: #watchers.
-	self openEditorForWatcher: defaultWatcher
+	self openEditorForWatcher:
+		(self addWatcher: self emptyWatcher)

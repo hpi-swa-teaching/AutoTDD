@@ -1,3 +1,3 @@
-as yet unclassified
+action
 pauseSelectedWatchers
 	self selectedWatchers do: [:watcher | self pauseWatcher: watcher]

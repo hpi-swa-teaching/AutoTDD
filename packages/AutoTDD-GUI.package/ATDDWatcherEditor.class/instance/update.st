@@ -1,6 +1,5 @@
 updating
 update
-	
 	self 
 		updateCategories; 
 		updateCategoryClasses;

@@ -1,4 +1,4 @@
-as yet unclassified
+building
 globalButtonsFrame
 	^ LayoutFrame new
 		leftFraction: 0 offset: 0;

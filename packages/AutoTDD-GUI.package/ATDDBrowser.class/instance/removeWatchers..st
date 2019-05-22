@@ -1,4 +1,4 @@
-as yet unclassified
+action
 removeWatchers: aWatcherList
 	self flag: #todo.
 	aWatcherList notEmpty
