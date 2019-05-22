@@ -22,6 +22,8 @@
 		"classwiseCategorySelection",
 		"classwiseTestCategorySelection",
 		"watcherName",
+		"localTesting",
+		"travisTesting",
 		"window" ],
 	"name" : "ATDDWatcherEditor",
 	"pools" : [

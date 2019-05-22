@@ -5,7 +5,7 @@ applyDefaultConfiguration
 		paused: true;
 		watchClasses: false;
 		runTestClasses: false;
-		watchedPackages: OrderedCollection new;
-		watchedClasses: OrderedCollection new;
-		testPackages: OrderedCollection new;		
-		testClasses: OrderedCollection new
+		watchedPackages: Set new;
+		watchedClasses: Set new;
+		testPackages: Set new;		
+		testClasses: Set new

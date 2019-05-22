@@ -1,3 +1,3 @@
-building
+accessing-ui
 testCategoryLabelText
-	^ 'run tests:'
+	^ self class defaultTestCategoryLabelText

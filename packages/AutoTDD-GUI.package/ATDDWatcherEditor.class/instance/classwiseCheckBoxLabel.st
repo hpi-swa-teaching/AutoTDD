@@ -1,0 +1,3 @@
+accessing-ui
+classwiseCheckBoxLabel
+	^ self class defaultClasswiseCheckboxLabel

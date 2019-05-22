@@ -1,5 +1,6 @@
 action
 saveWatcher
+	self flag: #todo. "add configuration of local/travis testing"
 	watcherName changed: #acceptChanges.
 	self watcher
 		name: self watcherName;

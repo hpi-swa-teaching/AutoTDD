@@ -6,4 +6,4 @@ runTestSuite: aTestSuite
 			dispatchResultsIntoHistory 
 			yourself.
  			self testResult: result.
-		] fork.
+		] forkAt: Processor userBackgroundPriority.

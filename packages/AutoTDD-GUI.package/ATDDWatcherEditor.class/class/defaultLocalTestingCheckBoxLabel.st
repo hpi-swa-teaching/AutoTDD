@@ -1,0 +1,3 @@
+constants
+defaultLocalTestingCheckBoxLabel
+	^ 'Test locally'

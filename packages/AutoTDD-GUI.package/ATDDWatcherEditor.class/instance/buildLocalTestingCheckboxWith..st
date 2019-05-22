@@ -3,7 +3,7 @@ buildLocalTestingCheckboxWith: aBuilder
 	
 	^ aBuilder pluggableCheckBoxSpec new
 		model: self;
-		label: #checkBoxLabel;
-		action: #categoryCheckBoxAction;
-		state: #categoryCheckBoxState;
+		label: #localTestingCheckBoxLabel;
+		action: #localTestingCheckBoxAction;
+		state: #localTestingCheckBoxState;
 		yourself

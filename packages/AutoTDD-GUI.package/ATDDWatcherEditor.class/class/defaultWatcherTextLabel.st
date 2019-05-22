@@ -1,0 +1,3 @@
+constants
+defaultWatcherTextLabel
+	^ 'watcher name:'

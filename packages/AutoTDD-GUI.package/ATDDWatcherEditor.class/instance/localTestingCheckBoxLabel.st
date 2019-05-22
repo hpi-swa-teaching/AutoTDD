@@ -1,0 +1,3 @@
+building
+localTestingCheckBoxLabel
+	^ self class defaultLocalTestingCheckBoxLabel

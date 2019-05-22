@@ -1,3 +1,3 @@
-building
+accessing-ui
 categoryLabelText
-	^ 'on changes in:'
+	^ self class defaultCategoryLabelText

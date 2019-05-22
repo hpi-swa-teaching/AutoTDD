@@ -1,0 +1,3 @@
+constants
+defaultClasswiseCheckboxLabel
+	^ 'classwise selection'

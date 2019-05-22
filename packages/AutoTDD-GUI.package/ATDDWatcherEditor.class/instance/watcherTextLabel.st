@@ -1,3 +1,3 @@
-building
+accessing-ui
 watcherTextLabel
-	^ 'watcher name'
+	^ self class defaultWatcherTextLabel

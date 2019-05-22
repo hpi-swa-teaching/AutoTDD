@@ -1,12 +1,12 @@
 accessing
 testCategoryMenu: aMenu
 	^ aMenu
-		title: 'Test-Categories';
-		add: 'Select all' action: #selectAllTestCategories;
-		add: 'Select inversion' action: #selectInverseTestCategories;
-		add: 'Select none' action: #selectNoTestCategories;
+		title: self testCategoryMenuTitle;
+		add: self menuSelectAllLabel action: #selectAllTestCategories;
+		add: self menuSelectInversionLabel action: #selectInverseTestCategories;
+		add: self menuSelectNoneLabel action: #selectNoTestCategories;
 		addLine;
-		add: 'Filter...' action: #filterTestCategories;
+		add: self menuFilterLabel action: #filterTestCategories;
 		addLine;
-		add: 'Refresh' action: #updateTestCategories;
+		add: self menuRefreshLabel action: #updateTestCategories;
 		yourself.

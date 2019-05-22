@@ -3,7 +3,7 @@ buildTravisTestingCheckboxWith: aBuilder
 	
 	^ aBuilder pluggableCheckBoxSpec new
 		model: self;
-		label: #checkBoxLabel;
-		action: #categoryCheckBoxAction;
-		state: #categoryCheckBoxState;
+		label: #travisTestingCheckBoxLabel;
+		action: #travisTestingCheckBoxAction;
+		state: #travisTestingCheckBoxState;
 		yourself

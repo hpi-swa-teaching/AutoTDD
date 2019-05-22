@@ -1,0 +1,3 @@
+constants
+defaultTestCategoryLabelText
+	^ 'run tests:'
