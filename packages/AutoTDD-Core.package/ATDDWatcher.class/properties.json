@@ -15,7 +15,9 @@
 		"watchedPackages",
 		"runTestClasses",
 		"testPackages",
-		"testClasses" ],
+		"testClasses",
+		"localStatus",
+		"travisStatus" ],
 	"name" : "ATDDWatcher",
 	"pools" : [
 		 ],

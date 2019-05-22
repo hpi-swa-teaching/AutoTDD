@@ -1,3 +1,3 @@
 updating
 update
-	self changed: #watchers
+	self class changed: #watchers

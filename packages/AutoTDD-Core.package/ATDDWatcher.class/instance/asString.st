@@ -1,3 +1,3 @@
 behavior
 asString
-	^ self name
+	^ self name , ' (' ,  self localStatus , ')'
