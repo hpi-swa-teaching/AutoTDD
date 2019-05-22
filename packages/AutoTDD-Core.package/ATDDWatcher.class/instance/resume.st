@@ -1,3 +1,3 @@
-accessing
+behavior
 resume
 	self paused: false

@@ -1,3 +1,3 @@
 accessing
 selectedTestCategories
-	^ selectedTestCategories ifNil: [ selectedTestCategories := OrderedCollection new ]
+	^ selectedTestCategories ifNil: [ selectedTestCategories := Set new ]

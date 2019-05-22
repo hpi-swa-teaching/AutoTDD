@@ -1,0 +1,3 @@
+ui-simulation
+simulatePauseButtonPress
+	browser pauseSelectedWatchers

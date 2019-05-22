@@ -1,6 +1,7 @@
 accessing-categories
 filterTestCategories
 	| pattern |
+	self flag: #todo. "where does categoryPattern come from; should we adopt it?"
 	pattern := UIManager default 
 					request: 'Pattern(s) to select test categories:\    (separate patterns with '';'')' withCRs
 					initialAnswer: (categoryPattern ifNil: ['*']).

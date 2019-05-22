@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildGlobalRunButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;

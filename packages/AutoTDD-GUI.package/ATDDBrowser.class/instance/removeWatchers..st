@@ -1,5 +1,8 @@
-as yet unclassified
+action
 removeWatchers: aWatcherList
-	aWatcherList notEmpty ifTrue: [ self watchers removeAll: aWatcherList ].
+	self flag: #todo.
+	aWatcherList notEmpty
+		ifTrue: [ aWatcherList do: [:watcher | watcher pause].
+				self watchers removeAll: aWatcherList ].
 	self selectedWatchers: (self findSelectedItemsForCollection: self watchers withSelected: self selectedWatchers).
-	self changed: #watchers
+	self class changed: #watchers

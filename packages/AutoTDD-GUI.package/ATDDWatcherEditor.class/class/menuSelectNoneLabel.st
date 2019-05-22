@@ -1,0 +1,3 @@
+constants
+menuSelectNoneLabel
+	^ 'Select none'

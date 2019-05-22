@@ -4,7 +4,7 @@ buildWith: aBuilder
 	| window |
 	self builder: aBuilder.
 	window := aBuilder pluggableWindowSpec new
-		model: self; label: self label; extent: self extent;
+		model: self; label: self label; extent: self extent; 
 		children: (OrderedCollection new 
 			addAll: (self buildPackageSelectionWith: aBuilder);
 			addAll: (self buildSettingsWith: aBuilder);
@@ -16,4 +16,5 @@ buildWith: aBuilder
 				yourself);
 			yourself);
 		yourself.
-	^ aBuilder build: window
+		
+	^aBuilder build: window

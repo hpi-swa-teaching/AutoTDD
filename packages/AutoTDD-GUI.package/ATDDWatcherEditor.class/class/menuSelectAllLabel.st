@@ -1,0 +1,3 @@
+constants
+menuSelectAllLabel
+	^ 'Select all'

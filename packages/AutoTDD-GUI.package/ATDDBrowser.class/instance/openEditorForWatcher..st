@@ -1,4 +1,4 @@
-as yet unclassified
+action
 openEditorForWatcher: aWatcher
 	(aWatcher notNil) 
 		ifTrue: [ ^ ATDDWatcherEditor openForWatcher: aWatcher ]

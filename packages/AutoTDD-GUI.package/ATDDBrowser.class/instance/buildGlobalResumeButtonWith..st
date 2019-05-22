@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildGlobalResumeButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;

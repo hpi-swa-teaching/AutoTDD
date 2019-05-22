@@ -1,5 +1,16 @@
 {
 	"class" : {
-		 },
+		"newForWatcher:" : "ls 5/22/2019 16:01" },
 	"instance" : {
-		 } }
+		"buildTestSuiteFromCategories:" : "ls 5/22/2019 17:17",
+		"buildTestSuiteFromClasses:" : "ls 5/22/2019 16:55",
+		"initialize" : "ls 5/22/2019 16:02",
+		"runTestSuite:" : "vxr 5/22/2019 19:39",
+		"runTests" : "ls 5/22/2019 17:19",
+		"runTestsFromCategories:" : "ls 5/22/2019 17:19",
+		"runTestsFromClasses:" : "ls 5/22/2019 16:32",
+		"testResult" : "ls 5/22/2019 15:57",
+		"testResult:" : "ls 5/22/2019 16:13",
+		"updateWatcherStatus" : "ls 5/22/2019 17:05",
+		"watcher" : "ls 5/22/2019 15:53",
+		"watcher:" : "ls 5/22/2019 16:13" } }

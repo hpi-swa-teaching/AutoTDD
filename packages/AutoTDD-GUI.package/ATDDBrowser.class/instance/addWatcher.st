@@ -1,9 +1,4 @@
-as yet unclassified
+action
 addWatcher
-	| defaultWatcher |
-	defaultWatcher := (ATDDWatcher newWithConfig:
-			(Dictionary new
-				at: 'name'
-				put: 'New Watcher';
-				yourself)).
-	self openEditorForWatcher: defaultWatcher
+	self openEditorForWatcher:
+		(self addWatcher: self emptyWatcher)

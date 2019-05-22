@@ -20,7 +20,11 @@
 		"selectedTestCategories",
 		"selectedTestCategoryClasses",
 		"classwiseCategorySelection",
-		"classwiseTestCategorySelection" ],
+		"classwiseTestCategorySelection",
+		"watcherName",
+		"localTesting",
+		"travisTesting",
+		"window" ],
 	"name" : "ATDDWatcherEditor",
 	"pools" : [
 		 ],

@@ -1,4 +1,4 @@
-building
+utilities
 sortClass: firstHierarchyList before: secondHierarchyList
 
 	1 to: (firstHierarchyList size min: secondHierarchyList size) do: [ :index | 

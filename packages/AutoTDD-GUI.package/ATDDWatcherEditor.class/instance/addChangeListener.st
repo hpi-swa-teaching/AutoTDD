@@ -1,4 +1,4 @@
-accessing
+updating
 addChangeListener
 	SystemChangeNotifier uniqueInstance 
 		notify: self ofSystemChangesOfItem: #class change: #Added using: #update;

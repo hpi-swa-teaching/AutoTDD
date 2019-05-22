@@ -1,4 +1,4 @@
 accessing
 selectedCategoryClasses
 
-	^ selectedCategoryClasses ifNil: [ selectedCategoryClasses := OrderedCollection new ]
+	^ selectedCategoryClasses ifNil: [ selectedCategoryClasses := Set new ]

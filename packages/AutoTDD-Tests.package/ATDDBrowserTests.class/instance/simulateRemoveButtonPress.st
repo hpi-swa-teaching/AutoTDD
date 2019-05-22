@@ -1,0 +1,3 @@
+ui-simulation
+simulateRemoveButtonPress
+	browser removeSelectedWatchers

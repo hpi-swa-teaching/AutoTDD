@@ -1,0 +1,3 @@
+ui-simulation
+simulateGlobalRunButtonPress
+	browser runAllWatchers

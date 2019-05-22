@@ -1,12 +1,12 @@
 accessing
 categoryMenu: aMenu
 	^ aMenu
-		title: 'Categories';
-		add: 'Select all' action: #selectAllCategories;
-		add: 'Select inversion' action: #selectInverseCategories;
-		add: 'Select none' action: #selectNoCategories;
+		title: self categoryMenuTitle;
+		add: self menuSelectAllLabel action: #selectAllCategories;
+		add: self menuSelectInversionLabel action: #selectInverseCategories;
+		add: self menuSelectNoneLabel action: #selectNoCategories;
 		addLine;
-		add: 'Filter...' action: #filterCategories;
+		add: self menuFilterLabel action: #filterCategories;
 		addLine;
-		add: 'Refresh' action: #updateCategories;
+		add: self menuRefreshLabel action: #updateCategories;
 		yourself.

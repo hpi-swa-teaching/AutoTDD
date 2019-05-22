@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 extent
-	^ 640 @ 480
+	^ self class defaultExtent

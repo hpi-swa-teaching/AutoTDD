@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildRunButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;

@@ -1,3 +1,3 @@
 accessing
 selectedCategories
-	^ selectedCategories ifNil: [ selectedCategories := OrderedCollection new ]
+	^ selectedCategories ifNil: [ selectedCategories := Set new ]

@@ -1,3 +1,3 @@
 accessing
 selectedWatchers
-	^ selectedWatchers ifNil: [ selectedWatchers := OrderedCollection new ]
+	^ selectedWatchers ifNil: [ selectedWatchers := Set new ]

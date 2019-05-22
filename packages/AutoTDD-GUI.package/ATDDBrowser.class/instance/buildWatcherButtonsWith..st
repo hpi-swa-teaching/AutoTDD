@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildWatcherButtonsWith: aBuilder
 	^ aBuilder pluggablePanelSpec new
 		model: self;

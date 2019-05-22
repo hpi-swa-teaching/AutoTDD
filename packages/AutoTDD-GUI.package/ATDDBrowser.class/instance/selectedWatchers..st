@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 selectedWatchers: aWatcherList
 	selectedWatchers := aWatcherList.
-	self	changed: #selectedWatchers
+	self	class changed: #selectedWatchers

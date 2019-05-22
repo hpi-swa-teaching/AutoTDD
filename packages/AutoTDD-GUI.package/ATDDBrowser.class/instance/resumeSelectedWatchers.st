@@ -1,3 +1,3 @@
-as yet unclassified
+action
 resumeSelectedWatchers
 	self selectedWatchers do: [:watcher | self resumeWatcher: watcher]
