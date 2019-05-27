@@ -1,3 +1,3 @@
 behavior
 closeWindow
-	self window delete
+	self changed: #close
