@@ -1,4 +1,4 @@
 action
 addWatcher
-	self openEditorForWatcher:
+	^ self openEditorForWatcher:
 		(self addWatcher: self emptyWatcher)

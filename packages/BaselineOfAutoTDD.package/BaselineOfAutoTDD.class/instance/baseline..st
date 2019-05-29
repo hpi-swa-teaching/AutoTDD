@@ -5,12 +5,6 @@ baseline: spec
 		for: #'common'
 		do: [
 			spec
-				baseline: 'Widgets' with: 
-					[ spec
-						loads: #('tests');
-						repository: 'github://hpi-swa/widgets:master/repository' ];
-				yourself.
-			spec
 				package: 'JSON' with: 
 					[ spec
      					file: 'JSON-ul.35';	
@@ -24,6 +18,7 @@ baseline: spec
 				package: 'AutoTDD-Exceptions';
 				package: 'AutoTDD-Tests' with: [spec requires: #('default' 'dummies' 'Widgets')];
 				yourself.
+			spec baseline: 'Project12' with: [spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
 			spec
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
 				group: 'libraries' with: #('JSON' 'VB-Regex');

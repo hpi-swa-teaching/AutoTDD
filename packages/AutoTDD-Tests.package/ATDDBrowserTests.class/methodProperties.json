@@ -2,9 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"newMorphs" : "be 5/22/2019 18:20",
-		"setUp" : "be 5/22/2019 18:20",
-		"simulateAddButtonPress" : "be 5/22/2019 18:35",
+		"fetchCopyOfWatchers" : "mb 5/29/2019 18:21",
+		"setUp" : "mb 5/29/2019 18:42",
 		"simulateEditButtonPress" : "be 5/22/2019 17:25",
 		"simulateGlobalPauseButtonPress" : "be 5/22/2019 17:26",
 		"simulateGlobalResumeButtonPress" : "be 5/22/2019 17:26",
@@ -13,7 +12,5 @@
 		"simulateRemoveButtonPress" : "be 5/22/2019 17:26",
 		"simulateResumeButtonPress" : "be 5/22/2019 17:27",
 		"simulateRunButtonPress" : "be 5/22/2019 17:27",
-		"simulateWatcherListFetch" : "be 5/22/2019 17:38",
-		"tearDown" : "be 5/22/2019 18:34",
-		"testAddButtonAddsNewWatcherToList" : "be 5/22/2019 18:21",
-		"testAddButtonOpensATDDWatcherEditorWindow" : "be 5/22/2019 18:34" } }
+		"tearDown" : "mb 5/29/2019 18:39",
+		"testAddButtonAddsNewWatcherToList" : "mb 5/29/2019 18:50" } }

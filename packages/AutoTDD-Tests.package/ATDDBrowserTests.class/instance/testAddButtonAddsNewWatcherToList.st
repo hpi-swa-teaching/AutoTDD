@@ -1,6 +1,7 @@
 tests
 testAddButtonAddsNewWatcherToList
-	| preTestWatchers |
-	preTestWatchers := self simulateWatcherListFetch.
-	self simulateAddButtonPress.
-	self assert: (self simulateWatcherListFetch size = (preTestWatchers size + 1))
+	| preTestWatchers watcherWindow |
+	preTestWatchers := self fetchCopyOfWatchers.
+	watcherWindow := browser addWatcher.
+	self assert: (self fetchCopyOfWatchers size = (preTestWatchers size + 1)).
+	watcherWindow changed: #close.

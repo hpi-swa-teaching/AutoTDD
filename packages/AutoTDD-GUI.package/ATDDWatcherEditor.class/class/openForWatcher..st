@@ -1,7 +1,11 @@
 instance creation
 openForWatcher: aWatcher
-	^ ToolBuilder open:
-			(self basicNew
+	| model |
+	model := self basicNew
 				watcher: aWatcher;
 				initialize;
-				yourself)
+				yourself.
+				
+	ToolBuilder open: model.
+	
+	^ model

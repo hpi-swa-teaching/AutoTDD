@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-UIMorphicTests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser",
+		"preTestMorphs",
+		"window",
+		"preTestWatchers" ],
+	"name" : "ATDDBrowserMorphicTests",
+	"pools" : [
+		 ],
+	"super" : "MTFTestCase",
+	"type" : "normal" }

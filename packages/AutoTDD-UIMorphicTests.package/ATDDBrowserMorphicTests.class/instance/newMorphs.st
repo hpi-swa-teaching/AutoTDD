@@ -1,4 +1,4 @@
 running
 newMorphs
-	^ World submorphs
+	^ World submorphs 
 		reject: [:each | preTestMorphs includes: each]

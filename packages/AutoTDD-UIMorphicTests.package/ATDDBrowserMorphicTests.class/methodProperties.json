@@ -1,0 +1,11 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"findWindowByTitle:" : "mb 5/29/2019 19:21",
+		"newMorphs" : "mb 5/29/2019 19:55",
+		"setUp" : "mb 5/29/2019 19:56",
+		"simulateButtonPress:" : "mb 5/29/2019 19:51",
+		"simulateWatcherListFetch" : "be 5/22/2019 17:38",
+		"tearDown" : "mb 5/29/2019 17:55",
+		"testAddButtonOpensATDDWatcherEditorWindow" : "mb 5/29/2019 20:02" } }
