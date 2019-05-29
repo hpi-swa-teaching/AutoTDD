@@ -1,28 +1,32 @@
 baseline
-baseline: spec
+baseline: spec 
 	<baseline>
 	spec
-		for: #'common'
+		for: #common
 		do: [
 			spec
-				package: 'JSON' with: 
-					[ spec
-     					file: 'JSON-ul.35';	
-       					repository: 'http://www.squeaksource.com/JSON' ];
-				package: 'VB-Regex' with: 
-					[ spec repository: 'http://www.squeaksource.com/Regex' ];
-				package: 'AutoTDD-Core' with: [spec requires: #('libraries' 'AutoTDD-Exceptions')];
-				package: 'AutoTDD-GUI';
+				package: 'JSON'
+					with: [spec file: 'JSON-ul.35';
+						repository: 'http://www.squeaksource.com/JSON'];
+				
+				package: 'VB-Regex'
+				with: [spec repository: 'http://www.squeaksource.com/Regex'];
+				
+				package: 'AutoTDD-Core'
+					with: [spec requires: #('libraries' 'AutoTDD-Exceptions')];
+				package: 'AutoTDD-GUI' 
+					with: [spec requires: #('AutoTDD-Core')];
+					postLoadDoIt: #postLoad;
 				package: 'AutoTDD-Dummy-Success-Tests';
 				package: 'AutoTDD-Dummy-Category';
 				package: 'AutoTDD-Exceptions';
-				package: 'AutoTDD-Tests' with: [spec requires: #('default' 'dummies' 'Widgets')];
+				package: 'AutoTDD-Tests' 
+					with: [spec requires: #('default' 'dummies')];
 				yourself.
-			spec baseline: 'Project12' with: [spec repository: 'github://hpi-swa-teaching/Morphic-Testing-Framework:master/packages'].
-			spec
+			spec 
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
 				group: 'libraries' with: #('JSON' 'VB-Regex');
 				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Category');
-				group: 'Tests' with: #('AutoTDD-Tests' 'Widgets');
-				group: 'TravisCI' with: #('Tests')	];
-				yourself
+				group: 'Tests' with: #('AutoTDD-Tests');
+				group: 'TravisCI' with: #('Tests')];
+		 		yourself
