@@ -1,3 +1,4 @@
 action
 resumeAllWatchers
-	self watchers do: [:watcher | self resumeWatcher: watcher]
+	self watchers do: [:watcher | self resumeWatcher: watcher].
+	self update

@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Deprecated",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TARParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

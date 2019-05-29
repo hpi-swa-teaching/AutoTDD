@@ -1,8 +1,7 @@
 as yet unclassified
 buildTestSuiteFromCategories: aCollection
 	|testSuite |
-	
-	testSuite := TestSuite new.
+	testSuite := TARProgressTestSuite new.
 	aCollection do: [ :category |
 			(Smalltalk organization listAtCategoryNamed: category) do: [ :each |
 				((Smalltalk at: each) isKindOf: TestCase class)

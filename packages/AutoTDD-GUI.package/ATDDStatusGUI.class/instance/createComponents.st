@@ -1,0 +1,4 @@
+building
+createComponents
+
+	self createWindow

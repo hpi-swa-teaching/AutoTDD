@@ -1,3 +1,3 @@
 constants
 defaultLabel
-	^ 'Test Auto Runner Settings'
+	^ 'Test Auto Runner: Settings'

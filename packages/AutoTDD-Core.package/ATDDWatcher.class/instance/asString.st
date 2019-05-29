@@ -1,3 +1,3 @@
 behavior
 asString
-	^ self name , ' (' ,  self localStatus , ')'
+	^ self name , ' (' , self watchingStatus, ', ', self localStatus , ')'

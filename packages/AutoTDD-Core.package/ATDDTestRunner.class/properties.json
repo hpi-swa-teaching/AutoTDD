@@ -7,9 +7,10 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"config",
-		"active" ],
+		"active",
+		"status" ],
 	"name" : "ATDDTestRunner",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDDataSource",
 	"type" : "normal" }

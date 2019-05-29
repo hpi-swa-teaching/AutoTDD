@@ -1,4 +1,0 @@
-building
-label
-
-	self subclassResponsibility

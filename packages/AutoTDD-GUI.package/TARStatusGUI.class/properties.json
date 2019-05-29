@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tests",
+		"selectedResult",
+		"selectedTest" ],
+	"name" : "TARStatusGUI",
+	"pools" : [
+		 ],
+	"super" : "ATDDStatusGUI",
+	"type" : "normal" }
