@@ -1,8 +1,9 @@
 as yet unclassified
-runTestSuite: aTestSuite
+runTestSuite
 	|process result|
+	self updateWatcherStatus: self testSuite valueHolder.
 	process := [
-			result := aTestSuite run
+			result := self testSuite run
 			dispatchResultsIntoHistory 
 			yourself.
  			self testResult: result.
