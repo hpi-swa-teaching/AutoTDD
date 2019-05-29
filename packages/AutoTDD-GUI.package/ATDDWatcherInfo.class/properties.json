@@ -1,0 +1,15 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"builder",
+		"watcher" ],
+	"name" : "ATDDWatcherInfo",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

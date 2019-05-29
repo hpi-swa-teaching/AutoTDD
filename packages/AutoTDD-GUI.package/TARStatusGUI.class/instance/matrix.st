@@ -2,7 +2,7 @@ accessing
 matrix
 
 	| test |
-	test := self parser parseResultAt: self selectedResult of: self data results.
+	test := self parser parseResultAt: self selectedResult of: self testResults.
 	self tests: (OrderedCollection new
 		addAll: test errors;
 		addAll: test failures;

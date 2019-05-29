@@ -1,4 +1,4 @@
 accessing
 selectedStateText
 
-	^ (self parser primitiveParseAt: self selectedResult of: self data results) printString
+	^ (self parser primitiveParseAt: self selectedResult of: self testResults) printString

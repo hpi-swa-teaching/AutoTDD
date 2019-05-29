@@ -1,3 +1,3 @@
 building
 label
-	^ 'TestAutoRunner: -- kaputt! '
+	^ self class defaultLabelFor: self data watcher name
