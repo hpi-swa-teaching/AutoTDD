@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"watcher",
-		"testResult",
+		"testResults",
 		"testSuite" ],
 	"name" : "ATDDLocalTestRunner",
 	"pools" : [

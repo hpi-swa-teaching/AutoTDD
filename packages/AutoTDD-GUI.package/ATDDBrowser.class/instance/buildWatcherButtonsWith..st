@@ -9,6 +9,7 @@ buildWatcherButtonsWith: aBuilder
 			add: (self buildResumeButtonWith: aBuilder);
 			add: (self buildRunButtonWith: aBuilder);
 			add: (self buildEditButtonWith: aBuilder);
+			add: (self buildResultsButtonWith: aBuilder);
 			add: (self buildRemoveButtonWith: aBuilder);
 			yourself);
 		yourself.

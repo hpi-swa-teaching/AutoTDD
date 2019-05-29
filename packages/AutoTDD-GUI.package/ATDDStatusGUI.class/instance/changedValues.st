@@ -1,0 +1,4 @@
+updating
+changedValues
+
+	self subclassResponsibility
