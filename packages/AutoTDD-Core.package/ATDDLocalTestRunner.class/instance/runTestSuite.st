@@ -1,6 +1,7 @@
 as yet unclassified
 runTestSuite
 	|process result|
+	self progress: self testSuite valueHolder.
 	self status: #executing.
 	process := [
 			result := self testSuite run

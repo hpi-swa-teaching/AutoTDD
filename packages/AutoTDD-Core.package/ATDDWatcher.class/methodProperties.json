@@ -1,6 +1,6 @@
 {
 	"class" : {
-		 },
+		"notExecutedText" : "ls 5/30/2019 19:43" },
 	"instance" : {
 		"addChangeListener" : "swi 5/16/2019 00:44",
 		"applyDefaultConfiguration" : "vxr 5/22/2019 16:29",
@@ -9,9 +9,8 @@
 		"initialize" : "ls 5/22/2019 16:10",
 		"isClassTestClass:" : "swi 5/15/2019 23:40",
 		"isClassWatched:" : "swi 5/15/2019 23:28",
-		"localProgress" : "vxr 5/29/2019 20:07",
-		"localProgress:" : "vxr 5/29/2019 19:55",
-		"localStatus" : "vxr 5/29/2019 20:06",
+		"localProgress" : "ls 5/30/2019 19:38",
+		"localStatus" : "ls 5/30/2019 19:48",
 		"localStatus:" : "ls 5/22/2019 16:04",
 		"localTestRunner" : "ls 5/15/2019 19:43",
 		"localTestRunner:" : "ls 5/15/2019 19:28",
@@ -36,6 +35,7 @@
 		"travisStatus:" : "ls 5/22/2019 14:39",
 		"travisTestRunner" : "ls 5/15/2019 19:40",
 		"travisTestRunner:" : "ls 5/15/2019 19:28",
+		"updateLocalStatusTo:" : "ls 5/30/2019 19:44",
 		"watchClasses" : "swi 5/15/2019 22:49",
 		"watchClasses:" : "swi 5/15/2019 22:49",
 		"watchedClasses" : "swi 5/15/2019 22:56",

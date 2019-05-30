@@ -1,5 +1,4 @@
 accessing
 localStatus
-	self flag: #todo. "hard coded"
-	(localStatus = 'executing') ifTrue: [^ self localProgress].
-	^localStatus ifNil: [localStatus := '']
+	localStatus ifNil: [localStatus := [self class notExecutedText]].
+	^localStatus value

@@ -1,5 +1,5 @@
 accessing
 localProgress
-	^ localProgress
-		ifNotNil: [(localProgress contents * 100) asInteger asString, '%']
-		ifNil: ['0%']
+	| progress |
+	progress := self localTestRunner progress contents.
+	^(progress asFloat * 100) integerPart asString , '%'

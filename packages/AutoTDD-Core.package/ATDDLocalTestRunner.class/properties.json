@@ -8,7 +8,8 @@
 	"instvars" : [
 		"watcher",
 		"testResults",
-		"testSuite" ],
+		"testSuite",
+		"progress" ],
 	"name" : "ATDDLocalTestRunner",
 	"pools" : [
 		 ],
