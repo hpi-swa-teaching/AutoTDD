@@ -8,6 +8,8 @@ echo "Starting action."
 set -e
 set -o pipefail
 
+COMMIT_MESSAGE = $(echo git log -n 1 --pretty=%B) 
+
 # Ensure that the TAG is set
 if [[ -z "$TAG" ]]; then
 	echo "TAG env variable not set."
@@ -38,7 +40,7 @@ if [[ -z "$GITHUB_TOKEN" ]]; then
 	exit 1
 fi
 
-echo "Creating Release: title: $TITLE, tag: $TAG, target: $TARGET, description: $DESCRIPTION"
+echo "Creating Release from message: $COMMIT_MESSAGE (title: $TITLE, tag: $TAG, target: $TARGET, description: $DESCRIPTION)"
 
 JSON='{
 	"tag_name": "@rel_tag@",
@@ -53,11 +55,11 @@ JSON=$(echo "$JSON" | sed "s/@rel_target@/$TARGET/")
 JSON=$(echo "$JSON" | sed "s/@rel_title@/Release $TITLE/")
 JSON=$(echo "$JSON" | sed "s/@rel_description@/$DESCRIPTION/")
 
-curl --request POST \
-	--url "https://api.github.com/repos/$GITHUB_REPOSITORY/releases" \
-	--header "Authorization: Bearer $GITHUB_TOKEN" \
-	--header 'Content-Type: application/json' \
-	--data "$JSON"
+#curl --request POST \
+#	--url "https://api.github.com/repos/$GITHUB_REPOSITORY/releases" \
+#	--header "Authorization: Bearer $GITHUB_TOKEN" \
+#	--header 'Content-Type: application/json' \
+#	--data "$JSON"
 	  
 
 # Ensure that the FILE is set
