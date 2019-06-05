@@ -9,7 +9,8 @@
 		"browser",
 		"preTestMorphs",
 		"window",
-		"preTestWatchers" ],
+		"preTestWatchers",
+		"windowsToDelete" ],
 	"name" : "ATDDBrowserTests",
 	"pools" : [
 		 ],

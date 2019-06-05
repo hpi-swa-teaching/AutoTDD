@@ -1,3 +1,4 @@
 behavior
 closeWindow
-	self changed: #close
+	self changed: #close.
+	^ self watcher.
