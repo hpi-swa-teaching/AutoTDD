@@ -9,15 +9,15 @@ action "is-release-branch" {
 }
 
 action "make-release" {
-  uses = "hpi-swa-teaching/AutoTDD/github-release-action@dev"
+  uses = "hpi-swa-teaching/AutoTDD/github-release-action@dev-release"
   needs = ["is-release-branch"]
   env = {
-    TITLE = "Test"
-    TAG = "v3.0"
-    DESCRIPTION = "Test"
+    TITLE = "Development Release"
+    TAG = "v3-dev"
+    DESCRIPTION = "New fresh release!"
     TARGET = "dev-release"
     FILE=""
-    CONTENT_TYPE="text/plain"
+    CONTENT_TYPE=""
   }
   secrets = ["GITHUB_TOKEN"]
 }

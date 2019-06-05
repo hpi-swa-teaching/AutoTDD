@@ -2,35 +2,54 @@
 
 # ARGUMENTS
 #	TAG, TITLE, TARGET, DESCRIPTION, FILE (optional), FILE_CONTENT_TYPE (required only if file set)
+#	If latest commit is in the form '{tag}\n\n{title}\n\n{description}' and these parts can be parsed, the fields will be set accordingly.
 
 echo "Starting action."
 
 set -e
 set -o pipefail
 
-COMMIT_MESSAGE = $(echo git log -n 1 --pretty=%B) 
+COMMIT_MESSAGE=$(git log -n 1 --pretty=%B) 
+
+readarray -t PARSED_MSG <<<"$COMMIT_MESSAGE"
+
+PARSEDTAG=$(echo ${PARSED_MSG[0]})
+PARSEDTITLE=$(echo ${PARSED_MSG[2]})
+PARSEDDESCRIPTION=$(echo ${PARSED_MSG[4]})
 
 # Ensure that the TAG is set
-if [[ -z "$TAG" ]]; then
-	echo "TAG env variable not set."
-	exit 1
+if [[ -z "$PARSEDTAG" ]]; then
+	if [[ -z "$TAG" ]]; then
+		echo "TAG env variable not set or commit message malformed."
+		exit 1
+	fi
+else
+	TAG="$PARSEDTAG"
 fi
 
 # Ensure that the TITLE is set
 if [[ -z "$TITLE" ]]; then
-	echo "TITLE env variable not set."
-	exit 1
+	if [[ -z "$TITLE" ]]; then
+		echo "TITLE env variable not set or commit message malformed."
+		exit 1
+	fi
+else 
+	TITLE="$PARSEDTITLE"
+fi
+
+# Ensure that the DESCRIPTION is set
+if [[ -z "$DESCRIPTION" ]]; then
+	if [[ -z "$DESCRIPTION" ]]; then
+		echo "DESCRIPTION env variable not set or commit message malformed."
+		exit 1
+	fi
+else
+	DESCRIPTION="$PARSEDDESCRIPTION"
 fi
 
 # Ensure that the TARGET is set
 if [[ -z "$TARGET" ]]; then
 	echo "TARGET env variable not set."
-	exit 1
-fi
-
-# Ensure that the DESCRIPTION is set
-if [[ -z "$DESCRIPTION" ]]; then
-	echo "DESCRIPTION env variable not set."
 	exit 1
 fi
 
@@ -65,7 +84,6 @@ JSON=$(echo "$JSON" | sed "s/@rel_description@/$DESCRIPTION/")
 # Ensure that the FILE is set
 if [[ -z "$FILE" ]]; then
 	echo "FILE env variable not set, no file will be uploaded."
-	exit 1
 else
 	# Ensure that the CONTENT_TYPE is set
 	if [[ -z "$FILE_CONTENT_TYPE" ]]; then
