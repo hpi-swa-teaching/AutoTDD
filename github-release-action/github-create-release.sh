@@ -74,11 +74,11 @@ JSON=$(echo "$JSON" | sed "s/@rel_target@/$TARGET/")
 JSON=$(echo "$JSON" | sed "s/@rel_title@/Release $TITLE/")
 JSON=$(echo "$JSON" | sed "s/@rel_description@/$DESCRIPTION/")
 
-#curl --request POST \
-#	--url "https://api.github.com/repos/$GITHUB_REPOSITORY/releases" \
-#	--header "Authorization: Bearer $GITHUB_TOKEN" \
-#	--header 'Content-Type: application/json' \
-#	--data "$JSON"
+curl --request POST \
+	--url "https://api.github.com/repos/$GITHUB_REPOSITORY/releases" \
+	--header "Authorization: Bearer $GITHUB_TOKEN" \
+	--header 'Content-Type: application/json' \
+	--data "$JSON"
 	  
 
 # Ensure that the FILE is set
