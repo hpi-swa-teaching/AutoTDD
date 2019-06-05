@@ -71,7 +71,7 @@ JSON='{
 }'
 JSON=$(echo "$JSON" | sed "s/@rel_tag@/$TAG/")
 JSON=$(echo "$JSON" | sed "s/@rel_target@/$TARGET/")
-JSON=$(echo "$JSON" | sed "s/@rel_title@/Release $TITLE/")
+JSON=$(echo "$JSON" | sed "s/@rel_title@/$TITLE/")
 JSON=$(echo "$JSON" | sed "s/@rel_description@/$DESCRIPTION/")
 
 curl --request POST \
