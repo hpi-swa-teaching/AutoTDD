@@ -4,13 +4,13 @@ buildWatcherButtonsWith: aBuilder
 		model: self;
 		layout: #horizontal;
 		children: (OrderedCollection new
-			add: (self buildAddButtonWith: aBuilder);
-			add: (self buildPauseButtonWith: aBuilder);
-			add: (self buildResumeButtonWith: aBuilder);
-			add: (self buildRunButtonWith: aBuilder);
-			add: (self buildEditButtonWith: aBuilder);
-			add: (self buildInfoButtonWith: aBuilder);
-			add: (self buildResultsButtonWith: aBuilder);
-			add: (self buildRemoveButtonWith: aBuilder);
+			add: (self buildAddWatcherButtonWith: aBuilder);
+			add: (self buildPauseWatcherButtonWith: aBuilder);
+			add: (self buildResumeWatcherButtonWith: aBuilder);
+			add: (self buildRunWatcherButtonWith: aBuilder);
+			add: (self buildEditWatcherButtonWith: aBuilder);
+			add: (self buildInfoWatcherButtonWith: aBuilder);
+			add: (self buildResultsWatcherButtonWith: aBuilder);
+			add: (self buildRemoveWatcherButtonWith: aBuilder);
 			yourself);
 		yourself.

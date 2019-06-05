@@ -1,0 +1,18 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"name",
+		"repository",
+		"paused",
+		"process",
+		"refreshInterval" ],
+	"name" : "ATDDTravisStatus",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

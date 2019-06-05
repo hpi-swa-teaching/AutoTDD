@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TCINullRepository",
+	"pools" : [
+		 ],
+	"super" : "TCIRepository",
+	"type" : "normal" }

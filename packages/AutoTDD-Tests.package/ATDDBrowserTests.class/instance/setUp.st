@@ -4,3 +4,7 @@ setUp
 	browser := ATDDBrowser new.
 	ToolBuilder open: browser.
 	preTestWatchers := self fetchCopyOfWatchers.
+	browser removeWatchers: browser watchers.
+	
+	windowsToDelete := OrderedCollection new.
+	windowsToDelete add: browser.

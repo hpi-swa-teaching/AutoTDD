@@ -1,3 +1,0 @@
-ui-simulation
-simulateGlobalPauseButtonPress
-	browser pauseAllWatchers

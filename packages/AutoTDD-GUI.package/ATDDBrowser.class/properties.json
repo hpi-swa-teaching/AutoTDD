@@ -3,11 +3,13 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
+		"TravisStatuses",
 		"Watchers" ],
 	"commentStamp" : "",
 	"instvars" : [
 		"builder",
-		"selectedWatchers" ],
+		"selectedWatchers",
+		"selectedTravisStatuses" ],
 	"name" : "ATDDBrowser",
 	"pools" : [
 		 ],
