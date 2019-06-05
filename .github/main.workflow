@@ -1,17 +1,23 @@
 workflow "Development Release" {
-  resolves = ["make release"]
+  resolves = ["make-release"]
   on = "push"
 }
 
-action "branch filter" {
-  uses = "actions/bin/filter@dev-release"
+action "is-release-branch" {
+  uses = "actions/bin/filter@master"
+  args = "branch dev-release"
 }
 
-action "make release" {
-  uses = "frankjuniorr/github-create-release-action@master"
-  needs = ["branch filter"]
+action "make-release" {
+  uses = "hpi-swa-teaching/AutoTDD/github-release-action@dev"
+  needs = ["is-release-branch"]
   env = {
-    VERSION = "Test"
+    TITLE = "Test"
+    TAG = "v3.0"
     DESCRIPTION = "Test"
+    TARGET = "dev-release"
+    FILE=""
+    CONTENT_TYPE="text/plain"
   }
+  secrets = ["GITHUB_TOKEN"]
 }
