@@ -9,7 +9,8 @@
 		"cache",
 		"client",
 		"repository",
-		"timer" ],
+		"timer",
+		"parser" ],
 	"name" : "TCIRepository",
 	"pools" : [
 		 ],

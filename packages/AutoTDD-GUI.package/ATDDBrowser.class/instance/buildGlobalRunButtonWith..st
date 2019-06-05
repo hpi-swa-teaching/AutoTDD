@@ -2,7 +2,7 @@ building
 buildGlobalRunButtonWith: aBuilder
 	^ aBuilder pluggableButtonSpec new
 		model: self;
-		action: #runAllWatchers;
+		action: #runAll;
 		label: 'Run All';
 		enabled: true;
 		yourself

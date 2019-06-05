@@ -7,7 +7,7 @@ testResumeButtonResumesSelectedWatcher
 	watcherWindow := browser addWatcher.
 	watcher2 := watcherWindow saveWatcher.
 	
-	browser pauseAllWatchers.
+	browser pauseAll.
 	self assert: (browser watchers allSatisfy: [:each | each paused]).
 
 	selection := OrderedCollection new.

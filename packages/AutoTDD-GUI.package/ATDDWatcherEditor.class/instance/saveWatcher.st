@@ -9,7 +9,7 @@ saveWatcher
 		watchedClasses: self selectedCategoryClasses;
 		testClasses: self selectedTestCategoryClasses;
 		watchedPackages: self selectedCategories;
-		testPackages: self selectedTestCategories;
-		paused: false.
-	^ self closeWindow
-	
+		testPackages: self selectedTestCategories.
+	self closeWindow.
+	self watcher resume.
+	^self watcher

@@ -1,0 +1,3 @@
+building
+emptyTravisStatus
+	^ ATDDTravisStatus new

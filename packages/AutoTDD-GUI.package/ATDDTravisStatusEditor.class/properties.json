@@ -1,0 +1,20 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"builder",
+		"travisStatus",
+		"travisStatusName",
+		"repositoryUrl",
+		"refreshInterval",
+		"token",
+		"usePro" ],
+	"name" : "ATDDTravisStatusEditor",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
