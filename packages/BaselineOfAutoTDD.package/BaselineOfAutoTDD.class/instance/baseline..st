@@ -26,7 +26,7 @@ baseline: spec
 			spec 
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
 				group: 'libraries' with: #('JSON' 'VB-Regex');
-				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Category');
+				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Category' 'AutoTDD-Dummy-Setting-Test');
 				group: 'Tests' with: #('AutoTDD-Tests');
 				group: 'TravisCI' with: #('Tests')];
 		 		yourself

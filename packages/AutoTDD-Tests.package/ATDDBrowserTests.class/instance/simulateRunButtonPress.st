@@ -1,3 +1,0 @@
-ui-simulation
-simulateRunButtonPress
-	browser runSelectedWatchers
