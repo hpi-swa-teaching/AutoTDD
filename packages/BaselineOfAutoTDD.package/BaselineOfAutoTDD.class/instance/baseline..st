@@ -20,6 +20,7 @@ baseline: spec
 				package: 'AutoTDD-Dummy-Success-Tests';
 				package: 'AutoTDD-Dummy-Category';
 				package: 'AutoTDD-Exceptions';
+				package: 'AutoTDD-Dummy-Setting-Tests';
 				package: 'AutoTDD-Tests' 
 					with: [spec requires: #('default' 'dummies')];
 				yourself.
