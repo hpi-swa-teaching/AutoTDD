@@ -1,5 +1,5 @@
 behavior
 isClassWatched: aClass
-	self watchClasses
-		ifTrue: [ ^self watchedClasses includes: aClass ]
-		ifFalse: [ ^self watchedPackages includes: aClass category ]
+	self isWatchingClasswise
+		ifTrue: [ ^self classesToWatch includes: aClass ]
+		ifFalse: [ ^self categoriesToWatch includes: aClass category ]

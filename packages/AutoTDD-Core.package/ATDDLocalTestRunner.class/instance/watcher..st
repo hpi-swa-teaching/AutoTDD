@@ -1,3 +1,3 @@
 accessing
 watcher: anObject
-	watcher := anObject.
+	watcher := anObject
