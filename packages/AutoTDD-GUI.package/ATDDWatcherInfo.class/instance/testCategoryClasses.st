@@ -1,3 +1,3 @@
 as yet unclassified
 testCategoryClasses
-	^ self watcher testClasses asOrderedCollection
+	^ self watcher classesToTest asOrderedCollection

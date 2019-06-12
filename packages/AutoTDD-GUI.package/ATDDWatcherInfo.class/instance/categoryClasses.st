@@ -1,3 +1,3 @@
 as yet unclassified
 categoryClasses
-	^ self watcher watchedClasses asOrderedCollection
+	^ self watcher classesToWatch asOrderedCollection

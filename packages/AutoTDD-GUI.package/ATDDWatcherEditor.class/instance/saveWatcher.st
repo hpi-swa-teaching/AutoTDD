@@ -4,12 +4,12 @@ saveWatcher
 	watcherName changed: #acceptChanges.
 	self watcher
 		name: self watcherName;
-		watchClasses: self classwiseCategorySelection;
-		runTestClasses: self classwiseTestCategorySelection;
-		watchedClasses: self selectedCategoryClasses;
-		testClasses: self selectedTestCategoryClasses;
-		watchedPackages: self selectedCategories;
-		testPackages: self selectedTestCategories.
+		isWatchingClasswise: self classwiseCategorySelection;
+		isTestingClasswise: self classwiseTestCategorySelection;
+		classesToWatch: self selectedCategoryClasses;
+		classesToTest: self selectedTestCategoryClasses;
+		categoriesToWatch: self selectedCategories;
+		categoriesToTest: self selectedTestCategories.
 	self closeWindow.
 	self watcher resume.
 	^self watcher
