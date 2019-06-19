@@ -11,7 +11,7 @@ SmalltalkCISpec {
     #defaultTimeout : 10,
     #categories : [ 'AutoTDD-*' ],
     #coverage : {
-      #packages : [ 'AutoTDD-Core', 'AutoTDD-Exceptions', 'AutoTDD-GUI' ]
+      #packages : [ 'AutoTDD-Core', 'AutoTDD-GUI' ]
     }
   }
 }
