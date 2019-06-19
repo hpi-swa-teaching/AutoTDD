@@ -1,3 +1,3 @@
-as yet unclassified
+running
 setUp
-	emptyRunner := ATDDTestRunner new.
+	testrunner := ATDDTestRunner new

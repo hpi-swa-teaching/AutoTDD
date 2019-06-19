@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"testrunner" ],
-	"name" : "ATDDTestRunnerTests",
+		"testrunner",
+		"watcher" ],
+	"name" : "ATDDLocalTestRunnerTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

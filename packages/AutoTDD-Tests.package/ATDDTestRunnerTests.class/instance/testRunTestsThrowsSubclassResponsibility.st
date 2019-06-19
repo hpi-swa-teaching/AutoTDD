@@ -1,3 +1,3 @@
 as yet unclassified
 testRunTestsThrowsSubclassResponsibility
-	self should: [emptyRunner runTests] raise: SubclassResponsibility.
+	self should: [testrunner runTests] raise: SubclassResponsibility.

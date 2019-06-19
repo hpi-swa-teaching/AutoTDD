@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"testrunner" ],
-	"name" : "ATDDTestRunnerTests",
+		"datasource" ],
+	"name" : "ATDDDataSourceTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

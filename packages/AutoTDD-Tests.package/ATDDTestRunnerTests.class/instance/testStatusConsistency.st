@@ -1,5 +1,5 @@
 as yet unclassified
 testStatusConsistency
-	self assert: emptyRunner status isNil.
-	emptyRunner status: #unexecuted.
-	self assert: emptyRunner status = #unexecuted.
+	self assert: testrunner status isNil.
+	testrunner status: #unexecuted.
+	self assert: testrunner status = #unexecuted.

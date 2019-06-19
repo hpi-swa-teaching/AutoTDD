@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"testrunner" ],
-	"name" : "ATDDTestRunnerTests",
+		 ],
+	"name" : "ATDDSoundPlayerTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

@@ -1,3 +1,3 @@
 as yet unclassified
 testStatusMustBeASymbol
-	self should: [emptyRunner status: 'IBM'] raise: Error.
+	self should: [testrunner status: 'IBM'] raise: Error.
