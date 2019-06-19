@@ -1,3 +1,0 @@
-behavior
-stop
-	^self

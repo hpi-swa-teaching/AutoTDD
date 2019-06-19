@@ -1,3 +1,6 @@
 action
 editWatcher
-	self selectedWatchers do: [:watcher | self openEditorForWatcher: watcher]
+	| windows |
+	windows := OrderedCollection new.
+	self selectedWatchers do: [:watcher | windows add: (self openEditorForWatcher: watcher)].
+	^ windows

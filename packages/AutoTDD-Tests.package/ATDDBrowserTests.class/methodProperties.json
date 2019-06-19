@@ -10,8 +10,10 @@
 		"tearDown" : "mb 6/7/2019 17:33",
 		"testAddButtonAddsNewWatcherToList" : "mb 6/5/2019 16:27",
 		"testChangingWatchedCategoriesWork" : "mb 6/7/2019 17:28",
+		"testEditButtonWorks" : "mb 6/19/2019 15:09",
 		"testPauseAllButtonPausesAllWatchers" : "ls 6/5/2019 21:37",
 		"testPauseButtonPausesSelectedWatcher" : "mb 6/5/2019 16:45",
 		"testResumeAllButtonResumesAllWatchers" : "ls 6/5/2019 21:39",
 		"testResumeButtonResumesSelectedWatcher" : "ls 6/5/2019 21:38",
+		"testRunAllButtonRunsEverything" : "mb 6/19/2019 15:18",
 		"testRunButtonRunsSelectedWatcher" : "mb 6/7/2019 17:27" } }
