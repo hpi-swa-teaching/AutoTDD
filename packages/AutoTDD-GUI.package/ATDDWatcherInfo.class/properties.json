@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"builder",
-		"watcher" ],
+		 ],
 	"name" : "ATDDWatcherInfo",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDInfo",
 	"type" : "normal" }

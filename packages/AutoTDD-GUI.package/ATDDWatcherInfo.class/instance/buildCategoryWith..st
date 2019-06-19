@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildCategoryWith: aBuilder
 	^ aBuilder pluggableMultiSelectionListSpec new
 		model: self;

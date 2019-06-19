@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"defaultExtent" : "swi 6/19/2019 15:55",
+		"defaultRepositoryLabelText" : "swi 6/19/2019 15:16",
+		"repositoryFrame" : "swi 6/19/2019 15:54",
+		"targetName" : "swi 6/19/2019 15:33" },
+	"instance" : {
+		"buildChildrenWith:" : "swi 6/19/2019 15:48",
+		"buildRepositoryLabelWith:" : "swi 6/19/2019 15:52",
+		"initialize" : "swi 6/19/2019 15:56",
+		"initializeRepository" : "swi 6/19/2019 15:27",
+		"loadTarget" : "swi 6/19/2019 16:03",
+		"repository" : "swi 6/19/2019 15:27",
+		"repository:" : "swi 6/19/2019 15:26",
+		"repositoryLabelText" : "swi 6/19/2019 15:16" } }

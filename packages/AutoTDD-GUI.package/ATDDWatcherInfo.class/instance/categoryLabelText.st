@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 categoryLabelText
 	^ self class defaultCategoryLabelText

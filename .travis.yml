@@ -4,13 +4,9 @@ smalltalk:
   - Squeak-trunk
   - Squeak-5.2
   - Squeak32-trunk
-  - Squeak32-5.2
   - Pharo64-stable
   - Pharo64-alpha
   - Pharo64-8.0
-  - Pharo32-stable
-  - GemStone64-3.5.x
+  - GemStone64-3.4.x
   - Moose64-trunk
   - Moose64-8.0
-  - Moose32-trunk
-  - Moose32-8.0

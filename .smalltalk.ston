@@ -4,7 +4,7 @@ SmalltalkCISpec {
       #baseline : 'AutoTDD',
       #directory : 'packages',
       #load : [ 'TravisCI' ],
-      #platforms : [ #squeak ]
+      #platforms : [ #squeak, #pharo, #moose, #gemstone ]
     }
   ],
   #testing : {

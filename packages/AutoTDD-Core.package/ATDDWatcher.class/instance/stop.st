@@ -1,0 +1,3 @@
+behavior
+stop
+	^self

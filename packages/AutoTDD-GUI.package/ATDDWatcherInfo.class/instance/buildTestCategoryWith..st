@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildTestCategoryWith: aBuilder
 	
 	^ aBuilder pluggableMultiSelectionListSpec new

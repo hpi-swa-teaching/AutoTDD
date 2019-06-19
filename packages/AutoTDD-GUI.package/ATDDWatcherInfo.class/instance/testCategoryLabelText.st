@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 testCategoryLabelText
 	^ self class defaultTestCategoryLabelText

@@ -1,3 +1,6 @@
 action
 openInfoForSelectedTravisStatuses
-	self selectedTravisStatuses do: [:travisStatus | self openInfoForTravisStatus: travisStatus]
+	| collection |
+	collection := OrderedCollection new.
+	self selectedTravisStatuses do: [:travisStatus | collection add: (self openInfoForTravisStatus: travisStatus)].
+	^ collection

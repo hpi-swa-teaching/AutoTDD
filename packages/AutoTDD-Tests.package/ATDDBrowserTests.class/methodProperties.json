@@ -5,9 +5,10 @@
 		"setTestHasRun" : "mb 6/7/2019 17:28" },
 	"instance" : {
 		"addEmptyWatchers:" : "mb 6/5/2019 16:55",
+		"fetchCopyOfTravisStatuses" : "swi 6/19/2019 17:13",
 		"fetchCopyOfWatchers" : "mb 5/29/2019 18:21",
-		"setUp" : "mb 6/7/2019 17:33",
-		"tearDown" : "mb 6/7/2019 17:33",
+		"setUp" : "ClassBuilderTest 6/19/2019 18:04",
+		"tearDown" : "ClassBuilderTest 6/19/2019 18:05",
 		"testAddButtonAddsNewWatcherToList" : "mb 6/5/2019 16:27",
 		"testChangingWatchedCategoriesWork" : "mb 6/7/2019 17:28",
 		"testEditButtonWorks" : "mb 6/19/2019 15:09",
@@ -16,4 +17,6 @@
 		"testResumeAllButtonResumesAllWatchers" : "ls 6/5/2019 21:39",
 		"testResumeButtonResumesSelectedWatcher" : "ls 6/5/2019 21:38",
 		"testRunAllButtonRunsEverything" : "mb 6/19/2019 15:18",
-		"testRunButtonRunsSelectedWatcher" : "mb 6/7/2019 17:27" } }
+		"testRunButtonRunsSelectedWatcher" : "mb 6/7/2019 17:27",
+		"testTravisInfoButtonWorks" : "swi 6/19/2019 17:17",
+		"testWatcherInfoButtonWorks" : "swi 6/19/2019 17:16" } }

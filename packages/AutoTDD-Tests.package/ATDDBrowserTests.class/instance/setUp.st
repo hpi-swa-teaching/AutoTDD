@@ -5,8 +5,10 @@ setUp
 	browser := ATDDBrowser new.
 	ToolBuilder open: browser.
 	preTestWatchers := self fetchCopyOfWatchers.
+	preTestTravisStatuses := self fetchCopyOfTravisStatuses.
 	browser pauseAll.
 	browser removeWatchers: browser watchers.
-	
+	browser removeTravisStatuses: browser travisStatuses.
+
 	windowsToDelete := OrderedCollection new.
-	windowsToDelete add: browser.
+	windowsToDelete add: browser. 

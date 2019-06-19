@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository" ],
+	"name" : "ATDDTravisStatusInfo",
+	"pools" : [
+		 ],
+	"super" : "ATDDInfo",
+	"type" : "normal" }

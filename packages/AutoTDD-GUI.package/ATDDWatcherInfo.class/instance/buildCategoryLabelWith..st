@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildCategoryLabelWith: aBuilder
 	
 	^ aBuilder pluggableTextSpec new

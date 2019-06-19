@@ -1,0 +1,3 @@
+accessing
+repositoryLabelText
+	^ self class defaultRepositoryLabelText
