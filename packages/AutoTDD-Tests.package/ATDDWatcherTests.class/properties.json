@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"emptyWatcher" ],
+	"name" : "ATDDWatcherTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

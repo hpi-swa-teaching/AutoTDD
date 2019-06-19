@@ -1,0 +1,4 @@
+accessing
+testCategories
+
+	^ OrderedCollection new

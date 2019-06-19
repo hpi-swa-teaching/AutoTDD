@@ -1,0 +1,4 @@
+accessing
+categories
+
+	^ OrderedCollection new

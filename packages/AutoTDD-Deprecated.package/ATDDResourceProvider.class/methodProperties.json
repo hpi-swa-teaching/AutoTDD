@@ -1,0 +1,10 @@
+{
+	"class" : {
+		"defaultResource" : "PS 7/22/2014 00:30",
+		"defaultUri" : "FN 4/22/2015 15:51" },
+	"instance" : {
+		"loadResource:ifAbsent:" : "FN 4/22/2015 15:50",
+		"loadResourceAt:" : "FN 4/22/2015 15:31",
+		"primitiveLoadResource:" : "PS 7/22/2014 00:35",
+		"resourceDictionary" : "PS 7/22/2014 00:31",
+		"resources" : "FN 4/22/2015 15:30" } }

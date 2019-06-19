@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "mb 6/19/2019 16:49",
+		"testRunTestsThrowsSubclassResponsibility" : "mb 6/19/2019 16:50",
+		"testStatusConsistency" : "mb 6/19/2019 17:01",
+		"testStatusMustBeASymbol" : "mb 6/19/2019 17:02" } }

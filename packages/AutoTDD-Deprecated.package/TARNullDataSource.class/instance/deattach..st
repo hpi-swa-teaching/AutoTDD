@@ -1,0 +1,2 @@
+observing
+deattach: anObject
