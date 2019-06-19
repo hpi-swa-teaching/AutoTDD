@@ -9,7 +9,7 @@ SmalltalkCISpec {
   ],
   #testing : {
     #defaultTimeout : 10,
-    #categories : [ 'AutoTDD-*' ],
+    #categories : [ 'AutoTDD-Tests' ],
     #coverage : {
       #packages : [ 'AutoTDD-Core', 'AutoTDD-GUI' ]
     }
