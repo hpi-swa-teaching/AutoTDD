@@ -1,3 +1,3 @@
-as yet unclassified
+building
 tokenHelpLabel
 	^ 'travis access token'

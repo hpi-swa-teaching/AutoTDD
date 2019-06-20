@@ -1,15 +1,12 @@
 {
 	"class" : {
 		"defaultExtent" : "swi 6/19/2019 15:55",
-		"defaultRepositoryLabelText" : "swi 6/19/2019 15:16",
-		"repositoryFrame" : "swi 6/19/2019 15:54",
+		"repositoryLabelText" : "vxr 6/20/2019 12:13",
 		"targetName" : "swi 6/19/2019 15:33" },
 	"instance" : {
-		"buildChildrenWith:" : "swi 6/19/2019 15:48",
-		"buildRepositoryLabelWith:" : "swi 6/19/2019 15:52",
-		"initialize" : "swi 6/19/2019 15:56",
-		"initializeRepository" : "swi 6/19/2019 15:27",
-		"loadTarget" : "swi 6/19/2019 16:03",
-		"repository" : "swi 6/19/2019 15:27",
-		"repository:" : "swi 6/19/2019 15:26",
-		"repositoryLabelText" : "swi 6/19/2019 15:16" } }
+		"buildAdditionalInputFieldsWith:" : "vxr 6/20/2019 11:58",
+		"buildRepositoryLabelWith:" : "vxr 6/20/2019 12:13",
+		"repositoryFrame" : "vxr 6/20/2019 12:03",
+		"repositoryLabel" : "vxr 6/20/2019 12:13",
+		"repositoryURL" : "vxr 6/20/2019 12:15",
+		"travisStatus" : "vxr 6/20/2019 11:55" } }

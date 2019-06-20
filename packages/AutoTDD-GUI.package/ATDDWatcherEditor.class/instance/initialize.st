@@ -1,8 +1,4 @@
 initialization
-initialize 
-	
-	super initialize.
- 	self
-		addChangeListener;
-		initializeWatcherName;
-		loadWatcher
+initialize
+ 	self addChangeListener.
+	super initialize

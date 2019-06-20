@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildUseProCheckboxWith: aBuilder
 	
 	^ aBuilder pluggableCheckBoxSpec new

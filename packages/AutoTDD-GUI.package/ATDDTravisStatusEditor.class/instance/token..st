@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 token: aString
 	^ token contents: aString

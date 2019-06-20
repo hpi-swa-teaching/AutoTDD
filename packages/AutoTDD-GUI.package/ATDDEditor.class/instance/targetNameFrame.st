@@ -1,0 +1,3 @@
+accessing
+targetNameFrame
+	^ self subclassResponsibility

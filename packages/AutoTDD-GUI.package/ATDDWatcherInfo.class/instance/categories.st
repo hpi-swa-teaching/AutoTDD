@@ -1,3 +1,3 @@
 accessing
 categories
-	^ self target watchedPackages asOrderedCollection
+	^ self target categoriesToWatch asOrderedCollection

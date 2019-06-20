@@ -1,3 +1,3 @@
 initialization
 loadTarget
-	^ self subclassResponsibility
+	"intentionally left blank"

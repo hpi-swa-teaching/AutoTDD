@@ -1,3 +1,0 @@
-initialization
-watcherName
-	^ watcherName contents

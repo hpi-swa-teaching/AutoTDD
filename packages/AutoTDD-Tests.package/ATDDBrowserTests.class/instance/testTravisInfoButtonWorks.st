@@ -4,7 +4,7 @@ testTravisInfoButtonWorks
     repoURL := 'hpi-swa-teaching/AutoTDD'.
     travisWindow := browser addTravisStatus.
     travisWindow repositoryUrl: repoURL.
-    travisStatus := travisWindow saveTravisStatus.
+    travisStatus := travisWindow save.
     self assert: (self fetchCopyOfTravisStatuses size = 1).
     
     selection := OrderedCollection new.
@@ -15,4 +15,4 @@ testTravisInfoButtonWorks
     windowsToDelete add: infoWindow.
     
     self assert: (infoWindow target == travisStatus).
-    self assert: (infoWindow repository = repoURL)
+    self assert: (infoWindow repositoryURL = repoURL)

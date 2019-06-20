@@ -1,3 +1,0 @@
-constants
-defaultCategoryMenuTitle
-	^ 'watched categories'

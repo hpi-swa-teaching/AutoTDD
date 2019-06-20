@@ -1,3 +1,0 @@
-building
-travisTestingCheckBoxLabel
-	^ self class defaultTravisTestingCheckBoxLabel

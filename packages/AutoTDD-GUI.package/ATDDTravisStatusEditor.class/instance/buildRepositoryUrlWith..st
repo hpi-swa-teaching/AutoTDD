@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildRepositoryUrlWith: aBuilder
 	^ aBuilder pluggableInputFieldSpec new
 		model: repositoryUrl;

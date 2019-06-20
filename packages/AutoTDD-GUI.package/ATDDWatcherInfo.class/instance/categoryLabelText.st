@@ -1,3 +1,3 @@
-accessing
+building
 categoryLabelText
-	^ self class defaultCategoryLabelText
+	^ self class categoryLabelText

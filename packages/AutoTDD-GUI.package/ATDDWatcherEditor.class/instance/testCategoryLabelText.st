@@ -1,3 +1,3 @@
-accessing-ui
+building
 testCategoryLabelText
-	^ self class defaultTestCategoryLabelText
+	^ self class testCategoryLabelText

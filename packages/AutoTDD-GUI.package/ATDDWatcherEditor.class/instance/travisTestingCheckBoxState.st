@@ -1,3 +1,0 @@
-building
-travisTestingCheckBoxState
-	^ self travisTesting

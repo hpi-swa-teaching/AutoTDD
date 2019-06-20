@@ -2,8 +2,8 @@ tests
 testEditButtonWorks
 	| watcherWindow watcher selection |
 	watcherWindow := browser addWatcher.
-	watcherWindow watcherName: 'IBM'.
-	watcher := watcherWindow saveWatcher.
+	watcherWindow targetName: 'IBM'.
+	watcher := watcherWindow save.
 	self assert: (self fetchCopyOfWatchers size = 1).
 	
 	selection := OrderedCollection new.
@@ -14,7 +14,7 @@ testEditButtonWorks
 	
 	watcherWindow := browser editWatcher first.
 	
-	watcherWindow watcherName: 'MBI'.
-	watcherWindow saveWatcher.
+	watcherWindow targetName: 'MBI'.
+	watcherWindow save.
 	
 	self assert: (browser selectedWatchers allSatisfy: [:each | each name = 'MBI']).

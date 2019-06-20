@@ -1,11 +1,9 @@
 building
 buildRepositoryLabelWith: aBuilder
-	
-	^ aBuilder pluggableTextSpec new
-		model: repository;
-		help: self repositoryLabelText;
-		getText: #contents;
-		setText: #contents:;
+	^ aBuilder pluggableInputFieldSpec new
+		model: self;
+		indicateUnacceptedChanges: false;
 		readOnly: true;
-		frame: self class repositoryFrame;
+		getText: #repositoryLabel;
+		frame: self repositoryFrame;
 		yourself

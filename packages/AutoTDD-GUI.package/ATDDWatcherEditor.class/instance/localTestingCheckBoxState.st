@@ -1,3 +1,0 @@
-building
-localTestingCheckBoxState
-	^ self localTesting

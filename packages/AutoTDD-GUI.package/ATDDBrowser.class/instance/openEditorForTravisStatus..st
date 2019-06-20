@@ -1,4 +1,4 @@
 action
 openEditorForTravisStatus: aTravisStatus
 	^ (aTravisStatus notNil) 
-		ifTrue: [ ATDDTravisStatusEditor openForTravisStatus: aTravisStatus ]
+		ifTrue: [ ATDDTravisStatusEditor openForTarget: aTravisStatus ]

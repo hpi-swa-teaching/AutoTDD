@@ -1,3 +1,0 @@
-constants
-defaultClasswiseCheckboxLabel
-	^ 'classwise selection'
