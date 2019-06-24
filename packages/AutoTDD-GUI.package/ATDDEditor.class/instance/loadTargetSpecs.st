@@ -1,0 +1,3 @@
+accessing
+loadTargetSpecs
+	^ self subclassResponsibility

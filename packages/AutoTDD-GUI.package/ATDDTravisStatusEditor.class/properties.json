@@ -6,9 +6,6 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"builder",
-		"travisStatus",
-		"travisStatusName",
 		"repositoryUrl",
 		"refreshInterval",
 		"token",
@@ -16,5 +13,5 @@
 	"name" : "ATDDTravisStatusEditor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDEditor",
 	"type" : "normal" }

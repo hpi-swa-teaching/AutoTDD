@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 categories
-	^ self watcher watchedPackages asOrderedCollection
+	^ self target categoriesToWatch asOrderedCollection

@@ -1,0 +1,2 @@
+# Avoid mis-detection as HTML
+*.st linguist-language=Smalltalk

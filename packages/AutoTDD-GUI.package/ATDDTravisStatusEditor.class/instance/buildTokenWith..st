@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildTokenWith: aBuilder
 	^ aBuilder pluggableInputFieldSpec new
 		model: token;

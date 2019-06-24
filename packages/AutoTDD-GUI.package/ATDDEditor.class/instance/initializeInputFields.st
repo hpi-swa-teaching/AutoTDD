@@ -1,0 +1,3 @@
+initialization
+initializeInputFields
+	self initializeTargetName

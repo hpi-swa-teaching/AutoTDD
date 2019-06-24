@@ -1,3 +1,8 @@
 initialize-release
 status
-	^self parser parseCurrentBuildStateOfRepository: self repositoryJson
+	| buildStatus |
+	buildStatus := self parser parseBuildFrom: self firstBuildJson.
+	^ (buildStatus at: #state), 
+		' message: ', (buildStatus at: #message),
+		' branch: ', (buildStatus at: #branch),
+		' author: ', (buildStatus at: #author)

@@ -1,5 +1,5 @@
 behavior
 isClassTestClass: aClass
-	self runTestClasses
-		ifTrue: [ ^self testClasses includes: aClass ]
-		ifFalse: [ ^self testPackages includes: aClass category ]
+	self isTestingClasswise
+		ifTrue: [ ^self classesToTest includes: aClass ]
+		ifFalse: [ ^self categoriesToTest includes: aClass category ]

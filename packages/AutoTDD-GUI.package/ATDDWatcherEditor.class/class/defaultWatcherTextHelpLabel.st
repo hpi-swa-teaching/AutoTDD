@@ -1,3 +1,0 @@
-constants
-defaultWatcherTextHelpLabel
-	^ 'watcher name'

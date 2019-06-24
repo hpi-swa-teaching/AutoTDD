@@ -1,3 +1,3 @@
-as yet unclassified
+building
 categoryLabelText
-	^ self class defaultCategoryLabelText
+	^ self class categoryLabelText

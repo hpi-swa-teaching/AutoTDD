@@ -4,14 +4,14 @@ SmalltalkCISpec {
       #baseline : 'AutoTDD',
       #directory : 'packages',
       #load : [ 'TravisCI' ],
-      #platforms : [ #squeak ]
+      #platforms : [ #squeak, #pharo, #moose, #gemstone ]
     }
   ],
   #testing : {
     #defaultTimeout : 10,
-    #categories : [ 'AutoTDD-*' ],
+    #categories : [ 'AutoTDD-Tests' ],
     #coverage : {
-      #packages : [ 'AutoTDD-Core', 'AutoTDD-Exceptions', 'AutoTDD-GUI' ]
+      #packages : [ 'AutoTDD-Core', 'AutoTDD-GUI' ]
     }
   }
 }

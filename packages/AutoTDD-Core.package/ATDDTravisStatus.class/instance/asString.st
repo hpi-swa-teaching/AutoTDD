@@ -1,3 +1,3 @@
 accessing
 asString
-	^ self name , '(' , self pausedString , ', ' , self status , ')'
+	^ self name , ' (' , self pausedString , ', ' , self status , ')'

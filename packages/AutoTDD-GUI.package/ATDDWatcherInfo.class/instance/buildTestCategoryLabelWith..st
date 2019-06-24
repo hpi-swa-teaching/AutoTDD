@@ -1,8 +1,8 @@
-as yet unclassified
+building
 buildTestCategoryLabelWith: aBuilder
-	
-	^ aBuilder pluggableTextSpec new
+	^ aBuilder pluggableInputFieldSpec new
 		model: self;
-		help: self testCategoryLabelText;
+		indicateUnacceptedChanges: false;
 		readOnly: true;
+		getText: #testCategoryLabelText;
 		yourself

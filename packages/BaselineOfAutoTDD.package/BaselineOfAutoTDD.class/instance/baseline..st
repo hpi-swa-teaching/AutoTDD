@@ -20,13 +20,14 @@ baseline: spec
 				package: 'AutoTDD-Dummy-Success-Tests';
 				package: 'AutoTDD-Dummy-Category';
 				package: 'AutoTDD-Exceptions';
+				package: 'AutoTDD-Dummy-Setting-Tests';
 				package: 'AutoTDD-Tests' 
 					with: [spec requires: #('default' 'dummies')];
 				yourself.
 			spec 
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
 				group: 'libraries' with: #('JSON' 'VB-Regex');
-				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Category');
+				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Category' 'AutoTDD-Dummy-Setting-Tests');
 				group: 'Tests' with: #('AutoTDD-Tests');
 				group: 'TravisCI' with: #('Tests')];
 		 		yourself

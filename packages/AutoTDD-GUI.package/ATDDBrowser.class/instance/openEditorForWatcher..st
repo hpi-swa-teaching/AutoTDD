@@ -1,4 +1,4 @@
 action
 openEditorForWatcher: aWatcher
 	^ (aWatcher notNil) 
-		ifTrue: [ ATDDWatcherEditor openForWatcher: aWatcher ]
+		ifTrue: [ ATDDWatcherEditor openForTarget: aWatcher ]

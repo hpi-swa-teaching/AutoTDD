@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Deprecated",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "TARDataSource",
+	"pools" : [
+		 ],
+	"super" : "ATDDDataSource",
+	"type" : "normal" }

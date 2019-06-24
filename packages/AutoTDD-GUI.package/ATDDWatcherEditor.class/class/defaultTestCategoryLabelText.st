@@ -1,3 +1,0 @@
-constants
-defaultTestCategoryLabelText
-	^ 'run tests:'

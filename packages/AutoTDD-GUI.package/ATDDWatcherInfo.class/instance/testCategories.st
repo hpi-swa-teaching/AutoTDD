@@ -1,3 +1,3 @@
-as yet unclassified
+accessing
 testCategories
-	^ self watcher testPackages asOrderedCollection
+	^ self target categoriesToTest asOrderedCollection

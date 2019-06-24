@@ -1,3 +1,3 @@
 building
 categoryMenuTitle
-	^ self class defaultCategoryMenuTitle
+	^ self class categoryMenuTitle

@@ -1,3 +1,0 @@
-constants
-defaultLocalTestingCheckBoxLabel
-	^ 'Test locally'

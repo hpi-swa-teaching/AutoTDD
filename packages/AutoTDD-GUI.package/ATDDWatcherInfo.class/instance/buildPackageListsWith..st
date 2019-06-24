@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildPackageListsWith: aBuilder
 	^ (OrderedCollection new
 			add: ((self buildCategoryWith: aBuilder)

@@ -6,8 +6,6 @@
 		 ],
 	"commentStamp" : "FB 7/14/2013 23:03:04.306",
 	"instvars" : [
-		"builder",
-		"watcher",
 		"categories",
 		"testCategories",
 		"categoryClasses",
@@ -21,11 +19,10 @@
 		"selectedTestCategoryClasses",
 		"classwiseCategorySelection",
 		"classwiseTestCategorySelection",
-		"watcherName",
 		"localTesting",
 		"travisTesting" ],
 	"name" : "ATDDWatcherEditor",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDEditor",
 	"type" : "normal" }

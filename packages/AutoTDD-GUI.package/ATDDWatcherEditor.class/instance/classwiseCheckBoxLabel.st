@@ -1,3 +1,3 @@
-accessing-ui
+building
 classwiseCheckBoxLabel
-	^ self class defaultClasswiseCheckboxLabel
+	^ self class classwiseCheckboxLabel

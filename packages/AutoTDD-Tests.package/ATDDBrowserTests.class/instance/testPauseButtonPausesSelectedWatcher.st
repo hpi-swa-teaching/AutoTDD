@@ -2,10 +2,10 @@ tests
 testPauseButtonPausesSelectedWatcher
 	| watcherWindow watcher1 watcher2 selection |
 	watcherWindow := browser addWatcher.
-	watcher1 := watcherWindow saveWatcher.
+	watcher1 := watcherWindow save.
 	
 	watcherWindow := browser addWatcher.
-	watcher2 := watcherWindow saveWatcher.
+	watcher2 := watcherWindow save.
 	
 	browser selectedWatchers: browser watchers.
 	

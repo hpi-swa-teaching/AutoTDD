@@ -1,3 +1,3 @@
-as yet unclassified
+building
 testCategoryLabelText
-	^ self class defaultTestCategoryLabelText
+	^ self class testCategoryLabelText

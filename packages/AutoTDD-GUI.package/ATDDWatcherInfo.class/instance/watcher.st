@@ -1,4 +1,3 @@
 accessing
 watcher
-
-	^ watcher
+	^ self target
