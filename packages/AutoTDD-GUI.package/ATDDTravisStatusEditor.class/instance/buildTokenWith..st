@@ -2,7 +2,7 @@ building
 buildTokenWith: aBuilder
 	^ aBuilder pluggableInputFieldSpec new
 		model: token;
-		help: self tokenHelpLabel;
+		help: self class tokenHelpLabel;
 		getText: #contents;
 		setText: #contents:;
 		softLineWrap: true;

@@ -6,13 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
 		"repository",
-		"paused",
+		"pausedStatus",
+		"status",
 		"process",
 		"refreshInterval" ],
 	"name" : "ATDDTravisStatus",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDTestingEntity",
 	"type" : "normal" }

@@ -1,4 +1,3 @@
 accessing
 refreshInterval
-
-	^ refreshInterval
+	^ refreshInterval contents

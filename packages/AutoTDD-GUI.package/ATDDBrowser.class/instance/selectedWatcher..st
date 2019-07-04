@@ -1,3 +1,3 @@
 accessing
 selectedWatcher: aWatcher
-	self class changed: #selectedWatcher
+	self changed: #selectedWatcher

@@ -7,11 +7,10 @@
 		"Watchers" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"builder",
 		"selectedWatchers",
 		"selectedTravisStatuses" ],
 	"name" : "ATDDBrowser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Model",
 	"type" : "normal" }

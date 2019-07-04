@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"target",
+		"parser",
+		"selectedHistory",
+		"historyInfo" ],
+	"name" : "ATDDResults",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

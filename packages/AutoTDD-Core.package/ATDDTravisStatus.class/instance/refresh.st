@@ -1,4 +1,4 @@
 accessing
-refresh 
+refresh
 	self repository clearCache.
-	ATDDBrowser changed.
+	self updateStatus

@@ -1,3 +1,3 @@
 constants
 defaultExtent
-	^ 450 @ 200
+	^ 450 @ 180

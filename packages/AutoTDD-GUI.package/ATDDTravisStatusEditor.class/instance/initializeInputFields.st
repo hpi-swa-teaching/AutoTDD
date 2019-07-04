@@ -3,4 +3,5 @@ initializeInputFields
 	super initializeInputFields.
 	self
 		initializeRepositoryUrl;
-		initializeToken
+		initializeToken;
+		initializeInterval

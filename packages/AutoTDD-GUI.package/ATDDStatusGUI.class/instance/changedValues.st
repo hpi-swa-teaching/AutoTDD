@@ -1,4 +1,0 @@
-updating
-changedValues
-
-	self subclassResponsibility

@@ -4,6 +4,7 @@ testTravisInfoButtonWorks
     repoURL := 'hpi-swa-teaching/AutoTDD'.
     travisWindow := browser addTravisStatus.
     travisWindow repositoryUrl: repoURL.
+    travisWindow refreshInterval: '20'.
     travisStatus := travisWindow save.
     self assert: (self fetchCopyOfTravisStatuses size = 1).
     

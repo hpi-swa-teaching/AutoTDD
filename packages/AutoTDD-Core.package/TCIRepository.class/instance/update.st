@@ -1,6 +1,5 @@
 updating
 update
-
-	self clearCacheAndNotify.
+	self clearCache.
 	self timer terminate.
 	self initializeTimer

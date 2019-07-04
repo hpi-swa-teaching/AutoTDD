@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"observers",
+		"valid",
+		"name",
+		"paused" ],
+	"name" : "ATDDTestingEntity",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

@@ -1,0 +1,3 @@
+accessing
+applyDefaultConfiguration
+	^ self subclassResponsibility

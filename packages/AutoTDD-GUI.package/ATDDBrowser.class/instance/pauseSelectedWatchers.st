@@ -1,4 +1,4 @@
 action
 pauseSelectedWatchers
 	self selectedWatchers do: [:watcher | self pauseWatcher: watcher].
-	self update
+	self class changed: #watchers

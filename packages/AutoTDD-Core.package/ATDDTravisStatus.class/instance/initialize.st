@@ -1,3 +1,3 @@
 accessing
 initialize
-	self applyDefaultConfiguration
+	super initialize

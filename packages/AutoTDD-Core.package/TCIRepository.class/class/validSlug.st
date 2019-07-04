@@ -1,4 +1,3 @@
 comparing
 validSlug
-
 	^ '[^/^\s]+/[^/^\s]+'

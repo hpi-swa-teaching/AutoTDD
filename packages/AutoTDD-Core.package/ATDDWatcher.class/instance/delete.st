@@ -1,4 +1,4 @@
 accessing
 delete
-	self flag: #todo. "use this message!!"
+	super delete.
 	SystemChangeNotifier uniqueInstance noMoreNotificationsFor: self

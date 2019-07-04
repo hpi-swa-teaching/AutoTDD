@@ -1,20 +1,17 @@
-as yet unclassified
-testConfiguration
-	|travisStatus|
-	travisStatus := ATDDTravisStatus new.
-	
+tests
+testConfiguration	
 	self assert: (travisStatus paused = true).
 	self assert: (travisStatus usePro = false).
 	self assert: (travisStatus name isKindOf: String).
-	self assert: (travisStatus repository isKindOf: TCINullRepository).
+	self assert: (travisStatus repository isKindOf: TCINullDataSource).
 	
 	travisStatus name: 'Hello World'.
-	travisStatus repositoryURL: self repoURL.
+	travisStatus repositoryURL: self class repoURL.
 	travisStatus token: '9'.
 	travisStatus usePro: true.
 	
 	self assert: (travisStatus name = 'Hello World').
 	self assert: (travisStatus repository class = TCIRepository).
-	self assert: (travisStatus repositoryURL = self repoURL).
+	self assert: (travisStatus repositoryURL = self class repoURL).
 	self assert: (travisStatus token = '9').
 	self assert: (travisStatus usePro = true).

@@ -1,0 +1,3 @@
+updating
+updateHistoryInfo
+	^ self subclassResponsibility

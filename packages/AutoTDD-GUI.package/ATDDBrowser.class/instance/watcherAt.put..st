@@ -4,4 +4,4 @@ watcherAt: anInteger put: aBoolean
 	self selectedWatchers: (self selectedWatchers
 		perform: (aBoolean ifTrue: [ #copyWith: ] ifFalse: [ #copyWithout: ])
 		with: (self watchers at: anInteger ifAbsent: [ ^ self ])).
-	self class changed: #selectedWatchers
+	self changed: #selectedWatchers

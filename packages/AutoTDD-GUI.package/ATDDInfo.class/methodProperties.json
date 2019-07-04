@@ -9,9 +9,7 @@
 		"targetName" : "swi 6/19/2019 14:55" },
 	"instance" : {
 		"buildAdditionalInputFieldsWith:" : "vxr 6/20/2019 11:57",
-		"buildWith:" : "vxr 6/20/2019 11:58",
-		"builder" : "swi 6/19/2019 15:09",
-		"builder:" : "swi 6/19/2019 15:09",
+		"buildWith:" : "vxr 7/4/2019 18:26",
 		"extent" : "swi 6/19/2019 15:11",
 		"initialize" : "vxr 6/20/2019 12:07",
 		"inputFieldHeight" : "vxr 6/20/2019 12:22",

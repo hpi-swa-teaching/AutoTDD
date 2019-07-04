@@ -7,10 +7,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"builder",
 		"target" ],
 	"name" : "ATDDInfo",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "Model",
 	"type" : "normal" }

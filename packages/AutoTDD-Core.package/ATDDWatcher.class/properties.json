@@ -6,10 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"name",
 		"localTestRunner",
 		"travisTestRunner",
-		"paused",
 		"isWatchingClasswise",
 		"classesToWatch",
 		"categoriesToWatch",
@@ -17,9 +15,10 @@
 		"classesToTest",
 		"categoriesToTest",
 		"localStatus",
+		"localStatusBlock",
 		"travisStatus" ],
 	"name" : "ATDDWatcher",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDTestingEntity",
 	"type" : "normal" }

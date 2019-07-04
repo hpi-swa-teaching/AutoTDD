@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testStatusConsistency
 	self assert: testrunner status isNil.
 	testrunner status: #unexecuted.

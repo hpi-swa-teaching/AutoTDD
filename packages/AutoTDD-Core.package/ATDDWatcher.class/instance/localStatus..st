@@ -1,4 +1,3 @@
 accessing
-localStatus: anObject
-	localStatus := anObject.
-	ATDDBrowser changed: #watchers
+localStatus: aSymbol
+	localStatus := aSymbol

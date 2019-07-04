@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tests",
+		"selectedTest",
+		"selectedHistory",
+		"testsUnformatted" ],
+	"name" : "ATDDWatcherResults",
+	"pools" : [
+		 ],
+	"super" : "ATDDResults",
+	"type" : "normal" }

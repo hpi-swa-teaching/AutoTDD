@@ -1,3 +1,3 @@
-as yet unclassified
+tests
 testStatusMustBeASymbol
 	self should: [testrunner status: 'IBM'] raise: Error.
