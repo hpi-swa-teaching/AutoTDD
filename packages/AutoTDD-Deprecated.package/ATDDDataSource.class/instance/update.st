@@ -1,0 +1,4 @@
+observing
+update
+
+	self subclassResponsibility

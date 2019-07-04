@@ -18,6 +18,8 @@ baseline: spec
 					with: [spec requires: #('AutoTDD-Core')];
 					postLoadDoIt: #postLoad;
 				package: 'AutoTDD-Dummy-Success-Tests';
+				package: 'AutoTDD-Dummy-Failure-Tests';
+				package: 'AutoTDD-Dummy-Error-Tests';
 				package: 'AutoTDD-Dummy-Category';
 				package: 'AutoTDD-Exceptions';
 				package: 'AutoTDD-Dummy-Setting-Tests';
@@ -27,7 +29,7 @@ baseline: spec
 			spec 
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
 				group: 'libraries' with: #('JSON' 'VB-Regex');
-				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Category' 'AutoTDD-Dummy-Setting-Tests');
+				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Failure-Tests' 'AutoTDD-Dummy-Error-Tests' 'AutoTDD-Dummy-Category' 'AutoTDD-Dummy-Setting-Tests');
 				group: 'Tests' with: #('AutoTDD-Tests');
 				group: 'TravisCI' with: #('Tests')];
 		 		yourself

@@ -1,0 +1,4 @@
+testing
+isNullObject
+
+	^ false
