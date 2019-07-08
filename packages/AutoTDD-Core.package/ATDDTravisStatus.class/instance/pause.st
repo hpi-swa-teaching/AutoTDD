@@ -1,4 +1,8 @@
 accessing
 pause
-	self process ifNotNil: [self process suspend].
-	self paused: true.
+	self process ifNotNil: [
+		self process terminate.
+		self process: nil.
+	].
+	super pause.
+	self updateStatus

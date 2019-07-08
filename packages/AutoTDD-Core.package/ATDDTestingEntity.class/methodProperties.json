@@ -1,0 +1,20 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"applyDefaultConfiguration" : "vxr 7/4/2019 18:58",
+		"attach:" : "vxr 7/4/2019 14:32",
+		"deattach:" : "vxr 7/4/2019 14:32",
+		"delete" : "vxr 7/4/2019 19:15",
+		"initialize" : "vxr 7/4/2019 18:58",
+		"name" : "vxr 7/4/2019 16:07",
+		"name:" : "vxr 7/4/2019 16:07",
+		"notify" : "vxr 7/4/2019 14:32",
+		"observers" : "vxr 7/4/2019 14:33",
+		"observers:" : "vxr 7/4/2019 14:33",
+		"pause" : "vxr 7/4/2019 16:10",
+		"paused" : "vxr 7/4/2019 16:08",
+		"paused:" : "vxr 7/4/2019 16:08",
+		"resume" : "vxr 7/4/2019 16:10",
+		"valid" : "be 7/4/2019 17:23",
+		"valid:" : "be 7/4/2019 17:23" } }

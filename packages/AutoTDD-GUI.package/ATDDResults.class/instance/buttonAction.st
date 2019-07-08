@@ -1,0 +1,3 @@
+action
+buttonAction
+	^ self subclassResponsibility

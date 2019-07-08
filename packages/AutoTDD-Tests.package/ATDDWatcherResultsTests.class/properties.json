@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"watcher",
+		"windowsToDelete",
+		"resultsWindow" ],
+	"name" : "ATDDWatcherResultsTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

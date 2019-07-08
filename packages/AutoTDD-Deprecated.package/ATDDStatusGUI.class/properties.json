@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-Deprecated",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"data",
+		"parser",
+		"window" ],
+	"name" : "ATDDStatusGUI",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

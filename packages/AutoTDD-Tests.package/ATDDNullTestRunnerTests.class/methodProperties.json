@@ -5,5 +5,4 @@
 		"setUp" : "be 6/19/2019 17:21",
 		"tearDown" : "be 6/19/2019 17:23",
 		"testInitialization" : "be 6/19/2019 17:25",
-		"testIsNullObject" : "be 6/19/2019 17:25",
 		"testSingleton" : "be 6/19/2019 17:24" } }

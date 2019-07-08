@@ -1,0 +1,3 @@
+accessing
+buildAdditionalComponentsWith: aBuilder
+	^ self subclassResponsibility

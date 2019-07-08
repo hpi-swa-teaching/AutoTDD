@@ -12,5 +12,5 @@
 	"name" : "ATDDTestRunner",
 	"pools" : [
 		 ],
-	"super" : "ATDDDataSource",
+	"super" : "Object",
 	"type" : "normal" }

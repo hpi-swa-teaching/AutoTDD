@@ -1,5 +1,5 @@
 action
 addTravisStatus: aTravisStatus
 	self travisStatuses add: aTravisStatus.
-	self update.
+	self class changed: #travisStatuses.
 	^ aTravisStatus

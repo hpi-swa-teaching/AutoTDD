@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-Deprecated",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedBuild",
+		"selectedJob",
+		"logFrame" ],
+	"name" : "TCIStatusGUI",
+	"pools" : [
+		 ],
+	"super" : "ATDDStatusGUI",
+	"type" : "normal" }

@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedJob",
+		"jobs",
+		"jobsUnformatted",
+		"log" ],
+	"name" : "ATDDTravisStatusResults",
+	"pools" : [
+		 ],
+	"super" : "ATDDResults",
+	"type" : "normal" }

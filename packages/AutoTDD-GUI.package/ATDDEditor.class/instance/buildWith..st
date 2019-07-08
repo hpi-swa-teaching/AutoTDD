@@ -1,7 +1,6 @@
 building
 buildWith: aBuilder
 	| window |
-	self builder: aBuilder.
 	window := aBuilder pluggableWindowSpec new
 		model: self; label: self label; extent: self extent; 
 		children: (OrderedCollection new 
@@ -14,5 +13,4 @@ buildWith: aBuilder
 				yourself);
 			yourself);
 		yourself.
-		
 	^aBuilder build: window

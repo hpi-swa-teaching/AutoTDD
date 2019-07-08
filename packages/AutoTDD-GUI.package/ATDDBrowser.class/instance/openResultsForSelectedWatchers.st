@@ -1,3 +1,6 @@
 action
 openResultsForSelectedWatchers
-	self selectedWatchers do: [:watcher | self openResultsForWatcher: watcher]
+	| collection |
+	collection := OrderedCollection new.
+	self selectedWatchers do: [:watcher | collection add: (self openResultsForWatcher: watcher)].
+	^ collection

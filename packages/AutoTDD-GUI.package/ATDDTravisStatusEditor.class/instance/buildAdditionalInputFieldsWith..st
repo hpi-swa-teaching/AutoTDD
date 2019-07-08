@@ -10,4 +10,7 @@ buildAdditionalInputFieldsWith: aBuilder
 		add: ((self buildTokenWith: aBuilder)
 			frame: self tokenFrame;
 			yourself);
+		add: ((self buildIntervalWith: aBuilder)
+			frame: self intervalFrame;
+			yourself);
 		yourself

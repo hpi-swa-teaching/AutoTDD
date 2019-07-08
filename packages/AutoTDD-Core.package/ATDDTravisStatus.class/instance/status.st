@@ -1,3 +1,3 @@
 accessing
 status
-	^ self repository status
+	^ status ifNil: [status := ValueHolder new contents: self repository status]

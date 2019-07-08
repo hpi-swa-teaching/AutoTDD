@@ -7,5 +7,6 @@ buildGlobalButtonsWith: aBuilder
 			add: (self buildGlobalPauseButtonWith: aBuilder);
 			add: (self buildGlobalResumeButtonWith: aBuilder);
 			add: (self buildGlobalRunButtonWith: aBuilder);
+			add: (self buildGlobalOverviewButtonWith: aBuilder);
 			yourself);
 		yourself.

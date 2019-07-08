@@ -1,8 +1,11 @@
 accessing
 updateLocalStatusTo: aSymbol
+	self localStatus: aSymbol.
 	(aSymbol = #unexecuted)
-		ifTrue: [self localStatus: [self class notExecutedText]].
+		ifTrue: [self localStatusBlock: [self class notExecutedText]].
 	(aSymbol = #executing)
-		ifTrue: [self localStatus: [self localProgress]].
-	(aSymbol = #finished)
-		ifTrue: [self localStatus: [self localTestRunner resultSummary]].
+		ifTrue: [self localStatusBlock: [self localProgress]].
+	(#(#passed #failed #errored) includes: aSymbol)
+		ifTrue:
+			[self finishedTesting.
+			self localStatusBlock: [self localTestRunner resultSummary]]

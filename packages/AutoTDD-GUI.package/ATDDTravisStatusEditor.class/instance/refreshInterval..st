@@ -1,4 +1,3 @@
 accessing
-refreshInterval: anObject
-
-	refreshInterval := anObject.
+refreshInterval: anInteger
+	refreshInterval contents: anInteger asString

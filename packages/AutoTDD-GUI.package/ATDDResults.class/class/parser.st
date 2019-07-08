@@ -1,0 +1,3 @@
+constants
+parser
+	^ self subclassResponsibility

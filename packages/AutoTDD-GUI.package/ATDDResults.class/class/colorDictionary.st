@@ -1,0 +1,3 @@
+constants
+colorDictionary
+	^ self subclassResponsibility

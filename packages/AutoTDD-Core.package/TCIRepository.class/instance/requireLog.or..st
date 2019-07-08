@@ -1,6 +1,5 @@
 data-processing
 requireLog: aNumber or: anotherNumber
-
 	^ aNumber negative
 		ifTrue: [ JsonObject new ]
 		ifFalse: [ | log |

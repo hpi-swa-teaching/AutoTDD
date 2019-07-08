@@ -1,5 +1,5 @@
-accessing
+initialization
 applyDefaultConfiguration
-	self paused: true.
-	self repository: TCINullRepository new.
-	self name: 'New Travis Status'
+	self
+		repository: TCINullDataSource new;
+		name: 'New Travis Status'

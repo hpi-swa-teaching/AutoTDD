@@ -1,0 +1,36 @@
+tests
+testOverviewButtonIntegration
+	| overviewWindow watcher travisStatus travisStatusesSelection watcherSelection newBrowser |
+	
+	watcher := ATDDWatcher new.
+	browser addWatcher: watcher.
+	watcherSelection := OrderedCollection new.
+	watcherSelection add: watcher.
+	browser selectedWatchers: watcherSelection.
+	
+	travisStatus := ATDDTravisStatus new.
+	browser addTravisStatus: travisStatus.
+	travisStatusesSelection := OrderedCollection new.
+	travisStatusesSelection add: travisStatus.
+	browser selectedTravisStatuses: travisStatusesSelection.
+	
+	overviewWindow := browser openOverview.
+	
+	self assert: overviewWindow watchers size = 1.
+	self assert: (overviewWindow watchers asOrderedCollection at: 1) == watcher.
+			
+	self assert: overviewWindow travisStatuses size = 1.
+	self assert: (overviewWindow travisStatuses asOrderedCollection at: 1) == travisStatus.
+	
+	newBrowser := overviewWindow expand.
+	windowsToDelete add: newBrowser.
+	
+	self assert: newBrowser selectedWatchers size = 1.
+	self assert: (newBrowser selectedWatchers asOrderedCollection at: 1) == watcher.
+	
+	self assert: newBrowser selectedTravisStatuses size = 1.
+	self assert: (newBrowser selectedTravisStatuses asOrderedCollection at: 1) == travisStatus.
+	
+	
+	
+	

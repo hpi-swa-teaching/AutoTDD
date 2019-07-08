@@ -1,7 +1,6 @@
 initialization
 initialize
-	self
-		applyDefaultConfiguration;
-		addChangeListener.
-		
-	self localTestRunner: (ATDDLocalTestRunner newForWatcher: self).
+	super initialize.
+	self 
+		addChangeListener;
+		localTestRunner: (ATDDLocalTestRunner newForWatcher: self).

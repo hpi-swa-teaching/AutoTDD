@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"travisStatus",
+		"windowsToDelete",
+		"resultsWindow" ],
+	"name" : "ATDDTravisStatusResultsTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

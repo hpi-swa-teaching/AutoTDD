@@ -1,3 +1,3 @@
 accessing
 label
-	^ self class defaultLabel
+	^ self class label

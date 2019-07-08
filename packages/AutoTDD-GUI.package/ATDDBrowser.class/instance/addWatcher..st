@@ -1,5 +1,5 @@
 action
 addWatcher: aWatcher
 	self watchers add: aWatcher.
-	self update.
+	self class changed: #watchers.
 	^ aWatcher
