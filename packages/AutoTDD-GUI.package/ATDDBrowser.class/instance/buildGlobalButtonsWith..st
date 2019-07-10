@@ -8,5 +8,6 @@ buildGlobalButtonsWith: aBuilder
 			add: (self buildGlobalResumeButtonWith: aBuilder);
 			add: (self buildGlobalRunButtonWith: aBuilder);
 			add: (self buildGlobalOverviewButtonWith: aBuilder);
+			add: (self buildGlobalSoundsButtonWith: aBuilder);
 			yourself);
 		yourself.
