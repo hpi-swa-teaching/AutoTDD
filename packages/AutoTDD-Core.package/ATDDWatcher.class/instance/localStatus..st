@@ -1,3 +1,3 @@
 accessing
-localStatus: aSymbol
+localStatus: aSymbol 
 	localStatus := aSymbol

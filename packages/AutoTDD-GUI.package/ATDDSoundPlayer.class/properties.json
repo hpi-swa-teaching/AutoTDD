@@ -1,14 +1,16 @@
 {
-	"category" : "AutoTDD-Deprecated",
+	"category" : "AutoTDD-GUI",
 	"classinstvars" : [
-		 ],
+		"instance" ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isMuted" ],
+		"isMuted",
+		"resources",
+		"lastPlayedSound" ],
 	"name" : "ATDDSoundPlayer",
 	"pools" : [
 		 ],
-	"super" : "ATDDResourceProvider",
+	"super" : "Object",
 	"type" : "normal" }
