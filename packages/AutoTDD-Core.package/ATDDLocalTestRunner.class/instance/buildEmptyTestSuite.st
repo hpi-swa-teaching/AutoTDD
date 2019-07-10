@@ -1,3 +1,3 @@
-as yet unclassified
+action
 buildEmptyTestSuite
 	^ TARProgressTestSuite new

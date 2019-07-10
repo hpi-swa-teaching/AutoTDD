@@ -16,5 +16,4 @@ testResumeButtonResumesSelectedWatcher
 
 	browser resumeSelectedWatchers.
 	self assert: watcher1 paused not.
-	self assert: watcher2 paused.
-	
+	self assert: watcher2 paused

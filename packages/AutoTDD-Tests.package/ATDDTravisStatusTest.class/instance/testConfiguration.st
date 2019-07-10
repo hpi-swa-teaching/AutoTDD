@@ -14,4 +14,4 @@ testConfiguration
 	self assert: (travisStatus repository class = TCIRepository).
 	self assert: (travisStatus repositoryURL = self class repoURL).
 	self assert: (travisStatus token = '9').
-	self assert: (travisStatus usePro = true).
+	self assert: (travisStatus usePro = true)

@@ -1,4 +1,4 @@
-accessing
+updating
 updateWatcherStatus
 	(self status = #finished)
 		ifTrue: [self watcher updateLocalStatusTo: self testStatus]

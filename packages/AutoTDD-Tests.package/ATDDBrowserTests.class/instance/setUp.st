@@ -11,4 +11,4 @@ setUp
 	browser removeTravisStatuses: browser travisStatuses.
 
 	windowsToDelete := OrderedCollection new.
-	windowsToDelete add: browser. 
+	windowsToDelete add: browser

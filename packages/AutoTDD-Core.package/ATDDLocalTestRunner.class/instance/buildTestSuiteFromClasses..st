@@ -1,4 +1,4 @@
-as yet unclassified
+action
 buildTestSuiteFromClasses: aCollection
 	|testSuite |
 	testSuite := self buildEmptyTestSuite.

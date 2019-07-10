@@ -14,4 +14,3 @@ testRunAllButtonRunsEverything
 	self assert: self class hasTestRun.
 	
 	"insert travis check here"
-	

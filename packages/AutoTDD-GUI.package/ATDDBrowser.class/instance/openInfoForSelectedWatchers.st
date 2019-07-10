@@ -1,6 +1,3 @@
 action
 openInfoForSelectedWatchers
-	| collection |
-	collection := OrderedCollection new.
-	self selectedWatchers do: [:watcher | collection add: (self openInfoForWatcher: watcher)].
-	^ collection
+	^ self selectedWatchers collect: [:watcher | self openInfoForWatcher: watcher]

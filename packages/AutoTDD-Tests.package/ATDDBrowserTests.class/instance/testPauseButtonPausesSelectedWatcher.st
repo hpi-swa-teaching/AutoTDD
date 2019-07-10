@@ -17,5 +17,4 @@ testPauseButtonPausesSelectedWatcher
 
 	browser pauseSelectedWatchers.
 	self assert: watcher1 paused.
-	self assert: watcher2 paused not.
-	
+	self assert: watcher2 paused not

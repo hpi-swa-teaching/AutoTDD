@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"colorDictionary" : "be 7/4/2019 17:34",
+		"colorDictionary" : "vxr 7/10/2019 15:49",
 		"notExecutedText" : "ls 5/30/2019 19:43" },
 	"instance" : {
 		"CITestRunner" : "ls 7/8/2019 14:13",
@@ -33,15 +33,15 @@
 		"localStatusBlock:" : "vxr 7/3/2019 16:33",
 		"localTestRunner" : "ls 5/15/2019 19:43",
 		"localTestRunner:" : "ls 5/15/2019 19:28",
-		"methodChanged:" : "swi 5/23/2019 15:40",
+		"methodChanged:" : "vxr 7/10/2019 15:07",
 		"onChangeDetected" : "swi 5/23/2019 15:40",
 		"onTestChangeDetected" : "vxr 7/4/2019 13:44",
 		"run" : "vxr 7/4/2019 13:43",
 		"statusColor" : "be 7/10/2019 14:50",
-		"testClassesFromCategories" : "swi 6/12/2019 19:07",
+		"testClassesFromCategories" : "vxr 7/10/2019 15:00",
 		"travisStatus" : "ls 5/22/2019 14:39",
 		"travisStatus:" : "ls 5/22/2019 14:39",
 		"travisTestRunner" : "ls 5/15/2019 19:40",
 		"travisTestRunner:" : "ls 5/15/2019 19:28",
-		"updateLocalStatusTo:" : "be 7/10/2019 14:50",
+		"updateLocalStatusTo:" : "vxr 7/4/2019 14:28",
 		"watchingStatus" : "vxr 5/29/2019 19:16" } }

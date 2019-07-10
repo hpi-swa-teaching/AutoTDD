@@ -1,4 +1,4 @@
-as yet unclassified
+action
 addTestResult: aTestResult
 	self testResults addFirst: aTestResult.
 	self updateWatcherStatus

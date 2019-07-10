@@ -9,4 +9,4 @@ categoryMenu: aMenu
 		add: self menuFilterLabel action: #filterCategories;
 		addLine;
 		add: self menuRefreshLabel action: #updateCategories;
-		yourself.
+		yourself

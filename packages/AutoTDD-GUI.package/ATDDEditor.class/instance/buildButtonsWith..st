@@ -6,4 +6,4 @@ buildButtonsWith: aBuilder
 		children: (OrderedCollection new
 			add: (self buildSaveButtonWith: aBuilder);
 			yourself);
-		yourself.
+		yourself

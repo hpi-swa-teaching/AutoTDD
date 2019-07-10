@@ -9,4 +9,4 @@ testCategoryClassesMenu: aMenu
 		add: self menuFilterLabel action: #filterTestCategoryClasses;
 		addLine;
 		add: self menuRefreshLabel action: #updateTestCategoryClasses;
-		yourself.
+		yourself

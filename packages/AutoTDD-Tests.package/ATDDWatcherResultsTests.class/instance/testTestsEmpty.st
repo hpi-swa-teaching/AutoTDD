@@ -17,4 +17,4 @@ testTestsEmpty
 	self assert: (resultsWindow historyInfo = '0 run, 0 passes, 0 expected failures, 0 failures, 0 errors, 0 unexpected passes').
 	self assert: ((resultsWindow historyInfo colorAt: 1) = (ATDDWatcherResults colorDictionary at: #unknown )).
 	
-	self assert: (resultsWindow tests size = 0).
+	self assert: (resultsWindow tests isEmpty).

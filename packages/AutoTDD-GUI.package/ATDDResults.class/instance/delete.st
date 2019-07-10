@@ -1,4 +1,4 @@
 accessing
 delete
-	self halt.
+	self flag: #todo. "is this called?"
 	self target deattach: self

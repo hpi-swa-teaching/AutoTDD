@@ -5,5 +5,5 @@
 		"setUp" : "be 7/4/2019 16:47",
 		"tearDown" : "vxr 7/4/2019 19:10",
 		"testIndicatorChangesOnRun" : "be 7/4/2019 16:49",
-		"testIndicatorOpensResultWindows" : "be 7/4/2019 16:36",
+		"testIndicatorOpensResultWindows" : "vxr 7/10/2019 15:20",
 		"testMessageChangesOnRun" : "be 7/4/2019 16:51" } }

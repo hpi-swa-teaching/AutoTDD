@@ -1,7 +1,7 @@
 instance creation
 openForTarget: aTarget
 	| model |
-	self flag:#todo "Is there a way of allowing calling this method in subclasses only?".
+	self superclass = Model ifTrue: [^ self error: 'Abstract class. Please do not initialize'].
 	model := self basicNew
 				target: aTarget;
 				initialize;

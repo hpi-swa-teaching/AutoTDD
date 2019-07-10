@@ -13,4 +13,4 @@ buildWatcherButtonsWith: aBuilder
 			add: (self buildResultsWatcherButtonWith: aBuilder);
 			add: (self buildRemoveWatcherButtonWith: aBuilder);
 			yourself);
-		yourself.
+		yourself

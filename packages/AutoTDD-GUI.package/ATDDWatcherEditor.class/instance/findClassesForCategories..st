@@ -1,6 +1,6 @@
 utilities
 findClassesForCategories: aCollection
-"copyyyied from Test runner"
+"copied from Test runner"
 	| environment items |
 	aCollection isEmpty 
 		ifTrue: [ ^Set new ].
@@ -9,4 +9,4 @@ findClassesForCategories: aCollection
 		((environment organization listAtCategoryNamed: category)
 			collect: [ :each | environment valueOf: each ])
 			select: [ :each | each includesBehavior: self baseClass ] ].
-	^ items asSet.
+	^ items asSet

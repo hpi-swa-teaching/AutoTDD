@@ -1,16 +1,10 @@
 updating
 updateCategoryClasses
 	| classesForCategories |
-	self flag: #todo. "Refactor"
-	self classwiseCategorySelection
-		ifTrue: [
-			classesForCategories := self findCategoryClasses.
-	
-			self categoryClasses: (self findClassesForCategoriesList: classesForCategories).
-			self selectedCategoryClasses: (self findSelectedItemsForUpdatedCollection: classesForCategories withSelected: self selectedCategoryClasses).
-	
-			self flag: #todo. "what are the correct calls below?"
-			self
-				changed: #categoryClasses;
-				changed: #selectedCategoryClasses.
-		]
+	self classwiseCategorySelection ifFalse: [^ self].
+	classesForCategories := self findCategoryClasses.
+	self
+		categoryClasses: (self findClassesForCategoriesList: classesForCategories);
+		changed: #categoryClasses;
+		selectedCategoryClasses: (self findSelectedItemsForUpdatedCollection: classesForCategories withSelected: self selectedCategoryClasses);
+		changed: #selectedCategoryClasses

@@ -1,6 +1,5 @@
 building
 categoryCheckboxFrame
-	self flag: #todo.
 	^ LayoutFrame new
 		leftFraction: 0.75 offset: 0;
 		topFraction: 1 offset: (self bottomSpace negated);

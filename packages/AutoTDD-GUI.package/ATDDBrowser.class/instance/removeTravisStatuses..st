@@ -1,8 +1,5 @@
 action
 removeTravisStatuses: aTravisStatusList
-	self flag: #todo.
-	aTravisStatusList notEmpty
-		ifTrue: [ aTravisStatusList do: [:travisStatus | travisStatus delete].
-				self travisStatuses removeAll: aTravisStatusList ].
-	self selectedTravisStatuses: (self findSelectedItemsForCollection: self travisStatuses withSelected: self selectedTravisStatuses).
+	aTravisStatusList do: [:travisStatus | travisStatus delete].
+	self travisStatuses removeAll: aTravisStatusList.
 	self class changed: #travisStatuses

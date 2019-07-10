@@ -1,7 +1,7 @@
 {
 	"class" : {
 		"buttonLabel" : "vxr 7/4/2019 13:37",
-		"colorDictionary" : "vxr 7/4/2019 11:41",
+		"colorDictionary" : "vxr 7/10/2019 15:50",
 		"parser" : "vxr 7/3/2019 17:49",
 		"targetName" : "vxr 7/3/2019 17:26" },
 	"instance" : {
@@ -13,7 +13,6 @@
 		"colorForTestCase:within:" : "vxr 7/4/2019 18:23",
 		"data" : "vxr 7/4/2019 13:33",
 		"debugTest:" : "vxr 7/3/2019 19:21",
-		"formatTests" : "vxr 7/4/2019 18:24",
 		"formatTimestampAsString:" : "vxr 7/4/2019 09:55",
 		"history" : "vxr 7/4/2019 18:24",
 		"historyChanged" : "vxr 7/4/2019 11:30",

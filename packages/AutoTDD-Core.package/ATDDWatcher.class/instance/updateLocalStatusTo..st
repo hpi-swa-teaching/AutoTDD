@@ -1,4 +1,4 @@
-accessing
+updating
 updateLocalStatusTo: aSymbol
 	self localStatus: aSymbol.
 	(aSymbol = #unexecuted)

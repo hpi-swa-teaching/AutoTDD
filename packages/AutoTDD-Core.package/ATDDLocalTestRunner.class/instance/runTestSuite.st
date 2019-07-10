@@ -1,4 +1,4 @@
-as yet unclassified
+action
 runTestSuite
 	|process result|
 	self progress: self testSuite valueHolder.
@@ -9,4 +9,4 @@ runTestSuite
 				yourself.
 			self addTestResult: result.
 			self status: #finished
-		] forkAt: Processor userBackgroundPriority.
+		] forkAt: Processor userBackgroundPriority

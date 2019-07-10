@@ -6,6 +6,7 @@ save
 
 	^(refreshInterval contents asString isAllDigits and: [refreshInterval contents asString isEmpty not]) ifTrue: [
 		super save.
+		self flag: #todo.
 		"(repoUrl matchesRegex: self class validSlug"
 		self travisStatus 
 			repositoryURL: self repositoryUrl asString;

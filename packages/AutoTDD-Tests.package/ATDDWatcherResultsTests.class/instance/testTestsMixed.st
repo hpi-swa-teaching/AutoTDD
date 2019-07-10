@@ -3,7 +3,7 @@ testTestsMixed
 
      | resultMixed |
 
-watcher categoriesToTest: #(#'AutoTDD-Dummy-Success-Tests' #'AutoTDD-Dummy-Failure-Tests' #'AutoTDD-Dummy-Error-Tests').
+	watcher categoriesToTest: #(#'AutoTDD-Dummy-Success-Tests' #'AutoTDD-Dummy-Failure-Tests' #'AutoTDD-Dummy-Error-Tests').
      watcher classesToTest: { TestRunnerDummy21Test . TestRunnerDummy1Test . TestRunnerDummyError1Test } asSet.
 
  	watcher run.
@@ -22,6 +22,6 @@ watcher categoriesToTest: #(#'AutoTDD-Dummy-Success-Tests' #'AutoTDD-Dummy-Failu
 	
 	self assert: (resultsWindow tests size = 3).
 	
-	self assert: (((resultsWindow tests at: 1) colorAt: 1) = (ATDDWatcherResults colorDictionary at: #errored )).
+	self assert: (((resultsWindow tests first) colorAt: 1) = (ATDDWatcherResults colorDictionary at: #errored )).
 	self assert: (((resultsWindow tests at: 2) colorAt: 1) = (ATDDWatcherResults colorDictionary at: #failed )).	
 	self assert: (((resultsWindow tests at: 3) colorAt: 1) = (ATDDWatcherResults colorDictionary at: #passed ))

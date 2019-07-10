@@ -1,3 +1,3 @@
 tests
 testHistoryEmpty
-	self assert: (resultsWindow history size = 0)
+	self assert: (resultsWindow history isEmpty)

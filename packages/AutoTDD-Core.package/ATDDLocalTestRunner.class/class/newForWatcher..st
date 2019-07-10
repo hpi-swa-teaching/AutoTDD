@@ -3,4 +3,4 @@ newForWatcher: aATDDWatcher
 	^self basicNew 
 		watcher: aATDDWatcher;
 		initialize;
-		yourself.
+		yourself

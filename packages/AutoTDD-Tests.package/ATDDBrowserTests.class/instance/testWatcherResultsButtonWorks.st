@@ -21,4 +21,3 @@ testWatcherResultsButtonWorks
     self assert: (resultsWindow target == watcher).
     self assert: (resultsWindow data == watcher localTestRunner).
     self assert: (resultsWindow testResults == watcher localTestRunner testResults)
-

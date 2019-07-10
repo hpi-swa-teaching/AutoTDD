@@ -3,10 +3,10 @@ buildContentPanelWith: aBuilder
 	| children |
 	
 	children := OrderedCollection new.
-	self watchers size > 0
-		ifTrue: [children add: (self buildLocalPanelWith: aBuilder)].
-	self travisStatuses size > 0
-		ifTrue: [children add: (self buildTravisStatusPanelWith: aBuilder)].
+	self watchers
+		ifNotEmpty: [children add: (self buildLocalPanelWith: aBuilder)].
+	self travisStatuses
+		ifNotEmpty: [children add: (self buildTravisStatusPanelWith: aBuilder)].
 			
 	^ aBuilder pluggablePanelSpec new model: self;
 		 layout: #horizontal;

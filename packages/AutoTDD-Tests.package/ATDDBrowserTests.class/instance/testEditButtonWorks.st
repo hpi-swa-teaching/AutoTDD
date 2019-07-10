@@ -17,4 +17,4 @@ testEditButtonWorks
 	watcherWindow targetName: 'MBI'.
 	watcherWindow save.
 	
-	self assert: (browser selectedWatchers allSatisfy: [:each | each name = 'MBI']).
+	self assert: (browser selectedWatchers allSatisfy: [:each | each name = 'MBI'])

@@ -17,4 +17,4 @@ testPauseResumeRun
 	self assert: (travisStatus repository cache at: #lastRefresh) > time.
 	
 	travisStatus pause.
-	self assert: travisStatus paused.
+	self assert: travisStatus paused

@@ -13,4 +13,4 @@ testIndicatorOpensResultWindows
 	windowsToDelete addAll: travisStatusWindows.
 	
 	self assert: travisStatusWindows size = travisStatuses size.
-	self assert: (travisStatusWindows allSatisfy: [:each | travisStatuses includes: each target]).
+	self assert: (travisStatusWindows allSatisfy: [:each | travisStatuses includes: each target])
