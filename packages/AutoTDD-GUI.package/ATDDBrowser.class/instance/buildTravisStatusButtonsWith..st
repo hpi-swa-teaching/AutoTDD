@@ -7,7 +7,7 @@ buildTravisStatusButtonsWith: aBuilder
 			add: (self buildAddTravisStatusButtonWith: aBuilder);
 			add: (self buildPauseTravisStatusButtonWith: aBuilder);
 			add: (self buildResumeTravisStatusButtonWith: aBuilder);
-			add: (self buildRunTravisStatusButtonWith: aBuilder);
+			add: (self buildRefreshTravisStatusButtonWith: aBuilder);
 			add: (self buildEditTravisStatusButtonWith: aBuilder);
 			add: (self buildInfoTravisStatusButtonWith: aBuilder);
 			add: (self buildResultsTravisStatusButtonWith: aBuilder);
