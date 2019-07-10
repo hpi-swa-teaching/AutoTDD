@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"watcher" ],
+	"name" : "ATDDCITestRunner",
+	"pools" : [
+		 ],
+	"super" : "ATDDTestRunner",
+	"type" : "normal" }
