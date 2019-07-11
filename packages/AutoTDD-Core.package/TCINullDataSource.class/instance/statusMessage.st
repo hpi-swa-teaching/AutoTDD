@@ -1,3 +1,3 @@
 accessing
-status
+statusMessage
 	^ 'not available'

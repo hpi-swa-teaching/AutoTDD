@@ -1,3 +1,4 @@
 behavior
 run
-	self localTestRunner runTests
+	self localTestRunner runTests.
+	self ciTestRunner runTests

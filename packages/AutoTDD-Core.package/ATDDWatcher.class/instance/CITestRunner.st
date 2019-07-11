@@ -1,3 +1,3 @@
 accessing
-CITestRunner
-	^ CITestRunner ifNil: [ CITestRunner := ATDDNullTestRunner instance ]
+ciTestRunner
+	^ ciTestRunner ifNil: [ciTestRunner := ATDDNullTestRunner new]

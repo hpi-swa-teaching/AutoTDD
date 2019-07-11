@@ -1,5 +1,5 @@
 accessing
-startNewRefreshProcess
+newRefreshProcess
 	^ [[true] whileTrue: [
 			(Delay forSeconds: self refreshInterval) wait.
 			self refresh.

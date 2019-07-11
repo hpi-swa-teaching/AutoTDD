@@ -2,14 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"attach:" : "PS 6/22/2014 16:50",
 		"buildStatus" : "ls 7/3/2019 17:17",
-		"deattach:" : "PS 6/22/2014 16:52",
-		"delete" : "PS 6/22/2014 16:54",
+		"clearCache" : "ls 7/11/2019 18:54",
 		"isNullObject" : "PS 6/22/2014 16:54",
 		"repository" : "PS 6/22/2014 16:55",
+		"repository:" : "ls 7/11/2019 18:55",
 		"repositoryJson" : "PS 6/22/2014 16:55",
-		"status" : "ls 7/3/2019 17:13",
+		"statusMessage" : "ls 7/11/2019 18:11",
 		"token" : "ls 7/3/2019 17:19",
 		"token:" : "PS 6/22/2014 16:55",
 		"update" : "vxr 7/4/2019 13:42",

@@ -7,8 +7,8 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"repository",
-		"pausedStatus",
 		"status",
+		"statusMessage",
 		"process",
 		"refreshInterval" ],
 	"name" : "ATDDTravisStatus",

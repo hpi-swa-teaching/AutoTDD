@@ -1,3 +1,3 @@
 accessing
 statusColor
-	^ self class colorDictionary at: self buildStatus
+	^ self class colorDictionary at: self status

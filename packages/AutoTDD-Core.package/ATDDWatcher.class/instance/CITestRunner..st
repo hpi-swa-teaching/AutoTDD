@@ -1,3 +1,3 @@
 accessing
-CITestRunner: anObject
-	CITestRunner := anObject
+ciTestRunner: anObject
+	ciTestRunner := anObject

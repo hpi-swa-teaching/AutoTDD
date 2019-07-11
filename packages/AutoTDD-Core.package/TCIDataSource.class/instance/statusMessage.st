@@ -1,0 +1,3 @@
+accessing
+statusMessage
+	self subclassResponsibility

@@ -4,7 +4,7 @@ testPauseResumeRun
 	travisStatus := ATDDTravisStatus new.
 	travisStatus repositoryURL: self repoURL.
 	
-	self assert: (travisStatus asStringOrText isKindOf: Text).
+	travisStatus updateStatus.
 	self assert: travisStatus paused.
 	self assert: travisStatus repository cache keys size > 1. "the cache should not be empty because we just requested the status (by calling asString)"
 	

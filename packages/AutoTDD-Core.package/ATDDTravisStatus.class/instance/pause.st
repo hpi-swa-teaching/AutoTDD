@@ -1,8 +1,5 @@
 behaviour
 pause
-	self process ifNotNil: [
-		self process terminate.
-		self process: nil.
-	].
+	self terminateProcess.
 	super pause.
 	self updateStatus

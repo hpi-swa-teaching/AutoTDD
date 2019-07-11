@@ -1,0 +1,3 @@
+accessing
+clearCache
+	self subclassResponsibility

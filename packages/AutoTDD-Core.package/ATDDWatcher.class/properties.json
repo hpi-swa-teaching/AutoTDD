@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"localTestRunner",
-		"travisTestRunner",
+		"ciTestRunner",
 		"isWatchingClasswise",
 		"classesToWatch",
 		"categoriesToWatch",
@@ -15,8 +15,7 @@
 		"classesToTest",
 		"categoriesToTest",
 		"localStatus",
-		"localStatusBlock",
-		"travisStatus" ],
+		"localStatusMessageDictionary" ],
 	"name" : "ATDDWatcher",
 	"pools" : [
 		 ],
