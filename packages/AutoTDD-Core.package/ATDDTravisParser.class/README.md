@@ -1,1 +1,1 @@
-THIS CLASS HAS NO COMMENT!
+The ATDDTravisParser parses travis results from data supplied by the TCIClient.

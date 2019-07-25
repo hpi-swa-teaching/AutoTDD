@@ -1,0 +1,1 @@
+An ATDDDataSource is an abstract class for providing structured data.

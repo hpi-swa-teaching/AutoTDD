@@ -1,1 +1,1 @@
-This is the respective editor for Watchers.
+The ATDDWatcherEditor is the respective editor for Watchers.
