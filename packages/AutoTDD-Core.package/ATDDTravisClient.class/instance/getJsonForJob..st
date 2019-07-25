@@ -1,4 +1,4 @@
 data-processing
 getJsonForJob: aString
-
-	^ self requestOn: 'jobs/', aString
+	
+	^ self requestOn: 'jobs/' , aString

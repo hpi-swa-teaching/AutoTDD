@@ -1,3 +1,4 @@
 initialization
 loadTarget
+	
 	self loadTargetSpecs

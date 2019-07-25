@@ -1,4 +1,4 @@
 loading
 primitiveLoadResource: aString
-
-	^ SampledSound fromWaveFileNamed: ((FileDirectory uri: aString) fullName)
+	
+	^ SampledSound fromWaveFileNamed: (FileDirectory uri: aString) fullName

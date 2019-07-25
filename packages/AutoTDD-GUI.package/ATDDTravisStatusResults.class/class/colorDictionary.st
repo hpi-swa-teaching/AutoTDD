@@ -1,3 +1,4 @@
 constants
 colorDictionary
+	
 	^ ATDDTravisStatus colorDictionary

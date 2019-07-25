@@ -1,4 +1,4 @@
 constants
 nullObject
-
+	
 	^ TCINullDataSource

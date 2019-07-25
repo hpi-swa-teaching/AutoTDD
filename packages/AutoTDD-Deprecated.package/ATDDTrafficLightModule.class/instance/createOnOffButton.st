@@ -2,10 +2,9 @@ building
 createOnOffButton
 	
 	| button state |
-	state := self use
-		ifTrue: [ #on ]
-		ifFalse: [ #off ].
-	button := ThreePhaseButtonMorph new 
+	
+	state := self use ifTrue: [ #on ] ifFalse: [ #off ].
+	button := ThreePhaseButtonMorph new
 		offImage: (self imageProvider loadResourceAt: #toggleOff);
 		onImage: (self imageProvider loadResourceAt: #toggleOn);
 		actionSelector: #onOffButtonClicked;

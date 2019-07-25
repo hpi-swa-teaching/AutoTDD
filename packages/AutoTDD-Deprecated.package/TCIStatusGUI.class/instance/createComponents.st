@@ -1,8 +1,8 @@
 building
 createComponents
-
+	
 	super createComponents.
-	self 
+	self
 		createHistory;
 		createState;
 		createMatrix;

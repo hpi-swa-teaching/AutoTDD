@@ -1,3 +1,5 @@
 action
 openLocalResults
-	^ self watchers collect: [:each | ATDDWatcherResults openForTarget: each]
+	
+	^ self watchers collect: [ :each |
+		ATDDWatcherResults openForTarget: each ]

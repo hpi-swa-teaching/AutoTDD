@@ -1,4 +1,4 @@
 accessing
-listMorphClass 
+listMorphClass
 	
 	^ ATDDLazyListMorph

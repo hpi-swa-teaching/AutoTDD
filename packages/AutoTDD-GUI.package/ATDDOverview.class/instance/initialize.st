@@ -1,5 +1,6 @@
 initialization
 initialize
+	
 	localMessage := ValueHolder new contents: ''.
 	travisStatusMessage := ValueHolder new contents: ''.
 	localIndicator := ValueHolder new contents: Color gray.

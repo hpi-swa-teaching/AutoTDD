@@ -1,3 +1,4 @@
 accessing
 status
-	^ status ifNil: [status := #unknown]
+	
+	^ status ifNil: [ status := #unknown ]

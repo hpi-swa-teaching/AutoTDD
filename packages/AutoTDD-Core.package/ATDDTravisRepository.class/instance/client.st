@@ -1,3 +1,4 @@
 accessing
 client
-	^ client	ifNil: [ client := ATDDTravisClient new ]
+	
+	^ client ifNil: [ client := ATDDTravisClient new ]

@@ -1,3 +1,4 @@
 accessing
 usePro
-	^self repository usePro
+	
+	^ self repository usePro

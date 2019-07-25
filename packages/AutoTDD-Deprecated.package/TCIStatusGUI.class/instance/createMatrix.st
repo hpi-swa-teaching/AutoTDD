@@ -1,8 +1,9 @@
 building
 createMatrix
-
+	
 	| matrix |
-	matrix := ATDDPluggableListMorph 
+	
+	matrix := ATDDPluggableListMorph
 		on: self
 		list: #matrix
 		selected: #selectedJob

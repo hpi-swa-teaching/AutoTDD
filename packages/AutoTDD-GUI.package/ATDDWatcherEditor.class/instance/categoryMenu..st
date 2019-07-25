@@ -1,5 +1,6 @@
 accessing
 categoryMenu: aMenu
+	
 	^ aMenu
 		title: self categoryMenuTitle;
 		add: self menuSelectAllLabel action: #selectAllCategories;

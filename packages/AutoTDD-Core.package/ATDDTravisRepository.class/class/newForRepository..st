@@ -1,5 +1,6 @@
 class initialization
 newForRepository: aString
-	^self new
+	
+	^ self new
 		repository: aString;
 		yourself

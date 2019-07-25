@@ -1,5 +1,6 @@
 behavior
 allTestClasses
+	
 	self isTestingClasswise
-		ifTrue: [ ^ self classesToTest]
-		ifFalse: [ ^ self testClassesFromCategories]
+		ifTrue: [ ^ self classesToTest ]
+		ifFalse: [ ^ self testClassesFromCategories ]

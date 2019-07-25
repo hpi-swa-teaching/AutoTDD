@@ -1,6 +1,4 @@
 building
 createComponents
-
-	self
-		createStateButton;
-		update
+	
+	self createStateButton; update

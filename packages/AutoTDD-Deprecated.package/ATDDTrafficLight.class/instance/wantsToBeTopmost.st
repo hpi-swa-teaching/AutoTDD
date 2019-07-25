@@ -1,4 +1,4 @@
 accessing
-wantsToBeTopmost 
+wantsToBeTopmost
 	
 	^ self inForeground or: [ super wantsToBeTopmost ]

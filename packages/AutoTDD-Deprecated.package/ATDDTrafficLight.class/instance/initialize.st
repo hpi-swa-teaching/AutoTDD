@@ -1,6 +1,6 @@
 initialization
 initialize
-
+	
 	super initialize.
 	self color: self class backgroundColor.
 	self

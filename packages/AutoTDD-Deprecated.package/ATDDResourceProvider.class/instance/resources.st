@@ -1,4 +1,4 @@
 accessing
 resources
-
-	^ resources ifNil: [resources := IdentityDictionary new].
+	
+	^ resources ifNil: [ resources := IdentityDictionary new ]

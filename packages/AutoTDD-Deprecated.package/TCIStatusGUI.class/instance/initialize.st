@@ -1,7 +1,7 @@
 initialization
 initialize
-
+	
 	super initialize.
-	self 
+	self
 		selectedBuild: 1;
 		selectedJob: 1

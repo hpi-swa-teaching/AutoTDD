@@ -1,3 +1,4 @@
 constants
 targetName
+	
 	^ self subclassResponsibility

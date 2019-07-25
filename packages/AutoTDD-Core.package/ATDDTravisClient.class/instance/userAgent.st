@@ -1,4 +1,4 @@
 constants
 userAgent
-
-	^ 'AutoTDD/', SystemVersion current version
+	
+	^ 'AutoTDD/' , SystemVersion current version

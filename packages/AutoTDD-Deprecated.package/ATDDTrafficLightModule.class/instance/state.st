@@ -1,4 +1,4 @@
 accessing
 state
-
+	
 	self subclassResponsibility

@@ -2,6 +2,7 @@ building
 createProgressBar
 	
 	| progressBar |
+	
 	progressBar := ProgressBarMorph new
 		borderWidth: 0;
 		color: Color red;

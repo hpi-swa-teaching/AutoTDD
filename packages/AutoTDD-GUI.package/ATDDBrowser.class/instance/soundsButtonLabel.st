@@ -1,5 +1,6 @@
 action
 soundsButtonLabel
+	
 	ATDDSoundPlayer instance isMuted
-		ifTrue: [^ 'Sounds: Off']
-		ifFalse: [^ 'Sounds: On']
+		ifTrue: [ ^ 'Sounds: Off' ]
+		ifFalse: [ ^ 'Sounds: On' ]

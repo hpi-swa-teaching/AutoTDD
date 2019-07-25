@@ -1,4 +1,5 @@
 updating
 updateEnd
 	
-	self progressBar ifNotNilDo: [ :progressBar | progressBar hide ]
+	self progressBar ifNotNilDo: [ :progressBar |
+		progressBar hide ]

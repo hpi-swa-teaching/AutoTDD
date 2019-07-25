@@ -1,4 +1,4 @@
 accessing
-valueHolder: aValueHolder 
-
+valueHolder: aValueHolder
+	
 	valueHolder := aValueHolder

@@ -1,3 +1,4 @@
 accessing
 selectedHistory
-	^ selectedHistory ifNil: [selectedHistory := 0]
+	
+	^ selectedHistory ifNil: [ selectedHistory := 0 ]

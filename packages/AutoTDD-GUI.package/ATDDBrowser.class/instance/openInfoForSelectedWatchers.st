@@ -1,3 +1,5 @@
 action
 openInfoForSelectedWatchers
-	^ self selectedWatchers collect: [:watcher | self openInfoForWatcher: watcher]
+	
+	^ self selectedWatchers
+		collect: [ :watcher | self openInfoForWatcher: watcher ]

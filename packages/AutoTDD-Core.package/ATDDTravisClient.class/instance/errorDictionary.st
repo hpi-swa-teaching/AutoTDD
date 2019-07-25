@@ -1,5 +1,4 @@
 constants
 errorDictionary
-
-	^ IdentityDictionary newFrom: {
-		403 	-> [ TCIAccessDeniedError signal ] }
+	
+	^ IdentityDictionary newFrom: { 403 -> [ TCIAccessDeniedError signal ] }

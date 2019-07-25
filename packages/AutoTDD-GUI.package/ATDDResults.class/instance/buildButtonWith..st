@@ -1,5 +1,6 @@
 building
 buildButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #buttonAction;

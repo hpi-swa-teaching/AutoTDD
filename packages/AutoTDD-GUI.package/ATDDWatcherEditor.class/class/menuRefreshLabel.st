@@ -1,3 +1,4 @@
 constants
 menuRefreshLabel
+	
 	^ 'Refresh'

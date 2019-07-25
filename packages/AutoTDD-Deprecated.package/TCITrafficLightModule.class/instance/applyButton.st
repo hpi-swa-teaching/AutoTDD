@@ -1,4 +1,4 @@
 accessing - ui
-applyButton 
+applyButton
 	
 	^ self submorphNamed: 'applyButton'

@@ -2,7 +2,7 @@ components
 createComponents
 	
 	self
-		createSettingsButton; 
+		createSettingsButton;
 		createForegroundButton;
 		createReloadButton;
 		createQuitButton;

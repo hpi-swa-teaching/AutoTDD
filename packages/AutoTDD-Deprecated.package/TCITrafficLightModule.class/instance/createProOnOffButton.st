@@ -2,9 +2,8 @@ building
 createProOnOffButton
 	
 	| button state |
-	state := self usePro
-		ifTrue: [ #on ]
-		ifFalse: [ #off ].
+	
+	state := self usePro ifTrue: [ #on ] ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new
 		offImage: (self imageProvider loadResourceAt: #toggleOff);
 		onImage: (self imageProvider loadResourceAt: #toggleOn);

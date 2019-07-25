@@ -1,8 +1,9 @@
 constants
 horizontalLines
-
-	| textLineHeight textOffset listLineHeight listOffset
-		upperLine middleLine listLines textLines |
+	
+	| textLineHeight textOffset listLineHeight listOffset upperLine 
+		middleLine listLines textLines |
+	
 	textLines := 2.
 	listLines := 3.
 	textLineHeight := 16.
@@ -11,4 +12,5 @@ horizontalLines
 	listOffset := 7.
 	upperLine := textLines * textLineHeight + textOffset.
 	middleLine := listLines * listLineHeight + listOffset + upperLine.
-	^ {{20}. {upperLine. -30}}
+	
+	^ { { 20 } . { upperLine . -30 } }

@@ -2,9 +2,8 @@ components
 createForegroundButton
 	
 	| button state |
-	state := self inForeground
-		ifTrue: [ #on ]
-		ifFalse: [ #off ].
+	
+	state := self inForeground ifTrue: [ #on ] ifFalse: [ #off ].
 	button := ThreePhaseButtonMorph new
 		offImage: (self imageProvider loadResourceAt: #pinInactive);
 		onImage: (self imageProvider loadResourceAt: #pinActive);

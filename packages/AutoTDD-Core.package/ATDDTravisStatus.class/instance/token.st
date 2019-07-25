@@ -1,3 +1,4 @@
 accessing
 token
-	^self repository token
+	
+	^ self repository token

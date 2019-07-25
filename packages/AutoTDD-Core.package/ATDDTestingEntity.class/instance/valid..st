@@ -1,3 +1,4 @@
 accessing
-valid: aBoolean 
+valid: aBoolean
+	
 	valid := aBoolean

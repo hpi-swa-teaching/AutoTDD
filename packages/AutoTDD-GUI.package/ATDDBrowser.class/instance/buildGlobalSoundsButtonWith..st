@@ -1,5 +1,6 @@
 building
 buildGlobalSoundsButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		label: #soundsButtonLabel;

@@ -1,3 +1,4 @@
 loading
-lastPlayedSound: aSymbol 
+lastPlayedSound: aSymbol
+	
 	lastPlayedSound := aSymbol

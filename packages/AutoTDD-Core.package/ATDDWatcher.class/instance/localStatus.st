@@ -1,3 +1,4 @@
 accessing
 localStatus
-	^ localStatus ifNil: [localStatus := #unexecuted]
+	
+	^ localStatus ifNil: [ localStatus := #unexecuted ]

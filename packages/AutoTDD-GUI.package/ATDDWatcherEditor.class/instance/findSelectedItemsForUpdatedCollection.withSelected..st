@@ -1,8 +1,7 @@
 utilities
 findSelectedItemsForUpdatedCollection: aCollection withSelected: selected
-	^  (selected
+	
+	^ selected
 		ifNil: [ aCollection ]
-		ifNotNil: [ 
-			selected
-				select: [ :each | aCollection includes: each ] ])
-		
+		ifNotNil: [ selected select: [ :each |
+			aCollection includes: each ] ]

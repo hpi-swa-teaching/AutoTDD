@@ -1,7 +1,9 @@
 components
 createReloadButton
-	| button transColor|
-	transColor := (TranslucentColor new alpha: 0).
+	
+	| button transColor |
+	
+	transColor := TranslucentColor new alpha: 0.
 	button := IconicButton new
 		labelGraphic: (self imageProvider loadResourceAt: #reload);
 		color: transColor;

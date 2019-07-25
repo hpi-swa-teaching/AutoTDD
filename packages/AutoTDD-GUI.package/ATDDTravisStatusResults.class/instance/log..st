@@ -1,4 +1,4 @@
 accessing
 log: anObject
-
-	log := anObject.
+	
+	log := anObject

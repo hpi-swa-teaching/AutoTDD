@@ -1,3 +1,4 @@
 constants
 label
+	
 	^ self baseTitle

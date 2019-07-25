@@ -1,5 +1,6 @@
 accessing-categories
 selectAllCategories
-	self 
+	
+	self
 		selectedCategories: self categories asSet;
 		changed: #allSelections

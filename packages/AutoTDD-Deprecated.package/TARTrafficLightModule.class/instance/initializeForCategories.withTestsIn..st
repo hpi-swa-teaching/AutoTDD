@@ -5,5 +5,5 @@ initializeForCategories: categories withTestsIn: testCategories
 		categories: categories;
 		testCategories: testCategories;
 		data: (TARTestAutoRunner
-			initializeForCategories: categories
-			withTestsIn: testCategories)
+				initializeForCategories: categories
+				withTestsIn: testCategories)

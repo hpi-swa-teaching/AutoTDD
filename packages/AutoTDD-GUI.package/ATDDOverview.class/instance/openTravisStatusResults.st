@@ -1,3 +1,6 @@
 action
 openTravisStatusResults
-	^ self travisStatuses collect: [:each |  ATDDTravisStatusResults openForTarget: each]
+	
+	^ self travisStatuses
+		collect: [ :each |
+			ATDDTravisStatusResults openForTarget: each ]

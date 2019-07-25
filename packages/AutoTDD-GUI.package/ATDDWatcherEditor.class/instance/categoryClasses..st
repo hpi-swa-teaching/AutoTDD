@@ -1,4 +1,4 @@
 accessing
 categoryClasses: anObject
-
-	categoryClasses := anObject.
+	
+	categoryClasses := anObject

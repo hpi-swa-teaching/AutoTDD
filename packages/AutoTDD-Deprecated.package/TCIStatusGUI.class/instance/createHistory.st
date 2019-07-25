@@ -1,8 +1,9 @@
 building
 createHistory
-
+	
 	| history |
-	history := ATDDPluggableListMorph 
+	
+	history := ATDDPluggableListMorph
 		on: self
 		list: #history
 		selected: #selectedBuild

@@ -1,3 +1,4 @@
 action
 runTests
-	^self subclassResponsibility
+	
+	^ self subclassResponsibility

@@ -1,3 +1,4 @@
 accessing
 selectedTest
-	^ selectedTest ifNil: [selectedTest := 0]
+	
+	^ selectedTest ifNil: [ selectedTest := 0 ]

@@ -1,5 +1,6 @@
 building
 buildIntervalWith: aBuilder
+	
 	^ aBuilder pluggableInputFieldSpec new
 		model: refreshInterval;
 		help: self class intervalHelpLabel;

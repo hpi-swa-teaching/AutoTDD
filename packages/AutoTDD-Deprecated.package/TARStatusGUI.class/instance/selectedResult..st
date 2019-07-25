@@ -1,7 +1,7 @@
 accessing
 selectedResult: anObject
-
+	
 	selectedResult := anObject.
-	self 
+	self
 		changed: #selectedResult;
 		changedSelectedResult

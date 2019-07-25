@@ -2,6 +2,7 @@ components
 createSettingsButton
 	
 	| button |
+	
 	button := ThreePhaseButtonMorph new
 		offImage: (self imageProvider loadResourceAt: #settingsInactive);
 		onImage: (self imageProvider loadResourceAt: #settingsActive);

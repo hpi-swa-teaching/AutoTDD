@@ -1,3 +1,4 @@
 action
 buttonAction
+	
 	^ self subclassResponsibility

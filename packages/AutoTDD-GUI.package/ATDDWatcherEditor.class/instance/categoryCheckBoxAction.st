@@ -1,3 +1,4 @@
 building
 categoryCheckBoxAction
+	
 	self classwiseCategorySelection: self classwiseCategorySelection not

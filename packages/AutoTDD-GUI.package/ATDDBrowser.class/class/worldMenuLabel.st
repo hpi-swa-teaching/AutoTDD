@@ -1,3 +1,4 @@
 constants
 worldMenuLabel
+	
 	^ self baseTitle

@@ -1,4 +1,4 @@
 accessing
-inForeground: aBoolean 
+inForeground: aBoolean
 	
 	inForeground := aBoolean

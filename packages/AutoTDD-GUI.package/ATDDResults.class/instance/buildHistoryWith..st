@@ -1,5 +1,6 @@
 building
 buildHistoryWith: aBuilder
+	
 	^ aBuilder pluggableListSpec new
 		model: self;
 		list: #history;

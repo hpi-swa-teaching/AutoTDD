@@ -1,4 +1,4 @@
 constants
 settingsComponents
-
-	^ OrderedCollection newFrom: {self onOffButton}
+	
+	^ OrderedCollection newFrom: { self onOffButton }

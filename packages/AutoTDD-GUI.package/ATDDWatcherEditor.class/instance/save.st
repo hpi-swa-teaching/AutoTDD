@@ -1,5 +1,6 @@
 action
 save
+	
 	super save.
 	self watcher
 		name: self targetName;
@@ -11,4 +12,5 @@ save
 		categoriesToTest: self selectedTestCategories.
 	self closeWindow.
 	self watcher resume.
+	
 	^ self watcher

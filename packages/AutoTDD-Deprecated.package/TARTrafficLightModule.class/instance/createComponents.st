@@ -1,7 +1,5 @@
 building
 createComponents
-
-	self
-		createProgressBar;
-		createExtendNameButton.
+	
+	self createProgressBar; createExtendNameButton.
 	super createComponents

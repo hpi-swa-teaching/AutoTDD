@@ -1,5 +1,6 @@
 building
 buildAddWatcherButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #addWatcher;

@@ -1,5 +1,6 @@
 initialization
 loadTarget
+	
 	super loadTarget.
 	self
 		updateCategories;

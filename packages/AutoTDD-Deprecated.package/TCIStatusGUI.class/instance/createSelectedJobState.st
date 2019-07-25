@@ -1,8 +1,9 @@
 building
 createSelectedJobState
-
+	
 	| state |
-	state := (PluggableTextMorphPlus 
+	
+	state := (PluggableTextMorphPlus
 		on: self
 		text: #selectedJobStateText
 		accept: nil)

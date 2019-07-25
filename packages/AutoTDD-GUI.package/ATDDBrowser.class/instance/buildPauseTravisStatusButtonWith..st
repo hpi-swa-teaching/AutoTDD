@@ -1,5 +1,6 @@
 building
 buildPauseTravisStatusButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #pauseSelectedTravisStatuses;

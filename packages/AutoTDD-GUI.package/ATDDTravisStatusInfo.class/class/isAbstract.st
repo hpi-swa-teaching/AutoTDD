@@ -1,3 +1,4 @@
 constants
 isAbstract
-	^false
+	
+	^ false

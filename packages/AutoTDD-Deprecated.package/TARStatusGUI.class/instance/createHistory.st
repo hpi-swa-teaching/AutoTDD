@@ -1,12 +1,13 @@
 building
 createHistory
-
+	
 	| history |
-	history := (ATDDPluggableListMorph 
+	
+	history := (ATDDPluggableListMorph
 		on: self
 		list: #history
 		selected: #selectedResult
 		changeSelected: #selectedResult:)
-			autoDeselect: false;
-			yourself.
+		autoDeselect: false;
+		yourself.
 	self window addMorph: history fullFrame: self historyFrame

@@ -1,8 +1,8 @@
 accessing-categories
 selectInverseCategoryClasses
-
-	self 
+	
+	self
 		selectedCategoryClasses: (self categoryClasses asSet
-								removeAll: self selectedCategoryClasses;
-								yourself);
+				removeAll: self selectedCategoryClasses;
+				yourself);
 		changed: #allSelections

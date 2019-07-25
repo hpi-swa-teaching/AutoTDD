@@ -1,4 +1,4 @@
 accessing
 label
 	
-	^ 'Travis CI: ', self repository
+	^ 'Travis CI: ' , self repository

@@ -1,4 +1,5 @@
 accessing
 selectedTestCategoryClasses
-
-	^ selectedTestCategoryClasses ifNil: [ selectedTestCategoryClasses := Set new ]
+	
+	^ selectedTestCategoryClasses
+		ifNil: [ selectedTestCategoryClasses := Set new ]

@@ -1,6 +1,7 @@
 initialization
 initialize
+	
 	super initialize.
-	self 
+	self
 		addChangeListener;
-		localTestRunner: (ATDDLocalTestRunner newForWatcher: self).
+		localTestRunner: (ATDDLocalTestRunner newForWatcher: self)

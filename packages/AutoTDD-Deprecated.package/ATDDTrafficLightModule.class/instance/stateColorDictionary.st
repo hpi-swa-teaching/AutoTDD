@@ -1,4 +1,4 @@
 constants
 stateColorDictionary
-
+	
 	self subclassResponsibility

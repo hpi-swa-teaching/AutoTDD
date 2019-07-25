@@ -1,4 +1,4 @@
 building
 label
-
+	
 	self subclassResponsibility

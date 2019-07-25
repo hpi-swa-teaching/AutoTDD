@@ -1,3 +1,4 @@
 accessing
 clearCache
+	
 	self subclassResponsibility

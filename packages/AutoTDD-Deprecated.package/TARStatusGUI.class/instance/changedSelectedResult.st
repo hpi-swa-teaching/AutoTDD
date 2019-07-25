@@ -1,7 +1,7 @@
 updating
 changedSelectedResult
-
-	self 
+	
+	self
 		changed: #matrix;
 		changed: #selectedStateText;
 		changed: #selectedStateColor

@@ -1,4 +1,4 @@
 action
 openInfoForWatcher: aWatcher
-	(aWatcher notNil) 
-		ifTrue: [ ^ ATDDWatcherInfo openForTarget: aWatcher ]
+	
+	aWatcher notNil ifTrue: [ ^ ATDDWatcherInfo openForTarget: aWatcher ]

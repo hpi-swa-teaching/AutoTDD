@@ -1,4 +1,4 @@
 data-processing
 getJsonForLog: aString
-
-	^ self requestOn: 'logs/', aString
+	
+	^ self requestOn: 'logs/' , aString

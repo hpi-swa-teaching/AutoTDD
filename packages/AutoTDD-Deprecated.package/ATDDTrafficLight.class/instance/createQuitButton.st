@@ -1,8 +1,9 @@
 components
 createQuitButton
 	
-	| button transColor|
-	transColor := (TranslucentColor new alpha: 0).
+	| button transColor |
+	
+	transColor := TranslucentColor new alpha: 0.
 	button := IconicButton new
 		labelGraphic: (self imageProvider loadResourceAt: #quit);
 		color: transColor;

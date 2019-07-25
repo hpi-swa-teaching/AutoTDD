@@ -1,5 +1,6 @@
 building
 buildGlobalPauseButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #pauseAll;

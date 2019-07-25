@@ -1,6 +1,4 @@
 components
 createModules
-
-	self
-		createLocalModule;
-		createTravisModule
+	
+	self createLocalModule; createTravisModule

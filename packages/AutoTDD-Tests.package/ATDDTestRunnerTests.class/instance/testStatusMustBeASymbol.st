@@ -1,3 +1,4 @@
 tests
 testStatusMustBeASymbol
-	self should: [testrunner status: 'IBM'] raise: Error.
+	
+	self should: [ testrunner status: 'IBM' ] raise: Error

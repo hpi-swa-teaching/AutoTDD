@@ -1,3 +1,4 @@
 action
 removeSelectedWatchers
+	
 	self removeWatchers: self selectedWatchers

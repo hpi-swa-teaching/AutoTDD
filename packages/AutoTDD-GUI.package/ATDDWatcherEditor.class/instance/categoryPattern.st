@@ -1,4 +1,4 @@
 accessing
 categoryPattern
-
+	
 	^ categoryPattern

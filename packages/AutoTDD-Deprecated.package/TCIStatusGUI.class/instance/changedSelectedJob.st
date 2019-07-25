@@ -1,7 +1,7 @@
 updating
 changedSelectedJob
-
-	self 
+	
+	self
 		changed: #log;
 		changed: #selectedJobStateText;
 		changed: #selectedJobStateColor

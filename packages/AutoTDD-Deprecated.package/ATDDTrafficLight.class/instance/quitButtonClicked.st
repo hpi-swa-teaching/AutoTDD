@@ -1,4 +1,4 @@
 event handling
-quitButtonClicked 
-
+quitButtonClicked
+	
 	self delete

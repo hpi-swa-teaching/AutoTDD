@@ -1,5 +1,6 @@
 building
 buildAdditionalInputFieldsWith: aBuilder
-	^ (OrderedCollection new
-			add: (self buildRepositoryLabelWith: aBuilder);
-		yourself)
+	
+	^ OrderedCollection new
+		add: (self buildRepositoryLabelWith: aBuilder);
+		yourself

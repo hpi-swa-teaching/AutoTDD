@@ -1,3 +1,4 @@
 accessing
 repositoryLabel
-	^ self class repositoryLabelText, ': ', self repositoryURL
+	
+	^ self class repositoryLabelText , ': ' , self repositoryURL

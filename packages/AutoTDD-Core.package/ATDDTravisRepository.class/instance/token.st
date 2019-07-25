@@ -1,3 +1,4 @@
 accessing
 token
-	^self client token
+	
+	^ self client token

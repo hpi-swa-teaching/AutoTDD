@@ -1,4 +1,4 @@
 data-processing
 getJsonForRepository: aString
-
-	^ self requestOn: 'repos/', aString
+	
+	^ self requestOn: 'repos/' , aString

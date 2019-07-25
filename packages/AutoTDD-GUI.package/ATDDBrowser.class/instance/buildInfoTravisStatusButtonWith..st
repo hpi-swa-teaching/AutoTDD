@@ -1,5 +1,6 @@
 building
 buildInfoTravisStatusButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #openInfoForSelectedTravisStatuses;

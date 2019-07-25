@@ -1,4 +1,4 @@
 accessing
 testCategoryClasses: anObject
-
-	testCategoryClasses := anObject.
+	
+	testCategoryClasses := anObject

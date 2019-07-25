@@ -1,5 +1,6 @@
 accessing
 updateStatus
+	
 	self
 		handleStatusChange;
 		status: self repository buildStatus;

@@ -1,3 +1,4 @@
 as yet unclassified
 labelFor: aString
-	^ self label, ' "',aString,'"'
+	
+	^ self label , ' "' , aString , '"'

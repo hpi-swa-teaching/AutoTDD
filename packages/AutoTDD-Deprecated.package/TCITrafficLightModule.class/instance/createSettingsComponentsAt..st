@@ -1,6 +1,6 @@
 building
 createSettingsComponentsAt: aPoint
-
+	
 	self
 		createApplyButton;
 		createSlugField;

@@ -1,4 +1,4 @@
 constants
 use
-
+	
 	self subclassResponsibility

@@ -1,4 +1,4 @@
 observing
 update
-
+	
 	self subclassResponsibility

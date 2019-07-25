@@ -1,7 +1,7 @@
 updating
 changedSelectedBuild
-
-	self 
+	
+	self
 		changed: #matrix;
 		changed: #selectedStateText;
 		changed: #selectedStateColor;

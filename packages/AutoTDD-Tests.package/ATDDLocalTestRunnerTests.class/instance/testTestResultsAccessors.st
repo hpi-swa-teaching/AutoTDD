@@ -1,6 +1,8 @@
 tests
 testTestResultsAccessors
+	
 	| c |
-	c := #('Test').
+	
+	c := #( 'Test' ).
 	testrunner testResults: c.
 	self assert: testrunner testResults equals: c

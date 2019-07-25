@@ -1,3 +1,4 @@
 initialization
 loadTargetSpecs
+	
 	^ self subclassResponsibility

@@ -1,3 +1,4 @@
 as yet unclassified
 testSetter
-	ATDDBrowserTests setTestHasRun.
+	
+	ATDDBrowserTests setTestHasRun

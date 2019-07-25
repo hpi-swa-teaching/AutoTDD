@@ -2,7 +2,7 @@ constants
 extendNameButtonClicked
 	
 	self nameExpanded
-		ifFalse: [ 
+		ifFalse: [
 			self createNameMorph.
 			self extendNameButton state: #on ]
 		ifTrue: [

@@ -1,6 +1,9 @@
 accessing
 newRefreshProcess
-	^ [[true] whileTrue: [
-			(Delay forSeconds: self refreshInterval) wait.
-			self refresh.
-		]] forkAt: Processor userBackgroundPriority
+	
+	^ [
+			[ true ]
+				whileTrue: [
+					(Delay forSeconds: self refreshInterval) wait.
+					self refresh ] ]
+		forkAt: Processor userBackgroundPriority

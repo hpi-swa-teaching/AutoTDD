@@ -1,5 +1,6 @@
 accessing
 handleClasswiseCategorySelectionChange
+	
 	self classwiseCategorySelection
-		ifTrue: [self updateCategoryClasses]
-		ifFalse: [self clearCategoryClasses]
+		ifTrue: [ self updateCategoryClasses ]
+		ifFalse: [ self clearCategoryClasses ]

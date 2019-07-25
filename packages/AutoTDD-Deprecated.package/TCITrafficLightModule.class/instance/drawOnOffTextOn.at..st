@@ -1,4 +1,4 @@
 drawing
 drawOnOffTextOn: aCanvas at: aPoint
-
-	self drawText: 'Travis CI' on: aCanvas at: (aPoint + (10@45))
+	
+	self drawText: 'Travis CI' on: aCanvas at: aPoint + (10 @ 45)

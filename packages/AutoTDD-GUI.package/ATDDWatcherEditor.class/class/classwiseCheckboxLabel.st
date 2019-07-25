@@ -1,3 +1,4 @@
 constants
 classwiseCheckboxLabel
+	
 	^ 'classwise selection'

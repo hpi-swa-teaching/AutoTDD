@@ -1,3 +1,4 @@
 instance creation
 travisStatusHeading
+	
 	^ 'Travis'

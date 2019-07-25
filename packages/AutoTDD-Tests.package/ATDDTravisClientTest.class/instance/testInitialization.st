@@ -1,8 +1,9 @@
 tests
 testInitialization
-
+	
 	| client |
+	
 	client := ATDDTravisClient new.
-	self 
+	self
 		assert: client webClient notNil;
 		assert: client webClient userAgent equals: client userAgent

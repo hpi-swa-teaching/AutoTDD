@@ -1,4 +1,4 @@
 constants
 resourceDictionary
-
+	
 	self subclassResponsibility

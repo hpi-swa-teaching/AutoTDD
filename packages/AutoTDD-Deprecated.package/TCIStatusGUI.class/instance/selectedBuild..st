@@ -1,7 +1,7 @@
 accessing
 selectedBuild: aNumber
-
+	
 	selectedBuild := aNumber.
-	self 
+	self
 		changed: #selectedBuild;
 		changedSelectedBuild

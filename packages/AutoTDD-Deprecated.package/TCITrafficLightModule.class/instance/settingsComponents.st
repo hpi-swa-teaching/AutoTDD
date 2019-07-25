@@ -1,10 +1,7 @@
 constants
 settingsComponents
-
+	
 	^ super settingsComponents
-		addAll: {
-			self proOnOffButton.
-			self applyButton.
-			self tokenField.
-			self slugField };
+		addAll: { self proOnOffButton . self applyButton . 
+				self tokenField . self slugField };
 		yourself

@@ -1,7 +1,10 @@
 tests
 testWatcherChangePlaysSound
+	
 	| watcher |
-	watcher := ATDDWatcher new categoriesToTest: #('AutoTDD-Dummy-Success-Tests').
+	
+	watcher := ATDDWatcher new
+		categoriesToTest: #( 'AutoTDD-Dummy-Success-Tests' ).
 	ATDDSoundPlayer instance lastPlayedSound: #unset.
 	watcher run.
 	(Delay forSeconds: 1) wait.

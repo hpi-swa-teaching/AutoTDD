@@ -1,4 +1,4 @@
 constants
 stateTextDictionary
-
+	
 	self subclassResponsibility

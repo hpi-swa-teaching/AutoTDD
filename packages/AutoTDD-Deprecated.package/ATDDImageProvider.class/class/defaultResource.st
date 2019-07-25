@@ -1,4 +1,4 @@
 constants
 defaultResource
-
-	^ Form extent: (0 @ 0)
+	
+	^ Form extent: 0 @ 0

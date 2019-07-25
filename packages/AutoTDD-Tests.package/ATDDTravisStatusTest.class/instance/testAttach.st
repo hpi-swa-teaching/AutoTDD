@@ -1,6 +1,8 @@
 tests
 testAttach
+	
 	| obj |
+	
 	obj := Object new.
 	travisStatus attach: obj.
 	self assert: (travisStatus observers includes: obj).
