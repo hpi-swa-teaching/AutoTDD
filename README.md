@@ -19,7 +19,7 @@ Metacello new
 Now you can open the **Test Auto Runner** via *Apps*.
 
 ### Upgrading from v2
-If you are upgrading from v2 of AutoTDD, please make sure to close **all** traffic lights and windows, otherwise your image will probably crash
+If you are upgrading from v2 of AutoTDD, please make sure to close **all** traffic lights and windows **and** that no tests are running anymore, otherwise your image will probably crash.
 
 ## Sound Customizations
 If the [AutoTDD](https://github.com/hpi-swa-teaching/AutoTDD/tree/master/resources) folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's sounds into your image:
