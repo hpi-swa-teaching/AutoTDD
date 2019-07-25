@@ -1,3 +1,3 @@
 instance creation
 new
-	^ self error: 'Abstract class. Please do not initialize'
+	^ self error: 'Please use ', self class asString, '>>openForTarget: with the respective testing entity to open the results'
