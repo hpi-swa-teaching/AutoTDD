@@ -6,12 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"travisStatus",
-		"windowsToDelete",
-		"resultsWindow",
-		"mockTravisClient" ],
-	"name" : "ATDDTravisStatusResultsTests",
+		"sampleJsonForBuildsOfRepository",
+		"sampleBuildJsons" ],
+	"name" : "ATDDMockTravisClient",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "ATDDTravisClient",
 	"type" : "normal" }

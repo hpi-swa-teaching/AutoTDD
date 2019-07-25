@@ -1,5 +1,5 @@
 utility
-sampleRepositoryBuilds
+sampleSimpleRepositoryBuilds
 	
 	^ Json
 		readFrom: 
