@@ -1,4 +1,4 @@
-accessing
+behavior
 update
 	
 	self subclassResponsibility

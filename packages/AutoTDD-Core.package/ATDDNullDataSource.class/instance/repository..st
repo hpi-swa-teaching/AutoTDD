@@ -1,3 +1,3 @@
 accessing
-repository: anObject
+repository: aString
 	

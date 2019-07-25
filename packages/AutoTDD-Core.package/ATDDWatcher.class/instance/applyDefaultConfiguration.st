@@ -2,7 +2,7 @@ initialization
 applyDefaultConfiguration
 	
 	self
-		name: 'New Watcher';
+		name: self class defaultName;
 		isWatchingClasswise: false;
 		isTestingClasswise: false;
 		categoriesToWatch: Set new;

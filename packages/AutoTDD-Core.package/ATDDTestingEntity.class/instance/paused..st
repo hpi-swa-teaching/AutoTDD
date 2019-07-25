@@ -1,4 +1,4 @@
 accessing
-paused: anObject
+paused: aBoolean
 	
-	paused := anObject
+	paused := aBoolean

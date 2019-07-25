@@ -1,4 +1,4 @@
-testing
+behavior
 clearCache
 	
 	^ self

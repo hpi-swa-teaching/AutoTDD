@@ -1,4 +1,4 @@
 accessing
-categoriesToWatch: aCollection
+categoriesToWatch: aSet
 	
-	categoriesToWatch := aCollection
+	categoriesToWatch := aSet

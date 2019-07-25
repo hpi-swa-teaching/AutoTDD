@@ -1,6 +1,4 @@
 behavior
 onChangeDetected
 	
-	self run.
-	
-	^ self
+	self run

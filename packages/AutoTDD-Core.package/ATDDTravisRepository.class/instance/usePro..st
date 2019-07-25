@@ -1,4 +1,4 @@
 accessing
-usePro: anObject
+usePro: aBoolean
 	
-	self client usePro: anObject
+	self client usePro: aBoolean

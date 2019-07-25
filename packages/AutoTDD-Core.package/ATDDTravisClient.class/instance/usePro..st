@@ -1,4 +1,4 @@
 accessing
-usePro: anObject
+usePro: aBoolean
 	
-	usePro := anObject
+	usePro := aBoolean

@@ -1,4 +1,4 @@
 accessing
-progress: anObject
+progress: aValueHolder
 	
-	progress := anObject
+	progress := aValueHolder

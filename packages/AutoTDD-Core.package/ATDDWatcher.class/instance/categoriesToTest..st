@@ -1,4 +1,4 @@
 accessing
-categoriesToTest: aCollection
+categoriesToTest: aSet
 	
-	categoriesToTest := aCollection
+	categoriesToTest := aSet

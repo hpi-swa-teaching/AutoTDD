@@ -1,4 +1,4 @@
-utility
+behavior
 clearCache
 	
 	self cache: nil.

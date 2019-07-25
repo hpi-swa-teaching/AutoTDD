@@ -1,4 +1,4 @@
 accessing
-classesToWatch: aCollection
+classesToWatch: aSet
 	
-	classesToWatch := aCollection
+	classesToWatch := aSet

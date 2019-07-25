@@ -1,3 +1,3 @@
 accessing
-token: anObject
+token: aString
 	

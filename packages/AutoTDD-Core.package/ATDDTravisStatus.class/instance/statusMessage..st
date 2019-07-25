@@ -1,4 +1,4 @@
 accessing
-statusMessage: anObject
+statusMessage: aString
 	
-	statusMessage := anObject
+	statusMessage := aString

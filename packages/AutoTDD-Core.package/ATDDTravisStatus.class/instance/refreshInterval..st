@@ -1,4 +1,4 @@
 accessing
-refreshInterval: anObject
+refreshInterval: aNumber
 	
-	refreshInterval := anObject
+	refreshInterval := aNumber

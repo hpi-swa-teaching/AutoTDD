@@ -1,4 +1,4 @@
 accessing
-localTestRunner: anObject
+localTestRunner: anATDDLocalTestRunner
 	
-	localTestRunner := anObject
+	localTestRunner := anATDDLocalTestRunner

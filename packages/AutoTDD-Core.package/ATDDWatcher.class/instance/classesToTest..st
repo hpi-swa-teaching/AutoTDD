@@ -1,4 +1,4 @@
 accessing
-classesToTest: aCollection
+classesToTest: aSet
 	
-	classesToTest := aCollection
+	classesToTest := aSet

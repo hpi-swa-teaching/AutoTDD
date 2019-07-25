@@ -1,3 +1,3 @@
 accessing
-usePro: anObject
+usePro: aBoolean
 	

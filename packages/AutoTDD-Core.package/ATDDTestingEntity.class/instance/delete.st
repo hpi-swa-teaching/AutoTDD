@@ -1,4 +1,4 @@
-accessing
+behaviour
 delete
 	
 	self valid: false.

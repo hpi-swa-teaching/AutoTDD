@@ -1,4 +1,4 @@
 accessing
-token: anObject
+token: aString
 	
-	self client token: anObject
+	self client token: aString
