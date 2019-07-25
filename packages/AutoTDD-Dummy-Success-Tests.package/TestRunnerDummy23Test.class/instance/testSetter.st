@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testSetter
 	
 	ATDDBrowserTests setTestHasRun

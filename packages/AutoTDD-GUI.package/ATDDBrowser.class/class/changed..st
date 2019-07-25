@@ -1,4 +1,4 @@
-class initialization
+updating
 changed: aSymbol
 	
 	self allInstancesDo: [ :each | each changed: aSymbol ].

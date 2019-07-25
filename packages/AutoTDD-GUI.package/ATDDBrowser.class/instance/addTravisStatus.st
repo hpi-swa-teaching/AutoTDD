@@ -1,6 +1,4 @@
 action
 addTravisStatus
 	
-	^ self
-		openEditorForTravisStatus: (self
-			addTravisStatus: self emptyTravisStatus)
+	^ self openEditorForTravisStatus: (self addTravisStatus: self emptyTravisStatus)

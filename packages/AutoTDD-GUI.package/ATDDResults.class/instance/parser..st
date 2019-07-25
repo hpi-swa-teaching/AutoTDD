@@ -1,4 +1,4 @@
 accessing
-parser: anObject
+parser: aParser
 	
-	parser := anObject
+	parser := aParser

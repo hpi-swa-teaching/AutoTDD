@@ -8,5 +8,4 @@ labelFor: aWatcherCollection and: aStatusCollection
 		addAll: aStatusCollection;
 		yourself.
 	
-	^ ATDDBrowser baseTitle , ': Overview for '
-		, (items collect: [ :each | each name ]) asCommaString
+	^ ATDDBrowser baseTitle , ': Overview for ', (items collect: [ :each | each name ]) asCommaString

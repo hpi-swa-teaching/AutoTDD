@@ -1,6 +1,6 @@
 accessing
-categoryPattern: anObject
+categoryPattern: aPattern
 	
-	categoryPattern := anObject.
+	categoryPattern := aPattern.
 	
-	^ anObject
+	^ aPattern

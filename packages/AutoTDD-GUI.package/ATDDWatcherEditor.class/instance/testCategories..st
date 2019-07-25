@@ -1,4 +1,4 @@
 accessing
-testCategories: aCategory
+testCategories: aCategoryCollection
 	
-	testCategories := aCategory
+	testCategories := aCategoryCollection

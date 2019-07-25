@@ -1,4 +1,4 @@
 accessing
-testCategoryClasses: anObject
+testCategoryClasses: aClassCollection
 	
-	testCategoryClasses := anObject
+	testCategoryClasses := aClassCollection

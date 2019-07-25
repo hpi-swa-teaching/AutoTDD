@@ -1,4 +1,4 @@
-class initialization
+updating
 changedTravisStatuses
 	
 	self changed: #travisStatuses

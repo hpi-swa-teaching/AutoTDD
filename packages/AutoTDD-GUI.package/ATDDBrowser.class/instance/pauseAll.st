@@ -5,5 +5,5 @@ pauseAll
 	self travisStatuses
 		do: [ :travisStatus |
 			self pauseTravisStatus: travisStatus ].
-	self class changed: #watchers.
-	self class changed: #travisStatuses
+	self class changedWatchers.
+	self class changedTravisStatuses

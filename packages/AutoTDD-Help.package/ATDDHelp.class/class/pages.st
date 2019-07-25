@@ -1,4 +1,4 @@
-as yet unclassified
+content
 pages
 	
 	^ #( introduction browser watchers travisStatuses overview )

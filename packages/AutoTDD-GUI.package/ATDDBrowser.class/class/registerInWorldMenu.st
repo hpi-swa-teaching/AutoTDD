@@ -1,8 +1,7 @@
 class initialization
 registerInWorldMenu
 	
-	self environment
-		at: #TheWorldMenu
+	self environment at: #TheWorldMenu
 		ifPresent: [ :class |
 			class
 				registerOpenCommand: (Array

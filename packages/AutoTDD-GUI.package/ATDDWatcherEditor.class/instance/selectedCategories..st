@@ -1,7 +1,7 @@
 accessing
-selectedCategories: anObject
+selectedCategories: aCategoryCollection
 	
-	selectedCategories := anObject.
+	selectedCategories := aCategoryCollection.
 	self
 		changed: #selectedCategories;
 		updateCategoryClasses

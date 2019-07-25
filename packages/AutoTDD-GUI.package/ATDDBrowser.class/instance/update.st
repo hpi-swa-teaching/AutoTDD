@@ -1,5 +1,5 @@
 updating
 update
 	
-	self class changed: #watchers.
-	self class changed: #travisStatuses
+	self class changedWatchers.
+	self class changedTravisStatuses

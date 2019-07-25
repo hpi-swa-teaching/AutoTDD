@@ -1,4 +1,4 @@
-accessing
+building
 buildJobLogWith: aBuilder
 	
 	^ aBuilder pluggableInputFieldSpec new

@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "be 6/19/2019 17:04",
+		"setUp" : "swi 7/25/2019 14:45",
 		"tearDown" : "vxr 7/4/2019 19:12",
 		"testAddTestResult" : "be 6/19/2019 17:18",
 		"testBuildEmptyTestSuite" : "be 6/19/2019 16:59",

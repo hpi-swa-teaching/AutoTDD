@@ -1,4 +1,4 @@
 accessing
-testsUnformatted: anObject
+testsUnformatted: aCollection
 	
-	testsUnformatted := anObject
+	testsUnformatted := aCollection

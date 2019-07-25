@@ -1,8 +1,8 @@
 tests
 testConfiguration
 	
-	self assert: travisStatus paused = true.
-	self assert: travisStatus usePro = false.
+	self assert: travisStatus paused .
+	self deny: travisStatus usePro.
 	self assert: (travisStatus name isKindOf: String).
 	self assert: (travisStatus repository isKindOf: ATDDNullDataSource).
 	travisStatus name: 'Hello World'.
@@ -13,4 +13,4 @@ testConfiguration
 	self assert: travisStatus repository class = ATDDTravisRepository.
 	self assert: travisStatus repositoryURL = self class repoURL.
 	self assert: travisStatus token = '9'.
-	self assert: travisStatus usePro = true
+	self assert: travisStatus usePro

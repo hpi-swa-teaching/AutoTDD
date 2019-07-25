@@ -1,4 +1,4 @@
-class initialization
+updating
 changedWatchers
 	
 	self changed: #watchers

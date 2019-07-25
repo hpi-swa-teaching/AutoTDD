@@ -1,4 +1,4 @@
-accessing
+building
 buildAdditionalComponentsWith: aBuilder
 	
 	^ OrderedCollection new

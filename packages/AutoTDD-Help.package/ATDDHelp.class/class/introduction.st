@@ -1,4 +1,4 @@
-as yet unclassified
+content
 introduction
 	
 	^ HelpTopic

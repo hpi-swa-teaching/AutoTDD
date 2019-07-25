@@ -1,6 +1,6 @@
 tests
 testTestsPassingFailingErroring
-	
+	self flag: #todo. "Split into multiple tests?"
 	watcher run.
 	(Delay forSeconds: 1) wait.
 	resultsWindow selectedHistory: 1.

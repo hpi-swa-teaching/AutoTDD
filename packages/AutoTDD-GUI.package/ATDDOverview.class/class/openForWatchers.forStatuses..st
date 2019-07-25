@@ -1,11 +1,9 @@
 instance creation
 openForWatchers: aWatcherCollection forStatuses: aStatusCollection
+
 	| model |
 	
-	
-	^ aWatcherCollection size
-		+ aStatusCollection size
-		> 0
+	^ aWatcherCollection size + aStatusCollection size > 0
 		ifTrue: [
 			model := self basicNew
 				watchers: aWatcherCollection;
