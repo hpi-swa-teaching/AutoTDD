@@ -1,4 +1,5 @@
 running
 setUp
-super setUp.
+	
+	super setUp.
 	testrunner := ATDDNullTestRunner instance

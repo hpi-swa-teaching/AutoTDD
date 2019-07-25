@@ -1,7 +1,7 @@
 tests
 testConfiguration
 	
-	self assert: travisStatus paused .
+	self assert: travisStatus paused.
 	self deny: travisStatus usePro.
 	self assert: (travisStatus name isKindOf: String).
 	self assert: (travisStatus repository isKindOf: ATDDNullDataSource).

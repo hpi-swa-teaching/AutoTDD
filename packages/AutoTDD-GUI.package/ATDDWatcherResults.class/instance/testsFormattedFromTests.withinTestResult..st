@@ -5,8 +5,5 @@ testsFormattedFromTests: aTests withinTestResult: aTestResult
 		collect: [ :each |
 			Text new
 				append: each asString;
-				addAttribute: (TextColor
-						color: (self
-							colorForTestCase: each
-							within: aTestResult));
+				addAttribute: (TextColor color: (self colorForTestCase: each within: aTestResult));
 				yourself ]

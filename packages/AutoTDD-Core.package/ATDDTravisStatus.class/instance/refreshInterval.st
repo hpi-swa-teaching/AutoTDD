@@ -1,5 +1,4 @@
 accessing
 refreshInterval
 	
-	^ refreshInterval
-		ifNil: [refreshInterval := self class defaultRefreshInterval ]
+	^ refreshInterval ifNil: [ refreshInterval := self class defaultRefreshInterval ]

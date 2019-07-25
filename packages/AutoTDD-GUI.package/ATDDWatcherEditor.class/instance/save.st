@@ -2,5 +2,6 @@ action
 save
 	
 	super save.
-	self closeWindow.	
+	self closeWindow.
+	
 	^ self applyChanges

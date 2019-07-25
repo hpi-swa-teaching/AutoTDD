@@ -7,6 +7,4 @@ requireLog: aNumber or: anotherNumber
 			| log |
 			
 			log := self client getTextForLog: aNumber.
-			log
-				ifEmpty: [ self client getJsonForLog: anotherNumber ]
-				ifNotEmpty: [ self wrapAsJson: log ] ]
+			log ifEmpty: [ self client getJsonForLog: anotherNumber ] ifNotEmpty: [ self wrapAsJson: log ] ]

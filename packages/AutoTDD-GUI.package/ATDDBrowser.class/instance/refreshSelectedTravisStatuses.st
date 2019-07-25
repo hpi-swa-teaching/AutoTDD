@@ -1,6 +1,4 @@
 action
 refreshSelectedTravisStatuses
 	
-	self selectedTravisStatuses
-		do: [ :travisStatus |
-			self refreshTravisStatus: travisStatus ]
+	self selectedTravisStatuses do: [ :travisStatus | self refreshTravisStatus: travisStatus ]

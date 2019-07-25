@@ -10,10 +10,5 @@ testBuildHistory
 			history := parser parseBuildHistoryOfRepository: each.
 			self
 				assert: history isArray;
-				assert: (history
-						allSatisfy: [ :build |
-							(build includesKey: #number)
-								and: [
-									build includesKey: #state ]
-								and: [
-									build includesKey: #branch ] ]) ]
+				assert: (history allSatisfy: [ :build |
+					(build includesKey: #number) and: [ build includesKey: #state ] and: [ build includesKey: #branch ] ]) ]

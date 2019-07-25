@@ -1,4 +1,4 @@
 priv handling
 defaultAction
 	
-	^ Transcript show: self class accessDeniedMessage 
+	^ Transcript show: self class accessDeniedMessage

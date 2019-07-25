@@ -1,15 +1,12 @@
 tests
 testWatcherInfoButtonWorks
 	
-	| watcherWindow infoWindow watcher selection watchedClasses 
-		testedCategories |
+	| watcherWindow infoWindow watcher selection watchedClasses testedCategories |
 	
 	watcherWindow := browser addWatcher.
-	watcherWindow
-		selectedCategories: (Set newFrom: { #'AutoTDD-Dummy-Success-Tests' }).
+	watcherWindow selectedCategories: (Set newFrom: { #'AutoTDD-Dummy-Success-Tests' }).
 	watcherWindow classwiseCategorySelection: true.
-	watchedClasses := Set
-		newFrom: { #'TestRunnerDummy22Test' . #'TestRunnerDummy23Test' }.
+	watchedClasses := Set newFrom: { #'TestRunnerDummy22Test' . #'TestRunnerDummy23Test' }.
 	watcherWindow selectedCategoryClasses: watchedClasses.
 	testedCategories := Set newFrom: { #'AutoTDD-Dummy-Setting-Tests' }.
 	watcherWindow selectedTestCategories: testedCategories.

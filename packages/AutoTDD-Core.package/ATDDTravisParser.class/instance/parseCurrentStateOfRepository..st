@@ -3,8 +3,7 @@ parseCurrentStateOfRepository: aJson
 	
 	| firstBuild result |
 	
-	firstBuild := self
-		primitiveParseFirstOf: (self primitiveParseBuildsOf: aJson).
+	firstBuild := self primitiveParseFirstOf: (self primitiveParseBuildsOf: aJson).
 	result := IdentityDictionary new
 		at: #state put: (self primitiveParseStateOf: firstBuild);
 		yourself.

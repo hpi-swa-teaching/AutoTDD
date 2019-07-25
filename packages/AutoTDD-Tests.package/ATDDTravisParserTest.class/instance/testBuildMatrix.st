@@ -10,8 +10,4 @@ testBuildMatrix
 			matrix := parser parseBuildMatrixOfBuild: each.
 			self
 				assert: matrix isArray;
-				assert: (matrix
-						allSatisfy: [ :build |
-							(build includesKey: #env)
-								and: [
-									build includesKey: #state ] ]) ]
+				assert: (matrix allSatisfy: [ :build | (build includesKey: #env) and: [ build includesKey: #state ] ]) ]

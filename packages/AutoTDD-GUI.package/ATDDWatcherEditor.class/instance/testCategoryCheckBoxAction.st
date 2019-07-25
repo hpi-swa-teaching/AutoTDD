@@ -1,5 +1,4 @@
 building
 testCategoryCheckBoxAction
 	
-	self
-		classwiseTestCategorySelection: self classwiseTestCategorySelection not
+	self classwiseTestCategorySelection: self classwiseTestCategorySelection not

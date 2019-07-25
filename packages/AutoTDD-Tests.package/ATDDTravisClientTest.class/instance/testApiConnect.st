@@ -5,5 +5,4 @@ testApiConnect
 	
 	client := ATDDTravisClient new.
 	response := client requestOn: ''.
-	self assert: response equals: (Json
-		readFrom: self defaultAnswer readStream)
+	self assert: response equals: (Json readFrom: self defaultAnswer readStream)

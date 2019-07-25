@@ -8,11 +8,7 @@ findClassesForCategories: aCollection
 	environment := self environment.
 	items := aCollection
 		gather: [ :category |
-			((environment organization
-						listAtCategoryNamed: category)
-					collect: [ :each |
-						environment valueOf: each ])
-				select: [ :each |
-					each includesBehavior: self baseClass ] ].
+			((environment organization listAtCategoryNamed: category) collect: [ :each | environment valueOf: each ])
+				select: [ :each | each includesBehavior: self baseClass ] ].
 	
 	^ items asSet

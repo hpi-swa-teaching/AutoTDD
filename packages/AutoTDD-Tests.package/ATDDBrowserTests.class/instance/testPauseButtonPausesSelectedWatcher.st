@@ -8,9 +8,7 @@ testPauseButtonPausesSelectedWatcher
 	watcherWindow := browser addWatcher.
 	watcher2 := watcherWindow save.
 	browser selectedWatchers: browser watchers.
-	self
-		assert: (browser selectedWatchers
-			allSatisfy: [ :each | each paused not ]).
+	self assert: (browser selectedWatchers allSatisfy: [ :each | each paused not ]).
 	selection := OrderedCollection new.
 	selection add: watcher1.
 	browser selectedWatchers: selection.

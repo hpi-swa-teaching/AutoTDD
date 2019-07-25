@@ -1,6 +1,4 @@
 action
 openResultsForSelectedTravisStatuses
 	
-	^ self selectedTravisStatuses
-		collect: [ :travisStatus |
-			self openResultsForTravisStatus: travisStatus ]
+	^ self selectedTravisStatuses collect: [ :travisStatus | self openResultsForTravisStatus: travisStatus ]

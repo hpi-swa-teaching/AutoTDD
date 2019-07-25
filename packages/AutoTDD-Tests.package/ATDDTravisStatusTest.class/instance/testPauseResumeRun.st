@@ -8,7 +8,6 @@ testPauseResumeRun
 	travisStatus updateStatus.
 	self assert: travisStatus paused.
 	self assert: travisStatus repository cache keys size > 1.
-	
 	"the cache should not be empty because we just requested the status (by calling asString)"
 	time := TimeStamp now asTime asSeconds.
 	travisStatus refreshInterval: (Time hour: 0 minute: 0 second: 1) asSeconds.

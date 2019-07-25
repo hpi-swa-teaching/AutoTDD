@@ -1,5 +1,6 @@
 action
 applyChanges
+	
 	self watcher
 		name: self targetName;
 		isWatchingClasswise: self classwiseCategorySelection;
@@ -9,6 +10,6 @@ applyChanges
 		categoriesToWatch: self selectedCategories;
 		categoriesToTest: self selectedTestCategories;
 		yourself.
-		
 	self watcher resume.
+	
 	^ self watcher

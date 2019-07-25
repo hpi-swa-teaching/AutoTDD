@@ -1,8 +1,4 @@
 updating
 update
 	
-	self
-		updateCategories;
-		updateCategoryClasses;
-		updateTestCategories;
-		updateTestCategoryClasses
+	self updateCategories; updateCategoryClasses; updateTestCategories; updateTestCategoryClasses

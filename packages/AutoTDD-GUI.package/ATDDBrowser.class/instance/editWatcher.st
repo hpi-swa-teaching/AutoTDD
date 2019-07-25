@@ -1,6 +1,4 @@
 action
 editWatcher
 	
-	^ self selectedWatchers
-		collect: [ :watcher |
-			self openEditorForWatcher: watcher ]
+	^ self selectedWatchers collect: [ :watcher | self openEditorForWatcher: watcher ]

@@ -8,7 +8,6 @@ setUp
 	watcher isWatchingClasswise: false.
 	watcher categoriesToTest: #( #'AutoTDD-Dummy-Success-Tests' ).
 	watcher isTestingClasswise: true.
-	watcher
-		classesToTest: { TestRunnerDummy21Test . TestRunnerDummy22Test } asSet.
+	watcher classesToTest: { TestRunnerDummy21Test . TestRunnerDummy22Test } asSet.
 	resultsWindow := ATDDWatcherResults openForTarget: watcher.
 	windowsToDelete add: resultsWindow

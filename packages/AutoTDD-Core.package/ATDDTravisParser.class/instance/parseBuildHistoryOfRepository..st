@@ -13,8 +13,5 @@ parseBuildHistoryOfRepository: aJson
 				at: #number put: (self primitiveParseNumberOf: build);
 				at: #state put: (self primitiveParseStateOf: build);
 				at: #id put: (self primitiveParseIdOf: build);
-				at: #branch
-					put: (self
-						parseBranchOfCommitAt: index
-						ofCommitsOfRepository: aJson);
+				at: #branch put: (self parseBranchOfCommitAt: index ofCommitsOfRepository: aJson);
 				yourself ]

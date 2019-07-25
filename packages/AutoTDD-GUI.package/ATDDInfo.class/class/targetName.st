@@ -1,4 +1,0 @@
-constants
-targetName
-	
-	^ self subclassResponsibility

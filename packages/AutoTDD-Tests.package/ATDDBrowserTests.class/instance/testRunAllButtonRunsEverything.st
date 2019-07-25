@@ -6,11 +6,8 @@ testRunAllButtonRunsEverything
 	self flag: #todo.
 	"travis ci"
 	watcherWindow := browser addWatcher.
-	watcherWindow
-		selectedTestCategories: (Set
-			newFrom: { #'AutoTDD-Dummy-Success-Tests' }).
-	watcherWindow selectedCategories: (Set
-		newFrom: { #'AutoTDD-Dummy-Category' }).
+	watcherWindow selectedTestCategories: (Set newFrom: { #'AutoTDD-Dummy-Success-Tests' }).
+	watcherWindow selectedCategories: (Set newFrom: { #'AutoTDD-Dummy-Category' }).
 	watcher1 := watcherWindow save.
 	"insert travis add here"
 	browser runAll.

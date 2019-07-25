@@ -8,8 +8,7 @@ buildTravisStatusPanelWith: aBuilder
 				add: ((self buildTravisStatusHeadingWith: aBuilder)
 						frame: self headingFrame;
 						yourself);
-				add: ((self
-						buildTravisStatusIndicatorWith: aBuilder)
+				add: ((self buildTravisStatusIndicatorWith: aBuilder)
 						frame: self indicatorFrame;
 						yourself);
 				add: ((self buildTravisStatusMessageWith: aBuilder)
