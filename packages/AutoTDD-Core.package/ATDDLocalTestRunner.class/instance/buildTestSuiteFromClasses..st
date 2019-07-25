@@ -6,7 +6,8 @@ buildTestSuiteFromClasses: aCollection
 	testSuite := self buildEmptyTestSuite.
 	aCollection
 		do: [ :each |
-			(each inheritsFrom: TestCase)
+			((each inheritsFrom: TestCase) and: [
+					each isAbstract not ])
 				ifTrue: [
 					TestCase
 						addTestsFor: each name asSymbol

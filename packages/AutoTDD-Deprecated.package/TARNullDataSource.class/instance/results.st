@@ -1,4 +1,0 @@
-accessing
-results
-	
-	^ OrderedCollection new

@@ -1,4 +1,0 @@
-constants
-use
-	
-	self subclassResponsibility

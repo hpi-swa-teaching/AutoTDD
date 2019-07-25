@@ -1,4 +1,0 @@
-constants
-defaultResource
-	
-	self subclassResponsibility

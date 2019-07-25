@@ -1,3 +1,0 @@
-observing
-attach: anObject
-	

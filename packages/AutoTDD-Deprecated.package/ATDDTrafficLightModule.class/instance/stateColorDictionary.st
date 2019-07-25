@@ -1,4 +1,0 @@
-constants
-stateColorDictionary
-	
-	self subclassResponsibility
