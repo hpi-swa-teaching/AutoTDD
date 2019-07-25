@@ -1,1 +1,0 @@
-A TARProgressTestSuite is a TestSuite providing the current execution progress in a ValueHolder.

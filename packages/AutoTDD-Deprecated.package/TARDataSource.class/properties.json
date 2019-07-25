@@ -10,5 +10,5 @@
 	"name" : "TARDataSource",
 	"pools" : [
 		 ],
-	"super" : "ATDDDataSource",
+	"super" : "ATDDDataSourceOld",
 	"type" : "normal" }

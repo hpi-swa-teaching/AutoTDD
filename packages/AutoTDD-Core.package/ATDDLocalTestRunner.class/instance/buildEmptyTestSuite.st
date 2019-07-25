@@ -1,3 +1,3 @@
 action
 buildEmptyTestSuite
-	^ TARProgressTestSuite new
+	^ ATDDProgressTestSuite new

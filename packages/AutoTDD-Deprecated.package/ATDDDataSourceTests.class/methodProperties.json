@@ -2,10 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "be 6/19/2019 16:21",
+		"setUp" : "ls 7/25/2019 09:22",
 		"tearDown" : "be 6/19/2019 16:10",
 		"testDeleting" : "be 6/19/2019 16:56",
-		"testObserverAttaching" : "be 6/19/2019 16:54",
-		"testObserverDeattaching" : "be 6/19/2019 16:55",
-		"testObserverNotifying" : "be 6/19/2019 16:55",
+		"testObserverAttaching" : "ls 7/25/2019 09:22",
+		"testObserverDeattaching" : "ls 7/25/2019 09:22",
+		"testObserverNotifying" : "ls 7/25/2019 09:22",
 		"testUpdating" : "be 6/19/2019 16:56" } }

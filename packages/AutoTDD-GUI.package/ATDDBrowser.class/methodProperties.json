@@ -2,14 +2,15 @@
 	"class" : {
 		"TravisStatuses" : "swi 6/5/2019 17:48",
 		"Watchers" : "vxr 5/15/2019 21:55",
+		"baseTitle" : "ls 7/25/2019 07:39",
 		"changed:" : "be 7/4/2019 14:07",
 		"defaultButtonHeight" : "vxr 7/4/2019 18:31",
 		"defaultExtent" : "swi 6/5/2019 16:49",
 		"initialize" : "vxr 5/15/2019 21:54",
-		"label" : "vxr 7/4/2019 18:32",
+		"label" : "ls 7/25/2019 07:39",
 		"open" : "vxr 5/15/2019 20:02",
 		"registerInWorldMenu" : "vxr 7/4/2019 18:33",
-		"worldMenuLabel" : "vxr 7/4/2019 18:33" },
+		"worldMenuLabel" : "ls 7/25/2019 07:40" },
 	"instance" : {
 		"addTravisStatus" : "swi 6/5/2019 17:57",
 		"addTravisStatus:" : "vxr 7/4/2019 13:51",

@@ -2,7 +2,8 @@
 	"class" : {
 		"buttonLabel" : "vxr 7/4/2019 13:37",
 		"colorDictionary" : "vxr 7/10/2019 15:50",
-		"parser" : "vxr 7/3/2019 17:49",
+		"isAbstract" : "ls 7/25/2019 08:44",
+		"parser" : "ls 7/25/2019 09:42",
 		"targetName" : "vxr 7/3/2019 17:26" },
 	"instance" : {
 		"buildAdditionalComponentsWith:" : "vxr 7/4/2019 09:58",

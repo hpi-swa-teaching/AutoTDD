@@ -1,5 +1,5 @@
 accessing
 target: anObject
 	target ifNotNil: [target deattach: self].
-	target := anObject.
+	super target: anObject.
 	self target attach: self

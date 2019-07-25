@@ -1,1 +1,0 @@
-The TCIClient is the web client calling the Travis API. It uses API v2.

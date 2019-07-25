@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ATDDNullDataSource",
+	"pools" : [
+		 ],
+	"super" : "ATDDDataSource",
+	"type" : "normal" }

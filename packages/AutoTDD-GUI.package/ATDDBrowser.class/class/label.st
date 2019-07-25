@@ -1,3 +1,3 @@
 constants
 label
-	^ 'Test Auto Runner'
+	^ self baseTitle

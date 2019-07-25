@@ -8,7 +8,7 @@
 		"fetchCopyOfTravisStatuses" : "swi 6/19/2019 17:13",
 		"fetchCopyOfWatchers" : "mb 5/29/2019 18:21",
 		"setUp" : "vxr 7/10/2019 15:18",
-		"tearDown" : "ClassBuilderTest 6/19/2019 18:05",
+		"tearDown" : "ls 7/25/2019 08:21",
 		"testAddButtonAddsNewWatcherToList" : "vxr 6/20/2019 12:44",
 		"testChangingWatchedCategoriesWork" : "vxr 7/10/2019 15:18",
 		"testEditButtonWorks" : "vxr 7/10/2019 15:18",

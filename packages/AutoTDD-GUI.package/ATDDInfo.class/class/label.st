@@ -1,3 +1,3 @@
 instance creation
 label
-	^ 'Test Auto Runner: Info for ' self targetName
+	^ ATDDBrowser baseTitle , ': Info for ' , self targetName

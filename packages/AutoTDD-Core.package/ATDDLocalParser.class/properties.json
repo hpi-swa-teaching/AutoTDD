@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ATDDLocalParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

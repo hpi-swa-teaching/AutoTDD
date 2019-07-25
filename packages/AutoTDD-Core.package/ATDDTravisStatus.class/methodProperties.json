@@ -2,7 +2,7 @@
 	"class" : {
 		"colorDictionary" : "be 7/4/2019 17:35" },
 	"instance" : {
-		"applyDefaultConfiguration" : "vxr 7/4/2019 19:01",
+		"applyDefaultConfiguration" : "ls 7/25/2019 09:23",
 		"asStringOrText" : "ls 7/11/2019 17:41",
 		"handleStatusChange" : "ls 7/11/2019 17:44",
 		"initialize" : "vxr 7/4/2019 19:03",
@@ -17,7 +17,7 @@
 		"repository" : "ls 6/5/2019 17:29",
 		"repository:" : "ls 6/5/2019 13:31",
 		"repositoryURL" : "ls 6/5/2019 20:20",
-		"repositoryURL:" : "ls 6/5/2019 20:19",
+		"repositoryURL:" : "ls 7/25/2019 09:23",
 		"resume" : "ls 7/11/2019 17:52",
 		"status" : "ls 7/11/2019 17:40",
 		"status:" : "vxr 7/4/2019 14:19",

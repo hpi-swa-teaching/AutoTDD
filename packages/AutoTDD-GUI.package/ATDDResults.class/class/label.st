@@ -1,3 +1,3 @@
 constants
 label
-	^ 'Test Auto Runner: Results for ', self targetName
+	^ ATDDBrowser baseTitle , ': Results for ', self targetName

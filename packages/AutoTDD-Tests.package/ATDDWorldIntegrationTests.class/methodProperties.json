@@ -2,7 +2,4 @@
 	"class" : {
 		 },
 	"instance" : {
-		"openedWindows" : "be 5/22/2019 16:50",
-		"removeWindows" : "be 5/22/2019 16:43",
-		"testWindowCreation" : "be 5/22/2019 17:22",
-		"testWorldMenuIntegration" : "be 5/22/2019 16:52" } }
+		"testWorldMenuIntegration" : "ls 7/25/2019 09:14" } }

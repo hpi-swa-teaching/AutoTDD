@@ -1,7 +1,7 @@
 tests
 testObserverNotifying
 	| observer |
-	observer := ATDDDataSource new.
+	observer := ATDDDataSourceOld new.
 	datasource attach: observer.
 	self
 		should: [datasource notify]

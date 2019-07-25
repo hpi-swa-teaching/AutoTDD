@@ -1,1 +1,0 @@
-A TCIDataSource is an abstract class for providing structured data.
