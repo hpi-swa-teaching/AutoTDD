@@ -27,4 +27,4 @@ ATDDSoundPlayer new generateSoundMethods
 
 ## Documentation
 A more technical documentation can either be found in the class comments or here:
-[Documentation](https://github.com/hpi-swa-teaching/AutoTDD/wiki/Documentation)
+[Documentation](https://github.com/hpi-swa-teaching/AutoTDD/wiki)
