@@ -4,7 +4,7 @@
 	"instance" : {
 		"applyDefaultConfiguration" : "ls 7/25/2019 09:23",
 		"asStringOrText" : "ls 7/11/2019 17:41",
-		"handleStatusChange" : "ls 7/11/2019 17:44",
+		"handleStatusChange" : "be 7/25/2019 14:35",
 		"initialize" : "vxr 7/4/2019 19:03",
 		"newRefreshProcess" : "ls 7/11/2019 17:52",
 		"pause" : "ls 7/11/2019 17:52",
@@ -27,6 +27,6 @@
 		"terminateProcess" : "ls 6/5/2019 15:01",
 		"token" : "ls 6/5/2019 20:22",
 		"token:" : "ls 6/5/2019 14:50",
-		"updateStatus" : "ls 7/25/2019 10:09",
+		"updateStatus" : "be 7/25/2019 14:20",
 		"usePro" : "ls 6/5/2019 20:27",
 		"usePro:" : "ls 7/3/2019 16:15" } }
