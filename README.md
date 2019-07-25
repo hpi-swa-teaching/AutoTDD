@@ -5,7 +5,7 @@ AutoTDD with Travis-CI Support
 ## About
 AutoTDD is an automated testing tool for continuously monitoring the test state of your project. You tests will be automatically executed when a method in your project changes. When a test fails, you will get instant feedback about what went wrong. It also displays current Travis build results.
 
-![A screenshot of AutoTDD](https://spee.ch/6/atdd.png)
+![A screenshot of AutoTDD](https://spee.ch/d/screns.png)
 ## Installation
 1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
 2. Load the project with:
