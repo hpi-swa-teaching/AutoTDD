@@ -2,6 +2,10 @@ AutoTDD with Travis-CI Support
 ===================
 [![Build Status](https://travis-ci.org/hpi-swa-teaching/AutoTDD.svg)](https://travis-ci.org/hpi-swa-teaching/AutoTDD) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/AutoTDD/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/AutoTDD?branch=dev)
 
+## About
+AutoTDD is an automated testing tool for continuously monitoring the test state of your project. You tests will be automatically executed when a method in your project changes. When a test fails, you will get instant feedback about what went wrong. It also displays current Travis build results.
+
+![A screenshot of AutoTDD](https://spee.ch/6/atdd.png)
 ## Installation
 
 1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
@@ -15,14 +19,12 @@ Metacello new
 ```
 Now you can open the **Test Auto Runner** via *Apps*.
 
-## Customizations
-If the [AutoTDD](https://github.com/hpi-swa-teaching/AutoTDD/tree/master/resources) folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's images and sounds into your image:
+## Sound Customizations
+If the [AutoTDD](https://github.com/hpi-swa-teaching/AutoTDD/tree/master/resources) folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's sounds into your image:
 ```smalltalk
-ATDDImageProvider new generateImageMethods.
 ATDDSoundPlayer new generateSoundMethods
 ```
 
 ## Documentation
+A more technical documentation can either be found in the class comments or here:
 [Documentation](https://github.com/hpi-swa-teaching/AutoTDD/wiki/Documentation)
-
-[HTTPS Requests to Travis](https://github.com/hpi-swa-teaching/AutoTDD/wiki/Communicating-with-Travis)
