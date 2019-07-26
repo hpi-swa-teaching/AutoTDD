@@ -1,3 +1,4 @@
-accessing
+building
 targetNameFrame
+	
 	^ self subclassResponsibility

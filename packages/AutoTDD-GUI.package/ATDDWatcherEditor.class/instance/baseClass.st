@@ -1,3 +1,4 @@
 accessing
-baseClass	
+baseClass
+	
 	^ Object

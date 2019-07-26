@@ -1,4 +1,0 @@
-constants
-stateTextDictionary
-
-	self subclassResponsibility

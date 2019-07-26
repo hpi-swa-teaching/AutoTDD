@@ -1,5 +1,7 @@
-accessing
+behaviour
 terminateProcess
-	self process ifNotNil: [
-		self process terminate.
-		self process: nil]
+	
+	self process
+		ifNotNil: [
+			self process terminate.
+			self process: nil ]

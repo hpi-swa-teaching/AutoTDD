@@ -1,3 +1,0 @@
-accessing
-status
-	^ 'not available'

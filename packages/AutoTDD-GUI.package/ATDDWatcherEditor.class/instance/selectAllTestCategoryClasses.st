@@ -1,5 +1,6 @@
 accessing-categories
 selectAllTestCategoryClasses
-	self 
+	
+	self
 		selectedTestCategoryClasses: self testCategoryClasses asSet;
 		changed: #allSelections

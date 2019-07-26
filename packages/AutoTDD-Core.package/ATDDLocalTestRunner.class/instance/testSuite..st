@@ -1,3 +1,4 @@
 accessing
-testSuite: anObject
-	testSuite := anObject.
+testSuite: anATDDProgressTestSuite
+	
+	testSuite := anATDDProgressTestSuite

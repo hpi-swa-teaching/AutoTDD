@@ -1,3 +1,0 @@
-comparing
-validSlug
-	^ '[^/^\s]+/[^/^\s]+'

@@ -1,3 +1,4 @@
 accessing
 update
+	
 	^ self subclassResponsibility

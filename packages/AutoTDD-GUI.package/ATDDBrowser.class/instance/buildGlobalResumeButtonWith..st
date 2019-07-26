@@ -1,5 +1,6 @@
 building
 buildGlobalResumeButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #resumeAll;

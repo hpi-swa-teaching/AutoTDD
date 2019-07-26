@@ -4,12 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "be 7/25/2019 09:50",
 	"instvars" : [
-		"target",
 		"targetName" ],
 	"name" : "ATDDEditor",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "ATDDTargetWindow",
 	"type" : "normal" }

@@ -1,3 +1,4 @@
 building
 repositoryUrlHelpLabel
-	^'User/Repository'
+	
+	^ 'User/Repository'

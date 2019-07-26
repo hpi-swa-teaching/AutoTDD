@@ -1,5 +1,6 @@
 building
 buildResultsWatcherButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #openResultsForSelectedWatchers;

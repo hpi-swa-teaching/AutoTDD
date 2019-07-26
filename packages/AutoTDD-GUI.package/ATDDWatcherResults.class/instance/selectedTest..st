@@ -1,5 +1,6 @@
 accessing
-selectedTest: anObject
-	selectedTest := anObject.
+selectedTest: aTest
+	
+	selectedTest := aTest.
 	self changed: #selectedTest.
-	self debugTest: anObject
+	self debugTest: aTest

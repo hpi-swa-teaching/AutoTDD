@@ -1,5 +1,6 @@
 building
 buildGlobalRunButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #runAll;

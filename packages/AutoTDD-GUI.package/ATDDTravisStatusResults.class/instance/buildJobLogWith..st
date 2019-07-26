@@ -1,5 +1,6 @@
-accessing
+building
 buildJobLogWith: aBuilder
+	
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		indicateUnacceptedChanges: false;

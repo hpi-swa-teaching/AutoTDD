@@ -1,4 +1,5 @@
-accessing
+behaviour
 delete
+	
 	self valid: false.
 	self pause

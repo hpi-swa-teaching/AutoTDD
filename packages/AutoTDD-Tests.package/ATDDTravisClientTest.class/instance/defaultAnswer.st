@@ -1,0 +1,4 @@
+utility
+defaultAnswer
+	
+	^ '{"hello":"world"}'

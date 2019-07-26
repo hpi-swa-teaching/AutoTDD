@@ -4,10 +4,9 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "be 7/25/2019 10:52",
 	"instvars" : [
 		"localTestRunner",
-		"travisTestRunner",
 		"isWatchingClasswise",
 		"classesToWatch",
 		"categoriesToWatch",
@@ -15,8 +14,7 @@
 		"classesToTest",
 		"categoriesToTest",
 		"localStatus",
-		"localStatusBlock",
-		"travisStatus" ],
+		"localStatusMessageDictionary" ],
 	"name" : "ATDDWatcher",
 	"pools" : [
 		 ],

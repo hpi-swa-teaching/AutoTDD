@@ -1,3 +1,4 @@
 action
 editTravisStatus
-	self selectedTravisStatuses do: [:travisStatus | self openEditorForTravisStatus: travisStatus]
+	
+	self selectedTravisStatuses do: [ :travisStatus | self openEditorForTravisStatus: travisStatus ]

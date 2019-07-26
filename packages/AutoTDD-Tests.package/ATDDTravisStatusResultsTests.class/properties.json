@@ -8,7 +8,8 @@
 	"instvars" : [
 		"travisStatus",
 		"windowsToDelete",
-		"resultsWindow" ],
+		"resultsWindow",
+		"mockTravisClient" ],
 	"name" : "ATDDTravisStatusResultsTests",
 	"pools" : [
 		 ],

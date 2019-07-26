@@ -1,5 +1,5 @@
 accessing
-classwiseCategorySelection: anObject
-	self flag: #todo.
-	classwiseCategorySelection := anObject.
+classwiseCategorySelection: aBoolean
+	
+	classwiseCategorySelection := aBoolean.
 	self handleClasswiseCategorySelectionChange

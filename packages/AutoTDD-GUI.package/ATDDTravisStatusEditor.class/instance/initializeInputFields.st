@@ -1,7 +1,5 @@
 initialization
 initializeInputFields
+	
 	super initializeInputFields.
-	self
-		initializeRepositoryUrl;
-		initializeToken;
-		initializeInterval
+	self initializeRepositoryUrl; initializeToken; initializeInterval

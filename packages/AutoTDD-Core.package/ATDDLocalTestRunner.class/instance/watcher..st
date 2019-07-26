@@ -1,3 +1,4 @@
 accessing
-watcher: anObject
-	watcher := anObject
+watcher: anATDDWatcher
+	
+	watcher := anATDDWatcher

@@ -1,6 +1,7 @@
 accessing
-selectedHistory: anObject
-	selectedHistory := anObject.
+selectedHistory: aHistory
+	
+	selectedHistory := aHistory.
 	self
 		changed: #selectedHistory;
 		historyChanged

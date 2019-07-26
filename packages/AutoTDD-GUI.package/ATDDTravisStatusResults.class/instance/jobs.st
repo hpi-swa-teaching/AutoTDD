@@ -1,3 +1,4 @@
 accessing
 jobs
-	^ jobs ifNil: [jobs := OrderedCollection new]
+	
+	^ jobs ifNil: [ jobs := OrderedCollection new ]

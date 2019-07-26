@@ -1,3 +1,4 @@
 constants
 categoryMenuTitle
+	
 	^ 'watched categories'

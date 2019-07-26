@@ -1,0 +1,1 @@
+A SettingTest is needed for ATDDBrwoserTests>>testWatcherResultsButtonWorks because this test runs when a dummy method gets compiled into the image. Thus we know watching functionality works.

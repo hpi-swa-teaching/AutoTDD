@@ -1,3 +1,4 @@
 accessing
-repository: anObject
-	repository := anObject
+repository: anATDDTravisRepository
+	
+	repository := anATDDTravisRepository

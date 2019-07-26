@@ -1,0 +1,4 @@
+behavior
+clearCache
+	
+	^ self

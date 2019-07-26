@@ -1,0 +1,18 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 15:01",
+	"instvars" : [
+		"cache",
+		"client",
+		"repository",
+		"timer",
+		"parser" ],
+	"name" : "ATDDTravisRepository",
+	"pools" : [
+		 ],
+	"super" : "ATDDDataSource",
+	"type" : "normal" }

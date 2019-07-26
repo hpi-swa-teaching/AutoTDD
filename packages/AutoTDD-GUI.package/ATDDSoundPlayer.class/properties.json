@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		"instance" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 10:25",
+	"instvars" : [
+		"isMuted",
+		"resources",
+		"lastPlayedSound" ],
+	"name" : "ATDDSoundPlayer",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

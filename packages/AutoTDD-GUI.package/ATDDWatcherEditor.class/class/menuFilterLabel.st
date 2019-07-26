@@ -1,3 +1,4 @@
 constants
 menuFilterLabel
+	
 	^ 'Filter...'

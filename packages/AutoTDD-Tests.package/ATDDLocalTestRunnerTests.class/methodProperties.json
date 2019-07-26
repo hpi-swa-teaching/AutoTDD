@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "be 6/19/2019 17:04",
+		"setUp" : "swi 7/25/2019 14:45",
 		"tearDown" : "vxr 7/4/2019 19:12",
 		"testAddTestResult" : "be 6/19/2019 17:18",
 		"testBuildEmptyTestSuite" : "be 6/19/2019 16:59",
@@ -11,11 +11,11 @@
 		"testProgressSettingNil" : "be 6/19/2019 17:01",
 		"testRunTestSuite" : "be 6/19/2019 17:15",
 		"testRunTests" : "be 6/19/2019 17:15",
-		"testStatusSetter" : "vxr 7/3/2019 16:34",
-		"testTestResult" : "be 6/19/2019 17:20",
+		"testStatusSetter" : "ls 7/11/2019 18:51",
+		"testTestResult" : "vxr 7/10/2019 15:58",
 		"testTestResultsAccessors" : "be 6/19/2019 17:08",
 		"testTestResultsSettingNil" : "be 6/19/2019 17:08",
-		"testTestSuiteAccessors" : "be 6/19/2019 17:10",
+		"testTestSuiteAccessors" : "ls 7/25/2019 09:41",
 		"testTestSuiteSettingNil" : "be 6/19/2019 17:10",
-		"testUpdateWatcherStatus" : "vxr 7/3/2019 16:34",
+		"testUpdateWatcherStatus" : "ls 7/11/2019 18:51",
 		"testWatcherAccessors" : "vxr 7/4/2019 19:12" } }

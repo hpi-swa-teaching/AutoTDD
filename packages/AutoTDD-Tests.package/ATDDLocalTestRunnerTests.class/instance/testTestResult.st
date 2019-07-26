@@ -1,5 +1,6 @@
 tests
 testTestResult
-	testrunner addTestResult: #('Test').
-	self assert: testrunner results size > 0.
+	
+	testrunner addTestResult: #( 'Test' ).
+	self assert: testrunner results notEmpty.
 	self assert: testrunner resultSummary notNil

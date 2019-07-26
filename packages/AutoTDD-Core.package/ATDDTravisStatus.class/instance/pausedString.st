@@ -1,3 +1,4 @@
 accessing
 pausedString
-	^ paused  ifTrue: ['paused'] ifFalse: ['active']
+	
+	^ paused ifTrue: [ 'paused' ] ifFalse: [ 'active' ]

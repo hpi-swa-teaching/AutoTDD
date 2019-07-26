@@ -1,5 +1,4 @@
-behavior
+accessing
 watchingStatus
-	^ self paused
-		ifTrue: ['paused']
-		ifFalse: ['watching']
+	
+	^ self paused ifTrue: [ 'paused' ] ifFalse: [ 'watching' ]

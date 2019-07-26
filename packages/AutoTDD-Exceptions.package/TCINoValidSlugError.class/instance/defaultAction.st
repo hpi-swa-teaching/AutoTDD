@@ -1,3 +1,4 @@
 priv handling
 defaultAction
-	^ UIManager default inform: 'No valid slug provided'
+	
+	^ UIManager default inform: self class noValidSlugMessage

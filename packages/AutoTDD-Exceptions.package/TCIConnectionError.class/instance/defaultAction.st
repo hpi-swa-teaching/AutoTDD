@@ -1,3 +1,5 @@
 priv handling
 defaultAction
-	^ Transcript show: self messageText "UIManager default inform: self messageText"
+	"UIManager default inform: self messageText"
+	
+	^ Transcript show: self messageText

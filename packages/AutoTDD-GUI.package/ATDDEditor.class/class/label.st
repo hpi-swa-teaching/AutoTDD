@@ -1,3 +1,4 @@
-instance creation
+constants
 label
-	^ 'Test Auto Runner: Settings for ', self targetName
+	
+	^ ATDDBrowser baseTitle , ': Settings for ' , self targetName

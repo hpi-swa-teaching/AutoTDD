@@ -1,3 +1,4 @@
-accessing
+behavior
 acceptTargetName
+	
 	targetName changed: #acceptChanges

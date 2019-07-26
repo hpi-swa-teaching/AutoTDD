@@ -1,3 +1,4 @@
-accessing
+initialization
 loadTargetSpecs
+	
 	^ self subclassResponsibility

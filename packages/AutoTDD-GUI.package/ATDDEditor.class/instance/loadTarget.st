@@ -1,3 +1,4 @@
-accessing
+initialization
 loadTarget
+	
 	self loadTargetSpecs

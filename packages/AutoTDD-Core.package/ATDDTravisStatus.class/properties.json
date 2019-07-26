@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "be 7/25/2019 10:50",
 	"instvars" : [
 		"repository",
-		"pausedStatus",
 		"status",
+		"statusMessage",
 		"process",
 		"refreshInterval" ],
 	"name" : "ATDDTravisStatus",

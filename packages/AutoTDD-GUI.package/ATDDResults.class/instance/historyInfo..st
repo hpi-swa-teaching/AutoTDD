@@ -1,3 +1,4 @@
 accessing
-historyInfo: anObject
-	historyInfo := anObject
+historyInfo: aText
+	
+	historyInfo := aText

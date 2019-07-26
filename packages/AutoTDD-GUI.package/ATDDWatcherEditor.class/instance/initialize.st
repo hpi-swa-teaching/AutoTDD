@@ -1,4 +1,5 @@
 initialization
 initialize
- 	self addChangeListener.
+	
+	self addChangeListener.
 	super initialize

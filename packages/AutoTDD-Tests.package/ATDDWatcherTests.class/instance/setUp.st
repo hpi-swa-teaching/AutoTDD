@@ -1,4 +1,5 @@
-as yet unclassified
+running
 setUp
+	
 	super setUp.
-	emptyWatcher := ATDDWatcher new.
+	emptyWatcher := ATDDWatcher new

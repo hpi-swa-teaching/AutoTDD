@@ -1,3 +1,4 @@
 tests
 testAddTestResult
-	testrunner addTestResult: #('Test')
+	
+	testrunner addTestResult: #( 'Test' )

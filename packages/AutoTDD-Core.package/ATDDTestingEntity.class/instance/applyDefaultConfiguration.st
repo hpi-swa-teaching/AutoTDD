@@ -1,3 +1,4 @@
-accessing
+initialization
 applyDefaultConfiguration
+	
 	^ self subclassResponsibility

@@ -1,5 +1,4 @@
 tests
 testRunTests
-	self
-		should: [testrunner runTests]
-		raise: SubclassResponsibility
+	
+	self should: [ testrunner runTests ] raise: SubclassResponsibility

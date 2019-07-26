@@ -1,0 +1,1 @@
+The ATDDTravisParser parses travis results from data supplied by the TCIClient.

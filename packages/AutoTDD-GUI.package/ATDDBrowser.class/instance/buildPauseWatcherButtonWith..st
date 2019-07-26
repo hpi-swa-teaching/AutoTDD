@@ -1,5 +1,6 @@
 building
 buildPauseWatcherButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #pauseSelectedWatchers;

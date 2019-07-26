@@ -1,4 +1,5 @@
 accessing
-selectedCategoryClasses: anObject
-	selectedCategoryClasses := anObject.
+selectedCategoryClasses: aClassCollection
+	
+	selectedCategoryClasses := aClassCollection.
 	self changed: #selectedCategoryClasses

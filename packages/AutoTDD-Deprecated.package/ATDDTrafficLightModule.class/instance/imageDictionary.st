@@ -1,4 +1,0 @@
-constants
-imageDictionary
-
-	self subclassResponsibility

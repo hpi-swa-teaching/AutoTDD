@@ -4,14 +4,13 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "be 7/25/2019 10:14",
 	"instvars" : [
-		"target",
 		"parser",
 		"selectedHistory",
 		"historyInfo" ],
 	"name" : "ATDDResults",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "ATDDTargetWindow",
 	"type" : "normal" }

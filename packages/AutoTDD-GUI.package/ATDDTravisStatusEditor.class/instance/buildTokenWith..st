@@ -1,5 +1,6 @@
 building
 buildTokenWith: aBuilder
+	
 	^ aBuilder pluggableInputFieldSpec new
 		model: token;
 		help: self class tokenHelpLabel;

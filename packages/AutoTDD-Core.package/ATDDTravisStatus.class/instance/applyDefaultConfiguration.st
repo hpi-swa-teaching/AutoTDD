@@ -1,5 +1,6 @@
 initialization
 applyDefaultConfiguration
+	
 	self
-		repository: TCINullDataSource new;
-		name: 'New Travis Status'
+		repository: ATDDNullDataSource new;
+		name: self class defaultName

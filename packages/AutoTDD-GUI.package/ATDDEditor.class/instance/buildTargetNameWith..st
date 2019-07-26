@@ -1,5 +1,6 @@
 building
 buildTargetNameWith: aBuilder
+	
 	^ aBuilder pluggableInputFieldSpec new
 		model: targetName;
 		help: self nameHelpLabel;

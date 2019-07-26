@@ -1,7 +1,7 @@
 accessing
-selectedTestCategories: anObject
-
-	selectedTestCategories := anObject.
+selectedTestCategories: aCategoryCollection
+	
+	selectedTestCategories := aCategoryCollection.
 	self
 		changed: #selectedTestCategories;
 		updateTestCategoryClasses

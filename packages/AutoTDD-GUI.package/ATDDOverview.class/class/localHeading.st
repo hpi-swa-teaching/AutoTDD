@@ -1,3 +1,4 @@
 instance creation
 localHeading
+	
 	^ 'Local'

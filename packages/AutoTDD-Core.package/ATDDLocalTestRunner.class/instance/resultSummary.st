@@ -1,3 +1,4 @@
 accessing
 resultSummary
-	^ (self testResults at: 1) asString
+	
+	^ (self testResults first) asString

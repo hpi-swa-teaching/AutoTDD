@@ -1,4 +1,4 @@
 accessing
-categoryClasses: anObject
-
-	categoryClasses := anObject.
+categoryClasses: aClassList
+	
+	categoryClasses := aClassList

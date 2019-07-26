@@ -1,3 +1,4 @@
 accessing
 tests
-	^ tests ifNil: [tests := OrderedCollection new]
+	
+	^ tests ifNil: [ tests := OrderedCollection new ]

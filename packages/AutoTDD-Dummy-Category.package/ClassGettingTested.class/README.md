@@ -1,0 +1,1 @@
+ClassGettingTested should not be modified manually. It's used in the ATDDBrowserTests>>testWatchingCategoriesWork (the method ClassGettingTested>>bla is updated and thus a test is run).

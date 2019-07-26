@@ -1,3 +1,4 @@
 constants
 buttonLabel
+	
 	^ self subclassResponsibility

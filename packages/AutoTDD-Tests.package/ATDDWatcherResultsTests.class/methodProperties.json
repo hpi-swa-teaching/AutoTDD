@@ -4,10 +4,10 @@
 	"instance" : {
 		"setUp" : "vxr 7/4/2019 17:59",
 		"tearDown" : "vxr 7/4/2019 19:09",
-		"testHistoryEmpty" : "vxr 7/4/2019 17:21",
-		"testHistoryFilling" : "vxr 7/4/2019 17:23",
+		"testHistoryEmpty" : "vxr 7/10/2019 15:59",
+		"testHistoryFilling" : "vxr 7/10/2019 16:00",
 		"testHistoryPassingFailingErroring" : "vxr 7/4/2019 17:34",
-		"testRunButton" : "vxr 7/4/2019 17:53",
-		"testTestsEmpty" : "vxr 7/4/2019 17:39",
-		"testTestsMixed" : "vxr 7/4/2019 17:52",
-		"testTestsPassingFailingErroring" : "vxr 7/4/2019 17:48" } }
+		"testRunButton" : "vxr 7/10/2019 16:00",
+		"testTestsEmpty" : "vxr 7/10/2019 16:00",
+		"testTestsMixed" : "vxr 7/10/2019 16:00",
+		"testTestsPassingFailingErroring" : "swi 7/25/2019 14:38" } }

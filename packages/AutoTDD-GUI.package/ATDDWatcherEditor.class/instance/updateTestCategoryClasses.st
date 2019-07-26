@@ -1,15 +1,12 @@
 updating
 updateTestCategoryClasses
+	
 	| classesForTestCategories |
-	self classwiseTestCategorySelection
-		ifTrue: [
-			classesForTestCategories := self findTestCategoryClasses.
 	
-			self testCategoryClasses: (self findClassesForCategoriesList: classesForTestCategories).
-			self selectedTestCategoryClasses: (self findSelectedItemsForUpdatedCollection: classesForTestCategories withSelected: self selectedTestCategoryClasses).
-	
-			self flag: #todo. "what are the correct calls below?"
-			self 
-				changed: #testCategoryClasses;
-				changed: #selectedTestCategoryClasses
-		]
+	self classwiseTestCategorySelection ifFalse: [ ^ self ].
+	classesForTestCategories := self findTestCategoryClasses.
+	self
+		testCategoryClasses: (self findClassesForCategoriesList: classesForTestCategories);
+		changed: #testCategoryClasses;
+		selectedTestCategoryClasses: (self findSelectedItemsForUpdatedCollection: classesForTestCategories withSelected: self selectedTestCategoryClasses);
+		changed: #selectedTestCategoryClasses

@@ -1,3 +1,4 @@
 accessing
-status: anObject
-	status := anObject
+status: aSymbol
+	
+	status := aSymbol

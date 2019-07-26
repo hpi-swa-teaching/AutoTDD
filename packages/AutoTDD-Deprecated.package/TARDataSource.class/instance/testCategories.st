@@ -1,4 +1,0 @@
-accessing
-testCategories
-
-	self subclassResponsibility

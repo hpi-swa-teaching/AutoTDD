@@ -1,3 +1,4 @@
 constants
 worldMenuLabel
-	^ 'Test Auto Runner'
+	
+	^ self baseTitle

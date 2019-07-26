@@ -1,5 +1,6 @@
 building
 buildRepositoryLabelWith: aBuilder
+	
 	^ aBuilder pluggableInputFieldSpec new
 		model: self;
 		indicateUnacceptedChanges: false;

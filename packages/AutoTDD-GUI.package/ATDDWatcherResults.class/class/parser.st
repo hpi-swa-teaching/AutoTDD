@@ -1,3 +1,4 @@
 constants
 parser
-	^ TARParser
+	
+	^ ATDDLocalParser

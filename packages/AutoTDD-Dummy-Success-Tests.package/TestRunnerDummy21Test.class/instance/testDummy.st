@@ -1,3 +1,4 @@
-as yet unclassified
+tests
 testDummy
-	self assert: 1 = 1.
+	
+	self assert: 1 = 1

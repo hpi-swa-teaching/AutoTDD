@@ -1,6 +1,6 @@
-accessing
+behaviour
 resume
-	self process
-		ifNil: [self process: self startNewRefreshProcess].
+	
+	self process ifNil: [ self process: self newRefreshProcess ].
 	super resume.
-	self updateStatus.
+	self updateStatus

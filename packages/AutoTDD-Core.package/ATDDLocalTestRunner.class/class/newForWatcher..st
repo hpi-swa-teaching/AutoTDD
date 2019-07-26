@@ -1,6 +1,7 @@
 as yet unclassified
 newForWatcher: aATDDWatcher
-	^self basicNew 
+	
+	^ self basicNew
 		watcher: aATDDWatcher;
 		initialize;
-		yourself.
+		yourself

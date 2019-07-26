@@ -1,5 +1,6 @@
 building
 repositoryFrame
+	
 	^ LayoutFrame new
 		leftFraction: 0 offset: 0;
 		topFraction: 0.5 offset: self inputFieldHeight negated;

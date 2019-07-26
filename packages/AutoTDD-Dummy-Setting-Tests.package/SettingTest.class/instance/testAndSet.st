@@ -1,5 +1,7 @@
-as yet unclassified
+tests
 testAndSet
+	
 	| tmp |
+	
 	tmp := ClassGettingTested new.
-	tmp bla.
+	tmp bla

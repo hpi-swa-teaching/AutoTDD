@@ -3,7 +3,6 @@
 		 },
 	"instance" : {
 		"setUp" : "be 6/19/2019 16:04",
-		"tearDown" : "be 6/19/2019 16:04",
 		"testActiveAccessors" : "be 6/19/2019 16:07",
 		"testConfigAccessors" : "be 6/19/2019 16:48",
 		"testInitialization" : "be 6/19/2019 16:06",

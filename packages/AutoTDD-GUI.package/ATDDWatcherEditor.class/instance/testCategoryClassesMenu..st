@@ -1,5 +1,6 @@
 accessing
 testCategoryClassesMenu: aMenu
+	
 	^ aMenu
 		title: self testCategoryClassesMenuTitle;
 		add: self menuSelectAllLabel action: #selectAllTestCategoryClasses;
@@ -9,4 +10,4 @@ testCategoryClassesMenu: aMenu
 		add: self menuFilterLabel action: #filterTestCategoryClasses;
 		addLine;
 		add: self menuRefreshLabel action: #updateTestCategoryClasses;
-		yourself.
+		yourself

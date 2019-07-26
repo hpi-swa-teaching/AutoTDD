@@ -1,3 +1,4 @@
 accessing
-watchers: aWatcherCollection 
+watchers: aWatcherCollection
+	
 	watchers := aWatcherCollection

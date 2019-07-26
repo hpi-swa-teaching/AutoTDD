@@ -1,5 +1,6 @@
 running
 setUp
+	
 	super setUp.
 	self class resetTestHasRun.
 	browser := ATDDBrowser new.
@@ -9,6 +10,5 @@ setUp
 	browser pauseAll.
 	browser removeWatchers: browser watchers.
 	browser removeTravisStatuses: browser travisStatuses.
-
 	windowsToDelete := OrderedCollection new.
-	windowsToDelete add: browser. 
+	windowsToDelete add: browser

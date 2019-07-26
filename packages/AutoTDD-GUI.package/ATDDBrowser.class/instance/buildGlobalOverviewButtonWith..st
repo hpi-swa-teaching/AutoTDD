@@ -1,8 +1,9 @@
 building
 buildGlobalOverviewButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #openOverview;
-		label: 'Overview';
+		label: 'Create Overview';
 		enabled: true;
 		yourself

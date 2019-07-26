@@ -1,3 +1,4 @@
 accessing
 localTestRunner
-	^ localTestRunner ifNil: [localTestRunner := ATDDNullTestRunner instance]
+	
+	^ localTestRunner ifNil: [ localTestRunner := ATDDNullTestRunner instance ]

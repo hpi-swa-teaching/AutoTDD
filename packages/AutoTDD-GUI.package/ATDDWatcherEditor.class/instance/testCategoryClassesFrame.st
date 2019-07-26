@@ -5,5 +5,5 @@ testCategoryClassesFrame
 		leftFraction: 0.25 offset: 0;
 		topFraction: 0 offset: self inputFieldHeight;
 		rightFraction: 0.5 offset: 0;
-		bottomFraction: 1 offset: (self bottomSpace negated);
+		bottomFraction: 1 offset: self bottomSpace negated;
 		yourself

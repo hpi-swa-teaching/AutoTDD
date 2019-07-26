@@ -1,5 +1,6 @@
 building
 buildResumeTravisStatusButtonWith: aBuilder
+	
 	^ aBuilder pluggableButtonSpec new
 		model: self;
 		action: #resumeSelectedTravisStatuses;

@@ -1,8 +1,9 @@
 {
 	"class" : {
 		"buttonLabel" : "vxr 7/4/2019 13:37",
-		"colorDictionary" : "vxr 7/4/2019 11:40",
-		"parser" : "vxr 7/4/2019 10:06",
+		"colorDictionary" : "vxr 7/10/2019 15:49",
+		"isAbstract" : "ls 7/25/2019 08:44",
+		"parser" : "ls 7/25/2019 09:41",
 		"targetName" : "vxr 7/4/2019 10:06" },
 	"instance" : {
 		"buildAdditionalComponentsWith:" : "vxr 7/4/2019 11:04",
@@ -19,7 +20,7 @@
 		"jobs:" : "vxr 7/4/2019 10:14",
 		"jobsFrame" : "vxr 7/4/2019 11:08",
 		"log" : "vxr 7/4/2019 11:07",
-		"log:" : "vxr 7/4/2019 11:07",
+		"log:" : "swi 7/25/2019 16:17",
 		"selectedJob" : "vxr 7/4/2019 10:13",
 		"selectedJob:" : "vxr 7/4/2019 10:46",
 		"update" : "vxr 7/4/2019 14:37",

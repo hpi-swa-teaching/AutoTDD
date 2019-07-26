@@ -1,0 +1,12 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"addJsonForBuild:put:" : "vxr 7/25/2019 18:44",
+		"getJsonForBuild:" : "vxr 7/25/2019 19:20",
+		"getJsonForBuildsOfRepository:" : "vxr 7/25/2019 14:21",
+		"requestOn:" : "vxr 7/25/2019 19:20",
+		"sampleBuildJsons" : "vxr 7/25/2019 18:51",
+		"sampleBuildJsons:" : "vxr 7/25/2019 18:43",
+		"sampleJsonForBuildsOfRepository" : "vxr 7/25/2019 14:21",
+		"sampleJsonForBuildsOfRepository:" : "vxr 7/25/2019 14:21" } }
