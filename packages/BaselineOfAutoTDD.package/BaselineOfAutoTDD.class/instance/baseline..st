@@ -24,9 +24,11 @@ baseline: spec
 				package: 'AutoTDD-Exceptions';
 				package: 'AutoTDD-Tests' with: [spec requires: #('default' 'dummies' 'Widgets')];
 				yourself.
+			(Smalltalk version beginsWith: 'Squeak4.') 
+				ifTrue: [spec group: 'libraries' with: #('JSON' 'VB-Regex')]
+				ifFalse: [spec group: 'libraries' with: #('JSON')].
 			spec
 				group: 'default' with: #('AutoTDD-Core' 'AutoTDD-GUI');
-				group: 'libraries' with: #('JSON' 'VB-Regex');
 				group: 'dummies' with: #('AutoTDD-Dummy-Success-Tests' 'AutoTDD-Dummy-Category');
 				group: 'Tests' with: #('AutoTDD-Tests' 'Widgets');
 				group: 'TravisCI' with: #('Tests')	];
