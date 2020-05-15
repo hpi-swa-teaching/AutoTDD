@@ -12,6 +12,6 @@ testTestsEmpty
 	resultsWindow selectedHistory: 1.
 	self assert: (resultsWindow historyInfo isKindOf: Text).
 	self assert: ('0 run in 0*:*, 0 passes, 0 expected failures, 0 failures, 0 errors, 0 unexpected passes'
-		matches: resultsWindow historyInfo).
+		match: resultsWindow historyInfo).
 	self assert: (resultsWindow historyInfo colorAt: 1) = (ATDDWatcherResults colorDictionary at: #unknown).
 	self assert: resultsWindow tests isEmpty
