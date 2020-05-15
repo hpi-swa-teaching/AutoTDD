@@ -1,0 +1,13 @@
+OrderedDictionary {
+	'packages\/AutoTDD-Dummy-Error-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/BaselineOfAutoTDD.package' : #SquotCypressCodeSerializer,
+	'packages\/AutoTDD-Dummy-Failure-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/AutoTDD-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/AutoTDD-Help.package' : #SquotCypressCodeSerializer,
+	'packages\/AutoTDD-Dummy-Setting-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/AutoTDD-Dummy-Category.package' : #SquotCypressCodeSerializer,
+	'packages\/AutoTDD-Dummy-Success-Tests.package' : #SquotCypressCodeSerializer,
+	'packages\/AutoTDD-Exceptions.package' : #SquotCypressCodeSerializer,
+	'packages\/AutoTDD-GUI.package' : #SquotCypressCodeSerializer,
+	'packages\/AutoTDD-Core.package' : #SquotCypressCodeSerializer
+}
