@@ -1,0 +1,1 @@
+An ATDDWatcher is a testing entity observing ('watching') packages and classes and executing tests upon changes.

@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 09:50",
+	"instvars" : [
+		"targetName" ],
+	"name" : "ATDDEditor",
+	"pools" : [
+		 ],
+	"super" : "ATDDTargetWindow",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+constants
+testCategoryMenuTitle
+	
+	^ 'tested categories'

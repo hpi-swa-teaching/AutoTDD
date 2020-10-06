@@ -1,0 +1,4 @@
+building
+useProCheckBoxLabel
+	
+	^ 'use pro'

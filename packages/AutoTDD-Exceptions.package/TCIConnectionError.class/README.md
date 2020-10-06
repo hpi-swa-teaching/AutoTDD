@@ -1,0 +1,1 @@
+A TCIConnectionError is the exception thrown when an error during connecting occurs.

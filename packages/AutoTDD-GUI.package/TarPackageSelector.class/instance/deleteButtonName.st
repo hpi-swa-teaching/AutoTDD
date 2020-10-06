@@ -1,4 +1,0 @@
-building
-deleteButtonName
-	
-	^ 'deleteButton'

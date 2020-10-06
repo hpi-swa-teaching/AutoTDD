@@ -1,0 +1,22 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 10:52",
+	"instvars" : [
+		"localTestRunner",
+		"isWatchingClasswise",
+		"classesToWatch",
+		"categoriesToWatch",
+		"isTestingClasswise",
+		"classesToTest",
+		"categoriesToTest",
+		"localStatus",
+		"localStatusMessageDictionary" ],
+	"name" : "ATDDWatcher",
+	"pools" : [
+		 ],
+	"super" : "ATDDTestingEntity",
+	"type" : "normal" }

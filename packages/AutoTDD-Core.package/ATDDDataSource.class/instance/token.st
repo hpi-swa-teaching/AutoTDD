@@ -1,0 +1,4 @@
+accessing
+token
+	
+	self subclassResponsibility

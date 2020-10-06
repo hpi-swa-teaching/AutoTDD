@@ -1,0 +1,4 @@
+constants
+buttonLabel
+	
+	^ self subclassResponsibility

@@ -1,9 +1,0 @@
-{
-	"class" : {
-		 },
-	"instance" : {
-		"setUp" : "mp 7/25/2014 14:34",
-		"tearDown" : "PS 6/24/2014 17:09",
-		"testAttach" : "PS 6/24/2014 17:10",
-		"testInitialization" : "PS 6/24/2014 17:10",
-		"testValidateSlug" : "PS 7/25/2014 17:02" } }

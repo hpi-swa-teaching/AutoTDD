@@ -1,4 +1,0 @@
-initialization
-initializeData
-
-	self subclassResponsibility

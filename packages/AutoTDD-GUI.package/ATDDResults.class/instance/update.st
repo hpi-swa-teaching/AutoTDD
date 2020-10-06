@@ -1,0 +1,4 @@
+accessing
+update
+	
+	^ self subclassResponsibility

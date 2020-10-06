@@ -1,0 +1,4 @@
+building
+useProCheckBoxState
+	
+	^ self usePro

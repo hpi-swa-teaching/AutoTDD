@@ -1,0 +1,23 @@
+{
+	"class" : {
+		"newForWatcher:" : "vxr 7/10/2019 15:17" },
+	"instance" : {
+		"addTestResult:" : "vxr 7/4/2019 15:15",
+		"buildEmptyTestSuite" : "ls 7/25/2019 09:21",
+		"buildTestSuiteFromClasses:" : "be 7/25/2019 16:46",
+		"initialize" : "vxr 5/29/2019 21:09",
+		"progress" : "ls 5/30/2019 19:33",
+		"progress:" : "ls 7/25/2019 14:26",
+		"resultSummary" : "vxr 7/10/2019 15:52",
+		"results" : "ls 5/30/2019 19:51",
+		"runTestSuite" : "vxr 7/10/2019 15:19",
+		"runTests" : "vxr 6/20/2019 14:02",
+		"status:" : "vxr 5/29/2019 21:11",
+		"testResults" : "vxr 5/29/2019 21:16",
+		"testResults:" : "vxr 5/29/2019 21:16",
+		"testStatus" : "vxr 7/3/2019 16:53",
+		"testSuite" : "ls 5/30/2019 19:47",
+		"testSuite:" : "ls 7/25/2019 14:28",
+		"updateWatcherStatus" : "vxr 7/3/2019 16:49",
+		"watcher" : "ls 5/22/2019 15:53",
+		"watcher:" : "ls 7/25/2019 14:29" } }

@@ -1,0 +1,4 @@
+accessing
+usePro
+	
+	self subclassResponsibility

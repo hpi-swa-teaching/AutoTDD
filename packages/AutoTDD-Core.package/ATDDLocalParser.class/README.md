@@ -1,0 +1,1 @@
+The ATDDLocalParser parses local test results.

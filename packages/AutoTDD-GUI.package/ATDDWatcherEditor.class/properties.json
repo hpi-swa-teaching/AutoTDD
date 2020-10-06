@@ -1,0 +1,28 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 14:59",
+	"instvars" : [
+		"categories",
+		"testCategories",
+		"categoryClasses",
+		"categoryPattern",
+		"testCategoryClasses",
+		"selectedCategory",
+		"selectedCategories",
+		"selectedCategoryClasses",
+		"selectedTestCategory",
+		"selectedTestCategories",
+		"selectedTestCategoryClasses",
+		"classwiseCategorySelection",
+		"classwiseTestCategorySelection",
+		"localTesting",
+		"travisTesting" ],
+	"name" : "ATDDWatcherEditor",
+	"pools" : [
+		 ],
+	"super" : "ATDDEditor",
+	"type" : "normal" }

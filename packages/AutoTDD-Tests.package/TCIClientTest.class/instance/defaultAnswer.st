@@ -1,4 +1,0 @@
-utility
-defaultAnswer
-
-	^ '{"hello":"world"}'

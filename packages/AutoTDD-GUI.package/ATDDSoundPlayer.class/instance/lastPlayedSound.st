@@ -1,0 +1,4 @@
+loading
+lastPlayedSound
+	
+	^ lastPlayedSound

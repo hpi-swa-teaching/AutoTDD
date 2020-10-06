@@ -1,4 +1,0 @@
-building
-stopButtonLabel
-
-	^ 'Stop All'

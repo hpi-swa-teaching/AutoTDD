@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "swi 7/25/2019 14:45",
+		"testInitialization" : "be 6/19/2019 17:25",
+		"testSingleton" : "be 6/19/2019 17:24" } }

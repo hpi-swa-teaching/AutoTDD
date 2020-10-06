@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Help",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 11:27",
+	"instvars" : [
+		 ],
+	"name" : "ATDDHelp",
+	"pools" : [
+		 ],
+	"super" : "CustomHelp",
+	"type" : "normal" }

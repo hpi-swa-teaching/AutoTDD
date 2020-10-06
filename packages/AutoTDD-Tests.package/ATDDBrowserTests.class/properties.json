@@ -1,0 +1,19 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		"testHasRun" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser",
+		"preTestMorphs",
+		"window",
+		"preTestWatchers",
+		"preTestTravisStatuses",
+		"windowsToDelete" ],
+	"name" : "ATDDBrowserTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

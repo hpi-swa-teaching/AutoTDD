@@ -1,0 +1,4 @@
+action
+save
+	
+	self acceptTargetName

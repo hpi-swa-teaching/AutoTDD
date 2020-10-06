@@ -1,0 +1,4 @@
+accessing
+testCategoryClasses
+	
+	^ testCategoryClasses

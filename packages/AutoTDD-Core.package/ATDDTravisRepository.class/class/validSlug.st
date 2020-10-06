@@ -1,0 +1,4 @@
+comparing
+validSlug
+	
+	^ '[^/^\s]+/[^/^\s]+'

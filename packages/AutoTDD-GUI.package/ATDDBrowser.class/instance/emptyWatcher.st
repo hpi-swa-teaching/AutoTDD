@@ -1,0 +1,4 @@
+building
+emptyWatcher
+	
+	^ ATDDWatcher new

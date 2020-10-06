@@ -1,4 +1,0 @@
-action
-deleteButtonPress
-	
-	TARTestAutoRunner deleteAllInstances

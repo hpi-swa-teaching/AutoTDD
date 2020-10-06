@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 14:59",
+	"instvars" : [
+		"target" ],
+	"name" : "ATDDTargetWindow",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

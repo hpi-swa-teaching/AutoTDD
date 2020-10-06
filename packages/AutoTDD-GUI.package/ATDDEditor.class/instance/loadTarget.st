@@ -1,0 +1,4 @@
+initialization
+loadTarget
+	
+	self loadTargetSpecs

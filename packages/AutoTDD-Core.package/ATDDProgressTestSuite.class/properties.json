@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 15:02",
+	"instvars" : [
+		"valueHolder" ],
+	"name" : "ATDDProgressTestSuite",
+	"pools" : [
+		 ],
+	"super" : "TestSuite",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"travisStatus" ],
+	"name" : "ATDDTravisStatusTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

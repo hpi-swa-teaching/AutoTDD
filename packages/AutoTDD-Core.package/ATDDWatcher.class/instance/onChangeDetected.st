@@ -1,0 +1,4 @@
+behavior
+onChangeDetected
+	
+	self run

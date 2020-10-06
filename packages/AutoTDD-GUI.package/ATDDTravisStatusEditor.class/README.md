@@ -1,0 +1,1 @@
+The ATDDTravisStatusEditor is the respective editor for Travis Statuses.

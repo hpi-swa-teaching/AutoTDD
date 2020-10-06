@@ -1,0 +1,4 @@
+accessing
+targetName
+	
+	^ targetName contents

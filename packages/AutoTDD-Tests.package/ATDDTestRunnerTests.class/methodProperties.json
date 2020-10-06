@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "be 6/19/2019 16:04",
+		"testActiveAccessors" : "be 6/19/2019 16:07",
+		"testConfigAccessors" : "be 6/19/2019 16:48",
+		"testInitialization" : "be 6/19/2019 16:06",
+		"testRunTests" : "be 6/19/2019 16:56",
+		"testRunTestsThrowsSubclassResponsibility" : "be 6/19/2019 17:31",
+		"testStatusAccessors" : "be 6/19/2019 16:48",
+		"testStatusConsistency" : "be 6/19/2019 17:31",
+		"testStatusMustBeASymbol" : "be 6/19/2019 17:30" } }

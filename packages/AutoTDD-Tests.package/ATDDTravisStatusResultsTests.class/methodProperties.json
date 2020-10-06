@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"repoURL" : "vxr 7/4/2019 18:00" },
+	"instance" : {
+		"loadComplexRepositoryInClient" : "vxr 7/25/2019 19:26",
+		"loadSimpleRepositoryInClient" : "vxr 7/25/2019 19:27",
+		"sampleComplexRepositoryBuildCanceling" : "vxr 7/25/2019 18:53",
+		"sampleComplexRepositoryBuildFailing" : "vxr 7/25/2019 18:47",
+		"sampleComplexRepositoryBuildPassing" : "vxr 7/25/2019 18:31",
+		"sampleComplexRepositoryBuilds" : "vxr 7/25/2019 18:25",
+		"sampleComplexRepositoryBuildsDictionary" : "vxr 7/25/2019 19:23",
+		"sampleSimpleRepositoryBuilds" : "vxr 7/25/2019 18:20",
+		"setUp" : "vxr 7/25/2019 18:53",
+		"tearDown" : "vxr 7/25/2019 19:20",
+		"testCommitsPassingFailingErroring" : "vxr 7/25/2019 19:27",
+		"testHistoryPassingFailingErroring" : "vxr 7/25/2019 19:27",
+		"testMultipleTestingInstances" : "vxr 7/25/2019 19:26" } }

@@ -1,0 +1,4 @@
+tests
+testSetter
+	
+	ATDDBrowserTests setTestHasRun

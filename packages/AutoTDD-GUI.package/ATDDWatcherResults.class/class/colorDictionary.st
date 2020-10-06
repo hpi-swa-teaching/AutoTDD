@@ -1,0 +1,4 @@
+constants
+colorDictionary
+	
+	^ ATDDWatcher colorDictionary

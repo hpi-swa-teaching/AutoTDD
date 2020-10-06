@@ -1,0 +1,4 @@
+building
+targetNameFrame
+	
+	^ self subclassResponsibility

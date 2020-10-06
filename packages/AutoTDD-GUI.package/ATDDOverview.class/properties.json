@@ -1,0 +1,19 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 10:13",
+	"instvars" : [
+		"watchers",
+		"localMessage",
+		"travisStatusMessage",
+		"localIndicator",
+		"travisStatusIndicator",
+		"travisStatuses" ],
+	"name" : "ATDDOverview",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }

@@ -1,0 +1,4 @@
+building
+testCategoryCheckBoxState
+	
+	^ self classwiseTestCategorySelection

@@ -1,0 +1,4 @@
+accessing
+history
+	
+	^ self subclassResponsibility

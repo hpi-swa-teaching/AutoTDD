@@ -1,4 +1,0 @@
-constants
-defaultUri
-
-	self subclassResponsibility

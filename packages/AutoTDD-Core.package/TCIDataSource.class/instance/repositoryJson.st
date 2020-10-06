@@ -1,4 +1,0 @@
-accessing
-repositoryJson
-
-	self subclassResponsibility

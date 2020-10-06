@@ -1,0 +1,4 @@
+accessing
+buildStatus
+	
+	self subclassResponsibility

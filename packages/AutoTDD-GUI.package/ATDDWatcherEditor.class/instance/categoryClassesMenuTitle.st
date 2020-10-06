@@ -1,0 +1,4 @@
+building
+categoryClassesMenuTitle
+	
+	^ self class categoryClassesMenuTitle

@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 10:37",
+	"instvars" : [
+		"watcher",
+		"testResults",
+		"testSuite",
+		"progress" ],
+	"name" : "ATDDLocalTestRunner",
+	"pools" : [
+		 ],
+	"super" : "ATDDTestRunner",
+	"type" : "normal" }

@@ -1,4 +1,0 @@
-building
-resumeButtonName
-
-	^ 'resumeButton'

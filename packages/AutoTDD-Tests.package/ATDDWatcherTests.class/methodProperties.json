@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "vxr 7/4/2019 16:25",
+		"tearDown" : "vxr 7/4/2019 19:09",
+		"testAttach" : "vxr 7/4/2019 15:58",
+		"testLocalProgressIsZeroPercentString" : "mb 6/19/2019 16:37" } }

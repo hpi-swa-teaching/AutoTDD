@@ -1,0 +1,4 @@
+action
+buildEmptyTestSuite
+	
+	^ ATDDProgressTestSuite new

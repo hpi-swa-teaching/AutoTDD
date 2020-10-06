@@ -1,0 +1,4 @@
+constants
+menuSelectInversionLabel
+	
+	^ 'Select inversion'

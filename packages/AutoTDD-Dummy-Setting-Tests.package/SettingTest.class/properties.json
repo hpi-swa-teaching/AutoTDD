@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Dummy-Setting-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 11:16",
+	"instvars" : [
+		 ],
+	"name" : "SettingTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

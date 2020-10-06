@@ -1,4 +1,0 @@
-constants
-resourceDictionary
-
-	self subclassResponsibility

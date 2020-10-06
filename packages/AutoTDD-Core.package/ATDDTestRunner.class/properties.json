@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 10:36",
+	"instvars" : [
+		"config",
+		"active",
+		"status" ],
+	"name" : "ATDDTestRunner",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

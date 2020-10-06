@@ -1,0 +1,4 @@
+constants
+menuRefreshLabel
+	
+	^ 'Refresh'

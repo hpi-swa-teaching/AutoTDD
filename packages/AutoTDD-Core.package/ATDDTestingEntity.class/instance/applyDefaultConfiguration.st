@@ -1,0 +1,4 @@
+initialization
+applyDefaultConfiguration
+	
+	^ self subclassResponsibility
