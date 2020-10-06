@@ -12,7 +12,7 @@ testTestsMixed
 	self assert: (resultMixed colorAt: 1) = (ATDDWatcherResults colorDictionary at: #errored).
 	resultsWindow selectedHistory: 1.
 	self assert: (resultsWindow historyInfo isKindOf: Text).
-	self assert: ('3 run in *:*, 1 passes, 0 expected failures, 1 failures, 1 errors, 0 unexpected passes'
+	self assert: ('3 run*, 1 passes, 0 expected failures, 1 failures, 1 errors, 0 unexpected passes'
 		match: resultsWindow historyInfo).
 	self assert: (resultsWindow historyInfo colorAt: 1) = (ATDDWatcherResults colorDictionary at: #errored).
 	self assert: resultsWindow tests size = 3.

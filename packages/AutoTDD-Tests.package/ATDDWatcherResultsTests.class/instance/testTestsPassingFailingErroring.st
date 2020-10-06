@@ -7,7 +7,7 @@ testTestsPassingFailingErroring
 	(Delay forSeconds: 1) wait.
 	resultsWindow selectedHistory: 1.
 	self assert: (resultsWindow historyInfo isKindOf: Text).
-	self assert: ('2 run in *:*, 2 passes, 0 expected failures, 0 failures, 0 errors, 0 unexpected passes'
+	self assert: ('2 run*, 2 passes, 0 expected failures, 0 failures, 0 errors, 0 unexpected passes'
 		match: resultsWindow historyInfo).
 	self assert: (resultsWindow historyInfo colorAt: 1) = (ATDDWatcherResults colorDictionary at: #passed).
 	self assert: resultsWindow tests size = 2.
