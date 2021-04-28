@@ -2,7 +2,7 @@
 name: User Story
 about: Create a user story
 title: ''
-labels: "user story"
+labels: user story
 assignees: ''
 
 ---
@@ -10,3 +10,9 @@ assignees: ''
 <!-- Fill out the starred spots -->
 
 As a <kbd>*role*</kbd> I want to *do sth* in order to *achieve some goal*.
+
+<!-- How can one messure if the goal was achieved? -->
+
+### Acceptance criteria
+
+- 
