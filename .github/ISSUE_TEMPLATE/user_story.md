@@ -1,18 +1,16 @@
 ---
-name: User Story
-about: Create a user story
+name: 📖 User Story
+about: Suggest an idea for this project in form of a user story
 title: ''
-labels: user story
+labels: user story, feature request
 assignees: ''
 
 ---
 
 <!-- Fill out the starred spots -->
-
 As a <kbd>*role*</kbd> I want to *do sth* in order to *achieve some goal*.
 
 <!-- How can one messure if the goal was achieved? -->
-
 ### Acceptance criteria
 
 - 
