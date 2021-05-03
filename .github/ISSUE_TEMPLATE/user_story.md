@@ -15,7 +15,6 @@ As a <kbd>*role*</kbd> I want to *do sth* in order to *achieve some goal*.
 
 - [ ] First Criteria here
 
-
 ### Effort Evaluation
 
 <!-- How many points (time) will this task take? (13 = full week of whole team) -->
