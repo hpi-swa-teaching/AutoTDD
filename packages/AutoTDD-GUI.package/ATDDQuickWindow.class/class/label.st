@@ -1,0 +1,4 @@
+constants
+label
+	
+	^ self baseTitle
