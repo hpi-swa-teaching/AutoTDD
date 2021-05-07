@@ -1,0 +1,4 @@
+constants
+baseTitle
+	
+	^ 'Minimal Overview'

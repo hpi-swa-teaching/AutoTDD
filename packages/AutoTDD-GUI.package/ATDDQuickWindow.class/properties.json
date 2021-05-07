@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"TravisStatuses",
+		"Watchers" ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedWatchers",
+		"selectedTravisStatuses" ],
+	"name" : "ATDDQuickWindow",
+	"pools" : [
+		 ],
+	"super" : "Model",
+	"type" : "normal" }
