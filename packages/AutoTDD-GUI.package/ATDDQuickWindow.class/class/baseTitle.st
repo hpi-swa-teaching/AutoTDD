@@ -1,4 +1,0 @@
-constants
-baseTitle
-	
-	^ 'Minimal Overview'

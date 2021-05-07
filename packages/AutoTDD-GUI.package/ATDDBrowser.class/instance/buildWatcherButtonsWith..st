@@ -11,6 +11,7 @@ buildWatcherButtonsWith: aBuilder
 				add: (self buildRunWatcherButtonWith: aBuilder);
 				add: (self buildEditWatcherButtonWith: aBuilder);
 				add: (self buildInfoWatcherButtonWith: aBuilder);
+				add: (self buildQuickOverviewWatcherButtonWith: aBuilder);
 				add: (self buildResultsWatcherButtonWith: aBuilder);
 				add: (self buildRemoveWatcherButtonWith: aBuilder);
 				yourself);
