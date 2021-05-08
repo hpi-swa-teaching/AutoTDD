@@ -3,14 +3,12 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"TravisStatuses",
-		"Watchers" ],
+		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"selectedWatchers",
-		"selectedTravisStatuses" ],
-	"name" : "ATDDQuickWindow",
+		 ],
+	"name" : "ATDDQuickOverview",
 	"pools" : [
 		 ],
-	"super" : "Model",
+	"super" : "ATDDTargetWindow",
 	"type" : "normal" }

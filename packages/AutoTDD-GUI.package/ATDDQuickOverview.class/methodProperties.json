@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"defaultExtent" : "BF 5/7/2021 17:31",
+		"isAbstract" : "BF 5/7/2021 17:33",
+		"label" : "BF 5/7/2021 17:39",
+		"targetName" : "BF 5/7/2021 17:40" },
+	"instance" : {
+		"buildWith:" : "BF 5/7/2021 17:46",
+		"initialize" : "BF 5/7/2021 17:20" } }

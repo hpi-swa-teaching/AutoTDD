@@ -1,4 +1,4 @@
-building
+initialization
 buildWith: aBuilder
 	
 	| window |
