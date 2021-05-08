@@ -1,4 +1,4 @@
 action
 openQuickOverviewForSelectedWatchers
 	
-	^ self selectedWatchers collect: [ :watcher | self openQuickWindowForWatcher: watcher ]
+	^ self selectedWatchers collect: [ :watcher | self openQuickOverviewForWatcher: watcher ]
