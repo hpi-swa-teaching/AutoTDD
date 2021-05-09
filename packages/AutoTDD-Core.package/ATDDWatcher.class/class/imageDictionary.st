@@ -1,5 +1,5 @@
 as yet unclassified
-imageDictonary
+imageDictionary
 	| errorImage failedImage successImage pendingImage |
 	errorImage := self loadImage: 'error.png'.
 	failedImage := self loadImage: 'failed.png'.
