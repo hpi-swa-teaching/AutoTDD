@@ -1,0 +1,4 @@
+building
+listAmount
+	
+	^ 3
