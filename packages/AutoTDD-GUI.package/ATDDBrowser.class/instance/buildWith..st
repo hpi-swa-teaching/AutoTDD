@@ -11,14 +11,8 @@ buildWith: aBuilder
 			add: ((self buildGlobalButtonsWith: aBuilder)
 				frame: self globalButtonsFrame;
 				yourself);
-			add: ((self buildWatcherWith: aBuilder)
-				frame: self watcherFrame;
-				yourself);
-			add: ((self buildTravisStatusWith: aBuilder)
-				frame: self travisStatusFrame;
-				yourself);
-			add: ((self buildGitHubActionsStatusWith: aBuilder)
-				frame: self gitHubActionsStatusFrame;
+			add: ((self buildListsAndButtonsWith: aBuilder)
+				frame: self listsAndButtonsFrame;
 				yourself);
 			yourself);
 		yourself.

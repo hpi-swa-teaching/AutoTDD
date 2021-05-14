@@ -3,7 +3,7 @@ watcherFrame
 	
 	^ LayoutFrame new
 		leftFraction: 0;
-		topFraction: 0 offset: self buttonHeight;
+		topFraction: 0;
 		rightFraction: 1;
-		bottomFraction: self listHeightFactor offset: self buttonHeight;
+		bottomFraction: self listHeightFactor;
 		yourself

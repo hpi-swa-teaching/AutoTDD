@@ -5,10 +5,10 @@ buildWatcherWith: aBuilder
 		model: self;
 		children: (OrderedCollection new
 			add: ((self buildWatcherListWith: aBuilder)
-				frame: self watcherListFrame
+				frame: self listFrame
 				yourself);
 			add: ((self buildWatcherButtonsWith: aBuilder)
-				frame: self watcherButtonsFrame
+				frame: self buttonsFrame
 				yourself);
 			yourself);
 		yourself

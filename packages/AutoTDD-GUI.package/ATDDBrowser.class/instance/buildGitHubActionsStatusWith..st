@@ -3,13 +3,12 @@ buildGitHubActionsStatusWith: aBuilder
 	
 	^ aBuilder pluggablePanelSpec new
 		model: self;
-		layout: #vertical;
 		children: (OrderedCollection new
 			add: ((self buildGitHubActionsStatusListWith: aBuilder)
-				frame: self gitHubActionsStatusListFrame
+				frame: self listFrame
 				yourself);
 			add: ((self buildGitHubActionsStatusButtonsWith: aBuilder)
-				frame: self gitHubActionsStatusButtonsFrame
+				frame: self buttonsFrame
 				yourself);
 			yourself);
 		yourself

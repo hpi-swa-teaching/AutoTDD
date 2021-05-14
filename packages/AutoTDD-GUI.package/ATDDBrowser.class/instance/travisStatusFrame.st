@@ -3,7 +3,7 @@ travisStatusFrame
 	
 	^ LayoutFrame new
 		leftFraction: 0;
-		topFraction: self listHeightFactor offset: self buttonHeight;
+		topFraction: self listHeightFactor;
 		rightFraction: 1;
-		bottomFraction: 2 * self listHeightFactor offset: self buttonHeight;
+		bottomFraction: 2 * self listHeightFactor;
 		yourself
