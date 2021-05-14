@@ -1,10 +1,9 @@
 accessing
 buildStatus
 
-	| workflowJson parsedWorkflowJson |
+	| json parsedJson |
 	
-	workflowJson := self client getJsonForLatestWorkflowRunForRepository: owner, '/', repository, '/'.
-	parsedWorkflowJson := parser parseLatestWorkflowRun: workflowJson.
+	json := self client getJsonForLatestWorkflowRunForRepository: owner, '/', repository, '/'.
+	parsedJson := self parser parseLatestWorkflowRun: json.
 	
-	^ self parser primitiveParseLatestWorkflowRunConclusion: parsedWorkflowJson
-	
+	^ self parser primitiveParseLatestWorkflowRunConclusion: parsedJson

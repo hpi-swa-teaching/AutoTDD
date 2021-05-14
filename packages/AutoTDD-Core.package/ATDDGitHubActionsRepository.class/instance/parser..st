@@ -1,4 +1,4 @@
 accessing
 parser: anATTDGitHubActionsParser
 	
-	parser := anATTDGitHubActionsParser.
+	parser := anATTDGitHubActionsParser

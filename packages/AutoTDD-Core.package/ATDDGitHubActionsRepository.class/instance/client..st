@@ -1,4 +1,4 @@
 accessing
 client: anATDDGitHubActionsClient
 	
-	client := anATDDGitHubActionsClient.
+	client := anATDDGitHubActionsClient
