@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ATDDGitHubActionsParser",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

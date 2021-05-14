@@ -1,0 +1,4 @@
+constants
+mimeType 
+
+ 	^ 'application/json'
