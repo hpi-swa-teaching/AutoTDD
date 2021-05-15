@@ -1,0 +1,4 @@
+constants
+gitHubActionsStatusHeading
+	
+	^ 'GitHub Actions'

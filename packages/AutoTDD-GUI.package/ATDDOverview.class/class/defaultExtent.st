@@ -1,4 +1,4 @@
 constants
 defaultExtent
 	
-	^ 300 @ 300
+	^ 400 @ 250
