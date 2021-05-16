@@ -2,5 +2,5 @@ updating
 updateSelectedWatchers
 	
 	self
-		selectedWatchers: (self findSelectedItemsForCollection: self travisStatuses withSelected: self selectedTravisStatuses);
+		selectedWatchers: (self findSelectedItemsForCollection: self watchers withSelected: self selectedWatchers);
 		changed: #selectedWatchers

@@ -1,12 +1,6 @@
 as yet unclassified
 imageDictionary
 	
-	| errorImage failedImage successImage pendingImage |
-	errorImage := ATDDOverview loadImage: 'error.png'.
-	failedImage := ATDDOverview loadImage: 'failed.png'.
-	successImage := ATDDOverview loadImage: 'success.png'.
-	pendingImage := ATDDOverview loadImage: 'pending.png'.
-	
 	^ IdentityDictionary
-		newFrom: { #errored -> errorImage . #failed -> failedImage . #passed -> successImage . #executing -> pendingImage . #unexecuted -> pendingImage . 
-			#executed -> pendingImage . #unknown -> pendingImage }
+		newFrom: { #errored -> ATDDOverview errorImage . #failed -> ATDDOverview failedImage . #passed -> ATDDOverview successImage . #executing -> ATDDOverview pendingImage . #unexecuted -> ATDDOverview pendingImage . 
+			#executed -> ATDDOverview pendingImage . #unknown -> ATDDOverview pendingImage }
