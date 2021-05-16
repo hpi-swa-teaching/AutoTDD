@@ -8,5 +8,5 @@ imageDictionary
 	pendingImage := ATDDOverview loadImage: 'pending.png'.
 	
 	^ IdentityDictionary
-		newFrom: { #errored -> errorImage . #failed -> failedImage . #passed -> successImage . #executing -> pendingImage . #unexecuted -> pendingImage . 
-			#executed -> pendingImage . #unknown -> pendingImage }
+		newFrom: { #canceled -> pendingImage . #created -> pendingImage . #errored -> errorImage . #failed ->failedImage . #passed -> successImage . 
+			#queued -> pendingImage . #received -> pendingImage . #started -> pendingImage . #unknown -> pendingImage . #'not available' -> pendingImage }

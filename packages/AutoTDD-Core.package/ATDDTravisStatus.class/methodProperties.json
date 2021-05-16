@@ -2,7 +2,8 @@
 	"class" : {
 		"colorDictionary" : "be 7/4/2019 17:35",
 		"defaultName" : "ls 7/25/2019 15:01",
-		"defaultRefreshInterval" : "ls 7/25/2019 14:56" },
+		"defaultRefreshInterval" : "ls 7/25/2019 14:56",
+		"imageDictionary" : "ng 5/15/2021 13:22" },
 	"instance" : {
 		"applyDefaultConfiguration" : "ls 7/25/2019 15:01",
 		"asStringOrText" : "ls 7/11/2019 17:41",
