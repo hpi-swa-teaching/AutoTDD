@@ -1,6 +1,7 @@
-AutoTDD with Travis-CI Support
-===================
-[![Build Status](https://travis-ci.org/hpi-swa-teaching/AutoTDD.svg)](https://travis-ci.org/hpi-swa-teaching/AutoTDD) [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/AutoTDD/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/AutoTDD?branch=dev)
+# AutoTDD with GitHub Actions & Travis-CI Support
+
+[![CI](https://github.com/hpi-swa-teaching/AutoTDD/workflows/CI/badge.svg?branch=dev)](https://github.com/hpi-swa-teaching/AutoTDD/actions)
+[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/AutoTDD/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/AutoTDD?branch=dev)
 
 ## About
 AutoTDD is an automated testing tool for continuously monitoring the test state of your project. You tests will be automatically executed when a method in your project changes. When a test fails, you will get instant feedback about what went wrong. It also displays current Travis build results.
