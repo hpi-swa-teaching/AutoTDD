@@ -1,6 +1,0 @@
-language: smalltalk
-sudo: false
-smalltalk:
-  - Squeak64-trunk
-  - Squeak64-5.3
-  - Squeak64-5.2
