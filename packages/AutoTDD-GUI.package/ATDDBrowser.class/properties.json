@@ -3,14 +3,14 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		"GitHubActionsStatuses",
+		"GitHubActions",
 		"TravisStatuses",
 		"Watchers" ],
 	"commentStamp" : "be 7/25/2019 09:48",
 	"instvars" : [
 		"selectedWatchers",
 		"selectedTravisStatuses",
-		"selectedGitHubActionsStatuses" ],
+		"selectedGitHubActions" ],
 	"name" : "ATDDBrowser",
 	"pools" : [
 		 ],

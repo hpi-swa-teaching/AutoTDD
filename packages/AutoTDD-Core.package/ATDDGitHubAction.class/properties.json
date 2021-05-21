@@ -6,13 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"cache",
-		"client",
 		"repository",
-		"timer",
-		"parser" ],
-	"name" : "ATDDGitHubActionsRepository",
+		"status",
+		"statusMessage",
+		"process",
+		"refreshInterval" ],
+	"name" : "ATDDGitHubAction",
 	"pools" : [
 		 ],
-	"super" : "ATDDDataSource",
+	"super" : "ATDDTestingEntity",
 	"type" : "normal" }

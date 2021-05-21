@@ -1,0 +1,15 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repositoryUrl",
+		"refreshInterval" ],
+	"name" : "ATDDGitHubActionEditor",
+	"pools" : [
+		 ],
+	"super" : "ATDDEditor",
+	"type" : "normal" }

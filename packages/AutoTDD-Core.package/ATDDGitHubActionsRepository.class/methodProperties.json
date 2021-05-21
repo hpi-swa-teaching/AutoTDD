@@ -1,15 +1,14 @@
 {
 	"class" : {
-		"newForOwner:repository:" : "ng 5/14/2021 18:22" },
+		"newForRepository:" : "BF 5/21/2021 13:12" },
 	"instance" : {
-		"buildStatus" : "ng 5/14/2021 18:31",
+		"buildStatus" : "BF 5/21/2021 13:14",
 		"cache" : "ng 5/14/2021 16:53",
 		"cache:" : "ng 5/14/2021 16:53",
+		"clearCache" : "BF 5/21/2021 13:31",
 		"client" : "ng 5/14/2021 16:54",
 		"client:" : "ng 5/14/2021 18:18",
 		"initialize" : "ng 5/14/2021 18:18",
-		"owner" : "ng 5/14/2021 16:58",
-		"owner:" : "ng 5/14/2021 16:58",
 		"parser" : "ng 5/14/2021 17:56",
 		"parser:" : "ng 5/14/2021 18:18",
 		"repository" : "ng 5/14/2021 17:19",

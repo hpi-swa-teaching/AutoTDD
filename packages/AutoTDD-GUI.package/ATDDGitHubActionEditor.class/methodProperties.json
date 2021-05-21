@@ -1,0 +1,17 @@
+{
+	"class" : {
+		"defaultExtent" : "BF 5/21/2021 14:03",
+		"intervalHelpLabel" : "BF 5/21/2021 14:04",
+		"isAbstract" : "BF 5/21/2021 14:03",
+		"nameHelpLabel" : "BF 5/21/2021 14:04",
+		"targetName" : "BF 5/21/2021 14:04",
+		"validSlug" : "BF 5/21/2021 14:07" },
+	"instance" : {
+		"gitHubAction" : "BF 5/21/2021 14:09",
+		"initializeInterval" : "BF 5/21/2021 14:07",
+		"initializeRepositoryUrl" : "BF 5/21/2021 14:08",
+		"intervalFrame" : "BF 5/21/2021 14:08",
+		"repositoryUrl" : "BF 5/21/2021 14:10",
+		"repositoryUrlFrame" : "BF 5/21/2021 14:10",
+		"repositoryUrlHelpLabel" : "BF 5/21/2021 14:09",
+		"targetNameFrame" : "BF 5/21/2021 14:09" } }
