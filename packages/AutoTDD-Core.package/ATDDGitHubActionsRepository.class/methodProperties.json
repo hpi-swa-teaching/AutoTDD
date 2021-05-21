@@ -2,7 +2,7 @@
 	"class" : {
 		"newForRepository:" : "BF 5/21/2021 13:12" },
 	"instance" : {
-		"buildStatus" : "BF 5/21/2021 13:14",
+		"buildStatus" : "ng 5/21/2021 16:06",
 		"cache" : "ng 5/14/2021 16:53",
 		"cache:" : "ng 5/14/2021 16:53",
 		"clearCache" : "BF 5/21/2021 13:31",
@@ -12,4 +12,5 @@
 		"parser" : "ng 5/14/2021 17:56",
 		"parser:" : "ng 5/14/2021 18:18",
 		"repository" : "ng 5/14/2021 17:19",
-		"repository:" : "ng 5/14/2021 17:20" } }
+		"repository:" : "ng 5/14/2021 17:20",
+		"statusMessage" : "ng 5/21/2021 16:59" } }

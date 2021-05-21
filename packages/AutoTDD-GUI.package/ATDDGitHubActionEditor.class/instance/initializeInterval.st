@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initializeInterval
 	
 	refreshInterval := ValueHolder new contents: ''.

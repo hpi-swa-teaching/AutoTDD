@@ -10,5 +10,5 @@ colorDictionary
 			#success -> Color green.
 			#skipped -> Color orange.
 			#stale -> Color gray.
-			#timed_out -> Color red.
+			#timed_out -> Color red
 		}
