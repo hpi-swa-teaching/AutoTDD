@@ -1,4 +1,4 @@
-initialization
+accessing
 process: aProcess
 	
 	process := aProcess

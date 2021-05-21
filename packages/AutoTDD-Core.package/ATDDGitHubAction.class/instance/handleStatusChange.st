@@ -1,4 +1,4 @@
-initialization
+behaviour
 handleStatusChange
 	
 	| newStatus |

@@ -1,4 +1,4 @@
-initialization
+accessing
 refreshInterval: aNumber
 	
 	refreshInterval := aNumber

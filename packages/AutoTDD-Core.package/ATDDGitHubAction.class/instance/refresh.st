@@ -1,4 +1,4 @@
-initialization
+accessing
 refresh
 	
 	self repository clearCache.

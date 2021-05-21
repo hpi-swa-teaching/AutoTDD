@@ -1,4 +1,4 @@
-initialization
+accessing
 statusMessage: aString
 	
 	statusMessage := aString
