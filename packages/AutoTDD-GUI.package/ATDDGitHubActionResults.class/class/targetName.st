@@ -1,0 +1,4 @@
+constants
+targetName
+	
+	^ 'GitHub Action'

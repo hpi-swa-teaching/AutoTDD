@@ -1,8 +1,9 @@
 {
 	"class" : {
-		"colorDictionary" : "BF 5/21/2021 19:21",
+		"colorDictionary" : "sw 5/21/2021 21:52",
 		"defaultName" : "BF 5/21/2021 12:55",
-		"defaultRefreshInterval" : "BF 5/21/2021 12:55" },
+		"defaultRefreshInterval" : "BF 5/21/2021 12:55",
+		"imageDictionary" : "sw 5/21/2021 21:52" },
 	"instance" : {
 		"applyDefaultConfiguration" : "BF 5/21/2021 13:19",
 		"asStringOrText" : "BF 5/21/2021 13:19",
