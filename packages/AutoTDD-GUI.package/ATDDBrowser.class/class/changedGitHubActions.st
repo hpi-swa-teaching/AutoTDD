@@ -1,4 +1,4 @@
 updating
 changedGitHubActions
 	
-	self changed: #githubActions
+	self changed: #gitHubActions
