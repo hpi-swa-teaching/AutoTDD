@@ -2,5 +2,10 @@
 	"class" : {
 		 },
 	"instance" : {
+		"parseHeadCommitOf:" : "ng 5/22/2021 18:46",
 		"parseLatestWorkflowRun:" : "ng 5/14/2021 16:02",
-		"primitiveParseLatestWorkflowRunConclusion:" : "sw 5/21/2021 22:47" } }
+		"parseWorkflowFrom:" : "ng 5/22/2021 18:55",
+		"primitiveParseAuthorNameOf:" : "ng 5/22/2021 18:56",
+		"primitiveParseHeadBranchOf:" : "ng 5/22/2021 18:50",
+		"primitiveParseLatestWorkflowRunConclusion:" : "sw 5/21/2021 22:47",
+		"primitiveParseMessageOf:" : "ng 5/22/2021 18:48" } }
