@@ -5,7 +5,11 @@
 		"parseHeadCommitOf:" : "ng 5/22/2021 18:46",
 		"parseLatestWorkflowRun:" : "ng 5/14/2021 16:02",
 		"parseWorkflowFrom:" : "ng 5/22/2021 18:55",
+		"parseWorkflowHistoryOfRepository:" : "ng 5/22/2021 19:14",
+		"parseWorkflowRunsOf:" : "ng 5/22/2021 19:12",
 		"primitiveParseAuthorNameOf:" : "ng 5/22/2021 18:56",
 		"primitiveParseHeadBranchOf:" : "ng 5/22/2021 18:50",
+		"primitiveParseIdOf:" : "ng 5/22/2021 19:10",
 		"primitiveParseLatestWorkflowRunConclusion:" : "sw 5/21/2021 22:47",
-		"primitiveParseMessageOf:" : "ng 5/22/2021 18:48" } }
+		"primitiveParseMessageOf:" : "ng 5/22/2021 18:48",
+		"primitiveParseRunNumberOf:" : "ng 5/22/2021 19:09" } }
