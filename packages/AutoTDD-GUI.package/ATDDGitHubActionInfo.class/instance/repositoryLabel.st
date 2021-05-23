@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 repositoryLabel
 	
 	^ self class repositoryLabelText , ': ' , self repositoryURL

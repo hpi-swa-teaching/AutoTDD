@@ -1,1 +1,1 @@
-ATDDTravisStatusResults shows the test results from the respective Travis Status.
+ATDDGitHubActionResults shows the test results of the selected GitHub Actions.

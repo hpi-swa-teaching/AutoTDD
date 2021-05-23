@@ -1,4 +1,4 @@
 accessing
 selectedJob
 	
-	^ selectedJob ifNil: [ selectedJob := 0 ]
+	^ selectedJob ifNil: [ selectedJob := -1 ]

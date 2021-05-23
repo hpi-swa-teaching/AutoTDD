@@ -1,4 +1,4 @@
-behaviour
+accessing
 initialize
 
 	super initialize

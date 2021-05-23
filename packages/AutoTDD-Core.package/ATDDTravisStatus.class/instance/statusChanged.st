@@ -1,5 +1,5 @@
 behaviour
-handleStatusChange
+statusChanged
 	
 	| newStatus |
 	
