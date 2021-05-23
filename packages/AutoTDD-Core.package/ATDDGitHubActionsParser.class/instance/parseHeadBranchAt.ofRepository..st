@@ -5,4 +5,4 @@ parseHeadBranchAt: aNumber ofRepository: aJson
 	
 	workflows := self parseWorkflowRunsOf: aJson.
 	
-	^ self primitiveParseHeadBranchOf: ( self primitiveParseAt: aNumber of: aJson )
+	^ self primitiveParseHeadBranchOf: ( self primitiveParseAt: aNumber of: workflows )

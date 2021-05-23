@@ -1,4 +1,4 @@
-initialization
+behaviour
 initialize
-	
+
 	super initialize

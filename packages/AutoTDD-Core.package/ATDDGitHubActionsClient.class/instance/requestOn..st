@@ -8,8 +8,9 @@ requestOn: aString
 			response := self webClient
 				httpGet: url
 				do: [ :request |
-					request headerAt: 'Accept' put: self mimeType].
-			response content; close ]
+					request headerAt: 'Accept' put: self mimeType.
+					request headerAt: 'Authorization' put: 'token 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'].
+				response content; close ]
 		on: Error
 		do: [ :error |
 			[ GHAConnectionError signal: 'Connection failed: ' , error messageText ] fork.

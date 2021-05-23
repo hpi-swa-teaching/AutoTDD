@@ -1,12 +1,13 @@
 updating
 updateJobs
 	
-	| matrix id |
+	| id jobs |
 	
 	id := self parser parseIdOfWorkflowAt: self selectedHistory ofWorkflowsOfRepository: self data repositoryJson.
-	matrix := self parser parseBuildMatrixOfBuild: (self data workflowJsonFor: id).
+	jobs := self parser parseJobsOf: ( self client getJsonForJobsForRepository: self data repository forWorkflowRunId: id ).
+
 	self
-		jobs: (matrix
+		jobs: (jobs
 				collect: [ :job |
 					Text new
 						append: '#' , (job at: #number) , String space , (job at: #env);
