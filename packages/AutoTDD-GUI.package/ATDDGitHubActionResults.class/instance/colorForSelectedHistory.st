@@ -1,8 +1,8 @@
 updating
 colorForSelectedHistory
 	
-	| state |
+	| conclusion |
 	
-	state := self parser parseBuildStateAt: self selectedHistory ofRepository: self data repositoryJson.
+	conclusion := self parser parseWorkflowConclusionAt: self selectedHistory ofRepository: self data repositoryJson.
 	
-	^ self colorForStatus: state
+	^ self colorForStatus: conclusion

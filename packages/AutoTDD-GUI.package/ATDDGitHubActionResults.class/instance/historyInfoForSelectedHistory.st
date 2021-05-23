@@ -1,8 +1,8 @@
 updating
 historyInfoForSelectedHistory
 	
-	| build |
+	| workflow |
 	
-	build := self parser parseBuildAt: self selectedHistory ofRepository: self data repositoryJson.
+	workflow := self parser parseWorkflowAt: self selectedHistory ofRepository: self data repositoryJson.
 	
-	^ '#' , (build at: #number) , ' ' , (build at: #state) , String crlf , (build at: #branch) , ' - ' , (build at: #message)
+	^ '#' , ( workflow at: #number ) , ' ' , ( workflow at: #conclusion) , String crlf , ( workflow at: #branch ) , ' - ' , ( workflow at: #message )

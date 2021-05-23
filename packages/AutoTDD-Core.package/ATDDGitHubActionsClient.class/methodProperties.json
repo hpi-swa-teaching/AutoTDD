@@ -4,6 +4,7 @@
 	"instance" : {
 		"errorDictionary" : "sw 5/21/2021 22:39",
 		"getJsonForLatestWorkflowRunForRepository:" : "ng 5/14/2021 18:15",
+		"getJsonForWorkflow:" : "ng 5/23/2021 12:08",
 		"getJsonForWorkflowRunsForRepository:" : "ng 5/22/2021 19:16",
 		"gitHubActionsApiUrl" : "ng 5/14/2021 16:07",
 		"mimeType" : "ng 5/14/2021 15:45",

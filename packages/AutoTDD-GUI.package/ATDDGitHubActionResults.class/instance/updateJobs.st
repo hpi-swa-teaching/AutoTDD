@@ -3,8 +3,8 @@ updateJobs
 	
 	| matrix id |
 	
-	id := self parser parseIdOfBuildAt: self selectedHistory ofBuildsOfRepository: self data repositoryJson.
-	matrix := self parser parseBuildMatrixOfBuild: (self data buildJsonFor: id).
+	id := self parser parseIdOfWorkflowAt: self selectedHistory ofWorkflowsOfRepository: self data repositoryJson.
+	matrix := self parser parseBuildMatrixOfBuild: (self data workflowJsonFor: id).
 	self
 		jobs: (matrix
 				collect: [ :job |
