@@ -3,5 +3,5 @@ selectedJob: anObject
 	
 	selectedJob := anObject.
 	self
-		changed: #selectedJob;
-		updateJobLog
+		changed: #selectedJob.
+		"updateJobLog."

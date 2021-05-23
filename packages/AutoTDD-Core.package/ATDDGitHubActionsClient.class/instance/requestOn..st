@@ -8,8 +8,7 @@ requestOn: aString
 			response := self webClient
 				httpGet: url
 				do: [ :request |
-					request headerAt: 'Accept' put: self mimeType.
-					request headerAt: 'Authorization' put: 'token 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'].
+					request headerAt: 'Accept' put: self mimeType].
 				response content; close ]
 		on: Error
 		do: [ :error |
