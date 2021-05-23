@@ -2,8 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "be 7/4/2019 16:47",
+		"setUp" : "ng 5/23/2021 15:41",
 		"tearDown" : "BF 5/8/2021 21:27",
-		"testIndicatorChangesOnRun" : "be 7/4/2019 16:49",
+		"testIndicatorChangesOnRun" : "ng 5/23/2021 15:37",
 		"testIndicatorOpensResultWindows" : "vxr 7/10/2019 15:20",
 		"testMessageChangesOnRun" : "be 7/4/2019 16:51" } }
