@@ -2,5 +2,25 @@
 	"class" : {
 		 },
 	"instance" : {
+		"parseHeadBranchAt:ofRepository:" : "sw 5/23/2021 16:23",
+		"parseHeadCommitOf:" : "ng 5/22/2021 18:46",
+		"parseIdOfWorkflowAt:ofWorkflowsOfRepository:" : "sw 5/23/2021 16:38",
+		"parseJobsOf:" : "sw 5/23/2021 16:47",
 		"parseLatestWorkflowRun:" : "ng 5/14/2021 16:02",
-		"primitiveParseLatestWorkflowRunConclusion:" : "ng 5/14/2021 16:14" } }
+		"parseMessageAt:ofRepository:" : "sw 5/23/2021 16:28",
+		"parseWorkflowAt:ofRepository:" : "ng 5/23/2021 09:12",
+		"parseWorkflowConclusionAt:ofRepository:" : "sw 5/23/2021 16:22",
+		"parseWorkflowFrom:" : "ng 5/22/2021 18:55",
+		"parseWorkflowHistoryOfRepository:" : "ng 5/22/2021 19:14",
+		"parseWorkflowRunNumberAt:ofRepository:" : "sw 5/23/2021 16:18",
+		"parseWorkflowRunsOf:" : "ng 5/22/2021 19:12",
+		"primitiveParseAt:of:" : "ng 5/23/2021 08:59",
+		"primitiveParseAuthorNameOf:" : "ng 5/22/2021 18:56",
+		"primitiveParseConclusionAt:of:" : "sw 5/23/2021 16:55",
+		"primitiveParseHeadBranchOf:" : "ng 5/22/2021 18:50",
+		"primitiveParseIdOf:" : "ng 5/22/2021 19:10",
+		"primitiveParseLatestWorkflowRunConclusion:" : "BF 5/23/2021 21:40",
+		"primitiveParseMessageOf:" : "ng 5/22/2021 18:48",
+		"primitiveParseNameAt:Of:" : "sw 5/23/2021 16:51",
+		"primitiveParseNameOf:" : "ng 5/23/2021 18:18",
+		"primitiveParseRunNumberOf:" : "BF 5/23/2021 21:37" } }

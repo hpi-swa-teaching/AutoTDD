@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BF 5/23/2021 21:45",
+	"instvars" : [
+		"selectedJob",
+		"jobs",
+		"jobsUnformatted",
+		"log" ],
+	"name" : "ATDDGitHubActionResults",
+	"pools" : [
+		 ],
+	"super" : "ATDDResults",
+	"type" : "normal" }

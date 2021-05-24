@@ -11,7 +11,10 @@
 		"travisStatusMessage",
 		"localIndicator",
 		"travisStatusIndicator",
-		"travisStatuses" ],
+		"travisStatuses",
+		"gitHubActions",
+		"gitHubActionIndicator",
+		"gitHubActionMessage" ],
 	"name" : "ATDDOverview",
 	"pools" : [
 		 ],

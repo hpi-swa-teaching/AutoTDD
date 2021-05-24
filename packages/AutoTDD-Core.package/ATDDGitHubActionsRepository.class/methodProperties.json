@@ -1,16 +1,22 @@
 {
 	"class" : {
-		"newForOwner:repository:" : "ng 5/14/2021 18:22" },
+		"newForRepository:" : "BF 5/21/2021 13:12" },
 	"instance" : {
-		"buildStatus" : "ng 5/14/2021 18:31",
+		"buildStatus" : "BF 5/23/2021 21:38",
 		"cache" : "ng 5/14/2021 16:53",
 		"cache:" : "ng 5/14/2021 16:53",
+		"clearCache" : "BF 5/21/2021 13:31",
 		"client" : "ng 5/14/2021 16:54",
 		"client:" : "ng 5/14/2021 18:18",
 		"initialize" : "ng 5/14/2021 18:18",
-		"owner" : "ng 5/14/2021 16:58",
-		"owner:" : "ng 5/14/2021 16:58",
+		"latestWorkflowJson" : "ng 5/22/2021 18:38",
 		"parser" : "ng 5/14/2021 17:56",
 		"parser:" : "ng 5/14/2021 18:18",
 		"repository" : "ng 5/14/2021 17:19",
-		"repository:" : "ng 5/14/2021 17:20" } }
+		"repository:" : "ng 5/14/2021 17:20",
+		"repositoryJson" : "ng 5/22/2021 19:05",
+		"requireRepository" : "ng 5/22/2021 19:04",
+		"requireWorkflow:" : "ng 5/23/2021 12:06",
+		"statusMessage" : "ng 5/22/2021 18:58",
+		"workflowJsonFor:" : "ng 5/23/2021 12:06",
+		"workflowsDictionary" : "ng 5/23/2021 12:05" } }

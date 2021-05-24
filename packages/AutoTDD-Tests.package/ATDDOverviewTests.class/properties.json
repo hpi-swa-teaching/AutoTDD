@@ -9,7 +9,8 @@
 		"overview",
 		"windowsToDelete",
 		"watchers",
-		"travisStatuses" ],
+		"travisStatuses",
+		"gitHubActions" ],
 	"name" : "ATDDOverviewTests",
 	"pools" : [
 		 ],

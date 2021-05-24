@@ -1,0 +1,18 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository",
+		"status",
+		"statusMessage",
+		"process",
+		"refreshInterval" ],
+	"name" : "ATDDGitHubAction",
+	"pools" : [
+		 ],
+	"super" : "ATDDTestingEntity",
+	"type" : "normal" }

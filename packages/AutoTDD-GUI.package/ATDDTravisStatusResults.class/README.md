@@ -1,1 +1,1 @@
-ATDDTravisStatusResults shows the test results from the respective Travis Status.
+ATDDTravisStatusResults shows the test results of the selected Travis Statuses.

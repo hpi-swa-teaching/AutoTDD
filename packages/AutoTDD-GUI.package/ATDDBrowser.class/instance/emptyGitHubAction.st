@@ -1,0 +1,4 @@
+building
+emptyGitHubAction
+	
+	^ ATDDGitHubAction new

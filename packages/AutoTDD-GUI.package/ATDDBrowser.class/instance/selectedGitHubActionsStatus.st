@@ -1,4 +1,0 @@
-accessing
-selectedGitHubActionsStatus
-	
-	^ 0

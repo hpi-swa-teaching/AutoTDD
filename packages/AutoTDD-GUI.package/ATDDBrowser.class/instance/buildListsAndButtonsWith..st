@@ -10,8 +10,8 @@ buildListsAndButtonsWith: aBuilder
 			add: ((self buildTravisStatusWith: aBuilder)
 				frame: self travisStatusFrame;
 				yourself);
-			add: ((self buildGitHubActionsStatusWith: aBuilder)
-				frame: self gitHubActionsStatusFrame;
+			add: ((self buildGitHubActionWith: aBuilder)
+				frame: self gitHubActionsFrame;
 				yourself);
 			yourself);
 		yourself.
