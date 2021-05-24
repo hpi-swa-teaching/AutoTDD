@@ -1,4 +1,4 @@
 action
-removeSelectedTravisStatus
+removeSelectedTravisStatuses
 	
 	self removeTravisStatuses: self selectedTravisStatuses

@@ -1,6 +1,6 @@
 building
 buttonsFrame
-	
+
 	^ LayoutFrame new
 		leftFraction: 0;
 		topFraction: 0.8;

@@ -1,4 +1,0 @@
-building
-listAmount
-	
-	^ 3
