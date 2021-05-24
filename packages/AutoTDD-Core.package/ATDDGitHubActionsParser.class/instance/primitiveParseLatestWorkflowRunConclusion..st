@@ -1,4 +1,4 @@
 primitive-parsing
 primitiveParseLatestWorkflowRunConclusion: aJson
 	
-	^ (aJson at: 'conclusion') ifNil: [ 'unknown' ]
+	^ (aJson at: 'conclusion' ifAbsent: [ 'unknown' ] ) ifNil: [ 'unknown' ]

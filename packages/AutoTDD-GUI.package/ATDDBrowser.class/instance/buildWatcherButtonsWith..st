@@ -1,17 +1,20 @@
 building
 buildWatcherButtonsWith: aBuilder
 	
-	^ aBuilder pluggablePanelSpec new
+	| panel |
+	
+	panel := aBuilder pluggablePanelSpec new
 		model: self;
 		layout: #horizontal;
-		children: (OrderedCollection new
-				add: (self buildAddWatcherButtonWith: aBuilder);
-				add: (self buildPauseWatcherButtonWith: aBuilder);
-				add: (self buildResumeWatcherButtonWith: aBuilder);
-				add: (self buildRunWatcherButtonWith: aBuilder);
-				add: (self buildEditWatcherButtonWith: aBuilder);
-				add: (self buildInfoWatcherButtonWith: aBuilder);
-				add: (self buildResultsWatcherButtonWith: aBuilder);
-				add: (self buildRemoveWatcherButtonWith: aBuilder);
-				yourself);
-		yourself
+		children: OrderedCollection new.
+		
+	self class watcherFunctionalityDictionary keysAndValuesDo: [
+		:aString :aMethod |
+		panel children addLast: (
+			self buildButtonWithMethod: aMethod 
+				withLabel: aString 
+				with: aBuilder
+		).
+	].
+		
+	^ panel

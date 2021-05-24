@@ -1,17 +1,20 @@
 building
 buildGitHubActionsButtonsWith: aBuilder
 	
-	^ aBuilder pluggablePanelSpec new
+	| panel |
+	
+	panel := aBuilder pluggablePanelSpec new
 		model: self;
 		layout: #horizontal;
-		children: (OrderedCollection new
-			add: (self buildAddGitHubActionButtonWith: aBuilder);
-			add: (self buildPauseGitHubActionButtonWith: aBuilder);
-			add: (self buildResumeGitHubActionButtonWith: aBuilder);
-			add: (self buildRefreshGitHubActionButtonWith: aBuilder);
-			add: (self buildEditGitHubActionButtonWith: aBuilder);
-			add: (self buildInfoGitHubActionButtonWith: aBuilder);
-			add: (self buildResultsGitHubActionButtonWith: aBuilder);
-			add: (self buildRemoveGitHubActionButtonWith: aBuilder);
-			yourself);
-		yourself
+		children: OrderedCollection new.
+		
+	self class gitHubActionFunctionalityDictionary keysAndValuesDo: [
+		:aString :aMethod |
+		panel children addLast: (
+			self buildButtonWithMethod: aMethod 
+				withLabel: aString 
+				with: aBuilder
+		).
+	].
+		
+	^ panel
