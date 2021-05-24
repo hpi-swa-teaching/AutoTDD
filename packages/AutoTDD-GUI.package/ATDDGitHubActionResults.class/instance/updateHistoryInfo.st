@@ -1,7 +1,6 @@
 updating
 updateHistoryInfo
 	
-	self
-		historyInfo: (Text new
-			append: self historyInfoForSelectedHistory;
-			addAttribute: (TextColor color: self colorForSelectedHistory))
+	self historyInfo: (Text new
+		append: self historyInfoForSelectedHistory;
+		addAttribute: (TextColor color: self colorForSelectedHistory))

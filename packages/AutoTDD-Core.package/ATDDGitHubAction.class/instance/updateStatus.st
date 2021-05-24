@@ -2,7 +2,7 @@ behaviour
 updateStatus
 	
 	self
-		handleStatusChange;
+		statusChanged;
 		status: self repository buildStatus;
 		statusMessage: self repository statusMessage;
 		notify.

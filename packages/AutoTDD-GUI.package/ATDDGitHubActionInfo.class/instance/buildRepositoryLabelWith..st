@@ -1,4 +1,4 @@
-as yet unclassified
+building
 buildRepositoryLabelWith: aBuilder
 	
 	^ aBuilder pluggableInputFieldSpec new

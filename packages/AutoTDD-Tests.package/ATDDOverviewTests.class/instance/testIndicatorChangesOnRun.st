@@ -7,4 +7,3 @@ testIndicatorChangesOnRun
 	watchers do: [ :each | each run ].
 	postIndicator := overview overallLocalIndicator.
 	self assert: preIndicator ~= postIndicator
-	

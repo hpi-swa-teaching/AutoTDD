@@ -9,7 +9,7 @@ requestOn: aString
 				httpGet: url
 				do: [ :request |
 					request headerAt: 'Accept' put: self mimeType].
-				response content; close ]
+			response content; close ]
 		on: Error
 		do: [ :error |
 			[ GHAConnectionError signal: 'Connection failed: ' , error messageText ] fork.

@@ -1,4 +1,4 @@
 accessing
 throwExceptionForResponseCode: aNumber
 	
-	(self errorDictionary at: aNumber ifAbsent: [ [  ] ]) fork
+	(self errorDictionary at: aNumber) fork

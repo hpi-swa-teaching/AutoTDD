@@ -1,4 +1,4 @@
 parsing
 primitiveParseRunNumberOf: aJson
 	
-	^ aJson at: 'run_number' ifAbsent: [ 0 ]
+	^ aJson at: 'run_number' ifAbsent: [ -1 ]

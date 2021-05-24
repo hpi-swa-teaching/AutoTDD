@@ -1,12 +1,9 @@
 behaviour
-handleStatusChange
+statusChanged
 	
 	| newStatus |
 	
 	newStatus := self repository buildStatus.
 	(self status ~= newStatus
-			and: [
-				newStatus = #failure
-					or: [ newStatus = #cancelled ]
-					or: [ newStatus = #success ] ])
+			and: (#(#failure #cancelled #success) includes: newStatus))
 		ifTrue: [ ATDDSoundPlayer instance playSoundForStatus: newStatus ]
