@@ -1,4 +1,4 @@
-building
+accessing
 buttonHeight
 
 	^ self class defaultButtonHeight
