@@ -1,4 +1,4 @@
 accessing
 watcher
 	
-	^ self target
+	^ self testingEntity

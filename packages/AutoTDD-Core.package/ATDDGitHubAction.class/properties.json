@@ -14,5 +14,5 @@
 	"name" : "ATDDGitHubAction",
 	"pools" : [
 		 ],
-	"super" : "ATDDTestingEntity",
+	"super" : "ATDDRemoteTestingEntity",
 	"type" : "normal" }

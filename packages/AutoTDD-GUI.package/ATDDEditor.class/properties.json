@@ -6,6 +6,7 @@
 		 ],
 	"commentStamp" : "be 7/25/2019 09:50",
 	"instvars" : [
+		"outClosure",
 		"targetName" ],
 	"name" : "ATDDEditor",
 	"pools" : [

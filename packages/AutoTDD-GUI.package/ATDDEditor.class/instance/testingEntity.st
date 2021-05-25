@@ -1,0 +1,4 @@
+accessing
+testingEntity
+
+	^ self target

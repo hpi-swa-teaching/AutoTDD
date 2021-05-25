@@ -5,7 +5,8 @@ testEditButtonWorks
 	
 	watcherWindow := browser addWatcher.
 	watcherWindow targetName: 'IBM'.
-	watcher := watcherWindow save.
+	watcherWindow save.
+	watcher := watcherWindow watcher.
 	self assert: self fetchCopyOfWatchers size = 1.
 	selection := OrderedCollection new.
 	selection add: watcher.

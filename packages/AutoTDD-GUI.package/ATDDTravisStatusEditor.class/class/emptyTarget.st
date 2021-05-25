@@ -1,0 +1,4 @@
+constants
+emptyTarget
+	
+	^ ATDDTravisStatus new

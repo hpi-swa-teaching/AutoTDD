@@ -10,7 +10,8 @@ testWatcherResultsButtonWorks
 	watcherWindow selectedCategoryClasses: watchedClasses.
 	testedCategories := Set newFrom: { #'AutoTDD-Dummy-Setting-Tests' }.
 	watcherWindow selectedTestCategories: testedCategories.
-	watcher := watcherWindow save.
+	watcherWindow save.
+	watcher := watcherWindow watcher.
 	self assert: self fetchCopyOfWatchers size = 1.
 	selection := OrderedCollection new.
 	selection add: watcher.

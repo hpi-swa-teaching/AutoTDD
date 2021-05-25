@@ -1,0 +1,4 @@
+constants
+symbol
+
+	^ self subclassResponsibility

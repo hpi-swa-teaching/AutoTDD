@@ -8,7 +8,9 @@ testRunAllButtonRunsEverything
 	watcherWindow := browser addWatcher.
 	watcherWindow selectedTestCategories: (Set newFrom: { #'AutoTDD-Dummy-Success-Tests' }).
 	watcherWindow selectedCategories: (Set newFrom: { #'AutoTDD-Dummy-Category' }).
-	watcher1 := watcherWindow save.
+	watcherWindow save.
+	watcher1 := watcherWindow watcher.
+
 	"insert travis add here"
 	browser runAll.
 	(Delay forSeconds: 1) wait.

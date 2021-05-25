@@ -1,4 +1,4 @@
 constants
 testingEntityArray
 	
-	^ #( 'watcher' 'travisStatus' 'gitHubAction' )
+	^ #( #watcher #travisStatus #gitHubAction )

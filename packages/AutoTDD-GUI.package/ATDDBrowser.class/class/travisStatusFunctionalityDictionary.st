@@ -3,12 +3,12 @@ travisStatusFunctionalityDictionary
 	
 	^ OrderedDictionary
 		newFrom: {
-			'Add Travis Status' -> #addTravisStatus.
-			'Pause' -> #pauseSelectedTravisStatuses.
+			'Add Travis Status' -> #createTravisStatus.
+			'Pause' -> #pauseTravisStatuses.
 			'Resume' -> #resumeSelectedTravisStatuses.
 			'Run' -> #resumeSelectedTravisStatuses.
-      		'Edit' -> #editTravisStatus.
-			'Info' -> #openInfoForSelectedTravisStatuses.
-			'Results' -> #openResultsForSelectedTravisStatuses.
+      		'Edit' -> #editTravisStatuses.
+			'Info' -> #infoTravisStatuses.
+			'Results' -> #resultsTravisStatuses.
 			'Remove' -> #removeSelectedTravisStatuses.
 		}

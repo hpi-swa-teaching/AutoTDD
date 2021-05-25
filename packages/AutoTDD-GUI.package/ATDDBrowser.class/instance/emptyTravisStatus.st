@@ -1,4 +1,0 @@
-building
-emptyTravisStatus
-	
-	^ ATDDTravisStatus new

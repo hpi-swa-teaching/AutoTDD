@@ -1,4 +1,0 @@
-building
-repositoryUrlHelpLabel
-	
-	^ 'Owner/Repository'

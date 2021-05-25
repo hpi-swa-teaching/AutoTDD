@@ -1,9 +1,6 @@
 initialization
 loadTargetSpecs
+
+	super loadTargetSpecs.
 	
-	self
-		repositoryUrl: self travisStatus repositoryURL;
-		token: self travisStatus token;
-		targetName: self travisStatus name;
-		usePro: self travisStatus usePro;
-		refreshInterval: self travisStatus refreshInterval
+	self usePro: self travisStatus usePro

@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repositoryUrl",
+		"refreshInterval",
+		"token" ],
+	"name" : "ATDDRemoteEditor",
+	"pools" : [
+		 ],
+	"super" : "ATDDEditor",
+	"type" : "normal" }

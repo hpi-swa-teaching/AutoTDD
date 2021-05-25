@@ -7,7 +7,8 @@ testTravisInfoButtonWorks
 	travisWindow := browser addTravisStatus.
 	travisWindow repositoryUrl: repoURL.
 	travisWindow refreshInterval: '20'.
-	travisStatus := travisWindow save.
+	travisWindow save.
+	travisStatus := travisWindow watcher.
 	self assert: self fetchCopyOfTravisStatuses size = 1.
 	selection := OrderedCollection new.
 	selection add: travisStatus.

@@ -11,7 +11,7 @@ buildWith: aBuilder
 				add: ((self buildTargetNameWith: aBuilder)
 						frame: self targetNameFrame;
 						yourself);
-				addAll: (self buildAdditionalInputFieldsWith: aBuilder);
+				addAll: (self buildInputFieldsWith: aBuilder);
 				add: ((self buildButtonsWith: aBuilder)
 						frame: self buttonsFrame;
 						yourself);
