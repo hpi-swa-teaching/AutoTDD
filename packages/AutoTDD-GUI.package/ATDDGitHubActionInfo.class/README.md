@@ -1,0 +1,1 @@
+The ATDDGitHubActionInfo shows a short overview over the configuration for a GitHub Action.

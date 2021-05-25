@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "sw 5/24/2021 17:07",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "ATDDGitHubActionInfo",
+	"name" : "AutoTDDGUIServiceProvider",
 	"pools" : [
 		 ],
-	"super" : "ATDDInfo",
+	"super" : "ServiceProvider",
 	"type" : "normal" }

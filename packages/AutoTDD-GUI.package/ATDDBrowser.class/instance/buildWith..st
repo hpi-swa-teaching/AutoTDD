@@ -8,13 +8,13 @@ buildWith: aBuilder
 		label: self label;
 		extent: self extent;
 		children: (OrderedCollection new
-			add: ((self buildGlobalButtonsWith: aBuilder)
+			add: ((self buildButtonsFor: self class globalFunctionalityDictionary layout: #horizontal with: aBuilder)
 				frame: self globalButtonsFrame;
 				yourself);
-			add: ((self buildListsAndButtonsWith: aBuilder)
-				frame: self listsAndButtonsFrame;
+			add: ((self buildTestingEntitiesFor: self class testingEntityUIDictionary layout: #vertical with: aBuilder)
+				frame: self testingEntitiesFrame;
 				yourself);
 			yourself);
 		yourself.
-	
+		
 	^ aBuilder build: window

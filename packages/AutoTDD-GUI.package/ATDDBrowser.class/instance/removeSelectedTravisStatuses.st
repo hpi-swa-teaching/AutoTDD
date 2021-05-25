@@ -1,0 +1,4 @@
+action
+removeSelectedTravisStatuses
+	
+	self removeTravisStatuses: self selectedTravisStatuses

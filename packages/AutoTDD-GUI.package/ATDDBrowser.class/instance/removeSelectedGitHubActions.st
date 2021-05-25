@@ -1,0 +1,4 @@
+action
+removeSelectedGitHubActions
+	
+	self removeGitHubActions: self selectedGitHubActions

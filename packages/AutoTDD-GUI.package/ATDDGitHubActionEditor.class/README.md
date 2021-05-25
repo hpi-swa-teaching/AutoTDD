@@ -1,0 +1,1 @@
+The ATDDGitHubActionEditor is the respective editor for GitHub Actions.
