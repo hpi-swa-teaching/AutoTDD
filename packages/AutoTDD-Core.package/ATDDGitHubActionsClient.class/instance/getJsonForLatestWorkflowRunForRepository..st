@@ -4,3 +4,4 @@ getJsonForLatestWorkflowRunForRepository: aString
 	
 	^ self requestOn: 'repos/' , aString , 'actions/runs?per_page=1'
 	
+	
