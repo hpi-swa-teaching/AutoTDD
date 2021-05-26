@@ -3,7 +3,7 @@ buildJobsWith: aBuilder
 	
 	^ aBuilder pluggableListSpec new
 		model: self;
-		list: #jobs;
+		list: #jobNames;
 		getIndex: #selectedJob;
 		setIndex: #selectedJob:;
 		yourself

@@ -1,0 +1,16 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"id",
+		"name",
+		"conclusion" ],
+	"name" : "ATDDGitHubActionWorklowJob",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

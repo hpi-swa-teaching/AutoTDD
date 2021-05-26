@@ -8,6 +8,7 @@
 	"instvars" : [
 		"selectedJob",
 		"jobs",
+		"jobNames",
 		"jobsUnformatted",
 		"log" ],
 	"name" : "ATDDGitHubActionResults",
