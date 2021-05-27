@@ -8,8 +8,8 @@ updateJobs
 	jobs := self parser parseJobsOf: ( client getJsonForJobsForRepository: (self data repository , '/') forWorkflowRunId: id ).
 	
 	self jobs: (jobs collect: [ :job | ATDDGitHubActionWorklowJob newForId: (parser primitiveParseIdOf: job) 
-		andName: (parser primitiveParseNameOf: job) 
-		andConclusion: (parser primitiveParseLatestWorkflowRunConclusion: job) ] ).
+		name: (parser primitiveParseNameOf: job) 
+		conclusion: (parser primitiveParseLatestWorkflowRunConclusion: job) ] ).
 	
 	self jobNames: (self jobs collect: [ :job |
 		Text new append: '#' , job name;

@@ -1,5 +1,5 @@
-as yet unclassified
-newForId: aNumber andName: aName andConclusion: aConclusion
+initialization
+newForId: aNumber name: aName conclusion: aConclusion
 	
 	^ self new
 		id: aNumber;
