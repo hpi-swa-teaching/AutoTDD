@@ -9,7 +9,7 @@
 		"id",
 		"name",
 		"conclusion" ],
-	"name" : "ATDDGitHubActionWorklowJob",
+	"name" : "ATDDGitHubActionWorkflowJob",
 	"pools" : [
 		 ],
 	"super" : "Object",
