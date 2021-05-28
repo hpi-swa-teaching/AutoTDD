@@ -1,4 +1,4 @@
 constants
 token
 	
-	^ token ifNil: [ token := '' ]
+	^ token
