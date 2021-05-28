@@ -1,11 +1,12 @@
 {
 	"class" : {
 		"defaultExtent" : "ls 7/25/2019 08:47",
+		"emptyTarget" : "sw 5/25/2021 19:59",
 		"isAbstract" : "ls 7/25/2019 08:43",
 		"label" : "ls 7/25/2019 08:36",
 		"labelFor:" : "BF 5/7/2021 17:48",
 		"new" : "ls 7/25/2019 08:46",
-		"openForTarget:" : "ls 7/25/2019 08:44",
+		"openForTarget:" : "sw 5/25/2021 23:36",
 		"targetName" : "swi 7/25/2019 15:01" },
 	"instance" : {
 		"extent" : "ls 7/25/2019 08:49",

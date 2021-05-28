@@ -3,12 +3,12 @@ gitHubActionFunctionalityDictionary
 	
 	^ OrderedDictionary
 		newFrom: {
-			'Add GitHub Action' -> #addGitHubAction.
-			'Pause' -> #pauseSelectedGitHubActions.
+			'Add GitHub Action' -> #createGitHubAction.
+			'Pause' -> #pauseGitHubActions.
 			'Resume' -> #resumeSelectedGitHubActions.
 			'Run' -> #resumeSelectedGitHubActions.
-      		'Edit' -> #editGitHubAction.
-			'Info' -> #openInfoForSelectedGitHubActions.
-			'Results' -> #openResultsForSelectedGitHubActions.
-			'Remove' -> #removeSelectedGitHubActions.
+      		'Edit' -> #editGitHubActions.
+			'Info' -> #infoGitHubActions.
+			'Results' -> #resultsGitHubActions.
+			'Remove' -> #removeSelectedGitHubActions
 		}

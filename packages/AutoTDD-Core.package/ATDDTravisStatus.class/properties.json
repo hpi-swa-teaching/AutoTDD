@@ -14,5 +14,5 @@
 	"name" : "ATDDTravisStatus",
 	"pools" : [
 		 ],
-	"super" : "ATDDTestingEntity",
+	"super" : "ATDDRemoteTestingEntity",
 	"type" : "normal" }

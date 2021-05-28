@@ -1,0 +1,27 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"applyChanges" : "sw 5/25/2021 20:21",
+		"buildInputFieldsWith:" : "sw 5/25/2021 20:46",
+		"buildIntervalWith:" : "sw 5/25/2021 20:25",
+		"buildRepositoryUrlWith:" : "sw 5/25/2021 20:52",
+		"buildTokenWith:" : "sw 5/25/2021 20:32",
+		"hasVaildRefreshInterval" : "sw 5/25/2021 20:27",
+		"hasVaildSlug" : "sw 5/25/2021 20:27",
+		"initializeInputFields" : "sw 5/25/2021 20:32",
+		"initializeInterval" : "sw 5/25/2021 20:29",
+		"initializeRepositoryUrl" : "sw 5/25/2021 20:29",
+		"initializeToken" : "sw 5/25/2021 20:31",
+		"intervalFrame" : "sw 5/25/2021 20:30",
+		"loadTargetSpecs" : "sw 5/25/2021 20:59",
+		"refreshInterval" : "sw 5/25/2021 19:07",
+		"refreshInterval:" : "sw 5/25/2021 19:07",
+		"repositoryUrl" : "sw 5/25/2021 19:08",
+		"repositoryUrl:" : "sw 5/25/2021 19:08",
+		"repositoryUrlFrame" : "sw 5/25/2021 20:35",
+		"save" : "sw 5/26/2021 00:02",
+		"targetNameFrame" : "sw 5/25/2021 20:34",
+		"token" : "sw 5/25/2021 19:23",
+		"token:" : "sw 5/25/2021 19:23",
+		"tokenFrame" : "sw 5/25/2021 20:33" } }

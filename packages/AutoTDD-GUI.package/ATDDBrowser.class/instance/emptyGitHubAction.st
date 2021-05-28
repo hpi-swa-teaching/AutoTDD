@@ -1,4 +1,0 @@
-building
-emptyGitHubAction
-	
-	^ ATDDGitHubAction new

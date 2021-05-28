@@ -1,9 +1,10 @@
 {
 	"class" : {
-		"colorDictionary" : "be 7/4/2019 17:35",
+		"colorDictionary" : "sw 5/28/2021 11:47",
 		"defaultName" : "ls 7/25/2019 15:01",
 		"defaultRefreshInterval" : "ls 7/25/2019 14:56",
-		"imageDictionary" : "BF 5/16/2021 14:48" },
+		"imageDictionary" : "sw 5/28/2021 11:49",
+		"symbol" : "sw 5/25/2021 22:21" },
 	"instance" : {
 		"applyDefaultConfiguration" : "ls 7/25/2019 15:01",
 		"asStringOrText" : "BF 5/23/2021 21:10",
@@ -28,8 +29,6 @@
 		"statusMessage" : "ls 7/11/2019 17:36",
 		"statusMessage:" : "ls 7/25/2019 14:52",
 		"terminateProcess" : "ls 6/5/2019 15:01",
-		"token" : "ls 6/5/2019 20:22",
-		"token:" : "ls 6/5/2019 14:50",
 		"updateStatus" : "BF 5/23/2021 21:16",
 		"usePro" : "ls 6/5/2019 20:27",
 		"usePro:" : "ls 7/3/2019 16:15" } }

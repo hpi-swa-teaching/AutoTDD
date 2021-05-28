@@ -1,6 +1,4 @@
 behavior
 applyChanges
 
-	self target name: self targetName.
-	
-	^ self target
+	self target name: self targetName

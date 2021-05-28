@@ -1,4 +1,4 @@
 accessing
 gitHubAction
 	
-	^ self target
+	^ self testingEntity

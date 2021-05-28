@@ -3,12 +3,12 @@ watcherFunctionalityDictionary
 	
 	^ OrderedDictionary
 		newFrom: {
-			'Add watcher' -> #addWatcher.
-			'Pause' -> #pauseSelectedWatchers.
+			'Add watcher' -> #createWatcher.
+			'Pause' -> #pauseWatchers.
 			'Resume' -> #resumeSelectedWatchers.
 			'Run' -> #resumeSelectedWatchers.
-      		'Edit' -> #editWatcher.
-			'Info' -> #openInfoForSelectedWatchers.
-			'Results' -> #openResultsForSelectedWatchers.
-			'Remove' -> #removeSelectedWatchers.
+      		'Edit' -> #editWatchers.
+			'Info' -> #infoWatchers.
+			'Results' -> #resultsWatchers.
+			'Remove' -> #removeSelectedWatchers
 		}
