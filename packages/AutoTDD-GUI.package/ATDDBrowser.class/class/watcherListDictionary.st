@@ -7,5 +7,5 @@ watcherListDictionary
 			'getIndex' -> #selectedWatcher.
 			'setIndex' -> #selectedWatcher:.
 			'getSelectionList' -> #watcherAt:.
-			'setSelectionList' -> #watcherAt:put:.
+			'setSelectionList' -> #watcherAt:put:
 		}

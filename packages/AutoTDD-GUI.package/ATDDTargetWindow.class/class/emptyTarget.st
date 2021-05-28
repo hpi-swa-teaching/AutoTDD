@@ -1,0 +1,4 @@
+constants
+emptyTarget
+
+	^ self subclassResponsibility

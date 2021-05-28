@@ -3,7 +3,7 @@ testingEntityUIDictionary
 	
 	^ Dictionary
 		newFrom: {
-			'watcher' -> self watcherUIDictionary.
-			'travisStatus' -> self travisStatusUIDictionary.
-			'gitHubAction' -> self gitHubActionUIDictionary
+			#watcher -> self watcherUIDictionary.
+			#travisStatus -> self travisStatusUIDictionary.
+			#gitHubAction -> self gitHubActionUIDictionary
 		}

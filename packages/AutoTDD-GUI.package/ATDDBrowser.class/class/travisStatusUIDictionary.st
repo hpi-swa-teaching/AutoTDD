@@ -4,5 +4,5 @@ travisStatusUIDictionary
 	^ Dictionary
 		newFrom: {
 			'listDictionary' -> self travisStatusListDictionary.
-			'functionalityDictionary' -> self travisStatusFunctionalityDictionary.
+			'functionalityDictionary' -> self travisStatusFunctionalityDictionary
 		}

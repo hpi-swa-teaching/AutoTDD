@@ -1,0 +1,4 @@
+building
+emptyTestingEntity
+
+	^ ATDDWatcher new

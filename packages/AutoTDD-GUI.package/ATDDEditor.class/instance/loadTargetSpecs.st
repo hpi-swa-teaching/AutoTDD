@@ -1,4 +1,4 @@
 initialization
 loadTargetSpecs
 	
-	^ self subclassResponsibility
+	self targetName: self testingEntity name

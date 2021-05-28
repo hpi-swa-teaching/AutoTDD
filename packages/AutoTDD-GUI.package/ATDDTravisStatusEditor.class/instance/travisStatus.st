@@ -1,4 +1,4 @@
 accessing
 travisStatus
-	
-	^ self target
+
+	^ self testingEntity

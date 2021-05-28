@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "be 7/25/2019 14:59",
 	"instvars" : [
-		"repositoryUrl",
-		"refreshInterval",
-		"token",
 		"usePro" ],
 	"name" : "ATDDTravisStatusEditor",
 	"pools" : [
 		 ],
-	"super" : "ATDDEditor",
+	"super" : "ATDDRemoteEditor",
 	"type" : "normal" }

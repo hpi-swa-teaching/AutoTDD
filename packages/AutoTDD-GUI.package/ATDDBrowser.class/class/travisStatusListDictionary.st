@@ -7,5 +7,5 @@ travisStatusListDictionary
 			'getIndex' -> #selectedTravisStatus.
 			'setIndex' -> #selectedTravisStatus:.
 			'getSelectionList' -> #travisStatusAt:.
-			'setSelectionList' -> #travisStatusAt:put:.
+			'setSelectionList' -> #travisStatusAt:put:
 		}

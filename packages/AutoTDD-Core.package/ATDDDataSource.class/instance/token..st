@@ -1,4 +1,4 @@
 accessing
-token: anObject
+token: aString
 	
-	self subclassResponsibility
+	self client token: aString
