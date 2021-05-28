@@ -17,7 +17,16 @@ requestOn: aString
 	
 	^ response code
 		= 200
-		ifTrue: [ Json readFrom: response content readStream ]
+		ifTrue: [ 
+			(response contentType includesSubstring: 'application/json') 
+				ifTrue: [ 
+					Json readFrom: response content readStream  
+					] 
+				ifFalse: [
+					(response contentType includesSubstring: 'application/text')
+					ifTrue: [ response content ]
+			]
+		] 
 		ifFalse: [
-			self throwExceptionForResponseCode: response code.
-			JsonObject new ]
+			 self throwExceptionForResponseCode: response code.
+			 JsonObject new ]

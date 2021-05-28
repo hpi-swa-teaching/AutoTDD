@@ -70,6 +70,7 @@
 		"pauseAll" : "sw 5/25/2021 22:59",
 		"pauseGitHubActions" : "sw 5/26/2021 00:00",
 		"pauseSelectedTestingEntitiesOfType:" : "sw 5/25/2021 23:29",
+		"pauseTestingEntity:" : "sw 5/28/2021 15:17",
 		"pauseTravisStatuses" : "sw 5/26/2021 00:03",
 		"pauseWatchers" : "sw 5/26/2021 00:04",
 		"refreshGitHubAction:" : "sw 5/21/2021 21:01",
