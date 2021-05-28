@@ -7,5 +7,5 @@ gitHubActionListDictionary
 			'getIndex' -> #selectedGitHubAction.
 			'setIndex' -> #selectedGitHubAction:.
 			'getSelectionList' -> #gitHubActionAt:.
-			'setSelectionList' -> #gitHubActionAt:put:.
+			'setSelectionList' -> #gitHubActionAt:put:
 		}

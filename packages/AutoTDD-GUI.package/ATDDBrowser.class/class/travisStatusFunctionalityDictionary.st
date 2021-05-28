@@ -10,5 +10,5 @@ travisStatusFunctionalityDictionary
       		'Edit' -> #editTravisStatuses.
 			'Info' -> #infoTravisStatuses.
 			'Results' -> #resultsTravisStatuses.
-			'Remove' -> #removeSelectedTravisStatuses.
+			'Remove' -> #removeSelectedTravisStatuses
 		}

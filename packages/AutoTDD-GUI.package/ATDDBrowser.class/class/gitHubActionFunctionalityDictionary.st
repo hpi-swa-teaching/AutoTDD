@@ -10,5 +10,5 @@ gitHubActionFunctionalityDictionary
       		'Edit' -> #editGitHubActions.
 			'Info' -> #infoGitHubActions.
 			'Results' -> #resultsGitHubActions.
-			'Remove' -> #removeSelectedGitHubActions.
+			'Remove' -> #removeSelectedGitHubActions
 		}

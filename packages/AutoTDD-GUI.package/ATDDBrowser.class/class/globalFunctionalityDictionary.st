@@ -7,5 +7,5 @@ globalFunctionalityDictionary
 			'Resume All' -> #resumeAll.
 			'Run All' -> #runAll.
 			'Create Overview' -> #openOverview.
-      		'toggle_sound_placeholder' -> #toggleSounds.
+      		'toggle_sound_placeholder' -> #toggleSounds
 		}

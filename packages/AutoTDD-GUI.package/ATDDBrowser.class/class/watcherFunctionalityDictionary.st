@@ -10,5 +10,5 @@ watcherFunctionalityDictionary
       		'Edit' -> #editWatchers.
 			'Info' -> #infoWatchers.
 			'Results' -> #resultsWatchers.
-			'Remove' -> #removeSelectedWatchers.
+			'Remove' -> #removeSelectedWatchers
 		}

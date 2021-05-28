@@ -4,5 +4,5 @@ gitHubActionUIDictionary
 	^ Dictionary
 		newFrom: {
 			'listDictionary' -> self gitHubActionListDictionary.
-			'functionalityDictionary' -> self gitHubActionFunctionalityDictionary.
+			'functionalityDictionary' -> self gitHubActionFunctionalityDictionary
 		}
