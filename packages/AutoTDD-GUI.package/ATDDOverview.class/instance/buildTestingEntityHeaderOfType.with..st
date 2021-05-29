@@ -1,10 +1,9 @@
 building
-buildTravisStatusMessageWith: aBuilder
+buildTestingEntityHeaderOfType: aSymbol with: aBuilder
 	
 	^ aBuilder pluggableInputFieldSpec new
-		model: travisStatusMessage;
+		model: (self testingEntityHeaderDictionary at: aSymbol) contents;
 		indicateUnacceptedChanges: false;
 		readOnly: true;
 		getText: #contents;
-		softLineWrap: true;
 		yourself

@@ -7,6 +7,6 @@ initialize
 	localIndicator := ValueHolder new contents: self class pendingImage.
 	travisStatusIndicator := ValueHolder new contents: self class pendingImage.
 	gitHubActionIndicator := ValueHolder new contents: self class pendingImage.
-	self changed: #watchers.
-	self changed: #travisStatuses.
-	self changed: #gitHubActions
+	self changed: #watcher.
+	self changed: #travisStatus.
+	self changed: #gitHubAction

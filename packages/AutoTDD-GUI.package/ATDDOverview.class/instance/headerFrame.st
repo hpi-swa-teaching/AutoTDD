@@ -1,5 +1,5 @@
 building
-headingFrame
+headerFrame
 	
 	^ LayoutFrame new
 		leftFraction: 0 offset: 0;
