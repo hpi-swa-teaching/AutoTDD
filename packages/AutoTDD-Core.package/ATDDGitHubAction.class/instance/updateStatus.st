@@ -3,7 +3,7 @@ updateStatus
 	
 	self
 		statusChanged;
-		status: self repository buildStatus;
+		internalStatus: self repository buildStatus;
 		statusMessage: self repository statusMessage;
 		notify.
 	ATDDBrowser changedGitHubActions

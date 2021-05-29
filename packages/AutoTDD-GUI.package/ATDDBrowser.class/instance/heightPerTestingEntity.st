@@ -1,4 +1,4 @@
 accessing
 heightPerTestingEntity
 	
-	^ 1 / self testingEntityAmount
+	^ 1 / self testingEntitiesAmount

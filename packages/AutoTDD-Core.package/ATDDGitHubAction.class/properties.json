@@ -6,11 +6,7 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"repository",
-		"status",
-		"statusMessage",
-		"process",
-		"refreshInterval" ],
+		 ],
 	"name" : "ATDDGitHubAction",
 	"pools" : [
 		 ],

@@ -1,8 +1,11 @@
 accessing
-watcherAt: anInteger put: aBoolean
-	
+watcherAt: t1 put: t2 
 	self
 		selectedWatchers: (self selectedWatchers
-			perform: (aBoolean ifTrue: [ #copyWith: ] ifFalse: [ #copyWithout: ])
-			with: (self watchers at: anInteger ifAbsent: [ ^ self ])).
-	self changed: #selectedWatchers
+				perform: (t2
+						ifTrue: [#copyWith:]
+						ifFalse: [#copyWithout:])
+				with: (self watchers
+						at: t1
+						ifAbsent: [^ self])).
+	self changed: #selectedWatchers.

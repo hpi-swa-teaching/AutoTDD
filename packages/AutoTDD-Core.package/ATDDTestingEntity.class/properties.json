@@ -9,7 +9,8 @@
 		"observers",
 		"valid",
 		"name",
-		"paused" ],
+		"paused",
+		"internalStatus" ],
 	"name" : "ATDDTestingEntity",
 	"pools" : [
 		 ],

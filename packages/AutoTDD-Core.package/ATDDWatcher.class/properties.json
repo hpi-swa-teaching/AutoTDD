@@ -13,8 +13,8 @@
 		"isTestingClasswise",
 		"classesToTest",
 		"categoriesToTest",
-		"localStatus",
-		"localStatusMessageDictionary" ],
+		"internalStatus",
+		"internalStatusMessageDictionary" ],
 	"name" : "ATDDWatcher",
 	"pools" : [
 		 ],

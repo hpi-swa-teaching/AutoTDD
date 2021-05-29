@@ -2,5 +2,23 @@
 	"class" : {
 		 },
 	"instance" : {
+		"applyDefaultConfiguration" : "sw 5/28/2021 18:03",
+		"asString" : "ClassTest 5/28/2021 23:40",
+		"internalStatus:" : "sw 5/28/2021 22:13",
+		"newRefreshProcess" : "sw 5/28/2021 18:04",
+		"pause" : "sw 5/28/2021 18:04",
+		"pausedString" : "sw 5/28/2021 18:04",
+		"process" : "sw 5/28/2021 18:06",
+		"process:" : "sw 5/28/2021 18:06",
+		"refresh" : "sw 5/28/2021 18:06",
+		"refreshInterval" : "sw 5/28/2021 18:06",
+		"refreshInterval:" : "sw 5/28/2021 18:06",
+		"repository" : "sw 5/28/2021 18:07",
+		"repository:" : "sw 5/28/2021 18:07",
+		"repositoryURL" : "sw 5/28/2021 18:07",
+		"resume" : "sw 5/28/2021 18:08",
+		"statusMessage" : "sw 5/28/2021 18:10",
+		"statusMessage:" : "sw 5/28/2021 18:10",
+		"terminateProcess" : "sw 5/28/2021 18:10",
 		"token" : "sw 5/25/2021 21:47",
 		"token:" : "sw 5/25/2021 21:47" } }
