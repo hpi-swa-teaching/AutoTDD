@@ -1,4 +1,4 @@
 behavior
 internalStatusMessage
 	
-	^ (self localStatusMessageDictionary at: self internalStatus) value
+	^ (self internalStatusMessageDictionary at: self internalStatus) value

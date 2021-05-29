@@ -2,4 +2,4 @@ accessing
 finishedTesting
 	
 	self notify.
-	ATDDSoundPlayer instance playSoundForStatus: self internalStatus
+	ATDDSoundPlayer instance playSoundForStatus: self status

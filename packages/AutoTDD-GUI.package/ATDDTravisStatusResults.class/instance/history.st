@@ -9,4 +9,4 @@ history
 		collect: [ :build |
 			Text new
 				append: '#' , (build at: #number) , String space , (build at: #branch);
-				addAttribute: (TextColor color: (self colorForStatus: (build at: #state))) ]
+				addAttribute: (TextColor color: (self colorForInternalStatus: (build at: #state))) ]

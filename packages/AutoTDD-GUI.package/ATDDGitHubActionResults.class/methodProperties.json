@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"buttonLabel" : "vxr 7/4/2019 13:37",
-		"colorDictionary" : "sw 5/21/2021 20:55",
 		"isAbstract" : "ls 7/25/2019 08:44",
 		"parser" : "sw 5/21/2021 20:55",
 		"targetName" : "sw 5/21/2021 20:55" },
@@ -10,9 +9,9 @@
 		"buildJobLogWith:" : "vxr 7/4/2019 11:06",
 		"buildJobsWith:" : "ng 5/26/2021 14:06",
 		"buttonAction" : "vxr 7/4/2019 13:36",
-		"colorForSelectedHistory" : "ng 5/23/2021 11:27",
+		"colorForSelectedHistory" : "ClassTest 5/29/2021 19:12",
 		"data" : "vxr 7/4/2019 13:32",
-		"history" : "ng 5/22/2021 19:15",
+		"history" : "ClassTest 5/29/2021 19:12",
 		"historyChanged" : "vxr 7/4/2019 11:30",
 		"historyInfoForSelectedHistory" : "ng 5/23/2021 09:15",
 		"jobLogFrame" : "sw 5/24/2021 16:33",
@@ -28,4 +27,4 @@
 		"update" : "vxr 7/4/2019 14:37",
 		"updateHistoryInfo" : "BF 5/23/2021 21:49",
 		"updateJobLogForId:" : "ng 5/27/2021 19:13",
-		"updateJobs" : "ng 5/28/2021 13:21" } }
+		"updateJobs" : "ClassTest 5/29/2021 19:12" } }

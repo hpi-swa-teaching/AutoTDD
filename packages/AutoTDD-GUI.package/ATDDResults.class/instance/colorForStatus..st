@@ -1,4 +1,4 @@
 accessing
-colorForStatus: aString
+colorForStatus: aSymbol
 	
-	^ self class colorDictionary at: aString asSymbol
+	^ ATDDTestingEntity colorDictionary at: aSymbol

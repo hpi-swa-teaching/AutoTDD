@@ -1,4 +1,4 @@
 accessing
 internalStatus
 	
-	^ internalStatus ifNil: [ internalStatus := #unexecuted ]
+	^ internalStatus ifNil: [ internalStatus := 'unexecuted' ]

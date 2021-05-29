@@ -1,4 +1,4 @@
 building
 colorForTestCase: aTestCase
 	
-	^ self colorForStatus: (self parser primitiveParseStateOf: aTestCase)
+	^ self colorForInternalStatus: (self parser primitiveParseStateOf: aTestCase)

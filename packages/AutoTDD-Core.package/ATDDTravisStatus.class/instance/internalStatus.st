@@ -1,4 +1,4 @@
 accessing
 internalStatus
 	
-	^ internalStatus ifNil: [ internalStatus := #unknown ]
+	^ internalStatus ifNil: [ internalStatus := 'unknown' ]

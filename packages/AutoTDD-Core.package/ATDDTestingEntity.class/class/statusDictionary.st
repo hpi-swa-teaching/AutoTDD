@@ -1,0 +1,4 @@
+constants
+statusDictionary
+	
+	^ self subclassResponsibility

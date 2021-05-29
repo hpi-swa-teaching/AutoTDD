@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"buttonLabel" : "vxr 7/4/2019 13:37",
-		"colorDictionary" : "vxr 7/10/2019 15:50",
 		"isAbstract" : "ls 7/25/2019 08:44",
 		"parser" : "ls 7/25/2019 09:42",
 		"targetName" : "vxr 7/3/2019 17:26" },
@@ -10,8 +9,8 @@
 		"buildTestsWith:" : "vxr 7/3/2019 19:08",
 		"buttonAction" : "vxr 7/4/2019 13:36",
 		"colorForSelectedHistory" : "vxr 7/4/2019 18:24",
-		"colorForTestCase:" : "vxr 7/4/2019 18:23",
-		"colorForTestCase:within:" : "vxr 7/4/2019 18:23",
+		"colorForTestCase:" : "ClassTest 5/29/2021 19:14",
+		"colorForTestCase:within:" : "ClassTest 5/29/2021 19:02",
 		"data" : "vxr 7/4/2019 13:33",
 		"debugTest:" : "vxr 7/3/2019 19:21",
 		"formatTimestampAsString:" : "vxr 7/4/2019 09:55",

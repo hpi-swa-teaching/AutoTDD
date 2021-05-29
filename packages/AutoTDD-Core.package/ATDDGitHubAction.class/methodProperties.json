@@ -2,11 +2,11 @@
 	"class" : {
 		"defaultName" : "BF 5/21/2021 12:55",
 		"defaultRefreshInterval" : "sw 5/28/2021 18:12",
-		"statusDictionary" : "sw 5/28/2021 18:16",
+		"statusDictionary" : "ClassTest 5/29/2021 19:59",
 		"symbol" : "sw 5/25/2021 22:27" },
 	"instance" : {
 		"initialize" : "BF 5/23/2021 21:18",
-		"internalStatus" : "sw 5/28/2021 22:13",
+		"internalStatus" : "ClassTest 5/29/2021 19:25",
 		"repositoryURL:" : "BF 5/23/2021 21:29",
-		"statusChanged" : "sw 5/28/2021 22:07",
+		"statusChanged" : "ClassTest 5/29/2021 19:31",
 		"updateStatus" : "ClassTest 5/28/2021 23:47" } }

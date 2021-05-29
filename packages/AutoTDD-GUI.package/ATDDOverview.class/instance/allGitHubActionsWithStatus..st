@@ -1,4 +1,4 @@
 calculation
-allGitHubActionsWithStatus: aSymbol
+allGitHubActionsWithStatus: aString
 	
-	^ self gitHubActions select: [ :each | each internalStatus = aSymbol ]
+	^ self gitHubActions select: [ :each | each internalStatus = aString ]

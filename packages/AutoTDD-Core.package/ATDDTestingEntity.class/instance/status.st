@@ -1,4 +1,4 @@
 accessing
 status
 
-	^ self class statusDictionary at: (self internalStatus)
+	^ self class statusDictionary at: self internalStatus

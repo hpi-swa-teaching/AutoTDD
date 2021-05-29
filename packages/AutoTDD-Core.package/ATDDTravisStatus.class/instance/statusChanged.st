@@ -5,5 +5,5 @@ statusChanged
 	
 	newStatus := self repository buildStatus.
 	(self internalStatus ~= newStatus
-			and: (#(#failed #errored #canceled #passed) includes: newStatus))
+			and: (#('failed' 'errored' 'canceled' 'passed') includes: newStatus))
 		ifTrue: [ ATDDSoundPlayer instance playSoundForStatus: newStatus ]

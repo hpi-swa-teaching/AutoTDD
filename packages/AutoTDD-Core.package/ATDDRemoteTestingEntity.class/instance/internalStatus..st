@@ -1,4 +1,4 @@
 accessing
-internalStatus: aSymbol
+internalStatus: aString
 	
-	internalStatus := aSymbol
+	internalStatus := aString

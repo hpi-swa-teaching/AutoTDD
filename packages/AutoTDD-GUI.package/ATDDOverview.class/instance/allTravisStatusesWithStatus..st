@@ -1,4 +1,4 @@
 calculation
-allTravisStatusesWithStatus: aSymbol
+allTravisStatusesWithStatus: aString
 	
-	^ self travisStatuses select: [ :each | each internalStatus = aSymbol ]
+	^ self travisStatuses select: [ :each | each internalStatus = aString ]
