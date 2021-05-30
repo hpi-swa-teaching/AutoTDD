@@ -1,9 +1,12 @@
 building
-buildTestEntityUIFor: aUIDictionary with: aBuilder
+buildTestEntityUIFor: aUIDictionary testingEntityType: aSymbol with: aBuilder
 	
 	^ aBuilder pluggablePanelSpec new
 		model: self;
 		children: (OrderedCollection new
+			add: ((self buildHeaderForTestingEntityType: aSymbol with: aBuilder)
+				frame: self headerFrame
+				yourself);
 			add: ((self buildListFor: (aUIDictionary at: 'listDictionary') with: aBuilder)
 				frame: self listFrame
 				yourself);

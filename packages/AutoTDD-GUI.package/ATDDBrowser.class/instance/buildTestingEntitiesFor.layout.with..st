@@ -9,9 +9,9 @@ buildTestingEntitiesFor: aTestingEntityUIDictionary layout: anOrientation with: 
 		layout: anOrientation;
 		children: OrderedCollection new.
 		
-	self class testingEntityArray do: [:aString |	
-		aUIDictionary := (aTestingEntityUIDictionary at: aString).
-		panel children addLast: ((self buildTestEntityUIFor: aUIDictionary with: aBuilder))
+	self class testingEntityArray do: [:aSymbol |	
+		aUIDictionary := (aTestingEntityUIDictionary at: aSymbol).
+		panel children addLast: ((self buildTestEntityUIFor: aUIDictionary testingEntityType: aSymbol with: aBuilder))
 		].
 	
 	^ panel
