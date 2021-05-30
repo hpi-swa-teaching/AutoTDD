@@ -8,10 +8,10 @@ buildWith: aBuilder
 		label: self label;
 		extent: self extent;
 		children: (OrderedCollection new
-			add: ((self buildButtonsFor: self class globalFunctionalityDictionary layout: #horizontal with: aBuilder)
+			add: ((self buildGlobalButtonsWith: aBuilder)
 				frame: self globalButtonsFrame;
 				yourself);
-			add: ((self buildTestingEntitiesFor: self class testingEntityUIDictionary layout: #vertical with: aBuilder)
+			add: ((self buildTestingEntitiesWith: aBuilder)
 				frame: self testingEntitiesFrame;
 				yourself);
 			yourself);

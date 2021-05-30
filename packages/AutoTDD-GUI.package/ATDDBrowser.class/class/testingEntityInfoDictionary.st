@@ -1,7 +1,7 @@
 constants
 testingEntityInfoDictionary
 	
-	^ Dictionary
+	^ IdentityDictionary
 		newFrom: {
 			#watcher -> ATDDWatcherInfo.
 			#travisStatus -> ATDDTravisStatusInfo.

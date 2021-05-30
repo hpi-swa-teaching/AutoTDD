@@ -1,5 +1,5 @@
 building
-buildButtonsFor: aFunctionalityDictionary layout: anOrientation with: aBuilder
+buildGlobalButtonsWith: aBuilder
 	"anOrientation can be one of:
 		#proportional (default): Use frames as appropriate.
 		#horizontal: Arrange the elements horizontally
@@ -9,13 +9,13 @@ buildButtonsFor: aFunctionalityDictionary layout: anOrientation with: aBuilder
 	
 	panel := aBuilder pluggablePanelSpec new
 		model: self;
-		layout: anOrientation;
+		layout: #horizontal;
 		children: OrderedCollection new.
 		
-	aFunctionalityDictionary keysAndValuesDo: [
+	(self class globalFunctionalityDictionary) keysAndValuesDo: [
 		:aString :aMethod |
 		panel children addLast: (
-			self buildButtonWithMethod: aMethod 
+			self buildButtonPerforming: aMethod 
 				withLabel: aString 
 				with: aBuilder
 		).

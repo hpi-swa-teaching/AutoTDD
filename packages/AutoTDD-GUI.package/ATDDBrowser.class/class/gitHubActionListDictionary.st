@@ -3,7 +3,7 @@ gitHubActionListDictionary
 	
 	^ Dictionary
 		newFrom: {
-			'data' -> #gitHubActions.
+			'list' -> #gitHubActions.
 			'getIndex' -> #selectedGitHubAction.
 			'setIndex' -> #selectedGitHubAction:.
 			'getSelectionList' -> #gitHubActionAt:.
