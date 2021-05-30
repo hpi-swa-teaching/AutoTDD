@@ -2,7 +2,7 @@ building
 buildHeaderForTestingEntityType: aSymbol with: aBuilder
 
 	^ aBuilder pluggableTextSpec new
-		model: self;
+		model: (self headerForTestingEntity: aSymbol);
 		readOnly: true;
-		help: (self headerForTestingEntity: aSymbol);
+		getText: #contents;
 		yourself

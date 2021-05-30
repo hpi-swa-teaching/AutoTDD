@@ -22,7 +22,7 @@
 		"testingEntityArray" : "sw 5/25/2021 22:12",
 		"testingEntityChangedHandlingDictionary" : "sw 5/25/2021 23:09",
 		"testingEntityEditorDictionary" : "sw 5/25/2021 22:16",
-		"testingEntityHeaderDictionary" : "sw 5/25/2021 22:11",
+		"testingEntityHeaderDictionary" : "BF 5/30/2021 15:47",
 		"testingEntityInfoDictionary" : "sw 5/25/2021 22:16",
 		"testingEntityResultsDictionary" : "sw 5/25/2021 22:16",
 		"testingEntityUIDictionary" : "sw 5/25/2021 22:11",
@@ -36,7 +36,7 @@
 	"instance" : {
 		"buildButtonWithMethod:withLabel:with:" : "sw 5/24/2021 15:46",
 		"buildButtonsFor:layout:with:" : "sw 5/24/2021 15:26",
-		"buildHeaderForTestingEntityType:with:" : "BF 5/30/2021 15:26",
+		"buildHeaderForTestingEntityType:with:" : "BF 5/30/2021 15:48",
 		"buildListFor:with:" : "sw 5/24/2021 14:46",
 		"buildTestEntityUIFor:testingEntityType:with:" : "BF 5/30/2021 15:09",
 		"buildTestingEntitiesFor:layout:with:" : "BF 5/30/2021 15:07",
