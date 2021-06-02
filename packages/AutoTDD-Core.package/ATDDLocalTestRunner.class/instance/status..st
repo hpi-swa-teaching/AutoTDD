@@ -1,5 +1,5 @@
 accessing
-status: aSymbol
+status: aString
 	
-	status := aSymbol.
+	status := aString.
 	self updateWatcherStatus

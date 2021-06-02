@@ -1,12 +1,13 @@
 {
 	"class" : {
+		"TravisStatuses" : "ClassTest 6/2/2021 17:35",
+		"collection" : "ClassTest 6/2/2021 17:33",
 		"defaultName" : "ls 7/25/2019 15:01",
 		"defaultRefreshInterval" : "ls 7/25/2019 14:56",
 		"statusDictionary" : "ClassTest 5/29/2021 19:59",
 		"symbol" : "sw 5/25/2021 22:21" },
 	"instance" : {
 		"initialize" : "BF 5/23/2021 21:18",
-		"internalStatus" : "ClassTest 5/29/2021 19:25",
 		"repositoryURL:" : "ls 7/25/2019 09:23",
 		"statusChanged" : "ClassTest 5/29/2021 19:36",
 		"updateStatus" : "ClassTest 5/28/2021 23:46",

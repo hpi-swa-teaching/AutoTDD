@@ -1,4 +1,7 @@
 updating
 updateHistoryInfo
 	
-	^ self subclassResponsibility
+	self
+		historyInfo: (Text new
+			append: self historyInfoForSelectedHistory;
+			addAttribute: (TextColor color: self colorForSelectedHistory))

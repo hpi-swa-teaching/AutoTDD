@@ -1,4 +1,4 @@
-primitive-parsing
+parsing
 parseIdOfWorkflowAt: aNumber ofWorkflowsOfRepository: aJson
 	
 	| workflows workflow |

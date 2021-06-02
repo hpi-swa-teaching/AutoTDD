@@ -10,5 +10,5 @@
 	"name" : "ATDDTravisParser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDRemoteParser",
 	"type" : "normal" }

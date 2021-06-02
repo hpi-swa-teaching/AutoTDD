@@ -1,4 +1,4 @@
-primitive-parsing
+parsing
 parseHeadBranchAt: aNumber ofRepository: aJson 
 
 	| workflows |

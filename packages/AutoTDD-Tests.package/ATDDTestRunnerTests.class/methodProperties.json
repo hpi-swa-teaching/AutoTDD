@@ -8,6 +8,6 @@
 		"testInitialization" : "be 6/19/2019 16:06",
 		"testRunTests" : "be 6/19/2019 16:56",
 		"testRunTestsThrowsSubclassResponsibility" : "be 6/19/2019 17:31",
-		"testStatusAccessors" : "be 6/19/2019 16:48",
-		"testStatusConsistency" : "be 6/19/2019 17:31",
+		"testStatusAccessors" : "ClassTest 6/2/2021 17:59",
+		"testStatusConsistency" : "ClassTest 6/2/2021 17:59",
 		"testStatusMustBeASymbol" : "be 6/19/2019 17:30" } }

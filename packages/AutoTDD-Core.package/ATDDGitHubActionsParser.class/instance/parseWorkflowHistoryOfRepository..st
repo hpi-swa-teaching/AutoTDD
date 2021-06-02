@@ -1,4 +1,4 @@
-primitive-parsing
+parsing
 parseWorkflowHistoryOfRepository: aJson
 	
 	| index workflows |

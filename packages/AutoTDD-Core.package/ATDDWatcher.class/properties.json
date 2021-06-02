@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Watchers" ],
 	"commentStamp" : "be 7/25/2019 10:52",
 	"instvars" : [
 		"localTestRunner",

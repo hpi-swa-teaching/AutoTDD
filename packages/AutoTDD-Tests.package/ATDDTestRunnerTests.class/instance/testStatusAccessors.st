@@ -1,5 +1,5 @@
 tests
 testStatusAccessors
 	
-	testrunner status: #symbol.
-	self assert: testrunner status equals: #symbol
+	testrunner status: 'string'.
+	self assert: testrunner status equals: 'string'

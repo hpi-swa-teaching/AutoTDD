@@ -1,5 +1,7 @@
 {
 	"class" : {
+		"Watchers" : "ClassTest 6/2/2021 17:35",
+		"collection" : "ClassTest 6/2/2021 17:33",
 		"defaultName" : "ls 7/25/2019 15:02",
 		"notExecutedText" : "ls 5/30/2019 19:43",
 		"statusDictionary" : "ClassTest 5/29/2021 20:00",
@@ -23,7 +25,7 @@
 		"internalStatus" : "ClassTest 5/29/2021 19:26",
 		"internalStatus:" : "ClassTest 5/29/2021 19:26",
 		"internalStatusMessage" : "ClassTest 5/29/2021 19:40",
-		"internalStatusMessageDictionary" : "ClassTest 5/29/2021 19:41",
+		"internalStatusMessageDictionary" : "ClassTest 6/2/2021 18:03",
 		"isClassTestClass:" : "swi 6/12/2019 18:25",
 		"isClassWatched:" : "swi 6/12/2019 18:33",
 		"isTestingClasswise" : "swi 6/12/2019 18:10",
