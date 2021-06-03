@@ -2,4 +2,6 @@ updating
 changed: aSymbol
 	
 	super changed: aSymbol.
-	self changedTestingEntityOfType: aSymbol
+	(ATDDTestingEntity testingEntities includes: aSymbol)
+		ifTrue: [self changedTestingEntityOfType: aSymbol]
+	

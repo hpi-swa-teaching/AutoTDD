@@ -12,7 +12,7 @@
 		"testAddButtonAddsNewWatcherToList" : "ng 6/3/2021 12:10",
 		"testChangingWatchedCategoriesWork" : "ng 6/3/2021 12:11",
 		"testEditButtonWorks" : "ng 6/3/2021 12:12",
-		"testOverviewButtonIntegration" : "ng 6/3/2021 16:32",
+		"testOverviewButtonIntegration" : "ClassTest 6/3/2021 16:11",
 		"testPauseAllButtonPausesAllWatchers" : "ls 6/5/2019 21:37",
 		"testPauseButtonPausesSelectedWatcher" : "ng 6/3/2021 12:52",
 		"testResumeAllButtonResumesAllWatchers" : "ls 6/5/2019 21:39",

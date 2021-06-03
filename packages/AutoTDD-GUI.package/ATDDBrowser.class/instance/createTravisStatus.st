@@ -1,4 +1,4 @@
 action
 createTravisStatus
 	
-	^ self openEditorForNewTestingEntityOfType: (ATDDTravisStatus symbol)
+	^ self openEditorForNewTestingEntityOfType: ATDDTravisStatus symbol

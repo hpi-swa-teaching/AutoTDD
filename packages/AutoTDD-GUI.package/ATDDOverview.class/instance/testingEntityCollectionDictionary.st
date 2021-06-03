@@ -5,7 +5,7 @@ testingEntityCollectionDictionary
 	
 	^ Dictionary
 		newFrom: {
-			#watchers -> self watchers.
-			#travisStatuses -> self travisStatuses.
-			#gitHubActions -> self gitHubActions
+			#watcher -> self watchers.
+			#travisStatus -> self travisStatuses.
+			#gitHubAction -> self gitHubActions
 		}
