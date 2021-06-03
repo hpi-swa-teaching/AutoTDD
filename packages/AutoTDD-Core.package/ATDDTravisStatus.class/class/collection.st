@@ -1,4 +1,0 @@
-constants
-collection
-
-	^ self TravisStatuses
