@@ -3,7 +3,7 @@ testRunButtonRunsSelectedWatcher
 	
 	| watcherWindow watcher1 |
 	
-	watcherWindow := browser addWatcher.
+	watcherWindow := browser createWatcher.
 	watcherWindow selectedTestCategories: (Set newFrom: { #'AutoTDD-Dummy-Success-Tests' }).
 	watcherWindow selectedCategories: (Set newFrom: { #'AutoTDD-Dummy-Category' }).
 	watcherWindow save.

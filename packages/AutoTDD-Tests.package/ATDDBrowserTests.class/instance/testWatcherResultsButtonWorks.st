@@ -3,7 +3,7 @@ testWatcherResultsButtonWorks
 	
 	| watcherWindow resultsWindow watcher selection watchedClasses testedCategories |
 	
-	watcherWindow := browser addWatcher.
+	watcherWindow := browser createWatcher.
 	watcherWindow selectedCategories: (Set newFrom: { #'AutoTDD-Dummy-Success-Tests' }).
 	watcherWindow classwiseCategorySelection: true.
 	watchedClasses := Set newFrom: { #'TestRunnerDummy22Test' . #'TestRunnerDummy23Test' }.
@@ -16,7 +16,7 @@ testWatcherResultsButtonWorks
 	selection := OrderedCollection new.
 	selection add: watcher.
 	browser selectedWatchers: selection.
-	resultsWindow := browser openResultsForSelectedWatchers first.
+	resultsWindow := (browser openResultsForSelectedTestingEntitiesOfType: #watcher) first.
 	windowsToDelete add: resultsWindow.
 	self assert: resultsWindow target == watcher.
 	self assert: resultsWindow data == watcher localTestRunner.

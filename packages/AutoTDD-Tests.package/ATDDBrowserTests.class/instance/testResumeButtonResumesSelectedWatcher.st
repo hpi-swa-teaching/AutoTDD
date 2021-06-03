@@ -3,10 +3,10 @@ testResumeButtonResumesSelectedWatcher
 	
 	| watcherWindow watcher1 watcher2 selection |
 	
-	watcherWindow := browser addWatcher.
+	watcherWindow := browser createWatcher.
 	watcherWindow save.
 	watcher1 := watcherWindow watcher.
-	watcherWindow := browser addWatcher.
+	watcherWindow := browser createWatcher.
 	watcherWindow save.
 	watcher2 := watcherWindow watcher.
 	browser pauseAll.

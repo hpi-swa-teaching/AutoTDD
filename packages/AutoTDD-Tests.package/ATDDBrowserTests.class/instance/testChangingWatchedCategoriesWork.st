@@ -3,7 +3,7 @@ testChangingWatchedCategoriesWork
 	
 	| watcherWindow |
 	
-	watcherWindow := browser addWatcher.
+	watcherWindow := browser createWatcher.
 	watcherWindow selectedTestCategories: (Set newFrom: { #'AutoTDD-Dummy-Setting-Tests' }).
 	watcherWindow selectedCategories: (Set newFrom: { #'AutoTDD-Dummy-Category' }).
 	watcherWindow save.

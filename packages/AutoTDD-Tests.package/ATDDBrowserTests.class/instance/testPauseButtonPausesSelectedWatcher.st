@@ -3,10 +3,10 @@ testPauseButtonPausesSelectedWatcher
 	
 	| watcherWindow watcher1 watcher2 selection |
 	
-	watcherWindow := browser addWatcher.
+	watcherWindow := browser createWatcher.
 	watcherWindow save.
 	watcher1 := watcherWindow watcher.
-	watcherWindow := browser addWatcher.
+	watcherWindow := browser createWatcher.
 	watcherWindow save.
 	watcher2 := watcherWindow watcher.
 	browser selectedWatchers: browser watchers.
@@ -14,6 +14,6 @@ testPauseButtonPausesSelectedWatcher
 	selection := OrderedCollection new.
 	selection add: watcher1.
 	browser selectedWatchers: selection.
-	browser pauseSelectedWatchers.
+	browser pauseSelectedTestingEntitiesOfType: #watcher.
 	self assert: watcher1 paused.
 	self assert: watcher2 paused not
