@@ -1,4 +1,4 @@
-accessing
+behaviour
 terminateProcess
 	
 	self process

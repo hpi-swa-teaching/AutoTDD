@@ -1,4 +1,4 @@
-accessing
+building
 headerFrame
 
 	^ LayoutFrame new

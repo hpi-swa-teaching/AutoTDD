@@ -15,9 +15,9 @@ buildGlobalButtonsWith: aBuilder
 	(self class globalFunctionalityDictionary) keysAndValuesDo: [
 		:aString :aMethod |
 		panel children addLast: (
-			self buildButtonPerforming: aMethod 
-				withLabel: aString 
-				with: aBuilder
+			self buildButtonWithLabel: aString 
+				do: aMethod 
+				with: aBuilder  
 		).
 	].
 		

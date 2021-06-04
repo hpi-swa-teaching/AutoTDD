@@ -11,9 +11,9 @@ buildTestingEntityButtonsOfType: aSymbol with: aBuilder
 	((self class testingEntityUIDictionary at: aSymbol) at: 'functionalityDictionary') keysAndValuesDo: [
 		:aString :aMethod |
 		panel children addLast: (
-			self buildButtonPerforming: aMethod 
-				withLabel: aString 
-				with: aBuilder
+			self buildButtonWithLabel: aString 
+				do: aMethod 
+				with: aBuilder  
 		).
 	].
 		
