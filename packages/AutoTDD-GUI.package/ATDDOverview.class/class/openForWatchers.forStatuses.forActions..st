@@ -10,6 +10,7 @@ openForWatchers: aWatcherCollection forStatuses: aStatusCollection forActions: a
 				travisStatuses: aStatusCollection;
 				gitHubActions: anActionCollection;
 				initialize;
+				update;
 				yourself.
 			ToolBuilder open: model.
 			model ]

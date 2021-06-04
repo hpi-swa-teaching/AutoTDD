@@ -3,7 +3,7 @@ testIndicatorChangesOnRun
 	
 	| postIndicator preIndicator |
 	
-	preIndicator := overview overallLocalIndicator.
+	preIndicator := overview overallTestingEntityIndicatorOfType: #watcher.
 	watchers do: [ :each | each run ].
-	postIndicator := overview overallLocalIndicator.
+	postIndicator := overview overallTestingEntityIndicatorOfType: #watcher.
 	self assert: preIndicator ~= postIndicator

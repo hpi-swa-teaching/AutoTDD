@@ -3,7 +3,8 @@ testMessageChangesOnRun
 	
 	| postMessage preMessage |
 	
-	preMessage := overview overallLocalMessage.
+	preMessage := overview overallTestingEntityMessageOfType: #watcher.
 	watchers do: [ :each | each run ].
-	postMessage := overview overallLocalMessage.
+	(Delay forSeconds: 1) wait.
+	postMessage := overview overallTestingEntityMessageOfType: #watcher.
 	self assert: preMessage ~= postMessage

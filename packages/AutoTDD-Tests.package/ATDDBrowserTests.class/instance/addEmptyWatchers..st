@@ -5,5 +5,5 @@ addEmptyWatchers: aAmount
 	
 	aAmount
 		timesRepeat: [
-			watcherWindow := browser addWatcher.
+			watcherWindow := browser createWatcher.
 			watcherWindow save ]
