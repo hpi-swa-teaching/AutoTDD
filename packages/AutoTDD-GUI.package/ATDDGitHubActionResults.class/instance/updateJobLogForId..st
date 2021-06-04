@@ -1,10 +1,9 @@
 updating
 updateJobLogForId: aNumber
 	
-	| client response |
+	| response |
 	
-	client := ATDDGitHubActionsClient new. 
-	[ response := client getLogsForRepository: self data repository logId: aNumber ] 
+	[ response := self data client getLogsForRepository: self data repository logId: aNumber ] 
 		on: GHAAccessDeniedError 
 		do: [ :error |  response := 'Acces denied. Logs are only available when providing a token' ].
 	
