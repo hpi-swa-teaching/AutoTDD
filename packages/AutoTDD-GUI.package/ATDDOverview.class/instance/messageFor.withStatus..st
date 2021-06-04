@@ -1,4 +1,4 @@
-calculation
+action
 messageFor: aSet withStatus: aString
 	
 	| message |

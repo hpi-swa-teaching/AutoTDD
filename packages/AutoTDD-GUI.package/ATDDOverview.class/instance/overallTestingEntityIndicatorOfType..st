@@ -1,4 +1,4 @@
-calculation
+action
 overallTestingEntityIndicatorOfType: aSymbol
 	
 	ATDDTestingEntity statuses do: [:aStatusSymbol |

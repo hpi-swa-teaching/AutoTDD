@@ -1,4 +1,4 @@
-calculation
+constants
 testingEntityCollectionDictionary
 	
 	"EXACT COPY FROM ATDDBROWSER (where to put this (possibly along with watchers, gitHubActions, ...))"

@@ -1,4 +1,4 @@
 accessing
 colorForStatus: aSymbol
 	
-	^ ATDDTestingEntity colorDictionary at: (aSymbol asSymbol)
+	^ ATDDTestingEntity colorDictionary at: aSymbol

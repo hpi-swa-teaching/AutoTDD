@@ -1,15 +1,18 @@
 tests
 testOverviewButtonIntegration
 	
-	| overviewWindow watcher travisStatus travisStatusesSelection watcherSelection newBrowser |
-	
-	watcher := ATDDWatcher new.
-	ATDDBrowser Watchers addLast: watcher.
+	| overviewWindow watcher travisStatus travisStatusesSelection watcherSelection newBrowser editor |
+
+	editor := browser createWatcher.
+	editor save.
+	watcher := browser watchers first.
 	watcherSelection := OrderedCollection new.
 	watcherSelection add: watcher.
 	browser selectedWatchers: watcherSelection.
-	travisStatus := ATDDTravisStatus new.
-	ATDDBrowser TravisStatuses addLast: travisStatus.
+	editor := browser createTravisStatus.
+	editor repositoryUrl: 'a/ab'.
+	editor save.
+	travisStatus := browser travisStatuses first.
 	travisStatusesSelection := OrderedCollection new.
 	travisStatusesSelection add: travisStatus.
 	browser selectedTravisStatuses: travisStatusesSelection.

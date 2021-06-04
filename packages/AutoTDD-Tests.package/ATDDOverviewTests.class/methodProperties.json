@@ -2,7 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ng 6/4/2021 16:59",
+		"setUp" : "ng 6/4/2021 19:07",
 		"tearDown" : "BF 5/8/2021 21:27",
 		"testIndicatorChangesOnRun" : "ng 6/4/2021 14:13",
 		"testIndicatorOpensResultWindows" : "ng 6/4/2021 14:15",
