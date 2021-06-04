@@ -5,6 +5,6 @@ messageDictionary
 		newFrom: {
 			#error -> 'Errors in'.
 			#failure -> 'Failures in'.
-			#pending -> 'unknown'.
+			#pending -> 'Unknown'.
 			#successful -> 'All passed'
 		}

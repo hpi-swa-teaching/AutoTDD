@@ -1,7 +1,6 @@
 updating
 changedTestingEntityOfType: aSymbol
 	
-	self gitHubActions: (self gitHubActions select: [ :each | each valid ]).
 	(self testingEntityCollectionDictionary at: aSymbol) removeAllSuchThat: [:each |
 		each valid not
 		].

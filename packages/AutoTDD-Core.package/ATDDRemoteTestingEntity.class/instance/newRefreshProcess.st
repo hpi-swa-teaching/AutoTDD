@@ -1,4 +1,4 @@
-accessing
+behaviour
 newRefreshProcess
 	
 	^ [[ true ] whileTrue: [

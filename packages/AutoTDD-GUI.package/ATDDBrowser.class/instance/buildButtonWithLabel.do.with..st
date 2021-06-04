@@ -1,5 +1,5 @@
 building
-buildButtonPerforming: aMethod withLabel: aString with: aBuilder
+buildButtonWithLabel: aString do: aMethod with: aBuilder
 
 	^ aBuilder pluggableButtonSpec new
 		model: self;

@@ -1,11 +1,11 @@
 accessing
-watcherAt: t1 put: t2 
+watcherAt: anIndex put: aBoolean
 	self
 		selectedWatchers: (self selectedWatchers
-				perform: (t2
+				perform: (aBoolean
 						ifTrue: [#copyWith:]
 						ifFalse: [#copyWithout:])
 				with: (self watchers
-						at: t1
+						at: anIndex
 						ifAbsent: [^ self])).
 	self changed: #selectedWatchers.
