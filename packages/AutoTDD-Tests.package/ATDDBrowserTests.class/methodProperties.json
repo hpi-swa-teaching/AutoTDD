@@ -9,7 +9,7 @@
 		"fetchCopyOfWatchers" : "mb 5/29/2019 18:21",
 		"setUp" : "BF 5/7/2021 18:46",
 		"tearDown" : "ls 7/25/2019 08:21",
-		"testAddButtonAddsNewWatcherToList" : "ng 6/3/2021 12:10",
+		"testAddButtonAddsNewWatcherToList" : "ng 6/4/2021 17:15",
 		"testChangingWatchedCategoriesWork" : "ng 6/3/2021 12:11",
 		"testEditButtonWorks" : "ng 6/3/2021 12:12",
 		"testOverviewButtonIntegration" : "ClassTest 6/3/2021 16:11",

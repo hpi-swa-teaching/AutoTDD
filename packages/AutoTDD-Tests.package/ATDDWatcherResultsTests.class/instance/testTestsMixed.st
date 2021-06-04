@@ -9,13 +9,13 @@ testTestsMixed
 	(Delay forSeconds: 1) wait.
 	resultMixed := resultsWindow history first.
 	self assert: (resultMixed isKindOf: Text).
-	self assert: (resultMixed colorAt: 1) = (ATDDWatcherResults colorDictionary at: #errored).
+	self assert: (resultMixed colorAt: 1) = (ATDDTestingEntity colorDictionary at: #error).
 	resultsWindow selectedHistory: 1.
 	self assert: (resultsWindow historyInfo isKindOf: Text).
 	self assert: ('3 run*, 1 passes, 0 expected failures, 1 failures, 1 errors, 0 unexpected passes'
 		match: resultsWindow historyInfo).
-	self assert: (resultsWindow historyInfo colorAt: 1) = (ATDDWatcherResults colorDictionary at: #errored).
+	self assert: (resultsWindow historyInfo colorAt: 1) = (ATDDTestingEntity colorDictionary at: #error).
 	self assert: resultsWindow tests size = 3.
-	self assert: (resultsWindow tests first colorAt: 1) = (ATDDWatcherResults colorDictionary at: #errored).
-	self assert: ((resultsWindow tests at: 2) colorAt: 1) = (ATDDWatcherResults colorDictionary at: #failed).
-	self assert: ((resultsWindow tests at: 3) colorAt: 1) = (ATDDWatcherResults colorDictionary at: #passed)
+	self assert: (resultsWindow tests first colorAt: 1) = (ATDDTestingEntity colorDictionary at: #error).
+	self assert: ((resultsWindow tests at: 2) colorAt: 1) = (ATDDTestingEntity colorDictionary at: #failure).
+	self assert: ((resultsWindow tests at: 3) colorAt: 1) = (ATDDTestingEntity colorDictionary at: #successful)

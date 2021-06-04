@@ -8,3 +8,4 @@ testAttach
 	self assert: (emptyWatcher observers includes: obj).
 	emptyWatcher deattach: obj.
 	self deny: (emptyWatcher observers includes: obj)
+	

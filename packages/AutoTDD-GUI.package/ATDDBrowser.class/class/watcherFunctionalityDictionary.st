@@ -6,7 +6,7 @@ watcherFunctionalityDictionary
 			'Add watcher' -> #createWatcher.
 			'Pause' -> #pauseWatchers.
 			'Resume' -> #resumeSelectedWatchers.
-			'Run' -> #resumeSelectedWatchers.
+			'Run' -> #runSelectedWatchers.
       		'Edit' -> #editWatchers.
 			'Info' -> #infoWatchers.
 			'Results' -> #resultsWatchers.

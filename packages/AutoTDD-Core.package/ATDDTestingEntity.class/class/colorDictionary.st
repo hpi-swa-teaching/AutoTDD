@@ -6,5 +6,8 @@ colorDictionary
 			#error -> Color red.
       		#failure -> Color orange.
 			#successful -> Color green.
-			#pending -> Color gray
+			#passed -> Color green.
+			#pending -> Color gray.
+			#errored -> Color red.
+			#failed -> Color orange.
 		}
