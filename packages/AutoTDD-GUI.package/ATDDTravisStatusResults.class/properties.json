@@ -6,12 +6,9 @@
 		 ],
 	"commentStamp" : "BF 5/23/2021 21:45",
 	"instvars" : [
-		"selectedJob",
-		"jobs",
-		"jobsUnformatted",
-		"log" ],
+		 ],
 	"name" : "ATDDTravisStatusResults",
 	"pools" : [
 		 ],
-	"super" : "ATDDResults",
+	"super" : "ATDDRemoteResults",
 	"type" : "normal" }

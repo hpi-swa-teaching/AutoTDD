@@ -1,12 +1,20 @@
 {
 	"class" : {
-		"symbol" : "sw 5/25/2021 22:21" },
+		"colorDictionary" : "ClassTest 5/28/2021 23:43",
+		"neutralStatus" : "ClassTest 6/4/2021 14:59",
+		"statusDictionary" : "ClassTest 5/29/2021 18:43",
+		"statuses" : "ClassTest 5/29/2021 00:23",
+		"symbol" : "sw 5/25/2021 22:21",
+		"testingEntities" : "ClassTest 5/30/2021 00:40",
+		"testingEntityDictionary" : "ClassTest 6/2/2021 17:31" },
 	"instance" : {
 		"applyDefaultConfiguration" : "vxr 7/4/2019 18:58",
+		"asStringOrText" : "ClassTest 5/28/2021 23:40",
 		"attach:" : "vxr 7/4/2019 14:32",
 		"deattach:" : "vxr 7/4/2019 14:32",
 		"delete" : "vxr 7/4/2019 19:15",
 		"initialize" : "vxr 7/4/2019 18:58",
+		"internalStatus" : "ClassTest 5/29/2021 19:25",
 		"name" : "vxr 7/4/2019 16:07",
 		"name:" : "ls 7/25/2019 14:57",
 		"notify" : "be 7/10/2019 14:51",
@@ -16,5 +24,7 @@
 		"paused" : "vxr 7/4/2019 16:08",
 		"paused:" : "ls 7/25/2019 14:57",
 		"resume" : "vxr 7/4/2019 16:10",
+		"status" : "ClassTest 5/29/2021 19:56",
+		"statusColor" : "ClassTest 5/28/2021 23:44",
 		"valid" : "be 7/4/2019 17:23",
 		"valid:" : "be 7/4/2019 17:23" } }

@@ -1,7 +1,7 @@
 constants
 testingEntityUIDictionary
 	
-	^ Dictionary
+	^ IdentityDictionary
 		newFrom: {
 			#watcher -> self watcherUIDictionary.
 			#travisStatus -> self travisStatusUIDictionary.

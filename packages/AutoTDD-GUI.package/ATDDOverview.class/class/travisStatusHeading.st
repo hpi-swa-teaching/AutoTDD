@@ -1,4 +1,0 @@
-constants
-travisStatusHeading
-	
-	^ 'Travis'

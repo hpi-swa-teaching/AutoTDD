@@ -10,7 +10,7 @@ updateJobs
 				collect: [ :job |
 					Text new
 						append: '#' , (job at: #number) , String space , (job at: #env);
-						addAttribute: (TextColor color: (self colorForStatus: (job at: #state))) ]);
+						addAttribute: (TextColor color: (self colorForInternalStatus: (job at: #state))) ]);
 		selectedJob: 0;
 		changed: #jobs;
 		changed: #selectedJob

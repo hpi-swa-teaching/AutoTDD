@@ -3,7 +3,7 @@ travisStatusListDictionary
 	
 	^ Dictionary
 		newFrom: {
-			'data' -> #travisStatuses.
+			'list' -> #travisStatuses.
 			'getIndex' -> #selectedTravisStatus.
 			'setIndex' -> #selectedTravisStatus:.
 			'getSelectionList' -> #travisStatusAt:.

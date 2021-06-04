@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "BF 5/23/2021 21:45",
 	"instvars" : [
-		"selectedJob",
-		"jobs",
-		"jobNames",
-		"jobsUnformatted",
-		"log" ],
+		"jobNames" ],
 	"name" : "ATDDGitHubActionResults",
 	"pools" : [
 		 ],
-	"super" : "ATDDResults",
+	"super" : "ATDDRemoteResults",
 	"type" : "normal" }

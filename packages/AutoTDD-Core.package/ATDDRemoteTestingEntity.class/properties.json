@@ -6,7 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"repository",
+		"statusMessage",
+		"process",
+		"refreshInterval" ],
 	"name" : "ATDDRemoteTestingEntity",
 	"pools" : [
 		 ],

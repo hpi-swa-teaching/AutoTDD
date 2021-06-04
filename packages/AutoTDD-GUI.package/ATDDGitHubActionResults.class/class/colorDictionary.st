@@ -1,4 +1,0 @@
-constants
-colorDictionary
-	
-	^ ATDDGitHubAction colorDictionary

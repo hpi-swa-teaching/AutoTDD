@@ -1,4 +1,4 @@
-primitive-parsing
+parsing
 parseJobsOf: aJson
 	
 	^ aJson at: 'jobs' ifAbsent: [ JsonObject new ]

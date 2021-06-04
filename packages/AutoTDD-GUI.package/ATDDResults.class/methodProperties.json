@@ -1,11 +1,11 @@
 {
 	"class" : {
 		"buttonLabel" : "vxr 7/4/2019 13:37",
-		"colorDictionary" : "vxr 7/4/2019 18:25",
 		"defaultButtonHeight" : "vxr 7/3/2019 17:20",
 		"defaultExtent" : "vxr 7/3/2019 17:20",
 		"label" : "ls 7/25/2019 08:37",
-		"parser" : "vxr 7/3/2019 17:49" },
+		"parser" : "vxr 7/3/2019 17:49",
+		"testingEntityDictionary" : "ClassTest 5/30/2021 00:06" },
 	"instance" : {
 		"buildAdditionalComponentsWith:" : "vxr 7/3/2019 17:31",
 		"buildButtonWith:" : "vxr 7/4/2019 13:36",
@@ -17,7 +17,8 @@
 		"buttonHeight" : "vxr 7/3/2019 17:18",
 		"buttonLabel" : "vxr 7/4/2019 13:37",
 		"buttonsFrame" : "vxr 7/3/2019 17:19",
-		"colorForStatus:" : "vxr 7/4/2019 18:21",
+		"colorForInternalStatus:" : "ClassTest 5/29/2021 19:13",
+		"colorForStatus:" : "ClassTest 5/29/2021 19:09",
 		"data" : "vxr 7/4/2019 13:32",
 		"history" : "vxr 7/4/2019 09:52",
 		"historyChanged" : "vxr 7/4/2019 11:16",
@@ -31,4 +32,4 @@
 		"selectedHistory" : "vxr 7/4/2019 09:52",
 		"selectedHistory:" : "swi 7/25/2019 16:13",
 		"update" : "vxr 7/4/2019 14:36",
-		"updateHistoryInfo" : "vxr 7/4/2019 11:15" } }
+		"updateHistoryInfo" : "ClassTest 6/2/2021 18:37" } }

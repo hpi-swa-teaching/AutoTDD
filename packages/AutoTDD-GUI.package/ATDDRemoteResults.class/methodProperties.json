@@ -1,0 +1,18 @@
+{
+	"class" : {
+		"buttonLabel" : "ClassTest 6/2/2021 18:35",
+		"isAbstract" : "ClassTest 6/2/2021 18:35" },
+	"instance" : {
+		"buildAdditionalComponentsWith:" : "ClassTest 6/2/2021 18:26",
+		"buildJobLogWith:" : "ClassTest 6/2/2021 18:56",
+		"buttonAction" : "ClassTest 6/2/2021 18:32",
+		"data" : "ClassTest 6/2/2021 18:28",
+		"historyChanged" : "ClassTest 6/2/2021 18:33",
+		"jobLogFrame" : "ClassTest 6/2/2021 18:28",
+		"jobs" : "ClassTest 6/2/2021 18:29",
+		"jobs:" : "ClassTest 6/2/2021 18:29",
+		"jobsFrame" : "ClassTest 6/2/2021 18:29",
+		"log" : "ClassTest 6/2/2021 18:29",
+		"log:" : "ClassTest 6/2/2021 18:29",
+		"selectedJob" : "ClassTest 6/2/2021 18:29",
+		"update" : "ClassTest 6/2/2021 18:31" } }

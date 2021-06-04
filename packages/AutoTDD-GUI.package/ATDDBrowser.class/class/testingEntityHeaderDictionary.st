@@ -1,7 +1,7 @@
 constants
 testingEntityHeaderDictionary
-	
-	^ Dictionary
+
+	^ IdentityDictionary
 		newFrom: {
 			#watcher -> (ValueHolder new contents: 'Watchers').
 			#travisStatus -> (ValueHolder new contents: 'Travis Statuses').

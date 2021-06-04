@@ -12,7 +12,7 @@ updateJobs
 	
 	self jobNames: (self jobs collect: [ :job |
 		Text new append: '#' , job name;
-		addAttribute: ( TextColor color: (self colorForStatus: job conclusion)) ] );
+		addAttribute: ( TextColor color: (self colorForInternalStatus: job conclusion)) ] );
 	selectedJob: 0;
 	changed: #jobNames;
 	changed: #selectedJob

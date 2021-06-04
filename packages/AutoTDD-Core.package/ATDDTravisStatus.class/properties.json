@@ -3,14 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"TravisStatuses" ],
 	"commentStamp" : "be 7/25/2019 10:50",
 	"instvars" : [
-		"repository",
-		"status",
-		"statusMessage",
-		"process",
-		"refreshInterval" ],
+		 ],
 	"name" : "ATDDTravisStatus",
 	"pools" : [
 		 ],

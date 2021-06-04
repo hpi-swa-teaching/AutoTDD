@@ -1,7 +1,7 @@
 constants
 testingEntityResultsDictionary
 	
-	^ Dictionary
+	^ IdentityDictionary
 		newFrom: {
 			#watcher -> ATDDWatcherResults.
 			#travisStatus -> ATDDTravisStatusResults.

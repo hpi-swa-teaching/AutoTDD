@@ -1,4 +1,4 @@
 constants
 defaultRefreshInterval
 
-	^ (Time hour: 0 minute: 0 second: 20) asSeconds
+	^ (Time hour: 0 minute: 5 second: 0) asSeconds

@@ -1,4 +1,4 @@
-primitive-parsing
+parsing
 parseWorkflowFrom: aJson
 
 	| workflow commit |

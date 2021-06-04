@@ -1,4 +1,4 @@
-accessing
+data-processing
 getJsonForLatestWorkflowRunForRepository: aString
 	"aString follows this template: {owner}/{repo}/"
 	

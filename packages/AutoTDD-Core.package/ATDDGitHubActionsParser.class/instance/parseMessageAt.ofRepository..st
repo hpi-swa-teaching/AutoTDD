@@ -1,4 +1,4 @@
-primitive-parsing
+parsing
 parseMessageAt: aNumber ofRepository: aJson 
 
 	| workflows headCommit |

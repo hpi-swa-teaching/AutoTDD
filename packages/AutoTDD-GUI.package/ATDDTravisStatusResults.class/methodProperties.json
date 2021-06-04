@@ -1,29 +1,13 @@
 {
 	"class" : {
-		"buttonLabel" : "vxr 7/4/2019 13:37",
-		"colorDictionary" : "vxr 7/10/2019 15:49",
 		"isAbstract" : "ls 7/25/2019 08:44",
 		"parser" : "ls 7/25/2019 09:41",
 		"targetName" : "vxr 7/4/2019 10:06" },
 	"instance" : {
-		"buildAdditionalComponentsWith:" : "vxr 7/4/2019 11:04",
-		"buildJobLogWith:" : "vxr 7/4/2019 11:06",
 		"buildJobsWith:" : "vxr 7/4/2019 10:11",
-		"buttonAction" : "vxr 7/4/2019 13:36",
-		"colorForSelectedHistory" : "vxr 7/4/2019 18:22",
-		"data" : "vxr 7/4/2019 13:32",
-		"history" : "vxr 7/4/2019 18:22",
-		"historyChanged" : "vxr 7/4/2019 11:30",
+		"colorForSelectedHistory" : "ClassTest 5/29/2021 19:13",
+		"history" : "ClassTest 5/29/2021 19:13",
 		"historyInfoForSelectedHistory" : "vxr 7/4/2019 11:23",
-		"jobLogFrame" : "vxr 7/4/2019 11:05",
-		"jobs" : "vxr 7/4/2019 10:14",
-		"jobs:" : "vxr 7/4/2019 10:14",
-		"jobsFrame" : "vxr 7/4/2019 11:08",
-		"log" : "vxr 7/4/2019 11:07",
-		"log:" : "swi 7/25/2019 16:17",
-		"selectedJob" : "vxr 7/4/2019 10:13",
 		"selectedJob:" : "vxr 7/4/2019 10:46",
-		"update" : "vxr 7/4/2019 14:37",
-		"updateHistoryInfo" : "vxr 7/4/2019 11:44",
 		"updateJobLog" : "vxr 7/4/2019 11:03",
-		"updateJobs" : "vxr 7/4/2019 18:22" } }
+		"updateJobs" : "ClassTest 5/29/2021 19:13" } }

@@ -3,7 +3,7 @@ watcherListDictionary
 	
 	^ Dictionary
 		newFrom: {
-			'data' -> #watchers.
+			'list' -> #watchers.
 			'getIndex' -> #selectedWatcher.
 			'setIndex' -> #selectedWatcher:.
 			'getSelectionList' -> #watcherAt:.

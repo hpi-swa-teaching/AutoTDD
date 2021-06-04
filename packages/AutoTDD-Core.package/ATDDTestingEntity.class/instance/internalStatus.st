@@ -1,0 +1,4 @@
+accessing
+internalStatus
+
+	^ self subclassResponsibility

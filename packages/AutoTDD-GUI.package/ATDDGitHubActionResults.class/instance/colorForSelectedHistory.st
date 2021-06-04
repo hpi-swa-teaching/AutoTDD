@@ -5,4 +5,4 @@ colorForSelectedHistory
 	
 	conclusion := self parser parseWorkflowConclusionAt: self selectedHistory ofRepository: self data repositoryJson.
 	
-	^ self colorForStatus: conclusion
+	^ self colorForInternalStatus: conclusion

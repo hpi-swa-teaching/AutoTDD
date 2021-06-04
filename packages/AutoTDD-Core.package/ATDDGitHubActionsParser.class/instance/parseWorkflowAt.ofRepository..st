@@ -1,4 +1,4 @@
-primitive-parsing
+parsing
 parseWorkflowAt: aNumber ofRepository: aJson
 	
 	^ IdentityDictionary new

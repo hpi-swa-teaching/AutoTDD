@@ -10,5 +10,5 @@
 	"name" : "ATDDGitHubActionsParser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDRemoteParser",
 	"type" : "normal" }

@@ -10,5 +10,5 @@
 	"name" : "ATDDLocalParser",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDParser",
 	"type" : "normal" }

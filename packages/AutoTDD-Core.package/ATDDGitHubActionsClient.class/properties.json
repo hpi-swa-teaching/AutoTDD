@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"webClient",
-		"token" ],
+		 ],
 	"name" : "ATDDGitHubActionsClient",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "ATDDRemoteClient",
 	"type" : "normal" }

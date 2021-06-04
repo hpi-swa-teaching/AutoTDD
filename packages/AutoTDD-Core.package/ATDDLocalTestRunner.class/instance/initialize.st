@@ -2,4 +2,4 @@ initialization
 initialize
 	
 	super initialize.
-	self status: #unexecuted
+	self status: 'unexecuted'

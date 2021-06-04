@@ -1,9 +1,0 @@
-building
-buildTravisStatusIndicatorWith: aBuilder
-	
-	^ aBuilder pluggableButtonSpec new
-		model: travisStatusIndicator;
-		action: [ self openTravisStatusResults ];
-		label: #contents;
-		enabled: true;
-		yourself

@@ -4,9 +4,11 @@ buildContentPanelWith: aBuilder
 	| children |
 	
 	children := OrderedCollection new.
-	self watchers ifNotEmpty: [ children add: (self buildLocalPanelWith: aBuilder) ].
-	self travisStatuses ifNotEmpty: [ children add: (self buildTravisStatusPanelWith: aBuilder) ].
-	self gitHubActions ifNotEmpty: [ children add: (self buildGitHubActionsStatusPanelWith: aBuilder) ].
+	ATDDTestingEntity testingEntities do: [:aSymbol |
+		(self testingEntityCollectionDictionary at: aSymbol) ifNotEmpty: [
+			children addLast: (self buildTestingEntityPanelOfType: aSymbol with: aBuilder)
+			]
+		].
 	 
 	^ aBuilder pluggablePanelSpec new
 		model: self;

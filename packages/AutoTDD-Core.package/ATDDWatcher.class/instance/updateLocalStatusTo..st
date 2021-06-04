@@ -1,6 +1,6 @@
 updating
-updateLocalStatusTo: aSymbol
+updateLocalStatusTo: aString
 	
-	self localStatus: aSymbol.
-	(#( #passed #failed #errored ) includes: aSymbol) ifTrue: [ self finishedTesting ].
+	self internalStatus: aString.
+	(#( 'passed' 'failed' 'errored' ) includes: aString) ifTrue: [ self finishedTesting ].
 	ATDDBrowser changedWatchers

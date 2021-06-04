@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"selectedJob",
+		"jobs",
+		"jobsUnformatted",
+		"log" ],
+	"name" : "ATDDRemoteResults",
+	"pools" : [
+		 ],
+	"super" : "ATDDResults",
+	"type" : "normal" }
