@@ -1,4 +1,4 @@
-accessing
+behaviour
 pause
 	
 	self terminateProcess.
