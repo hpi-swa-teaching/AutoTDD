@@ -1,4 +1,0 @@
-constants
-targetName
-	
-	^ 'Travis Status'

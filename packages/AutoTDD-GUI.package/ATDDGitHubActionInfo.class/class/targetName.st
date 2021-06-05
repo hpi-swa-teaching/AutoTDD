@@ -1,4 +1,0 @@
-constants
-targetName
-
-	^ 'GitHub Action'

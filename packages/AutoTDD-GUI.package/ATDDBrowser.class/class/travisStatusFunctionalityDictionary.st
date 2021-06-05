@@ -8,7 +8,6 @@ travisStatusFunctionalityDictionary
 			'Resume' -> #resumeSelectedTravisStatuses.
 			'Run' -> #resumeSelectedTravisStatuses.
       		'Edit' -> #editTravisStatuses.
-			'Info' -> #infoTravisStatuses.
 			'Results' -> #resultsTravisStatuses.
 			'Remove' -> #removeSelectedTravisStatuses
 		}
