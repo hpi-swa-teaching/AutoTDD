@@ -20,5 +20,5 @@ buildGlobalButtonsWith: aBuilder
 				with: aBuilder  
 		).
 	].
-		
+
 	^ panel
