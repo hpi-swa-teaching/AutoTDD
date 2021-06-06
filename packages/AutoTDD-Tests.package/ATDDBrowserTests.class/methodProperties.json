@@ -19,6 +19,5 @@
 		"testResumeButtonResumesSelectedWatcher" : "ng 6/3/2021 12:42",
 		"testRunAllButtonRunsEverything" : "ng 6/3/2021 12:43",
 		"testRunButtonRunsSelectedWatcher" : "ng 6/3/2021 12:43",
-		"testTravisInfoButtonWorks" : "ng 6/3/2021 12:49",
 		"testWatcherInfoButtonWorks" : "ng 6/3/2021 12:50",
 		"testWatcherResultsButtonWorks" : "ng 6/3/2021 12:51" } }

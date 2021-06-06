@@ -1,4 +1,0 @@
-accessing
-travisStatus
-	
-	^ self target

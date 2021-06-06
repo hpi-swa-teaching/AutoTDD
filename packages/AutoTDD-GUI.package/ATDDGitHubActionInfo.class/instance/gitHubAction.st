@@ -1,4 +1,0 @@
-accessing
-gitHubAction
-	
-	^ self target
