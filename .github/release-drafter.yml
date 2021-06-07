@@ -1,0 +1,23 @@
+# Try to automatically assing Labels to PRs
+autolabeler:
+  - label: 'feature request'
+    branch:
+      - '/feat\/.+/'
+  - label: 'bug'
+    branch:
+      - '/fix\/.+/'
+
+## Config & Template for Draft Release
+prerelease: true
+categories:
+  - title: '🚀 Features'
+    labels:
+      - 'feature request'
+      - 'enhancement'
+  - title: '🐛 Bug Fixes'
+    labels:
+      - 'bug'
+template: |
+  ## Changes
+
+  $CHANGES
