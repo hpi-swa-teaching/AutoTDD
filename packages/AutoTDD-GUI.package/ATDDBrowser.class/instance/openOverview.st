@@ -6,4 +6,5 @@ openOverview
 		ifTrue: [ ^ ATDDOverview openForWatchers: self selectedWatchers 
 			forStatuses: self selectedTravisStatuses 
 			forActions: self selectedGitHubActions ]
-		ifFalse: [ UIManager default inform: 'Please select any Watchers, Travis Statuses or GitHub Actions' ]
+		ifFalse: [ UIManager default inform: 'Please select any Watchers, Travis Statuses or GitHub Actions' ].
+		

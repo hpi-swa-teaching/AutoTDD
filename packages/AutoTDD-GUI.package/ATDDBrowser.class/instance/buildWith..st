@@ -3,8 +3,6 @@ buildWith: aBuilder
 	
 	| window |
 	
-	self hasSeenHelpPrompt ifFalse: [ self createSeenFile. self buildHelpMenu ].
-	
 	window := aBuilder pluggableWindowSpec new
 		model: self;
 		label: self label;
@@ -19,4 +17,6 @@ buildWith: aBuilder
 			yourself);
 		yourself.
 		
+	self hasSeenHelpPrompt ifFalse: [ self createSeenFile. self buildHelpPrompt ].	
+	
 	^ aBuilder build: window
