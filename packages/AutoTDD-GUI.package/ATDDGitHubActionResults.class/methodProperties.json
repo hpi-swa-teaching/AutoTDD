@@ -1,5 +1,6 @@
 {
 	"class" : {
+		"ansiCodeDictonary" : "BF 6/11/2021 20:40",
 		"isAbstract" : "ls 7/25/2019 08:44",
 		"parser" : "sw 5/21/2021 20:55",
 		"targetName" : "sw 5/21/2021 20:55" },
@@ -8,11 +9,11 @@
 		"colorForSelectedHistory" : "ClassTest 5/29/2021 19:12",
 		"history" : "ClassTest 5/29/2021 19:12",
 		"historyInfoForSelectedHistory" : "ng 5/23/2021 09:15",
-		"isSmalltalkCILog:" : "BF 6/11/2021 12:57",
+		"isSmalltalkCILog:" : "BF 6/11/2021 21:10",
 		"jobNames" : "ng 5/26/2021 14:18",
 		"jobNames:" : "ng 5/26/2021 14:18",
-		"parseAnsiCodeOf:" : "ng 6/11/2021 19:30",
-		"parseSmalltalkCILog:" : "ng 6/11/2021 19:27",
+		"parseAnsiCodeOf:" : "BF 6/11/2021 21:15",
+		"parseSmalltalkCILog:" : "BF 6/11/2021 19:48",
 		"selectedJob:" : "ng 5/26/2021 14:54",
 		"updateJobLogForId:" : "BF 6/11/2021 13:43",
 		"updateJobs" : "ClassTest 5/29/2021 19:12" } }

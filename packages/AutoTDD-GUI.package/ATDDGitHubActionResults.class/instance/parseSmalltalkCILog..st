@@ -8,20 +8,24 @@ parseSmalltalkCILog: aString
 	parsedLine := ''.
 	
 	aString linesDo: [ :line |
+		"start of logging"
 		(line includesSubstring: 'Running suite "Squeak')
-			ifTrue: [ shouldIncludeLine := true ]. "start of logging"
+			ifTrue: [ shouldIncludeLine := true ].
 			
+		"Remove timestamp"
 		(line isEmpty)
-			ifTrue: [ parsedLine := line]
-			ifFalse: [parsedLine := line allButFirst: 28]. "Remove timestamp"
-		parsedLine := parsedLine, Character cr. "Add new Line"
-		parsedLine := self parseAnsiCodeOf: parsedLine.
+			ifTrue: [ parsedLine := line ]
+			ifFalse: [ parsedLine := line allButFirst: 28 ].
 		
- 		(shouldIncludeLine)
-			ifTrue: [log append: parsedLine].
+		"Parse Ansi Codes + Add new line (CR)"
+		parsedLine := self parseAnsiCodeOf: parsedLine.
+		parsedLine := parsedLine, Character cr asText.
+		
+ 		(shouldIncludeLine) ifTrue: [log append: parsedLine].
 			
+		"end of logging"
 		(line matchesRegex: '.*Executed \d* Tests with \d* Failures and \d* Errors.*')
-			ifTrue: [shouldIncludeLine := false]. "end of logging"
+			ifTrue: [shouldIncludeLine := false].
 	].
 	
 	^ log
