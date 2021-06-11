@@ -15,8 +15,9 @@ parseSmalltalkCILog: aString
 			ifTrue: [ parsedLine := line]
 			ifFalse: [parsedLine := line allButFirst: 28]. "Remove timestamp"
 		parsedLine := parsedLine, Character cr. "Add new Line"
+		parsedLine := self parseAnsiCodeOf: parsedLine.
 		
-		(shouldIncludeLine)
+ 		(shouldIncludeLine)
 			ifTrue: [log append: parsedLine].
 			
 		(line matchesRegex: '.*Executed \d* Tests with \d* Failures and \d* Errors.*')
