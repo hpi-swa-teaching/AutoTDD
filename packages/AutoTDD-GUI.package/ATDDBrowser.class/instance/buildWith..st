@@ -17,6 +17,6 @@ buildWith: aBuilder
 			yourself);
 		yourself.
 		
-	self hasSeenHelpPrompt ifFalse: [ self createSeenFile. self buildHelpPrompt ].	
+	self hasSeenTutorialPrompt ifFalse: [ self buildHelpPrompt ].	
 	
 	^ aBuilder build: window

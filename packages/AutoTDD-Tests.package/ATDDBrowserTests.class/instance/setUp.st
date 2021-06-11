@@ -4,6 +4,7 @@ setUp
 	super setUp.
 	self class resetTestHasRun.
 	browser := ATDDBrowser new.
+	browser hasSeenTutorialPrompt: true.
 	ToolBuilder open: browser.
 	preTestWatchers := self fetchCopyOfWatchers.
 	preTestTravisStatuses := self fetchCopyOfTravisStatuses.

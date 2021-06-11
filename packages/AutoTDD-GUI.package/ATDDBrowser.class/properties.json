@@ -4,6 +4,7 @@
 		 ],
 	"classvars" : [
 		"GitHubActions",
+		"HasSeenTutorialPrompt",
 		"TravisStatuses",
 		"Watchers" ],
 	"commentStamp" : "be 7/25/2019 09:48",
