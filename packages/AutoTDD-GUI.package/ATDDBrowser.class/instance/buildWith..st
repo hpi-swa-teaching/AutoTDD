@@ -17,6 +17,6 @@ buildWith: aBuilder
 			yourself);
 		yourself.
 		
-	self hasSeenTutorialPrompt ifFalse: [ self buildHelpPrompt ].	
+	ATDDHelper openTutorialIfNecessary.
 	
 	^ aBuilder build: window

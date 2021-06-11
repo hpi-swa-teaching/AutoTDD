@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"HasSeenTutorialPrompt" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "ATDDHelper",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
