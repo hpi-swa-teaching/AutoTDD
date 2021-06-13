@@ -17,4 +17,6 @@ buildWith: aBuilder
 			yourself);
 		yourself.
 		
+	ATDDHelper openTutorialIfNecessary.
+	
 	^ aBuilder build: window
