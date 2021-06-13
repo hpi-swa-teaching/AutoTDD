@@ -1,0 +1,1 @@
+An ATDDPluggableTextSpecPlus is an extension of PluggableTextSpec including a vertical scroll bar.
