@@ -1,11 +1,12 @@
 {
 	"class" : {
-		"bookName" : "swi 7/25/2019 14:07",
-		"browser" : "be 7/25/2019 14:57",
-		"introduction" : "be 7/25/2019 14:55",
-		"overview" : "be 7/25/2019 14:57",
-		"pages" : "ls 7/10/2019 15:07",
-		"travisStatuses" : "be 7/25/2019 14:56",
-		"watchers" : "be 7/25/2019 14:57" },
+		"bookName" : "SK 6/13/2021 11:47",
+		"browser" : "SK 6/13/2021 14:27",
+		"githubActions" : "SK 6/13/2021 14:33",
+		"introduction" : "SK 6/13/2021 13:37",
+		"overviewWindow" : "SK 6/13/2021 14:29",
+		"pages" : "SK 6/13/2021 11:47",
+		"travisStatuses" : "SK 6/13/2021 14:29",
+		"watchers" : "SK 6/13/2021 13:38" },
 	"instance" : {
 		"lol" : "ClassTest 6/4/2021 15:17" } }

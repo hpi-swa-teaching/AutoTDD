@@ -4,7 +4,6 @@ travisStatuses
 	^ HelpTopic
 		title: 'Using Travis Statuses'
 		contents: 
-			'You can create a Travis Status that will show you the build state, the commit message, the branch and the author of the latest Travis build of your repository. Travis Statuses are also
-shown in the Browser and will refresh their contents automatically within an interval that you can also specify.
-
-For Travis Statuses, a click on the Results button will show all Travis builds and the corresponding logs in a special GUI.'
+			'Travis statuses will show you the build state, commit message, branch, and author of the latest Travis build of your repository. You can add a new Travis status by clicking the ''Add Travis Status'' button in the browser. This is also where you can specifiy whether or not you want to use Travis pro, which requires a corresponding access token. Travis statuses are also shown in the browser in the ''Travis Statuses'' section and will refresh their contents automatically within a user-defined interval.
+			
+Clicking on the ''Results'' button open a new window showing all Travis builds and corresponding logs.'
