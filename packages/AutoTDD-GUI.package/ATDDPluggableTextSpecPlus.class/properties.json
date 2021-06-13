@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "BF 6/13/2021 10:00",
 	"instvars" : [
-		 ],
-	"name" : "AutoTDDGUIServiceProvider",
+		"vScrollBarPolicy" ],
+	"name" : "ATDDPluggableTextSpecPlus",
 	"pools" : [
 		 ],
-	"super" : "ServiceProvider",
+	"super" : "PluggableTextSpec",
 	"type" : "normal" }
