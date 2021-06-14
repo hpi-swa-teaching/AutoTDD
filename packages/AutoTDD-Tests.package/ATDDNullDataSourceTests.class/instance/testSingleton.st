@@ -3,5 +3,5 @@ testSingleton
 	
 	| dataSource2 |
 	
-	dataSource2 := ATDDNullTestRunner instance.
+	dataSource2 := ATDDNullDataSource instance.
 	self assert: dataSource equals: dataSource2
