@@ -1,5 +1,5 @@
 parsing
-parseIdOfWorkflowAt: aNumber ofWorkflowsOfRepository: aJson
+parseIdOfWorkflowAt: aNumber ofRepository: aJson
 	
 	| workflows workflow |
 	

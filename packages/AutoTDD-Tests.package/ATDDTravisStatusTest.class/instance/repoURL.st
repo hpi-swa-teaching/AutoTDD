@@ -1,4 +1,4 @@
-as yet unclassified
+constants
 repoURL
 	
 	^ 'hpi-swa-teaching/AutoTDD'

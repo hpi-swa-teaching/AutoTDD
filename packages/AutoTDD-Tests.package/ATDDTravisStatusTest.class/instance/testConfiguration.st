@@ -6,7 +6,7 @@ testConfiguration
 	self assert: (travisStatus name isKindOf: String).
 	self assert: (travisStatus repository isKindOf: ATDDNullDataSource).
 	travisStatus name: 'Hello World'.
-	travisStatus repositoryURL: self class repoURL.
+	travisStatus repositoryURL: self repoURL.
 	travisStatus token: '9'.
 	travisStatus usePro: true.
 	self assert: travisStatus name = 'Hello World'.

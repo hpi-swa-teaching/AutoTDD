@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"possibleConclusions" : "ClassTest 6/14/2021 17:44",
+		"sampleRepositoryBuilds" : "ClassTest 6/14/2021 16:45",
+		"sampleWorkflowJobs" : "ClassTest 6/14/2021 17:34",
+		"sampleWorkflowRuns" : "ClassTest 6/14/2021 17:07",
+		"testJobs" : "ClassTest 6/14/2021 17:39",
+		"testWorkflow" : "ClassTest 6/14/2021 17:32",
+		"testWorkflowConclusion" : "ClassTest 6/14/2021 17:44",
+		"testWorkflowHistory" : "ClassTest 6/14/2021 17:22",
+		"testWorkflowId" : "ClassTest 6/14/2021 17:42" } }

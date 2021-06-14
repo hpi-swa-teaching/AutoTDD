@@ -1,0 +1,17 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"gitHubAction",
+		"windowsToDelete",
+		"resultsWindow",
+		"mockGitHubActionsClient" ],
+	"name" : "ATDDGitHubActionResultsTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
