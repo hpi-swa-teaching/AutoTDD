@@ -2,4 +2,4 @@ running
 setUp
 
 	super setUp.
-	dataSource := ATDDNullDataSource new.
+	dataSource := ATDDNullDataSource instance.
