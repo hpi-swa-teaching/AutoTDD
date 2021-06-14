@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"dataSource" ],
+	"name" : "ATDDNullDataSourceTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

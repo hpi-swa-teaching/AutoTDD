@@ -1,0 +1,2 @@
+accessing
+config: anObject

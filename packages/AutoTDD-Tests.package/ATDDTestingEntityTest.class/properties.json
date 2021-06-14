@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"testingEntity" ],
+	"name" : "ATDDTestingEntityTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
