@@ -14,4 +14,5 @@ buildTestingEntityUIOfType: aSymbol with: aBuilder
 				frame: self buttonsFrame
 				yourself);
 			yourself);
+		help: ((self headerForTestingEntity: aSymbol) contents)  asText;
 		yourself
