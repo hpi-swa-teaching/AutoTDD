@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "be 7/25/2019 10:28",
+	"commentStamp" : "",
 	"instvars" : [
 		 ],
-	"name" : "TCIConnectionError",
+	"name" : "ATDDAccessDeniedError",
 	"pools" : [
 		 ],
 	"super" : "Error",
