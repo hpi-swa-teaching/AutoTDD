@@ -1,0 +1,4 @@
+constants
+defaultCheckBoxHeight
+
+	^ 25
