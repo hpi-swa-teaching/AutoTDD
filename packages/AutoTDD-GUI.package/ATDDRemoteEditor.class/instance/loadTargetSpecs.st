@@ -1,4 +1,4 @@
-accessing
+behavior
 loadTargetSpecs
 	
 	self

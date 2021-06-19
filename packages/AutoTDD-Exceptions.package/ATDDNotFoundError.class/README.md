@@ -1,0 +1,1 @@
+An ATDDNotFoundError is thrown when the HTTP request results in a 404 (Not Found) Error.

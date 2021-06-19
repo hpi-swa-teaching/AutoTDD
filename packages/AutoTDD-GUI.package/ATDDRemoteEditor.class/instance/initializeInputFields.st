@@ -1,4 +1,4 @@
-accessing
+initialization
 initializeInputFields
 	
 	super initializeInputFields.

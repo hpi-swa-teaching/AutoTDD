@@ -1,0 +1,1 @@
+An ATDDAccessDeniedError is thrown when the HTTP request results in a 403 (Forbidden) Error.

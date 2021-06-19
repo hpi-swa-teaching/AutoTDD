@@ -1,4 +1,4 @@
-accessing
+building
 tokenFrame
 	
 	^ LayoutFrame new

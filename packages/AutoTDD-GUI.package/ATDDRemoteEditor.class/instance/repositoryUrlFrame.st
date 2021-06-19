@@ -1,4 +1,4 @@
-accessing
+building
 repositoryUrlFrame
 	
 	^ LayoutFrame new

@@ -1,4 +1,4 @@
-accessing
+building
 buildTokenWith: aBuilder
 	
 	^ aBuilder pluggableInputFieldSpec new
