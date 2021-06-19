@@ -1,0 +1,1 @@
+The ATDDParser has no functionality and its only purpose is readability of classes.

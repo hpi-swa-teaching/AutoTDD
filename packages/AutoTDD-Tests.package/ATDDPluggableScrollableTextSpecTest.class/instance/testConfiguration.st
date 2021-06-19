@@ -1,10 +1,9 @@
-as yet unclassified
+tests
 testConfiguration
 
 	| scrollableTextSpec |
 	
-	"NEWER VERSION: scrollableTextSpec := ATDDPluggableScrollableTextSpec new."
-	scrollableTextSpec := ATDDPluggableTextSpecPlus new.
+	scrollableTextSpec := ATDDPluggableScrollableTextSpec new.
 	self assert: scrollableTextSpec vScrollBarPolicy isNil.
 	
 	scrollableTextSpec vScrollBarPolicy: #always.

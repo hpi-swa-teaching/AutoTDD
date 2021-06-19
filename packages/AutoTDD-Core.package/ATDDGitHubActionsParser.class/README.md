@@ -1,0 +1,1 @@
+The ATDDGitHubActionsParser parses travis results from data supplied by the GHAClient.

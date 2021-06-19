@@ -1,7 +1,7 @@
 tests
 testSingleton
 	
-	| dataSource2 |
+	| dataSource |
 	
-	dataSource2 := ATDDNullDataSource instance.
-	self assert: dataSource equals: dataSource2
+	dataSource := ATDDNullDataSource instance.
+	self assert: dataSource equals: dataSource

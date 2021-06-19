@@ -1,4 +1,6 @@
 accessing
 jobNames
 	
-	^ jobNames ifNil: [ jobNames := OrderedCollection new ]
+	^ self jobs collect: [ :job |
+			Text new append: '#' , job name;
+			addAttribute: ( TextColor color: (self colorForInternalStatus: job conclusion)) ]

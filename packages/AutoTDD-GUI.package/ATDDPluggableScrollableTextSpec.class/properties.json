@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "BF 6/13/2021 10:00",
+	"commentStamp" : "",
 	"instvars" : [
 		"vScrollBarPolicy" ],
-	"name" : "ATDDPluggableTextSpecPlus",
+	"name" : "ATDDPluggableScrollableTextSpec",
 	"pools" : [
 		 ],
 	"super" : "PluggableTextSpec",
