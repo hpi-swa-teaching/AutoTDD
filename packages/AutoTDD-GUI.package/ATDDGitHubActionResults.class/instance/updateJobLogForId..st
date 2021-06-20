@@ -9,9 +9,11 @@ updateJobLogForId: aNumber
 		on: ATDDNotFoundError
 		do: [ :error |  response := error class message , '. No logs available for this workflow.' ].
 		
-	
-	(self isSmalltalkCILog: response)
-		ifTrue: [response := self parseSmalltalkCILog: response].
+	(self shouldSimplifyLog)
+		ifTrue: [
+			(self isSmalltalkCILog: response)
+				ifTrue: [response := self parseSmalltalkCILog: response].
+		].
 	
 	self
 		log: response;

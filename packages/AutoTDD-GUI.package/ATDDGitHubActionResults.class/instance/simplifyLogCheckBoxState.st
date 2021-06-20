@@ -1,0 +1,4 @@
+accessing
+simplifyLogCheckBoxState
+	
+	^ self shouldSimplifyLog

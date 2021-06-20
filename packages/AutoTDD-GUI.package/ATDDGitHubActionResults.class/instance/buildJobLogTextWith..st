@@ -1,5 +1,5 @@
 building
-buildJobLogWith: aBuilder
+buildJobLogTextWith: aBuilder
 	
 	^ ATDDPluggableScrollableTextSpec new
 		model: self;
