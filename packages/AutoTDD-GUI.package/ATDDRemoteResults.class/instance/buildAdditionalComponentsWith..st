@@ -5,7 +5,5 @@ buildAdditionalComponentsWith: aBuilder
 		add: ((self buildJobsWith: aBuilder)
 				frame: self jobsFrame;
 				yourself);
-		add: ((self buildJobLogWith: aBuilder)
-				frame: self jobLogFrame;
-				yourself);
+		addAll: (self buildJobLogComponentsWith: aBuilder);
 		yourself

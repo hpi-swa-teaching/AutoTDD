@@ -4,10 +4,13 @@
 		"parser" : "ls 7/25/2019 09:41",
 		"targetName" : "vxr 7/4/2019 10:06" },
 	"instance" : {
+		"buildJobLogComponentsWith:" : "BF 6/18/2021 16:23",
+		"buildJobLogTextWith:" : "BF 6/20/2021 18:12",
 		"buildJobsWith:" : "vxr 7/4/2019 10:11",
 		"colorForSelectedHistory" : "ClassTest 5/29/2021 19:13",
 		"history" : "ClassTest 5/29/2021 19:13",
 		"historyInfoForSelectedHistory" : "vxr 7/4/2019 11:23",
+		"jobLogTextFrame" : "BF 6/18/2021 16:18",
 		"selectedJob:" : "vxr 7/4/2019 10:46",
 		"updateJobLog" : "vxr 7/4/2019 11:03",
 		"updateJobs" : "ClassTest 5/29/2021 19:13" } }
