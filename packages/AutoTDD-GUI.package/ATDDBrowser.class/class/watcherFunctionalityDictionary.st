@@ -3,12 +3,12 @@ watcherFunctionalityDictionary
 	
 	^ OrderedDictionary
 		newFrom: {
-			'Add watcher' -> #createWatcher.
-			'Pause' -> #pauseWatchers.
-			'Resume' -> #resumeSelectedWatchers.
+			(self addImage scaledToHeight: self defaultImageHeight) -> #createWatcher.
+			(self pauseImage scaledToHeight: self defaultImageHeight) -> #pauseWatchers.
+			(self resumeImage scaledToHeight: self defaultImageHeight) -> #resumeSelectedWatchers.
 			'Run' -> #runSelectedWatchers.
-      		'Edit' -> #editWatchers.
+      		(self editImage scaledToHeight: self defaultImageHeight) -> #editWatchers.
 			'Info' -> #infoWatchers.
-			'Results' -> #resultsWatchers.
-			'Remove' -> #removeSelectedWatchers
+			(self resultsImage scaledToHeight: self defaultImageHeight) -> #resultsWatchers.
+			(self removeImage scaledToHeight: self defaultImageHeight) -> #removeSelectedWatchers
 		}
