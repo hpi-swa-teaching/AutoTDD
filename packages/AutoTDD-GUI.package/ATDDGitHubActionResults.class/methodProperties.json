@@ -6,7 +6,7 @@
 		"parser" : "sw 5/21/2021 20:55",
 		"targetName" : "sw 5/21/2021 20:55" },
 	"instance" : {
-		"buildJobLogComponentsWith:" : "BF 6/20/2021 16:37",
+		"buildJobLogComponentsWith:" : "BF 6/20/2021 18:00",
 		"buildJobLogTextWith:" : "BF 6/18/2021 16:25",
 		"buildJobsWith:" : "BF 5/28/2021 20:48",
 		"buildSimplifyLogCheckBoxWith:" : "BF 6/20/2021 16:31",
@@ -16,7 +16,6 @@
 		"isSmalltalkCILog:" : "BF 6/11/2021 21:10",
 		"jobLogTextFrame" : "BF 6/18/2021 16:26",
 		"jobNames" : "ng 5/26/2021 14:18",
-		"jobNames:" : "ng 5/26/2021 14:18",
 		"logCache" : "BF 6/18/2021 15:50",
 		"logCache:" : "BF 6/18/2021 15:50",
 		"parseAnsiCodeOf:" : "BF 6/11/2021 21:15",
@@ -29,4 +28,4 @@
 		"simplifyLogCheckBoxLabel" : "BF 6/20/2021 16:35",
 		"simplifyLogCheckBoxState" : "BF 6/20/2021 16:36",
 		"updateJobLogForId:" : "BF 6/20/2021 16:36",
-		"updateJobs" : "ClassTest 5/29/2021 19:12" } }
+		"updateJobs" : "BF 6/20/2021 18:04" } }

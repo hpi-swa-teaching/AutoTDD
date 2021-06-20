@@ -2,8 +2,8 @@ building
 buildJobLogComponentsWith: aBuilder
 	
 	^ OrderedCollection new
-		add: ((self buildSimplifySmalltalkCiLogCheckBoxWith: aBuilder)
-			frame: self simplifySmalltalkCiLogCheckBoxFrame;
+		add: ((self buildSimplifyLogCheckBoxWith: aBuilder)
+			frame: self simplifyLogCheckBoxFrame;
 			yourself);
 		add: ((self buildJobLogTextWith: aBuilder)
 			frame: self jobLogTextFrame;
