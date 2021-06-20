@@ -1,4 +1,4 @@
-building
+accessing
 intervalFrame
 	
 	^ LayoutFrame new

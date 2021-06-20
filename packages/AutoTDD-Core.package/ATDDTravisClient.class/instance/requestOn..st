@@ -13,7 +13,7 @@ requestOn: aString
 			response content; close ]
 		on: Error
 		do: [ :error |
-			[ ATDDConnectionError signal: 'Connection failed: ' , error messageText ] fork.
+			[ TCIConnectionError signal: 'Connection failed: ' , error messageText ] fork.
 			^ JsonObject new ].
 	
 	^ response code

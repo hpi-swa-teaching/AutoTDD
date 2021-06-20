@@ -1,4 +1,4 @@
-building
+accessing
 targetNameFrame
 	
 	^ LayoutFrame new

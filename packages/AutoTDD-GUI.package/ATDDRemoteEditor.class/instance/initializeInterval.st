@@ -1,4 +1,4 @@
-initialization
+accessing
 initializeInterval
 	
 	refreshInterval := ValueHolder new contents: ''.

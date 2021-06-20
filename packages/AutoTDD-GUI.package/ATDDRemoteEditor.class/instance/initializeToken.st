@@ -1,4 +1,4 @@
-initialization
+accessing
 initializeToken
 	
 	token := ValueHolder new contents: ''.

@@ -1,4 +1,4 @@
-building
+accessing
 buildRepositoryUrlWith: aBuilder
 	
 	^ aBuilder pluggableInputFieldSpec new

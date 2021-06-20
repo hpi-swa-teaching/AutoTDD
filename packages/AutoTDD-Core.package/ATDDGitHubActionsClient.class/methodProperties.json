@@ -2,6 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
+		"errorDictionary" : "ng 5/26/2021 19:13",
 		"getJsonForJobsForRepository:forWorkflowRunId:" : "BF 5/23/2021 21:30",
 		"getJsonForLatestWorkflowRunForRepository:" : "ng 5/27/2021 19:07",
 		"getJsonForWorkflow:" : "ng 5/23/2021 12:08",
@@ -9,4 +10,5 @@
 		"getLogsForRepository:logId:" : "ng 5/27/2021 19:07",
 		"gitHubActionsApiUrl" : "ng 5/14/2021 16:07",
 		"mimeType" : "ng 5/14/2021 15:45",
-		"requestOn:" : "ng 6/18/2021 14:04" } }
+		"requestOn:" : "BF 5/28/2021 21:36",
+		"throwExceptionForResponseCode:" : "ng 5/26/2021 19:14" } }

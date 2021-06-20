@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "be 7/25/2019 10:28",
+	"instvars" : [
+		 ],
+	"name" : "TCIConnectionError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

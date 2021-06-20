@@ -1,4 +1,4 @@
-initialization
+accessing
 initializeRepositoryUrl
 	
 	repositoryUrl := ValueHolder new contents: ''.

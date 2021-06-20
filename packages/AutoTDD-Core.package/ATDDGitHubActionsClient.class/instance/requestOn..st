@@ -14,7 +14,7 @@ requestOn: aString
 			response content; close ]
 		on: Error
 		do: [ :error |
-			[ ATDDConnectionError signal: 'Connection failed: ' , error messageText ] fork.
+			[ GHAConnectionError signal: 'Connection failed: ' , error messageText ] fork.
 			^ JsonObject new ].
 	^ response code
 		= 200

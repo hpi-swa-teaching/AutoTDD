@@ -1,4 +1,4 @@
-building
+accessing
 buildIntervalWith: aBuilder
 	
 	^ aBuilder pluggableInputFieldSpec new

@@ -1,4 +1,4 @@
-building
+accessing
 buildInputFieldsWith: aBuilder
 	
 	^ OrderedCollection new
