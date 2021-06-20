@@ -1,4 +1,0 @@
-building
-simplifySmalltalkCiLogCheckBoxState
-	
-	^ self shouldSimplifySmalltalkCiLog

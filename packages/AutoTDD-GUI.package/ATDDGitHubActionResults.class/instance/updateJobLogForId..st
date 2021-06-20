@@ -7,7 +7,7 @@ updateJobLogForId: aNumber
 		on: GHAAccessDeniedError 
 		do: [ :error |  response := 'Acces denied. Logs are only available when providing a token' ].
 		
-	(self shouldSimplifySmalltalkCiLog)
+	(self shouldSimplifyLog)
 		ifTrue: [
 			(self isSmalltalkCILog: response)
 				ifTrue: [response := self parseSmalltalkCILog: response].

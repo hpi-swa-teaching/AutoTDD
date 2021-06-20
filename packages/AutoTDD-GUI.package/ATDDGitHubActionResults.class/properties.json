@@ -7,7 +7,7 @@
 	"commentStamp" : "BF 5/23/2021 21:45",
 	"instvars" : [
 		"jobNames",
-		"shouldSimplifySmalltalkCiLog" ],
+		"shouldSimplifyLog" ],
 	"name" : "ATDDGitHubActionResults",
 	"pools" : [
 		 ],

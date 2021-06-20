@@ -1,5 +1,5 @@
 building
-simplifySmalltalkCiLogCheckBoxFrame
+simplifyLogCheckBoxFrame
 	
 	^ LayoutFrame new
 		leftFraction: 0.3 offset: 0;
