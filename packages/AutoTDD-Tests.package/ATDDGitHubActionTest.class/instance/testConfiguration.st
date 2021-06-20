@@ -7,8 +7,13 @@ testConfiguration
 	gitHubAction name: 'Hello World'.
 	gitHubAction repositoryURL: self repoURL.
 	"how to test for valid token?, how to test for invalid token?"
-	"gitHubAction token: '9'."
-	"self assert: gitHubAction token = '9'."
+	gitHubAction token: '9'.
+	[ self assert: gitHubAction token = '9'. ]
+		"on: ATDDAccessDeniedError"
+		on: GHAAccessDeniedError
+		do: [
+			
+		].
 	self assert: gitHubAction name = 'Hello World'.
 	self assert: gitHubAction repository class = ATDDGitHubActionsRepository.
 	self assert: gitHubAction repositoryURL = self repoURL.
