@@ -2,7 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
-		"errorDictionary" : "PS 7/25/2014 17:01",
 		"getJsonForBuild:" : "CW 2/25/2016 10:14",
 		"getJsonForBuildsOfRepository:" : "PS 5/19/2014 17:44",
 		"getJsonForJob:" : "PS 5/19/2014 14:40",
@@ -12,8 +11,7 @@
 		"isJson:" : "PS 6/11/2014 13:56",
 		"mimeType" : "PS 5/18/2014 18:04",
 		"requestAPIOn:" : "maf 12/5/2017 14:41",
-		"requestOn:" : "ls 7/25/2019 15:30",
-		"throwExceptionForResponseCode:" : "PS 6/23/2014 15:55",
+		"requestOn:" : "ng 6/18/2021 14:04",
 		"travisApiUrl" : "PS 6/19/2014 09:57",
 		"usePro" : "PS 6/19/2014 09:56",
 		"usePro:" : "ls 7/25/2019 15:20" } }

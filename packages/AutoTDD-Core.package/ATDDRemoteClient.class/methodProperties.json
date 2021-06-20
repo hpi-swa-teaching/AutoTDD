@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
+		"errorDictionary" : "ng 6/18/2021 14:48",
+		"throwExceptionForResponseCode:" : "ng 6/18/2021 14:05",
 		"token" : "ClassTest 6/2/2021 18:44",
 		"token:" : "ClassTest 6/20/2021 16:45",
 		"userAgent" : "ClassTest 6/2/2021 18:45",

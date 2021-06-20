@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "ng 5/28/2021 14:45",
+	"commentStamp" : "be 7/25/2019 10:29",
 	"instvars" : [
 		 ],
-	"name" : "GHAConnectionError",
+	"name" : "ATDDNoValidSlugError",
 	"pools" : [
 		 ],
 	"super" : "Error",

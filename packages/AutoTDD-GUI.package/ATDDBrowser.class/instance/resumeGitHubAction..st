@@ -1,4 +1,9 @@
 action
 resumeGitHubAction: aGitHubAction
 	
-	aGitHubAction resume
+	[ aGitHubAction resume ] 
+		on: ATDDAccessDeniedError
+		do: [
+			UIManager default inform: ATDDAccessDeniedError rateLimitMessage.
+			self pauseTestingEntity: aGitHubAction
+		 ]

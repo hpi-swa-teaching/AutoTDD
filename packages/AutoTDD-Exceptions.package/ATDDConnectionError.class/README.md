@@ -1,0 +1,1 @@
+An ATDDConnectionError is thrown when the HTTP request results in a 401 (Unauthorized) Error.
