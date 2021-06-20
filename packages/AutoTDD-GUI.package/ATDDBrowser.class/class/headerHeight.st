@@ -1,4 +1,0 @@
-constants
-headerHeight
-
-	^ 30
