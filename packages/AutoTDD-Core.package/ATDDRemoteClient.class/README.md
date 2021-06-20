@@ -1,0 +1,1 @@
+The ATDDRemoteClient is the web client communicating with the corresponding API.
