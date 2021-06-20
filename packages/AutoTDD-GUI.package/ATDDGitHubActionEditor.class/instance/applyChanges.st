@@ -3,4 +3,6 @@ applyChanges
 	
 	super applyChanges.
 	
-	self gitHubAction resume
+	[ self gitHubAction resume ]
+		on: ATDDAccessDeniedError
+		do: [ self gitHubAction pause ]

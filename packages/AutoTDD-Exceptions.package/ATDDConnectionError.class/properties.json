@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "be 7/25/2019 10:28",
+	"commentStamp" : "BF 6/19/2021 10:35",
 	"instvars" : [
 		 ],
-	"name" : "TCIConnectionError",
+	"name" : "ATDDConnectionError",
 	"pools" : [
 		 ],
 	"super" : "Error",

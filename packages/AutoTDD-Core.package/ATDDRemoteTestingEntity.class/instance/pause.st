@@ -2,5 +2,4 @@ behaviour
 pause
 	
 	self terminateProcess.
-	super pause.
-	self updateStatus
+	super pause

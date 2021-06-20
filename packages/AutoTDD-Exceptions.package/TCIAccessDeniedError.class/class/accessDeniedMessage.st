@@ -1,4 +1,0 @@
-accessing
-accessDeniedMessage
-	
-	^ 'Access denied'
