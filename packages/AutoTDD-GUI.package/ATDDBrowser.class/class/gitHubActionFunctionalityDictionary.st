@@ -3,11 +3,10 @@ gitHubActionFunctionalityDictionary
 	
 	^ OrderedDictionary
 		newFrom: {
-			'Add GitHub Action' -> #createGitHubAction.
-			'Pause' -> #pauseGitHubActions.
-			'Resume' -> #resumeSelectedGitHubActions.
-			'Run' -> #resumeSelectedGitHubActions.
-      		'Edit' -> #editGitHubActions.
-			'Results' -> #resultsGitHubActions.
-			'Remove' -> #removeSelectedGitHubActions
+			(self addImage scaledToHeight: self defaultImageHeight)  -> #createGitHubAction.
+			(self pauseImage scaledToHeight: self defaultImageHeight)  -> #pauseGitHubActions.
+			(self resumeImage scaledToHeight: self defaultImageHeight)  -> #resumeSelectedGitHubActions.
+      		(self editImage scaledToHeight: self defaultImageHeight)  -> #editGitHubActions.
+			(self resultsImage scaledToHeight: self defaultImageHeight)  -> #resultsGitHubActions.
+			(self removeImage scaledToHeight: self defaultImageHeight)  -> #removeSelectedGitHubActions
 		}

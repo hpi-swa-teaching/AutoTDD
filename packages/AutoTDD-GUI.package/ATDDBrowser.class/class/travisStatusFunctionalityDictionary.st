@@ -3,11 +3,10 @@ travisStatusFunctionalityDictionary
 	
 	^ OrderedDictionary
 		newFrom: {
-			'Add Travis Status' -> #createTravisStatus.
-			'Pause' -> #pauseTravisStatuses.
-			'Resume' -> #resumeSelectedTravisStatuses.
-			'Run' -> #resumeSelectedTravisStatuses.
-      		'Edit' -> #editTravisStatuses.
-			'Results' -> #resultsTravisStatuses.
-			'Remove' -> #removeSelectedTravisStatuses
+			(self addImage scaledToHeight: self defaultImageHeight) -> #createTravisStatus.
+			(self pauseImage scaledToHeight: self defaultImageHeight) -> #pauseTravisStatuses.
+			(self resumeImage scaledToHeight: self defaultImageHeight) -> #resumeSelectedTravisStatuses.
+      		(self editImage scaledToHeight: self defaultImageHeight) -> #editTravisStatuses.
+			(self resultsImage scaledToHeight: self defaultImageHeight) -> #resultsTravisStatuses.
+			(self removeImage scaledToHeight: self defaultImageHeight) -> #removeSelectedTravisStatuses
 		}
