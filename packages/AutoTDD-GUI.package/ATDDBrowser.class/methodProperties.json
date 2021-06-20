@@ -36,7 +36,6 @@
 	"instance" : {
 		"buildButtonWithLabel:do:with:" : "ClassTest 6/4/2021 15:02",
 		"buildGlobalButtonsWith:" : "OM 6/6/2021 14:42",
-		"buildHeaderForTestingEntityType:with:" : "BF 5/30/2021 15:48",
 		"buildTestEntityUIFor:testingEntityType:with:" : "SK 6/19/2021 11:01",
 		"buildTestingEntitiesFor:layout:with:" : "BF 5/30/2021 15:07",
 		"buildTestingEntitiesWith:" : "ClassTest 5/30/2021 16:48",
@@ -61,7 +60,6 @@
 		"gitHubActions" : "BF 5/21/2021 13:39",
 		"globalButtonsFrame" : "sw 5/24/2021 16:33",
 		"headerForTestingEntity:" : "BF 5/30/2021 15:22",
-		"headerFrame" : "BF 5/30/2021 14:53",
 		"heightPerTestingEntity" : "ClassTest 5/29/2021 00:05",
 		"infoWatchers" : "sw 5/26/2021 00:01",
 		"label" : "vxr 7/4/2019 18:32",
