@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 instance
 	
 	^ instance ifNil: [ instance := self new ]

@@ -10,6 +10,10 @@ tearDown
 	preTestTravisStatuses
 		do: [ :each | each valid: true.
 			browser travisStatuses addLast: each ].
+	browser removeGitHubActions: browser gitHubActions.
+	preTestGitHubActions
+		do: [ :each | each valid: true.
+			browser gitHubActions addLast: each ].
 	browser resumeAll.
 	windowsToDelete do: [ :each | each changed: #close ].
 	self class resetTestHasRun

@@ -1,0 +1,1 @@
+The ATDDGitHubActionsClient is the web client calling the GitHub Actions API. It uses API v4.

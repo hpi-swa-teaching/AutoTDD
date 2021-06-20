@@ -1,4 +1,4 @@
-running
+tests
 testIndicatorOpensResultWindows
 	
 	| localWindows travisStatusWindows |

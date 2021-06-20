@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"job" ],
+	"name" : "ATDDGitHubActionWorkflowJobTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

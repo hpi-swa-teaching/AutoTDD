@@ -1,7 +1,7 @@
 building
 buildJobLogWith: aBuilder
 	
-	^ ATDDPluggableTextSpecPlus new
+	^ ATDDPluggableScrollableTextSpec new
 		model: self;
 		indicateUnacceptedChanges: false;
 		readOnly: true;
