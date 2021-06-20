@@ -1,4 +1,4 @@
-behavior
+action
 applyChanges
 	
 	super applyChanges.
