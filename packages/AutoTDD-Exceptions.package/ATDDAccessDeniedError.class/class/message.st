@@ -1,0 +1,4 @@
+accessing
+message
+
+	^ 'Access denied'

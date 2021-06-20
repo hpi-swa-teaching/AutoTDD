@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-GUI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"vScrollBarPolicy" ],
+	"name" : "ATDDPluggableScrollableTextSpec",
+	"pools" : [
+		 ],
+	"super" : "PluggableTextSpec",
+	"type" : "normal" }

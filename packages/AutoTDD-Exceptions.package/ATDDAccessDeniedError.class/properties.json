@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BF 6/19/2021 10:35",
+	"instvars" : [
+		 ],
+	"name" : "ATDDAccessDeniedError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

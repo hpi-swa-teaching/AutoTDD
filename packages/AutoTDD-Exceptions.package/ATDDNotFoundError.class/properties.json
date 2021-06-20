@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Exceptions",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BF 6/19/2021 10:36",
+	"instvars" : [
+		 ],
+	"name" : "ATDDNotFoundError",
+	"pools" : [
+		 ],
+	"super" : "Error",
+	"type" : "normal" }

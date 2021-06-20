@@ -1,4 +1,4 @@
 data-processing
 validate: aString
 	
-	(aString matchesRegex: self class validSlug) ifFalse: [ TCINoValidSlugError signal ]
+	(aString matchesRegex: self class validSlug) ifFalse: [ ATDDNoValidSlugError signal ]

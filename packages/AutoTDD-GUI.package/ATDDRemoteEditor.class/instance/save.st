@@ -1,4 +1,4 @@
-accessing
+action
 save
 	
 	repositoryUrl changed: #acceptChanges.

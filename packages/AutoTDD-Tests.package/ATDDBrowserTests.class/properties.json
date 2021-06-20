@@ -11,6 +11,7 @@
 		"window",
 		"preTestWatchers",
 		"preTestTravisStatuses",
+		"preTestGitHubActions",
 		"windowsToDelete" ],
 	"name" : "ATDDBrowserTests",
 	"pools" : [

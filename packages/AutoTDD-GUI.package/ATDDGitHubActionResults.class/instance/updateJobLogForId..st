@@ -4,8 +4,10 @@ updateJobLogForId: aNumber
 	| response |
 	
 	[ response := self data client getLogsForRepository: self data repository logId: aNumber ] 
-		on: GHAAccessDeniedError 
-		do: [ :error |  response := 'Acces denied. Logs are only available when providing a token' ].
+		on: ATDDAccessDeniedError
+		do: [ :error |  response := error class message , '. Logs are only available when providing a token.' ]
+		on: ATDDNotFoundError
+		do: [ :error |  response := error class message , '. No logs available for this workflow.' ].
 		
 	(self shouldSimplifyLog)
 		ifTrue: [
