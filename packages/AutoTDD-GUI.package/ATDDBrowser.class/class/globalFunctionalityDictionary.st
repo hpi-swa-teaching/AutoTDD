@@ -3,9 +3,9 @@ globalFunctionalityDictionary
 	
 	^ OrderedDictionary
 		newFrom: {
-			'Pause All' -> #pauseAll.
-			'Resume All' -> #resumeAll.
-			'Run All' -> #runAll.
-			'Create Overview' -> #openOverview.
+			(self pauseImage scaledToHeight: self defaultImageHeight) -> #pauseAll.
+			(self resumeImage scaledToHeight: self defaultImageHeight) -> #resumeAll.
+			'Run' -> #runAll.
+			(self overviewImage scaledToHeight: self defaultImageHeight) -> #openOverview.
 			#soundsButtonLabel -> #toggleSounds
 		}
