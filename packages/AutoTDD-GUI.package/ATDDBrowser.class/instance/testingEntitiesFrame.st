@@ -2,7 +2,7 @@ building
 testingEntitiesFrame
 	
 	^ LayoutFrame new
-		leftFraction: 0.15;
+		leftFraction: 0 offset: self class globalButtonWidth;
 		topFraction: 0;
 		rightFraction: 1;
 		bottomFraction: 1;

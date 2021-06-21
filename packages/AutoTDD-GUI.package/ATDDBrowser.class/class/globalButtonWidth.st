@@ -1,0 +1,4 @@
+constants
+globalButtonWidth
+	
+	^ 150
