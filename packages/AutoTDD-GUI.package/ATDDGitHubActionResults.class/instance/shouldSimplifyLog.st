@@ -1,4 +1,4 @@
 accessing
 shouldSimplifyLog
 	
-	^ shouldSimplifyLog ifNil: [ shouldSimplifyLog := false ]
+	^ shouldSimplifyLog ifNil: [ shouldSimplifyLog := true ]
