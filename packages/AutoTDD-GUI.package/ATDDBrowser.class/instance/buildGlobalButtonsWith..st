@@ -9,7 +9,7 @@ buildGlobalButtonsWith: aBuilder
 	
 	panel := aBuilder pluggablePanelSpec new
 		model: self;
-		layout: #horizontal;
+		layout: #vertical;
 		children: OrderedCollection new.
 		
 	(self class globalFunctionalityDictionary) keysAndValuesDo: [

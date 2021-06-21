@@ -2,8 +2,8 @@ building
 globalButtonsFrame
 	
 	^ LayoutFrame new
-		leftFraction: 0 offset: 0;
-		topFraction: 0 offset: 0;
-		rightFraction: 1 offset: 0;
-		bottomFraction: 0 offset: self buttonHeight;
+		leftFraction: 0;
+		topFraction: 0;
+		rightFraction: 0 offset: self class globalButtonWidth;
+		bottomFraction: 1;
 		yourself
