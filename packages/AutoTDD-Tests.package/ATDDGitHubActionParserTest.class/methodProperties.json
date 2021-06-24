@@ -3,11 +3,13 @@
 		 },
 	"instance" : {
 		"possibleConclusions" : "ClassTest 6/14/2021 17:44",
+		"sampleNameJson" : "ng 6/24/2021 11:30",
 		"sampleRepositoryBuilds" : "ClassTest 6/14/2021 16:45",
 		"sampleWorkflowJobs" : "ClassTest 6/14/2021 17:34",
 		"sampleWorkflowRuns" : "ClassTest 6/14/2021 17:07",
 		"testJobs" : "ClassTest 6/14/2021 17:39",
 		"testParseWorkflowAtOf" : "ng 6/24/2021 11:14",
+		"testPrimitiveParseNameOf" : "ng 6/24/2021 11:31",
 		"testWorkflow" : "ClassTest 6/14/2021 17:32",
 		"testWorkflowConclusion" : "ClassTest 6/14/2021 17:44",
 		"testWorkflowHistory" : "ClassTest 6/14/2021 17:22",
