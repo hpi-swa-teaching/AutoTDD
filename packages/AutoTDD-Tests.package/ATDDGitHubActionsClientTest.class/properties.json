@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sampleJsonForBuildsOfRepository",
-		"sampleBuildJsons" ],
-	"name" : "ATDDMockGitHubActionsClient",
+		 ],
+	"name" : "ATDDGitHubActionsClientTest",
 	"pools" : [
 		 ],
-	"super" : "ATDDGitHubActionsClient",
+	"super" : "TestCase",
 	"type" : "normal" }
