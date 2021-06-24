@@ -2,4 +2,6 @@
 	"class" : {
 		 },
 	"instance" : {
+		"defaultAnswer" : "ng 6/24/2021 12:12",
+		"testApiConnect" : "ng 6/24/2021 12:12",
 		"testInitiliazation" : "ng 6/24/2021 11:47" } }
