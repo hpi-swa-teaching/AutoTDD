@@ -5,8 +5,11 @@
 		"addJsonForBuild:put:" : "ClassTest 6/14/2021 16:25",
 		"getJsonForBuild:" : "ClassTest 6/14/2021 16:25",
 		"getJsonForBuildsOfRepository:" : "ClassTest 6/14/2021 16:25",
+		"getJsonForLatestWorkflowRunForRepository:" : "ng 6/24/2021 10:21",
 		"requestOn:" : "ClassTest 6/14/2021 16:26",
 		"sampleBuildJsons" : "ClassTest 6/14/2021 16:26",
 		"sampleBuildJsons:" : "ClassTest 6/14/2021 16:26",
 		"sampleJsonForBuildsOfRepository" : "ClassTest 6/14/2021 16:26",
-		"sampleJsonForBuildsOfRepository:" : "ClassTest 6/14/2021 16:26" } }
+		"sampleJsonForBuildsOfRepository:" : "ClassTest 6/14/2021 16:26",
+		"sampleJsonForLatestWorkflow" : "ng 6/24/2021 10:20",
+		"token" : "ng 6/24/2021 10:08" } }

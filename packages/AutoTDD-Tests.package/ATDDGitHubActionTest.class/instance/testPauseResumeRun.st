@@ -5,6 +5,7 @@ testPauseResumeRun
 	
 	gitHubAction := ATDDGitHubAction new.
 	gitHubAction repositoryURL: self repoURL.
+	gitHubAction repository client: ATDDMockGitHubActionsClient new.
 	gitHubAction updateStatus.
 	self assert: gitHubAction paused.
 	time := TimeStamp now asTime asSeconds.
