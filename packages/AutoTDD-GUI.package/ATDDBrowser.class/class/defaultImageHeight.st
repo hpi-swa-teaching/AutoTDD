@@ -1,4 +1,4 @@
-accessing
+constants
 defaultImageHeight
 
-	^ 24
+	^ 22
