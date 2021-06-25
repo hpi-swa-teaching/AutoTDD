@@ -1,0 +1,15 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"sampleJsonForBuildsOfRepository",
+		"sampleBuildJsons" ],
+	"name" : "ATDDGitHubActionMockAPI",
+	"pools" : [
+		 ],
+	"super" : "WebServer",
+	"type" : "normal" }

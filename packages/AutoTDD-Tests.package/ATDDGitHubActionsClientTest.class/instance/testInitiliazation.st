@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testInitiliazation 
 	
 	| client |
@@ -7,6 +7,4 @@ testInitiliazation
 	self 
 		assert: client webClient notNil;
 		assert: client webClient userAgent equals: client userAgent; 
-		assert: client gitHubActionsApiUrl equals: 'https://api.github.com/' 
-		
-		 
+		assert: client gitHubActionsApiUrl equals: 'https://api.github.com/'

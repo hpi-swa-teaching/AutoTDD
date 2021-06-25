@@ -1,4 +1,4 @@
-as yet unclassified
+testing
 testThrowingExceptions
 
 	self should: [ remoteClient throwExceptionForResponseCode: 401 ] raise: ATDDConnectionError.
