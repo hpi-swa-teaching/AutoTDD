@@ -606,7 +606,7 @@ defaultLog
 2021-05-23T12:56:10.0797775Z Setting up libpulse0:amd64 (1:13.99.1-1ubuntu3.10) ...
 2021-05-23T12:56:10.0882832Z Processing triggers for libc-bin (2.31-0ubuntu9.2) ...
 2021-05-23T12:56:12.3612246Z ##[group]Run smalltalkci -s Squeak64-trunk
-2021-05-23T12:56:12.3612824Z [36;1msmalltalkci -s Squeak64-trunk[0m
+2021-05-23T12:56:12.3612824Z [36;1msmalltalkci -s Squeak64-trunk[0m
 2021-05-23T12:56:12.3649462Z shell: /usr/bin/bash -e {0}
 2021-05-23T12:56:12.3649793Z env:
 2021-05-23T12:56:12.3650171Z   SMALLTALK_CI_HOME: /home/runner/.smalltalkCI
@@ -619,19 +619,19 @@ defaultLog
 2021-05-23T12:56:12.3654320Z   SMALLTALK_CI_BUILD: /home/runner/.smalltalkCI/_builds
 2021-05-23T12:56:12.3655679Z   GITHUB_TOKEN: ***
 2021-05-23T12:56:12.3656040Z ##[endgroup]
-2021-05-23T12:56:12.3852169Z [1m[34mPreparing folders...[0m
-2021-05-23T12:56:12.3873913Z [1m[34mBuild folder already exists at /home/runner/.smalltalkCI/_builds.[0m
-2021-05-23T12:56:12.5825319Z [1m[34mRaising real-time priority for OpenSmalltalk VMs with threaded heartbeat...[0m
+2021-05-23T12:56:12.3852169Z [1m[34mPreparing folders...[0m
+2021-05-23T12:56:12.3873913Z [1m[34mBuild folder already exists at /home/runner/.smalltalkCI/_builds.[0m
+2021-05-23T12:56:12.5825319Z [1m[34mRaising real-time priority for OpenSmalltalk VMs with threaded heartbeat...[0m
 2021-05-23T12:56:12.7570181Z Previous limits: soft=0; hard=0
 2021-05-23T12:56:12.7571152Z New limits: soft=2; hard=2
-2021-05-23T12:56:12.7644389Z [0m[34m > Time to run: 0.179s[0m
-2021-05-23T12:56:12.7645316Z [1m[34mStarting Squeak build...[0m
-2021-05-23T12:56:12.7678683Z [1m[34mDownloading Squeak64-trunk image...[0m
-2021-05-23T12:56:14.0914827Z [0m[34m > Time to run: 1.321s[0m
-2021-05-23T12:56:14.1149691Z [1m[34mDownloading virtual machine...[0m
-2021-05-23T12:56:14.6365006Z [0m[34m > Time to run: 0.519s[0m
-2021-05-23T12:56:14.6378512Z [1m[34mExtracting virtual machine...[0m
-2021-05-23T12:56:14.7111188Z [1m[34mCog VM Information[0m
+2021-05-23T12:56:12.7644389Z [0m[34m > Time to run: 0.179s[0m
+2021-05-23T12:56:12.7645316Z [1m[34mStarting Squeak build...[0m
+2021-05-23T12:56:12.7678683Z [1m[34mDownloading Squeak64-trunk image...[0m
+2021-05-23T12:56:14.0914827Z [0m[34m > Time to run: 1.321s[0m
+2021-05-23T12:56:14.1149691Z [1m[34mDownloading virtual machine...[0m
+2021-05-23T12:56:14.6365006Z [0m[34m > Time to run: 0.519s[0m
+2021-05-23T12:56:14.6378512Z [1m[34mExtracting virtual machine...[0m
+2021-05-23T12:56:14.7111188Z [1m[34mCog VM Information[0m
 2021-05-23T12:56:14.7233367Z 5.0-202101260417  Tue Jan 26 04:21:47 UTC 2021 clang [Production Spur 64-bit VM]
 2021-05-23T12:56:14.7236771Z CoInterpreter VMMaker.oscog-eem.2940 uuid: 29171f50-756f-4560-8488-ced65f2d4841 Jan 26 2021
 2021-05-23T12:56:14.7238166Z StackToRegisterMappingCogit VMMaker.oscog-eem.2940 uuid: 29171f50-756f-4560-8488-ced65f2d4841 Jan 26 2021
@@ -640,10 +640,10 @@ defaultLog
 2021-05-23T12:56:14.7242422Z Plugins: 202101260417 https://github.com/OpenSmalltalk/opensmalltalk-vm.git
 2021-05-23T12:56:14.7243752Z Linux travis-job-d4e7eb79-94f0-45b6-a055-aeda054d0983 4.15.0-1077-gcp #87~16.04.1-Ubuntu SMP Sat Jun 6 01:51:20 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
 2021-05-23T12:56:14.7245416Z plugin path: /home/runner/.smalltalkCI/_cache/vms/Squeak64-trunk/sqcogspur64linuxht/lib/squeak/5.0-202101260417 [default: /home/runner/.smalltalkCI/_cache/vms/Squeak64-trunk/sqcogspur64linuxht/lib/squeak/5.0-202101260417/]
-2021-05-23T12:56:14.7294823Z [0m[34m > Time to run: 0.017s[0m
-2021-05-23T12:56:14.7329023Z [1m[34mPreparing Squeak64-trunk image for CI...[0m
-2021-05-23T12:56:32.0257972Z ....[0m[34m > Time to run: 17.290s[0m
-2021-05-23T12:56:35.3674076Z [1m[34mImage Information[0m
+2021-05-23T12:56:14.7294823Z [0m[34m > Time to run: 0.017s[0m
+2021-05-23T12:56:14.7329023Z [1m[34mPreparing Squeak64-trunk image for CI...[0m
+2021-05-23T12:56:32.0257972Z ....[0m[34m > Time to run: 17.290s[0m
+2021-05-23T12:56:35.3674076Z [1m[34mImage Information[0m
 2021-05-23T12:56:35.3679375Z Image
 2021-05-23T12:56:35.3680643Z -----
 2021-05-23T12:56:35.3681173Z /home/runner/.smalltalkCI/_builds/TravisCI.image
@@ -655,7 +655,7 @@ defaultLog
 2021-05-23T12:56:35.3684026Z 
 2021-05-23T12:56:35.3684240Z 
 2021-05-23T12:56:35.3684556Z  > Done in 1ms.
-2021-05-23T12:56:35.3685147Z [1m[34mLoading project...[0m
+2021-05-23T12:56:35.3685147Z [1m[34mLoading project...[0m
 2021-05-23T12:56:38.9542728Z 
 2021-05-23T12:56:38.9545893Z Fetched -> BaselineOfAutoTDD-cypress.1 --- filetree:///home/runner/work/AutoTDD/AutoTDD/packages [:] --- filetree:///home/runner/work/AutoTDD/AutoTDD/packages
 2021-05-23T12:56:38.9547410Z (ATDDBrowser is Undeclared) 
@@ -686,7 +686,7 @@ defaultLog
 2021-05-23T12:56:38.9603791Z (ATDDOverview is Undeclared) 
 2021-05-23T12:56:38.9604347Z (ATDDOverview is Undeclared) 
 2021-05-23T12:56:38.9604915Z (ATDDOverview is Undeclared) 
-2021-05-23T12:56:38.9605462Z (ATDDOverview is Undeclared) 
+2021-05-23T12:56:38.9605462Z (ATDDOverview is Undeclared)
 2021-05-23T12:56:38.9606032Z (ATDDOverview is Undeclared) 
 2021-05-23T12:56:38.9606583Z (ATDDOverview is Undeclared) 
 2021-05-23T12:56:38.9607309Z (ATDDOverview is Undeclared) 
@@ -723,122 +723,122 @@ defaultLog
 2021-05-23T12:56:40.8037880Z Evaluated -> baseline [BaselineOfAutoTDD] >> postLoad
 2021-05-23T12:56:40.8038504Z ...finished baseline
 2021-05-23T12:56:40.8038921Z  > Done in 5434ms.
-2021-05-23T12:56:41.3581803Z [1m[34mTesting project...[0m
+2021-05-23T12:56:41.3581803Z [1m[34mTesting project...[0m
 2021-05-23T12:56:41.3769497Z Running suite "Squeak64-trunk" with 69 tests.
 2021-05-23T12:57:07.1408974Z ..........................................................Access denied...........Finished running suite: Squeak64-trunk
 2021-05-23T12:57:07.8932725Z 
 2021-05-23T12:57:07.8933268Z  > Done in 26535ms.
 2021-05-23T12:57:07.9105441Z 
-2021-05-23T12:57:07.9106558Z [1m[34m###################################################
-2021-05-23T12:57:07.9107148Z [1m[34m# Squeak64-trunk                                  #
-2021-05-23T12:57:07.9107832Z [1m[34m# 69 Tests with 0 Failures and 0 Errors in 25.76s #
-2021-05-23T12:57:07.9108419Z [1m[34m###################################################
-2021-05-23T12:57:07.9108834Z [0m
+2021-05-23T12:57:07.9106558Z [1m[34m###################################################
+2021-05-23T12:57:07.9107148Z [1m[34m# Squeak64-trunk                                  #
+2021-05-23T12:57:07.9107832Z [1m[34m# 69 Tests with 0 Failures and 0 Errors in 25.76s #
+2021-05-23T12:57:07.9108419Z [1m[34m###################################################
+2021-05-23T12:57:07.9108834Z [0m
 2021-05-23T12:57:07.9109233Z (69 tests passed)
-2021-05-23T12:57:07.9109601Z [1m
+2021-05-23T12:57:07.9109601Z [1m
 2021-05-23T12:57:07.9109980Z ATDDTravisRepositoryTest
-2021-05-23T12:57:07.9111495Z [0m[32m ✓[0m #testInitialization (0ms)[0m
-2021-05-23T12:57:07.9112115Z [32m ✓[0m #testValidateSlug (1ms)[0m
-2021-05-23T12:57:07.9112549Z [1m
+2021-05-23T12:57:07.9111495Z [0m[32m [0m #testInitialization (0ms)[0m
+2021-05-23T12:57:07.9112115Z [32m [0m #testValidateSlug (1ms)[0m
+2021-05-23T12:57:07.9112549Z [1m
 2021-05-23T12:57:07.9112882Z ATDDTestRunnerTests
-2021-05-23T12:57:07.9113481Z [0m[32m ✓[0m #testActiveAccessors (0ms)[0m
-2021-05-23T12:57:07.9114087Z [32m ✓[0m #testConfigAccessors (0ms)[0m
-2021-05-23T12:57:07.9114685Z [32m ✓[0m #testInitialization (0ms)[0m
-2021-05-23T12:57:07.9115229Z [32m ✓[0m #testRunTests (0ms)[0m
-2021-05-23T12:57:07.9116070Z [32m ✓[0m #testRunTestsThrowsSubclassResponsibility (0ms)[0m
-2021-05-23T12:57:07.9117002Z [32m ✓[0m #testStatusAccessors (0ms)[0m
-2021-05-23T12:57:07.9117625Z [32m ✓[0m #testStatusConsistency (0ms)[0m
-2021-05-23T12:57:07.9118550Z [32m ✓[0m #testStatusMustBeASymbol (0ms)[0m
-2021-05-23T12:57:07.9119061Z [1m
+2021-05-23T12:57:07.9113481Z [0m[32m [0m #testActiveAccessors (0ms)[0m
+2021-05-23T12:57:07.9114087Z [32m [0m #testConfigAccessors (0ms)[0m
+2021-05-23T12:57:07.9114685Z [32m [0m #testInitialization (0ms)[0m
+2021-05-23T12:57:07.9115229Z [32m [0m #testRunTests (0ms)[0m
+2021-05-23T12:57:07.9116070Z [32m [0m #testRunTestsThrowsSubclassResponsibility (0ms)[0m
+2021-05-23T12:57:07.9117002Z [32m [0m #testStatusAccessors (0ms)[0m
+2021-05-23T12:57:07.9117625Z [32m [0m #testStatusConsistency (0ms)[0m
+2021-05-23T12:57:07.9118550Z [32m [0m #testStatusMustBeASymbol (0ms)[0m
+2021-05-23T12:57:07.9119061Z [1m
 2021-05-23T12:57:07.9119456Z ATDDLocalTestRunnerTests
-2021-05-23T12:57:07.9120215Z [0m[32m ✓[0m #testAddTestResult (45ms)[0m
-2021-05-23T12:57:07.9120869Z [32m ✓[0m #testBuildEmptyTestSuite (30ms)[0m
-2021-05-23T12:57:07.9121500Z [32m ✓[0m #testInitialization (30ms)[0m
-2021-05-23T12:57:07.9122126Z [32m ✓[0m #testProgressAccessors (30ms)[0m
-2021-05-23T12:57:07.9122795Z [32m ✓[0m #testProgressSettingNil (30ms)[0m
-2021-05-23T12:57:07.9123409Z [32m ✓[0m #testRunTestSuite (47ms)[0m
-2021-05-23T12:57:07.9123945Z [32m ✓[0m #testRunTests (47ms)[0m
-2021-05-23T12:57:07.9124470Z [32m ✓[0m #testStatusSetter (53ms)[0m
-2021-05-23T12:57:07.9125021Z [32m ✓[0m #testTestResult (40ms)[0m
-2021-05-23T12:57:07.9125643Z [32m ✓[0m #testTestResultsAccessors (27ms)[0m
-2021-05-23T12:57:07.9126497Z [32m ✓[0m #testTestResultsSettingNil (27ms)[0m
-2021-05-23T12:57:07.9127201Z [32m ✓[0m #testTestSuiteAccessors (27ms)[0m
-2021-05-23T12:57:07.9127904Z [32m ✓[0m #testTestSuiteSettingNil (27ms)[0m
-2021-05-23T12:57:07.9128601Z [32m ✓[0m #testUpdateWatcherStatus (42ms)[0m
-2021-05-23T12:57:07.9129270Z [32m ✓[0m #testWatcherAccessors (40ms)[0m
-2021-05-23T12:57:07.9129737Z [1m
+2021-05-23T12:57:07.9120215Z [0m[32m [0m #testAddTestResult (45ms)[0m
+2021-05-23T12:57:07.9120869Z [32m [0m #testBuildEmptyTestSuite (30ms)[0m
+2021-05-23T12:57:07.9121500Z [32m [0m #testInitialization (30ms)[0m
+2021-05-23T12:57:07.9122126Z [32m [0m #testProgressAccessors (30ms)[0m
+2021-05-23T12:57:07.9122795Z [32m [0m #testProgressSettingNil (30ms)[0m
+2021-05-23T12:57:07.9123409Z [32m [0m #testRunTestSuite (47ms)[0m
+2021-05-23T12:57:07.9123945Z [32m [0m #testRunTests (47ms)[0m
+2021-05-23T12:57:07.9124470Z [32m [0m #testStatusSetter (53ms)[0m
+2021-05-23T12:57:07.9125021Z [32m [0m #testTestResult (40ms)[0m
+2021-05-23T12:57:07.9125643Z [32m [0m #testTestResultsAccessors (27ms)[0m
+2021-05-23T12:57:07.9126497Z [32m [0m #testTestResultsSettingNil (27ms)[0m
+2021-05-23T12:57:07.9127201Z [32m [0m #testTestSuiteAccessors (27ms)[0m
+2021-05-23T12:57:07.9127904Z [32m [0m #testTestSuiteSettingNil (27ms)[0m
+2021-05-23T12:57:07.9128601Z [32m [0m #testUpdateWatcherStatus (42ms)[0m
+2021-05-23T12:57:07.9129270Z [32m [0m #testWatcherAccessors (40ms)[0m
+2021-05-23T12:57:07.9129737Z [1m
 2021-05-23T12:57:07.9130077Z ATDDTravisClientTest
-2021-05-23T12:57:07.9130642Z [0m[32m ✓[0m #testApiConnect (396ms)[0m
-2021-05-23T12:57:07.9131192Z [32m ✓[0m #testInitialization (3ms)[0m
-2021-05-23T12:57:07.9131744Z [32m ✓[0m #testTravisPro (0ms)[0m
-2021-05-23T12:57:07.9132146Z [1m
+2021-05-23T12:57:07.9130642Z [0m[32m [0m #testApiConnect (396ms)[0m
+2021-05-23T12:57:07.9131192Z [32m [0m #testInitialization (3ms)[0m
+2021-05-23T12:57:07.9131744Z [32m [0m #testTravisPro (0ms)[0m
+2021-05-23T12:57:07.9132146Z [1m
 2021-05-23T12:57:07.9132527Z ATDDNullTestRunnerTests
-2021-05-23T12:57:07.9133143Z [0m[32m ✓[0m #testInitialization (0ms)[0m
-2021-05-23T12:57:07.9133692Z [32m ✓[0m #testSingleton (0ms)[0m
-2021-05-23T12:57:07.9134085Z [1m
+2021-05-23T12:57:07.9133143Z [0m[32m [0m #testInitialization (0ms)[0m
+2021-05-23T12:57:07.9133692Z [32m [0m #testSingleton (0ms)[0m
+2021-05-23T12:57:07.9134085Z [1m
 2021-05-23T12:57:07.9134464Z ATDDWatcherResultsTests
-2021-05-23T12:57:07.9135053Z [0m[32m ✓[0m #testHistoryEmpty (28ms)[0m
-2021-05-23T12:57:07.9135648Z [32m ✓[0m #testHistoryFilling (2071ms)[0m
-2021-05-23T12:57:07.9136441Z [32m ✓[0m #testHistoryPassingFailingErroring (3095ms)[0m
-2021-05-23T12:57:07.9137156Z [32m ✓[0m #testRunButton (1049ms)[0m
-2021-05-23T12:57:07.9137687Z [32m ✓[0m #testTestsEmpty (1048ms)[0m
-2021-05-23T12:57:07.9138207Z [32m ✓[0m #testTestsMixed (1053ms)[0m
-2021-05-23T12:57:07.9138935Z [32m ✓[0m #testTestsPassingFailingErroring (3094ms)[0m
-2021-05-23T12:57:07.9139519Z [1m
+2021-05-23T12:57:07.9135053Z [0m[32m [0m #testHistoryEmpty (28ms)[0m
+2021-05-23T12:57:07.9135648Z [32m [0m #testHistoryFilling (2071ms)[0m
+2021-05-23T12:57:07.9136441Z [32m [0m #testHistoryPassingFailingErroring (3095ms)[0m
+2021-05-23T12:57:07.9137156Z [32m [0m #testRunButton (1049ms)[0m
+2021-05-23T12:57:07.9137687Z [32m [0m #testTestsEmpty (1048ms)[0m
+2021-05-23T12:57:07.9138207Z [32m [0m #testTestsMixed (1053ms)[0m
+2021-05-23T12:57:07.9138935Z [32m [0m #testTestsPassingFailingErroring (3094ms)[0m
+2021-05-23T12:57:07.9139519Z [1m
 2021-05-23T12:57:07.9139870Z ATDDTravisStatusTest
-2021-05-23T12:57:07.9140381Z [0m[32m ✓[0m #testAttach (18ms)[0m
-2021-05-23T12:57:07.9140908Z [32m ✓[0m #testConfiguration (448ms)[0m
-2021-05-23T12:57:07.9141490Z [32m ✓[0m #testPauseResumeRun (2918ms)[0m
-2021-05-23T12:57:07.9141947Z [1m
+2021-05-23T12:57:07.9140381Z [0m[32m [0m #testAttach (18ms)[0m
+2021-05-23T12:57:07.9140908Z [32m [0m #testConfiguration (448ms)[0m
+2021-05-23T12:57:07.9141490Z [32m [0m #testPauseResumeRun (2918ms)[0m
+2021-05-23T12:57:07.9141947Z [1m
 2021-05-23T12:57:07.9142252Z ATDDWatcherTests
-2021-05-23T12:57:07.9142742Z [0m[32m ✓[0m #testAttach (19ms)[0m
-2021-05-23T12:57:07.9143531Z [32m ✓[0m #testLocalProgressIsZeroPercentString (18ms)[0m
-2021-05-23T12:57:07.9144204Z [1m
+2021-05-23T12:57:07.9142742Z [0m[32m [0m #testAttach (19ms)[0m
+2021-05-23T12:57:07.9143531Z [32m [0m #testLocalProgressIsZeroPercentString (18ms)[0m
+2021-05-23T12:57:07.9144204Z [1m
 2021-05-23T12:57:07.9144520Z ATDDBrowserTests
-2021-05-23T12:57:07.9145268Z [0m[32m ✓[0m #testAddButtonAddsNewWatcherToList (214ms)[0m
-2021-05-23T12:57:07.9146243Z [32m ✓[0m #testChangingWatchedCategoriesWork (1189ms)[0m
-2021-05-23T12:57:07.9147011Z [32m ✓[0m #testEditButtonWorks (245ms)[0m
-2021-05-23T12:57:07.9147750Z [32m ✓[0m #testOverviewButtonIntegration (174ms)[0m
-2021-05-23T12:57:07.9148678Z [32m ✓[0m #testPauseAllButtonPausesAllWatchers (751ms)[0m
-2021-05-23T12:57:07.9149729Z [32m ✓[0m #testPauseButtonPausesSelectedWatcher (361ms)[0m
-2021-05-23T12:57:07.9150793Z [32m ✓[0m #testResumeAllButtonResumesAllWatchers (738ms)[0m
-2021-05-23T12:57:07.9151898Z [32m ✓[0m #testResumeButtonResumesSelectedWatcher (487ms)[0m
-2021-05-23T12:57:07.9152895Z [32m ✓[0m #testRunAllButtonRunsEverything (1286ms)[0m
-2021-05-23T12:57:07.9153789Z [32m ✓[0m #testRunButtonRunsSelectedWatcher (1288ms)[0m
-2021-05-23T12:57:07.9154628Z [32m ✓[0m #testTravisInfoButtonWorks (1181ms)[0m
-2021-05-23T12:57:07.9155382Z [32m ✓[0m #testWatcherInfoButtonWorks (340ms)[0m
-2021-05-23T12:57:07.9156288Z [32m ✓[0m #testWatcherResultsButtonWorks (279ms)[0m
-2021-05-23T12:57:07.9156858Z [1m
+2021-05-23T12:57:07.9145268Z [0m[32m [0m #testAddButtonAddsNewWatcherToList (214ms)[0m
+2021-05-23T12:57:07.9146243Z [32m [0m #testChangingWatchedCategoriesWork (1189ms)[0m
+2021-05-23T12:57:07.9147011Z [32m [0m #testEditButtonWorks (245ms)[0m
+2021-05-23T12:57:07.9147750Z [32m [0m #testOverviewButtonIntegration (174ms)[0m
+2021-05-23T12:57:07.9148678Z [32m [0m #testPauseAllButtonPausesAllWatchers (751ms)[0m
+2021-05-23T12:57:07.9149729Z [32m [0m #testPauseButtonPausesSelectedWatcher (361ms)[0m
+2021-05-23T12:57:07.9150793Z [32m [0m #testResumeAllButtonResumesAllWatchers (738ms)[0m
+2021-05-23T12:57:07.9151898Z [32m [0m #testResumeButtonResumesSelectedWatcher (487ms)[0m
+2021-05-23T12:57:07.9152895Z [32m [0m #testRunAllButtonRunsEverything (1286ms)[0m
+2021-05-23T12:57:07.9153789Z [32m [0m #testRunButtonRunsSelectedWatcher (1288ms)[0m
+2021-05-23T12:57:07.9154628Z [32m [0m #testTravisInfoButtonWorks (1181ms)[0m
+2021-05-23T12:57:07.9155382Z [32m [0m #testWatcherInfoButtonWorks (340ms)[0m
+2021-05-23T12:57:07.9156288Z [32m [0m #testWatcherResultsButtonWorks (279ms)[0m
+2021-05-23T12:57:07.9156858Z [1m
 2021-05-23T12:57:07.9157183Z ATDDOverviewTests
-2021-05-23T12:57:07.9157815Z [0m[32m ✓[0m #testIndicatorChangesOnRun (67ms)[0m
-2021-05-23T12:57:07.9158648Z [32m ✓[0m #testIndicatorOpensResultWindows (76ms)[0m
-2021-05-23T12:57:07.9159433Z [32m ✓[0m #testMessageChangesOnRun (66ms)[0m
-2021-05-23T12:57:07.9160159Z [1m
+2021-05-23T12:57:07.9157815Z [0m[32m [0m #testIndicatorChangesOnRun (67ms)[0m
+2021-05-23T12:57:07.9158648Z [32m [0m #testIndicatorOpensResultWindows (76ms)[0m
+2021-05-23T12:57:07.9159433Z [32m [0m #testMessageChangesOnRun (66ms)[0m
+2021-05-23T12:57:07.9160159Z [1m
 2021-05-23T12:57:07.9160507Z ATDDSoundPlayerTest
-2021-05-23T12:57:07.9161042Z [0m[32m ✓[0m #testLoadAbsent (0ms)[0m
-2021-05-23T12:57:07.9161544Z [32m ✓[0m #testMuting (1ms)[0m
-2021-05-23T12:57:07.9162179Z [32m ✓[0m #testWatcherChangePlaysSound (1034ms)[0m
-2021-05-23T12:57:07.9162725Z [1m
+2021-05-23T12:57:07.9161042Z [0m[32m [0m #testLoadAbsent (0ms)[0m
+2021-05-23T12:57:07.9161544Z [32m [0m #testMuting (1ms)[0m
+2021-05-23T12:57:07.9162179Z [32m [0m #testWatcherChangePlaysSound (1034ms)[0m
+2021-05-23T12:57:07.9162725Z [1m
 2021-05-23T12:57:07.9163146Z ATDDTravisStatusResultsTests
-2021-05-23T12:57:07.9164008Z [0m[32m ✓[0m #testCommitsPassingFailingErroring (66ms)[0m
-2021-05-23T12:57:07.9166570Z [32m ✓[0m #testHistoryPassingFailingErroring (58ms)[0m
-2021-05-23T12:57:07.9168006Z [32m ✓[0m #testMultipleTestingInstances (56ms)[0m
-2021-05-23T12:57:07.9168646Z [1m
+2021-05-23T12:57:07.9164008Z [0m[32m [0m #testCommitsPassingFailingErroring (66ms)[0m
+2021-05-23T12:57:07.9166570Z [32m [0m #testHistoryPassingFailingErroring (58ms)[0m
+2021-05-23T12:57:07.9168006Z [32m [0m #testMultipleTestingInstances (56ms)[0m
+2021-05-23T12:57:07.9168646Z [1m
 2021-05-23T12:57:07.9169102Z ATDDWorldIntegrationTests
-2021-05-23T12:57:07.9169892Z [0m[32m ✓[0m #testWorldMenuIntegration (0ms)[0m
-2021-05-23T12:57:07.9170472Z [1m
+2021-05-23T12:57:07.9169892Z [0m[32m [0m #testWorldMenuIntegration (0ms)[0m
+2021-05-23T12:57:07.9170472Z [1m
 2021-05-23T12:57:07.9170870Z ATDDTravisParserTest
-2021-05-23T12:57:07.9171516Z [0m[32m ✓[0m #testBuildHistory (2ms)[0m
-2021-05-23T12:57:07.9172140Z [32m ✓[0m #testBuildMatrix (0ms)[0m
-2021-05-23T12:57:07.9172802Z [32m ✓[0m #testCurrentBuildState (2ms)[0m
-2021-05-23T12:57:07.9503859Z [32m ✓[0m #testEmptyCurrentBuildState (0ms)[0m
+2021-05-23T12:57:07.9171516Z [0m[32m [0m #testBuildHistory (2ms)[0m
+2021-05-23T12:57:07.9172140Z [32m [0m #testBuildMatrix (0ms)[0m
+2021-05-23T12:57:07.9172802Z [32m [0m #testCurrentBuildState (2ms)[0m
+2021-05-23T12:57:07.9503859Z [32m [0m #testEmptyCurrentBuildState (0ms)[0m
 2021-05-23T12:57:07.9504392Z 
 2021-05-23T12:57:07.9504599Z 
-2021-05-23T12:57:07.9505316Z [1m[32m  Executed 69 Tests with 0 Failures and 0 Errors in 25.76s.[0m
+2021-05-23T12:57:07.9505316Z [1m[32m  Executed 69 Tests with 0 Failures and 0 Errors in 25.76s.[0m
 2021-05-23T12:57:07.9505723Z 
 2021-05-23T12:57:08.0503527Z 
 2021-05-23T12:57:08.0504276Z 
-2021-05-23T12:57:08.0505805Z [1m[34mUploading coverage results to Coveralls...[0m
+2021-05-23T12:57:08.0505805Z [1m[34mUploading coverage results to Coveralls...[0m
 2021-05-23T12:57:09.9262207Z {"message":"Job #868680028.11","url":"https://coveralls.io/jobs/80662200"}
 2021-05-23T12:57:09.9349866Z Post job cleanup.
 2021-05-23T12:57:10.0172665Z [command]/usr/bin/git version

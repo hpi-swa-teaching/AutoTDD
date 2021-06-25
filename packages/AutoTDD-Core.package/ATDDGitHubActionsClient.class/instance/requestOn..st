@@ -18,7 +18,7 @@ requestOn: aString
 			^ JsonObject new ].
 	^ response code
 		= 200
-		ifTrue: [ 
+		ifTrue: [
 			(response contentType includesSubstring: 'application/json')
 				ifTrue: [ ^ Json readFrom: response content readStream ].
 			(response contentType includesSubString: 'text/plain')
