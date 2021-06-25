@@ -1,4 +1,0 @@
-accessing
-getJsonForLatestWorkflowRunForRepository: aString
-
-	^ self sampleJsonForLatestWorkflow

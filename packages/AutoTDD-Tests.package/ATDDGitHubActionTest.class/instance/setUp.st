@@ -2,4 +2,5 @@ running
 setUp
 	
 	super setUp.
-	gitHubAction := ATDDGitHubAction new
+	gitHubAction := ATDDGitHubAction new.
+	gitHubActionMockApi := ATDDGitHubActionMockAPI new.

@@ -1,4 +1,0 @@
-accessing
-token 
-
-	^ nil

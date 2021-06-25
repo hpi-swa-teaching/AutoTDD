@@ -6,7 +6,7 @@
 		 ],
 	"commentStamp" : "ClassTest 6/17/2021 20:01",
 	"instvars" : [
-		 ],
+		"apiUrl" ],
 	"name" : "ATDDGitHubActionsClient",
 	"pools" : [
 		 ],

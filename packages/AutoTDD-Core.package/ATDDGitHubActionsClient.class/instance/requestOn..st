@@ -3,7 +3,7 @@ requestOn: aString
 	
 	| response url |
 	
-	url := self gitHubActionsApiUrl , aString.
+	url := self apiUrl , aString.
 	[
 			response := self webClient
 				httpGet: url

@@ -2,4 +2,5 @@ running
 tearDown
 	
 	super tearDown.
-	gitHubAction delete
+	gitHubAction delete.
+	gitHubActionMockApi destroy
