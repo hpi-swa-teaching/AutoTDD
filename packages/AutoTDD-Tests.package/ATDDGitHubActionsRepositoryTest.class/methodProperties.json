@@ -1,0 +1,7 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "ClassTest 6/25/2021 16:59",
+		"testInitialization" : "ClassTest 6/25/2021 16:59",
+		"testValidateSlug" : "ClassTest 6/25/2021 16:59" } }

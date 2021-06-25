@@ -1,4 +1,4 @@
-comparing
+constants
 validSlug
 	
 	^ '[^/^\s]+/[^/^\s]+'

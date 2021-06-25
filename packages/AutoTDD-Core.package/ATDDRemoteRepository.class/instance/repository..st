@@ -1,4 +1,6 @@
-accessing
-repository: aString
-	
-	repository := aString
+initialization
+repository: aString 
+
+	self validate: aString.
+	repository := aString.
+	self update
