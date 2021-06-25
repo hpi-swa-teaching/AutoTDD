@@ -1,0 +1,1 @@
+The ATDDRemoteEditor is an editor to configure interaction with an API.
