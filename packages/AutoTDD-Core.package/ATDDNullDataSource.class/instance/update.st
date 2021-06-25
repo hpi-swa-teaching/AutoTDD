@@ -1,3 +1,3 @@
-behavior
+action
 update
 	

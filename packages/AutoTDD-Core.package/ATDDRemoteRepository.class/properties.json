@@ -6,9 +6,13 @@
 		 ],
 	"commentStamp" : "ClassTest 6/25/2021 16:14",
 	"instvars" : [
-		 ],
-	"name" : "ATDDGitHubActionsRepository",
+		"cache",
+		"client",
+		"repository",
+		"timer",
+		"parser" ],
+	"name" : "ATDDRemoteRepository",
 	"pools" : [
 		 ],
-	"super" : "ATDDRemoteRepository",
+	"super" : "ATDDDataSource",
 	"type" : "normal" }

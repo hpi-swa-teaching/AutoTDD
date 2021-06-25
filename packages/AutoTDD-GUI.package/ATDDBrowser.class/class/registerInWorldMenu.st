@@ -1,4 +1,4 @@
-class initialization
+initialization
 registerInWorldMenu
 
 	self environment at: #TheWorldMenu

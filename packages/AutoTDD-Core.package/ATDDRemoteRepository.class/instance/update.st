@@ -1,4 +1,4 @@
-behavior
+initialization
 update
-	
+
 	self clearCache

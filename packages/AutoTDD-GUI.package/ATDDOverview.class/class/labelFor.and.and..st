@@ -1,4 +1,4 @@
-instance creation
+accessing
 labelFor: aWatcherCollection and: aStatusCollection and: anActionCollection
 	
 	| items |

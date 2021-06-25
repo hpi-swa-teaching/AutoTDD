@@ -1,4 +1,4 @@
-utilities
+utility
 findCategoriesForBaseClass: aClass
 	
 	| visible |
