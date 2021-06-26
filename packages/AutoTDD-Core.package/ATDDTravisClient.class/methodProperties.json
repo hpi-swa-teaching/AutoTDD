@@ -4,11 +4,8 @@
 	"instance" : {
 		"getJsonForBuild:" : "CW 2/25/2016 10:14",
 		"getJsonForBuildsOfRepository:" : "PS 5/19/2014 17:44",
-		"getJsonForJob:" : "PS 5/19/2014 14:40",
 		"getJsonForLog:" : "CW 2/25/2016 10:12",
-		"getJsonForRepository:" : "PS 5/19/2014 14:40",
 		"getTextForLog:" : "maf 12/5/2017 14:41",
-		"isJson:" : "PS 6/11/2014 13:56",
 		"mimeType" : "PS 5/18/2014 18:04",
 		"requestAPIOn:" : "maf 12/5/2017 14:41",
 		"requestOn:" : "ng 6/18/2021 14:04",
