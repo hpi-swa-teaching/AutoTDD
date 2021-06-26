@@ -1,0 +1,1 @@
+An ATDDGitHubActionsRepository facilitates the GitHubActionsClient and GitHubActionsParser to provide structured data.
