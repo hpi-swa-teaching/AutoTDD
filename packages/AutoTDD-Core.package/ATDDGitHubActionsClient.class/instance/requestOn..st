@@ -21,7 +21,7 @@ requestOn: aString
 		ifTrue: [
 			(response contentType includesSubstring: 'application/json')
 				ifTrue: [ ^ Json readFrom: response content readStream ].
-			(response contentType includesSubString: 'text/plain')
+			(response contentType includesSubstring: 'text/plain')
 				ifTrue: [ ^ response content ]
 		] 
 		ifFalse: [
