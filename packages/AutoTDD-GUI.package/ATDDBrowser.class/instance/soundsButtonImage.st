@@ -1,5 +1,5 @@
 action
-soundsButtonLabel
+soundsButtonImage
 	
 	^ ATDDSoundPlayer instance isMuted
 		ifTrue: [ self class volumeOnImage scaledToHeight: self class largeImageHeight ]
