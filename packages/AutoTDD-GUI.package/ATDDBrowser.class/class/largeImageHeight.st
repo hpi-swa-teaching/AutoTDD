@@ -1,0 +1,4 @@
+constants
+largeImageHeight
+
+	^ 32
