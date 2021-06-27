@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"repository" ],
+	"name" : "ATDDGitHubActionsRepositoryTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

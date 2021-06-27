@@ -1,0 +1,18 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "ClassTest 6/27/2021 12:33",
+	"instvars" : [
+		"cache",
+		"client",
+		"repository",
+		"timer",
+		"parser" ],
+	"name" : "ATDDRemoteRepository",
+	"pools" : [
+		 ],
+	"super" : "ATDDDataSource",
+	"type" : "normal" }

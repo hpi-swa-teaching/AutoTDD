@@ -1,4 +1,0 @@
-building
-emptyTestingEntity
-	
-	^ self subclassResponsibility

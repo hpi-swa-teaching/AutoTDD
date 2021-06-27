@@ -1,4 +1,4 @@
-class initialization
+initialization
 initialize
 	
 	self registerInWorldMenu

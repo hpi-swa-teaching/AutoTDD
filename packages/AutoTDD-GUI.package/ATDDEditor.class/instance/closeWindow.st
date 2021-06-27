@@ -1,4 +1,4 @@
-behavior
+action
 closeWindow
 	
 	self changed: #close

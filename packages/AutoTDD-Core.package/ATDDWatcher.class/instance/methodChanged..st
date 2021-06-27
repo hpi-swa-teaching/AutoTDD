@@ -1,4 +1,4 @@
-behavior
+action
 methodChanged: methodChangeEvent
 	
 	self paused ifTrue: [ ^ self ].

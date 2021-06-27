@@ -1,3 +1,0 @@
-accessing
-logCache
-	^ logCache

@@ -1,4 +1,4 @@
-behaviour
+action
 pause 
 
 	super pause. 

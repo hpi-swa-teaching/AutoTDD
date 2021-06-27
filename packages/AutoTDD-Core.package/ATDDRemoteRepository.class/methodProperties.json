@@ -1,0 +1,16 @@
+{
+	"class" : {
+		"validSlug" : "ClassTest 6/25/2021 16:57" },
+	"instance" : {
+		"cache" : "ClassTest 6/25/2021 16:15",
+		"cache:" : "ClassTest 6/25/2021 16:16",
+		"clearCache" : "ClassTest 6/25/2021 16:16",
+		"parser" : "ClassTest 6/25/2021 16:17",
+		"parser:" : "ClassTest 6/25/2021 16:17",
+		"repository" : "ClassTest 6/25/2021 16:25",
+		"repository:" : "ClassTest 6/27/2021 15:26",
+		"repositoryJson" : "ClassTest 6/25/2021 16:20",
+		"token" : "ClassTest 6/25/2021 16:28",
+		"token:" : "ClassTest 6/25/2021 16:28",
+		"update" : "ClassTest 6/25/2021 16:27",
+		"validate:" : "ClassTest 6/25/2021 16:58" } }

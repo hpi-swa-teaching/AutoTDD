@@ -2,7 +2,7 @@ running
 setUp
 	
 	super setUp.
-	self class resetTestHasRun.
+	self class testHasRun: false.
 	browser := ATDDBrowser new.
 	ATDDHelper HasSeenTutorialPrompt: true.
 	ToolBuilder open: browser.

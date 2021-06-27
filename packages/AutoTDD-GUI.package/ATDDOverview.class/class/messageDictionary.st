@@ -1,4 +1,4 @@
-instance creation
+constants
 messageDictionary
 	
 	^ IdentityDictionary

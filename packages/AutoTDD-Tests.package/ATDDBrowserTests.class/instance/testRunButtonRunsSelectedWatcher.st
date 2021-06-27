@@ -11,4 +11,4 @@ testRunButtonRunsSelectedWatcher
 	browser selectedWatchers: { watcher1 }.
 	browser runSelectedWatchers.
 	(Delay forSeconds: 1) wait.
-	self assert: self class hasTestRun
+	self assert: self class testHasRun

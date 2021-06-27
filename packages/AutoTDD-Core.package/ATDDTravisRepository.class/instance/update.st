@@ -1,4 +1,0 @@
-behavior
-update
-	
-	self clearCache

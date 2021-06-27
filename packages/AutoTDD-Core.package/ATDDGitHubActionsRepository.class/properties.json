@@ -4,15 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "ClassTest 6/27/2021 12:32",
 	"instvars" : [
-		"cache",
-		"client",
-		"repository",
-		"timer",
-		"parser" ],
+		 ],
 	"name" : "ATDDGitHubActionsRepository",
 	"pools" : [
 		 ],
-	"super" : "ATDDDataSource",
+	"super" : "ATDDRemoteRepository",
 	"type" : "normal" }

@@ -1,0 +1,4 @@
+action
+update
+
+	self clearCache
