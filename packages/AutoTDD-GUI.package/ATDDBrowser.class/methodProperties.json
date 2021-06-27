@@ -20,6 +20,7 @@
 		"gitHubActionFunctionalityDictionary" : "BF 6/20/2021 21:45",
 		"gitHubActionListDictionary" : "ClassTest 5/30/2021 16:29",
 		"gitHubActionUIDictionary" : "sw 5/28/2021 11:54",
+		"globalButtonLabelDictionary" : "SK 6/27/2021 09:33",
 		"globalButtonWidth" : "ClassTest 6/21/2021 11:55",
 		"globalFunctionalityDictionary" : "BF 6/26/2021 18:21",
 		"infoImage" : "BF 6/25/2021 22:54",
@@ -70,7 +71,7 @@
 		"watcherUIDictionary" : "sw 5/28/2021 11:52",
 		"worldMenuLabel" : "ls 7/25/2019 07:40" },
 	"instance" : {
-		"buildButtonWithLabel:do:with:" : "ClassTest 6/4/2021 15:02",
+		"buildButtonWithLabel:do:with:" : "SK 6/27/2021 09:31",
 		"buildGlobalButtonsWith:" : "ClassTest 6/20/2021 19:11",
 		"buildTestEntityUIFor:testingEntityType:with:" : "SK 6/19/2021 11:01",
 		"buildTestingEntitiesFor:layout:with:" : "BF 5/30/2021 15:07",
