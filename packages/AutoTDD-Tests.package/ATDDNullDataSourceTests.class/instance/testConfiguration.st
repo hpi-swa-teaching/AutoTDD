@@ -6,6 +6,7 @@ testConfiguration
 		assert: dataSource clearCache = dataSource;
 		assert: dataSource repository = '';
 		assert: dataSource repositoryJson = JsonObject new;
+		assert: dataSource statusMessage = 'not available';
 		assert: dataSource token = '';
 		assert: dataSource usePro = false.
 		

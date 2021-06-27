@@ -8,4 +8,5 @@ buildTestingEntityListOfType: aSymbol with: aBuilder
 		setIndex: (((self class testingEntityUIDictionary at: aSymbol) at: 'listDictionary') at: 'setIndex');
 		getSelectionList: (((self class testingEntityUIDictionary at: aSymbol) at: 'listDictionary') at: 'getSelectionList');
 		setSelectionList: (((self class testingEntityUIDictionary at: aSymbol) at: 'listDictionary') at: 'setSelectionList');
+		help: ((self class testingEntityHeaderDictionary at: aSymbol) contents);
 		yourself

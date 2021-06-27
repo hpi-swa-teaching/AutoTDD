@@ -11,5 +11,4 @@ buildTestingEntityUIOfType: aSymbol with: aBuilder
 				frame: self buttonsFrame
 				yourself);
 			yourself);
-		help: ((self class testingEntityHeaderDictionary at: aSymbol) contents);
 		yourself

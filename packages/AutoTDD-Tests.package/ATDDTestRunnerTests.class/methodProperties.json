@@ -7,7 +7,7 @@
 		"testConfigAccessors" : "be 6/19/2019 16:48",
 		"testInitialization" : "be 6/19/2019 16:06",
 		"testRunTests" : "be 6/19/2019 16:56",
-		"testRunTestsThrowsSubclassResponsibility" : "be 6/19/2019 17:31",
 		"testStatusAccessors" : "ng 6/4/2021 14:29",
 		"testStatusConsistency" : "ng 6/4/2021 14:30",
-		"testStatusMustBeASymbol" : "be 6/19/2019 17:30" } }
+		"testStatusMustBeASymbol" : "be 6/19/2019 17:30",
+		"testUpdate" : "BF 6/26/2021 22:31" } }

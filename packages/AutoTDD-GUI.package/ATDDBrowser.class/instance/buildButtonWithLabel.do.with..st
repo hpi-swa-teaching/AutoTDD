@@ -6,4 +6,5 @@ buildButtonWithLabel: aString do: aMethod with: aBuilder
 		action: aMethod;
 		label: aString;
 		enabled: true;
+		help: (self class buttonLabelDictionary at: (aMethod asString));
 		yourself
