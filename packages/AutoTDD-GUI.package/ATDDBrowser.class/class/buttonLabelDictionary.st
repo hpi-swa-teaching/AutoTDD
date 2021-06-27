@@ -1,5 +1,5 @@
 accessing
-globalButtonLabelDictionary
+buttonLabelDictionary
 
 	^ Dictionary
 		newFrom: {
