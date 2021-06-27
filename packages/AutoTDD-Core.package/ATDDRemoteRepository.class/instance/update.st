@@ -1,4 +1,4 @@
-behavior
+action
 update
-	
+
 	self clearCache

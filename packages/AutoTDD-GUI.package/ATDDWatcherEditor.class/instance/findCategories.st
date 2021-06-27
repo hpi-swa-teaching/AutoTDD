@@ -1,4 +1,4 @@
-utilities
+utility
 findCategories
 	
 	^ self findCategoriesForBaseClass: Object

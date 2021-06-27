@@ -1,4 +1,4 @@
-behavior
+action
 run
 	
 	self localTestRunner runTests

@@ -1,4 +1,4 @@
-behavior
+action
 delete
 	
 	super delete.

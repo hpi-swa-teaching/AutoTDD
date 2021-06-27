@@ -1,4 +1,4 @@
 accessing
 token
 	
-	^ self client token
+	self subclassResponsibility

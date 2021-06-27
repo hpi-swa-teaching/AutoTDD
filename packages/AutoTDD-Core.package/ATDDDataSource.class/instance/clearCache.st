@@ -1,4 +1,4 @@
-behavior
+action
 clearCache
 	
 	self subclassResponsibility

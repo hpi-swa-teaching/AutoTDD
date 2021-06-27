@@ -6,8 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ATDDRemoteClientTests",
+		"repository" ],
+	"name" : "ATDDGitHubActionsRepositoryTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

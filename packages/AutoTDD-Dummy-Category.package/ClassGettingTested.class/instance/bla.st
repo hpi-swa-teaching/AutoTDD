@@ -1,3 +1,3 @@
 action
 bla
-ATDDBrowserTests setTestHasRun.
+ATDDBrowserTests testHasRun: true.

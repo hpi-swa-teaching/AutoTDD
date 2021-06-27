@@ -1,4 +1,4 @@
-behaviour
+action
 statusColor
 	
 	^ self class colorDictionary at: self status

@@ -1,4 +1,4 @@
-behaviour
+action
 terminateProcess
 	
 	self process

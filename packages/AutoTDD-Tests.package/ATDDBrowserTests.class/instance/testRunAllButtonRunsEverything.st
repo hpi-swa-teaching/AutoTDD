@@ -15,4 +15,4 @@ testRunAllButtonRunsEverything
 	browser runAll.
 	(Delay forSeconds: 1) wait.
 	"insert travis check here"
-	self assert: self class hasTestRun
+	self assert: self class testHasRun

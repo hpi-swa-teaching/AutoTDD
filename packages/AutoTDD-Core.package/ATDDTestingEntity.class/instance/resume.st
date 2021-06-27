@@ -1,4 +1,4 @@
-behaviour
+action
 resume
 	
 	self paused: false

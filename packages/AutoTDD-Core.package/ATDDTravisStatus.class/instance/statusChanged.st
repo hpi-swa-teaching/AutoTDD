@@ -1,4 +1,4 @@
-behaviour
+action
 statusChanged
 	
 	| newStatus |

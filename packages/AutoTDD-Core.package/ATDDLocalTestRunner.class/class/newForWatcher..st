@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 newForWatcher: aATDDWatcher
 	
 	^ self basicNew

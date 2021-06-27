@@ -1,4 +1,4 @@
-instance creation
+initialization
 openForWatchers: aWatcherCollection forStatuses: aStatusCollection forActions: anActionCollection
 
 	| model |

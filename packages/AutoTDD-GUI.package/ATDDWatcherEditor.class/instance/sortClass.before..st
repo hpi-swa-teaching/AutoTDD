@@ -1,4 +1,4 @@
-utilities
+utility
 sortClass: firstHierarchyList before: secondHierarchyList
 	
 	1

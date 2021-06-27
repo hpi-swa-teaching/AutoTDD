@@ -1,0 +1,1 @@
+An ATDDRemoteRepository facilitates a Client and a Parser to provide structured data.

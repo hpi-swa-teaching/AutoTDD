@@ -1,4 +1,4 @@
-behavior
+action
 onChangeDetected
 	
 	self run

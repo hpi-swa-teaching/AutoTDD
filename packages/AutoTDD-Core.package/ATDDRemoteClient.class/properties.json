@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "ClassTest 6/17/2021 20:02",
 	"instvars" : [
-		"webClient",
 		"token" ],
 	"name" : "ATDDRemoteClient",
 	"pools" : [
 		 ],
-	"super" : "Object",
+	"super" : "WebClient",
 	"type" : "normal" }
