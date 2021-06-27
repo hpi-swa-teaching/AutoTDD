@@ -1,4 +1,4 @@
 tests
 testSetter
 	
-	ATDDBrowserTests hasTestRun: true
+	ATDDBrowserTests testHasRun: true
