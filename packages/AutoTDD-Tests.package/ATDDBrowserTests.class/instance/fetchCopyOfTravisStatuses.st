@@ -1,4 +1,4 @@
 ui-simulation
 fetchCopyOfTravisStatuses
 	
-	^ browser travisStatuses copy
+	^ Error signal
