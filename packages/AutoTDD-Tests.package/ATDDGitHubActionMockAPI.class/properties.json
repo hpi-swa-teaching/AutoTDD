@@ -6,10 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"gitHubAction",
-		"gitHubActionMockApi" ],
-	"name" : "ATDDGitHubActionTest",
+		"sampleJsonForBuildsOfRepository",
+		"sampleBuildJsons" ],
+	"name" : "ATDDGitHubActionMockAPI",
 	"pools" : [
 		 ],
-	"super" : "TestCase",
+	"super" : "WebServer",
 	"type" : "normal" }

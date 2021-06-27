@@ -4,7 +4,7 @@ updateJobs
 	| id jobs |
 	
 	id := self parser parseIdAt: self selectedHistory ofRepository: self data repositoryJson.
-	jobs := self parser parseJobsOf: (self data client getJsonForJobsForRepository: (self data repository , '/') forWorkflowRunId: id).
+	jobs := self parser parseJobsOf: (self data client getJsonForJobsForRepository: (self data repository) forWorkflowRunId: id).
 	
 	self jobs: (jobs collect: [ :job | ATDDGitHubActionWorkflowJob newForId: (parser primitiveParseIdOf: job) 
 		name: (parser primitiveParseNameOf: job) 

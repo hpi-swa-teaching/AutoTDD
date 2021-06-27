@@ -3,7 +3,7 @@ requestOn: aString
 	
 	| response url |
 	
-	url := self gitHubActionsApiUrl , aString.
+	url := self apiUrl , aString.
 	[
 			response := self httpGet: url do: [ :request |
 				request headerAt: 'Accept' put: self mimeType.
@@ -16,10 +16,10 @@ requestOn: aString
 			^ JsonObject new ].
 	^ response code
 		= 200
-		ifTrue: [ 
+		ifTrue: [
 			(response contentType includesSubstring: 'application/json')
 				ifTrue: [ ^ Json readFrom: response content readStream ].
-			(response contentType includesSubString: 'text/plain')
+			(response contentType includesSubstring: 'text/plain')
 				ifTrue: [ ^ response content ]
 		] 
 		ifFalse: [

@@ -6,9 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"gitHubAction",
+		"gitHubActionsClient",
 		"gitHubActionMockApi" ],
-	"name" : "ATDDGitHubActionTest",
+	"name" : "ATDDGitHubActionsClientTest",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

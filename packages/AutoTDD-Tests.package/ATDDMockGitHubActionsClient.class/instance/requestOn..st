@@ -1,4 +1,0 @@
-accessing
-requestOn: aString
-
-	^ self

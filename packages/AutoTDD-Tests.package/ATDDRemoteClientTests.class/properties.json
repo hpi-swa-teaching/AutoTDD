@@ -6,10 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"sampleJsonForBuildsOfRepository",
-		"sampleBuildJsons" ],
-	"name" : "ATDDMockGitHubActionsClient",
+		"remoteClient" ],
+	"name" : "ATDDRemoteClientTests",
 	"pools" : [
 		 ],
-	"super" : "ATDDTravisClient",
+	"super" : "TestCase",
 	"type" : "normal" }
