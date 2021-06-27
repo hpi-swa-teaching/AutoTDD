@@ -1,4 +1,0 @@
-accessing
-setTestHasRun
-	
-	testHasRun := true

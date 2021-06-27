@@ -1,5 +1,5 @@
-initialization
-repository: aString 
+accessing
+repository: aString
 
 	self validate: aString.
 	repository := aString.

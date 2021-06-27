@@ -1,1 +1,1 @@
-An ATDDGitHubActionsRepository facilitates the GHAClient and GHAParser to provide structured data.
+An ATDDGitHubActionsRepository facilitates the GitHubActionsClient and GitHubActionsParser to provide structured data.

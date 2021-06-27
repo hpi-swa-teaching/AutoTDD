@@ -1,4 +1,0 @@
-accessing
-resetTestHasRun
-	
-	testHasRun := false

@@ -5,7 +5,7 @@ requestOn: aString
 	
 	url := self travisApiUrl , aString.
 	[
-			response := self webClient
+			response := self
 				httpGet: url
 				do: [ :request |
 					request headerAt: 'Accept' put: self mimeType.

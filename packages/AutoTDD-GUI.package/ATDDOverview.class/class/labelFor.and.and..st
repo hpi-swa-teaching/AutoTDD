@@ -1,4 +1,4 @@
-accessing
+building
 labelFor: aWatcherCollection and: aStatusCollection and: anActionCollection
 	
 	| items |

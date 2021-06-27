@@ -1,4 +1,4 @@
-initialization
+action
 update
 
 	self clearCache

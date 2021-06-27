@@ -1,4 +1,4 @@
-initialization
+constants
 testingEntityDictionary
 
 	^ IdentityDictionary

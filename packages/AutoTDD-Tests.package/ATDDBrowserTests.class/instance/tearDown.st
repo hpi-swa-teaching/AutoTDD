@@ -16,4 +16,4 @@ tearDown
 			browser gitHubActions addLast: each ].
 	browser resumeAll.
 	windowsToDelete do: [ :each | each changed: #close ].
-	self class resetTestHasRun
+	self class testHasRun: false

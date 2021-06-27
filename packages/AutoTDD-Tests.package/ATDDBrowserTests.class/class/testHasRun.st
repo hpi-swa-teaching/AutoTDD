@@ -1,4 +1,4 @@
 accessing
-hasTestRun
+testHasRun
 	
 	^ testHasRun
