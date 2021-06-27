@@ -15,7 +15,6 @@
 		"parseWorkflowRunNumberAt:ofRepository:" : "sw 5/23/2021 16:18",
 		"parseWorkflowRunsOf:" : "ng 5/22/2021 19:12",
 		"primitiveParseAuthorNameOf:" : "ng 5/22/2021 18:56",
-		"primitiveParseConclusionAt:of:" : "sw 5/23/2021 16:55",
 		"primitiveParseHeadBranchOf:" : "ng 5/22/2021 18:50",
 		"primitiveParseLatestWorkflowRunConclusion:" : "BF 5/23/2021 21:40",
 		"primitiveParseNameOf:" : "ng 5/23/2021 18:18",

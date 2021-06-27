@@ -3,4 +3,5 @@
 		 },
 	"instance" : {
 		"tearDown" : "ClassTest 6/14/2021 20:20",
-		"testAttach" : "ClassTest 6/14/2021 20:20" } }
+		"testAttach" : "ClassTest 6/14/2021 20:20",
+		"testObserversAccessors" : "BF 6/26/2021 22:37" } }
