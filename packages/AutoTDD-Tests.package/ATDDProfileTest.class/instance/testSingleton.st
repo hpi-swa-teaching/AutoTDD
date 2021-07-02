@@ -5,4 +5,4 @@ testSingleton
 	
 	dataSource := ATDDProfile instance.
 	self assert: dataSource equals: dataSource.
-	self assert: ATDDNullDataSource allInstances size <= 1
+	self assert: ATDDProfile allInstances size <= 1

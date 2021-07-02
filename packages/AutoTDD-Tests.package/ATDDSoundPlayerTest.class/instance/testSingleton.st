@@ -5,4 +5,4 @@ testSingleton
 	
 	dataSource := ATDDSoundPlayer instance.
 	self assert: dataSource equals: dataSource.
-	self assert: ATDDNullDataSource allInstances size <= 1
+	self assert: ATDDSoundPlayer allInstances size <= 1
