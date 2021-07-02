@@ -1,4 +1,4 @@
-running
+tests
 testSave
 	
 	profile

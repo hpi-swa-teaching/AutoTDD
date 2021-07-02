@@ -1,4 +1,4 @@
-running
+tests
 testConfiguration
 	
 	profileEditor := ATDDProfileEditor open.
