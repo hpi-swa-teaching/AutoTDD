@@ -1,4 +1,5 @@
 running
 tearDown 
 
-	mockAPI destroy
+	mockAPI destroy.
+	super tearDown

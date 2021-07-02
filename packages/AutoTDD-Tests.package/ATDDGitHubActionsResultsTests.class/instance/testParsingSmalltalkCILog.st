@@ -2,6 +2,7 @@ tests
 testParsingSmalltalkCILog
 
 	| parsedResult |
+	
 	parsedResult := resultsWindow parseSmalltalkCILog: self sampleSmalltalkLog.
 	self assert: parsedResult hasColorAttribute equals: true.
 	"does not include time-stamps"

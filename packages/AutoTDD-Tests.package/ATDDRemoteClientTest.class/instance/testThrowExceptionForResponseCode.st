@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testThrowExceptionForResponseCode
 
 	self should: [client throwExceptionForResponseCode: 401] raise: ATDDConnectionError.

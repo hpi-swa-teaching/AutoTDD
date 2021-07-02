@@ -4,10 +4,10 @@
 	"instance" : {
 		"sampleSmalltalkLog" : "ng 7/2/2021 15:34",
 		"setUp" : "ng 6/29/2021 12:11",
-		"tearDown" : "ng 6/29/2021 12:09",
+		"tearDown" : "ng 7/2/2021 18:47",
 		"testAnsiParsing" : "ng 7/2/2021 15:29",
 		"testColor" : "ng 7/2/2021 14:56",
 		"testHistory" : "ng 7/2/2021 14:34",
 		"testInitialization" : "ng 7/2/2021 14:28",
-		"testIsSmalltalkCiLog" : "ng 7/2/2021 14:49",
-		"testParsingSmalltalkCILog" : "ng 7/2/2021 15:43" } }
+		"testIsSmalltalkCiLog" : "ng 7/2/2021 18:49",
+		"testParsingSmalltalkCILog" : "ng 7/2/2021 18:51" } }
