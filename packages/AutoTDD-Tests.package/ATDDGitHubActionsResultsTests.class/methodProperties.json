@@ -4,7 +4,7 @@
 	"instance" : {
 		"setUp" : "ng 6/29/2021 12:11",
 		"tearDown" : "ng 6/29/2021 12:09",
-		"testColor" : "ng 7/2/2021 14:44",
+		"testColor" : "ng 7/2/2021 14:56",
 		"testHistory" : "ng 7/2/2021 14:34",
 		"testInitialization" : "ng 7/2/2021 14:28",
 		"testIsSmalltalkCiLog" : "ng 7/2/2021 14:49" } }

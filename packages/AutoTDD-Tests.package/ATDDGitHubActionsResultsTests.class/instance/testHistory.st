@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testHistory
 
 	self assert: resultsWindow history size > 0.

@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testInitialization
 
 	self assert: ATDDGitHubActionResults allInstances isEmpty = false.
