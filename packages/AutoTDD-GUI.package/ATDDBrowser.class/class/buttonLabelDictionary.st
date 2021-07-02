@@ -8,6 +8,7 @@ buttonLabelDictionary
 			'runAll' -> 'Run All'.
 			'openOverview' -> 'Open Overview'.
 			'toggleSounds' -> 'Toggle Sounds'.
+			'openProfileEditor' -> 'Open Profile Editor'.
 		
 			'createWatcher' -> 'Create Watcher'.
 			'pauseWatchers' -> 'Pause Watchers'.

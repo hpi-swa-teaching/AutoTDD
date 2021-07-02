@@ -1,6 +1,6 @@
 images
 overviewImageDark
-
+	
 	^ (Form
 	extent: 64@64
 	depth: 32

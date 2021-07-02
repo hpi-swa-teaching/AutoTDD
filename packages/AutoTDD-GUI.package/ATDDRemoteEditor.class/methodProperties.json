@@ -1,6 +1,7 @@
 {
 	"class" : {
-		 },
+		"defaultToken" : "ClassTest 7/2/2021 15:19",
+		"validSlug" : "ClassTest 7/2/2021 11:20" },
 	"instance" : {
 		"applyChanges" : "SK 6/5/2021 09:26",
 		"buildInputFieldsWith:" : "sw 5/25/2021 20:46",
@@ -12,9 +13,9 @@
 		"initializeInputFields" : "sw 5/25/2021 20:32",
 		"initializeInterval" : "sw 5/25/2021 20:29",
 		"initializeRepositoryUrl" : "sw 5/25/2021 20:29",
-		"initializeToken" : "ClassTest 6/25/2021 22:37",
+		"initializeToken" : "ClassTest 7/2/2021 13:00",
 		"intervalFrame" : "sw 5/25/2021 20:30",
-		"loadTargetSpecs" : "sw 5/25/2021 20:59",
+		"loadTargetSpecs" : "ClassTest 7/2/2021 13:02",
 		"refreshInterval" : "sw 5/25/2021 19:07",
 		"refreshInterval:" : "sw 5/25/2021 19:07",
 		"repositoryUrl" : "sw 5/25/2021 19:08",
