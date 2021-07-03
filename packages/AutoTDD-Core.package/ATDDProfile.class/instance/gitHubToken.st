@@ -1,4 +1,4 @@
 accessing
 gitHubToken
 
-	^ gitHubToken ifNil: [ gitHubToken := '' ]
+	^ gitHubToken ifNil: [ gitHubToken := String empty ]

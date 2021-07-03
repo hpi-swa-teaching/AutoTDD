@@ -1,4 +1,4 @@
 accessing
 travisToken
 
-	^ travisToken ifNil: [ travisToken := '' ]
+	^ travisToken ifNil: [ travisToken := String empty ]

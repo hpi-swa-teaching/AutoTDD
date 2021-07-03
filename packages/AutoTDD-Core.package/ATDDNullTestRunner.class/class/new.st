@@ -1,4 +1,6 @@
 initialization
 new
 
-	^ self error: 'Do not use new, use instance instead'
+	instance
+		ifNil: [ ^ super new ]
+		ifNotNil: [ ^ self error: 'Do not use new, use instance instead' ]

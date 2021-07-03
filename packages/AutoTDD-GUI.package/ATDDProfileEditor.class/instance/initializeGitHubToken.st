@@ -1,5 +1,5 @@
 initialization
 initializeGitHubToken
 	
-	gitHubToken := ValueHolder new contents: ''.
+	gitHubToken := ValueHolder new contents: String empty.
 	gitHubToken addDependent: self
