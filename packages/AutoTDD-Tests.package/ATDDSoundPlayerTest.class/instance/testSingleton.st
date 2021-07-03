@@ -1,8 +1,13 @@
 tests
 testSingleton
 	
-	| dataSource |
+	| amountOfInstances |
 	
-	dataSource := ATDDSoundPlayer instance.
-	self assert: dataSource equals: dataSource.
-	self assert: ATDDSoundPlayer allInstances size <= 1
+	amountOfInstances := ATDDSoundPlayer allInstances size.
+	
+	self assert: amountOfInstances <= 1.
+	amountOfInstances = 0
+		ifTrue: [ self assert: ATDDSoundPlayer new = ATDDSoundPlayer instance ]
+		ifFalse: [ self should: [ ATDDSoundPlayer new ] raise: Error ].
+		
+	self assert: amountOfInstances = 1
