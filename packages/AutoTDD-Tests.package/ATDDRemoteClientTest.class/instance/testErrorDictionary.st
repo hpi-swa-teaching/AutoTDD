@@ -1,5 +1,5 @@
 tests
-testErrorDictionary 
+testErrorDictionary
 
 	| errorDictionary |
 
