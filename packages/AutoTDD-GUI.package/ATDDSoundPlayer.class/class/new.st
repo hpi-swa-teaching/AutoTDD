@@ -1,4 +1,4 @@
-constants
+initialization
 new
 
 	instance

@@ -1,12 +1,10 @@
 {
 	"class" : {
-		"initialize" : "ClassTest 7/3/2021 14:25",
 		"instance" : "ClassTest 7/3/2021 14:18",
-		"new" : "ClassTest 7/3/2021 14:24" },
+		"new" : "ClassTest 7/3/2021 14:47" },
 	"instance" : {
 		"buildStatus" : "ClassTest 7/3/2021 14:27",
 		"clearCache" : "ClassTest 7/3/2021 14:27",
-		"initialize" : "ClassTest 7/3/2021 14:26",
 		"repository" : "ClassTest 7/3/2021 14:28",
 		"repository:" : "ClassTest 7/3/2021 14:27",
 		"repositoryJson" : "ClassTest 7/3/2021 14:28",

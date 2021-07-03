@@ -1,13 +1,11 @@
 {
 	"class" : {
-		"initialize" : "ClassTest 7/2/2021 17:21",
 		"instance" : "ClassTest 7/2/2021 11:30",
-		"new" : "ClassTest 7/3/2021 14:26",
+		"new" : "ClassTest 7/3/2021 14:47",
 		"tokenDictionary" : "ClassTest 7/2/2021 12:37" },
 	"instance" : {
 		"gitHubToken" : "ClassTest 7/2/2021 17:31",
 		"gitHubToken:" : "ClassTest 7/2/2021 11:33",
-		"initialize" : "ClassTest 7/2/2021 17:20",
 		"tokenFor:" : "ClassTest 7/2/2021 12:38",
 		"travisToken" : "ClassTest 7/2/2021 17:31",
 		"travisToken:" : "ClassTest 7/2/2021 11:33" } }
