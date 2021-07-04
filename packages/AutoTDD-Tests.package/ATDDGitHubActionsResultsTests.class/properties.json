@@ -6,9 +6,11 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"repository",
-		"mockAPI" ],
-	"name" : "ATDDGitHubActionsRepositoryTest",
+		"gitHubAction",
+		"windowsToDelete",
+		"resultsWindow",
+		"mockApi" ],
+	"name" : "ATDDGitHubActionsResultsTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

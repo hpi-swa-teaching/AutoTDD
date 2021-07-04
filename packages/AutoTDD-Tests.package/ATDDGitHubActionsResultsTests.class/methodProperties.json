@@ -1,0 +1,13 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"sampleSmalltalkLog" : "ng 7/2/2021 15:34",
+		"setUp" : "ClassTest 7/3/2021 20:58",
+		"tearDown" : "ClassTest 7/3/2021 21:00",
+		"testAnsiParsing" : "ClassTest 7/3/2021 21:03",
+		"testColor" : "ClassTest 7/4/2021 16:56",
+		"testHistory" : "ng 7/2/2021 14:34",
+		"testInitialization" : "ng 7/2/2021 14:28",
+		"testIsSmalltalkCiLog" : "ClassTest 7/3/2021 21:00",
+		"testParsingSmalltalkCILog" : "ClassTest 7/3/2021 21:01" } }

@@ -2,6 +2,8 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "ClassTest 6/25/2021 16:59",
-		"testInitialization" : "ClassTest 6/25/2021 16:59",
+		"setUp" : "ng 6/28/2021 12:12",
+		"tearDown" : "ClassTest 7/3/2021 20:59",
+		"testInitialization" : "ClassTest 7/3/2021 20:59",
+		"testRequireRepository" : "ng 7/2/2021 18:47",
 		"testValidateSlug" : "ClassTest 6/25/2021 16:59" } }
