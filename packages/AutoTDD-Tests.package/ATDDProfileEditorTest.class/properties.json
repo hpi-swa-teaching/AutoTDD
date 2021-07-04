@@ -1,0 +1,18 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"profile",
+		"profileEditor",
+		"anotherProfileEditor",
+		"userGitHubToken",
+		"userTravisToken" ],
+	"name" : "ATDDProfileEditorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

@@ -1,4 +1,4 @@
-constants
+initialization
 openForNewToAddTargetTo: aCollection
 
 	| model |

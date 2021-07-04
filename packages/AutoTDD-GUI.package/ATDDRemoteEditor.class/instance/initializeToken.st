@@ -1,5 +1,5 @@
 initialization
 initializeToken
 	
-	token := ValueHolder new contents: self target token.
+	token := ValueHolder new contents: String empty.	
 	token addDependent: self

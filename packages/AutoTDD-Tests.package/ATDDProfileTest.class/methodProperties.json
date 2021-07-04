@@ -1,0 +1,8 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"setUp" : "ClassTest 7/2/2021 16:11",
+		"tearDown" : "ClassTest 7/2/2021 16:11",
+		"testConfiguration" : "ClassTest 7/2/2021 16:05",
+		"testSingleton" : "ClassTest 7/3/2021 20:53" } }
