@@ -1,4 +1,0 @@
-building
-openProfileEditor
-	
-	^ ATDDProfileEditor open

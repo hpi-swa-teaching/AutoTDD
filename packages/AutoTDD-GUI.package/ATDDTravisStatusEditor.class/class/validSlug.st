@@ -1,0 +1,4 @@
+constants
+validSlug
+	
+	^ '[^/^\s]+/[^/^\s]+'

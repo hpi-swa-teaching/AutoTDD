@@ -1,4 +1,0 @@
-accessing
-travisToken
-
-	^ travisToken contents

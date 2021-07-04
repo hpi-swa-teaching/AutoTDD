@@ -7,7 +7,8 @@
 		"nameHelpLabel" : "vxr 6/19/2019 17:25",
 		"repositoryUrlHelpLabel" : "sw 5/25/2021 20:53",
 		"targetName" : "vxr 6/20/2019 12:17",
-		"tokenHelpLabel" : "ls 7/3/2019 16:22" },
+		"tokenHelpLabel" : "ls 7/3/2019 16:22",
+		"validSlug" : "swi 6/5/2019 17:21" },
 	"instance" : {
 		"applyChanges" : "sw 5/25/2021 20:21",
 		"buildInputFieldsWith:" : "sw 5/25/2021 20:50",

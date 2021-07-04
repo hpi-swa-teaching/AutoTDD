@@ -2,5 +2,5 @@ initialization
 applyDefaultConfiguration
 	
 	self
-		repository: ATDDNullDataSource instance;
+		repository: ATDDNullDataSource new;
 		name: self class defaultName

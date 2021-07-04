@@ -1,4 +1,4 @@
 instance
 instance
 	
-	^ instance ifNil: [ instance := self new ]
+	^ instance ifNil: [ instance := ATDDSoundPlayer new ]

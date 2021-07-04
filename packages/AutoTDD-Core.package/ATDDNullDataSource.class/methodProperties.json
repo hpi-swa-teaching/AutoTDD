@@ -1,16 +1,15 @@
 {
 	"class" : {
-		"instance" : "ClassTest 7/3/2021 14:57",
-		"new" : "ClassTest 7/3/2021 14:47" },
+		"instance" : "ClassTest 6/14/2021 21:01" },
 	"instance" : {
-		"buildStatus" : "ClassTest 7/3/2021 14:27",
-		"clearCache" : "ClassTest 7/3/2021 14:27",
-		"repository" : "ClassTest 7/3/2021 14:28",
-		"repository:" : "ClassTest 7/3/2021 14:27",
-		"repositoryJson" : "ClassTest 7/3/2021 14:28",
-		"statusMessage" : "ClassTest 7/3/2021 14:29",
-		"token" : "ClassTest 7/3/2021 14:28",
-		"token:" : "ClassTest 7/3/2021 14:28",
-		"update" : "ClassTest 7/3/2021 14:28",
-		"usePro" : "ClassTest 7/3/2021 14:29",
-		"usePro:" : "ClassTest 7/3/2021 14:28" } }
+		"buildStatus" : "ClassTest 5/29/2021 19:26",
+		"clearCache" : "ls 7/11/2019 18:54",
+		"repository" : "ClassTest 6/20/2021 16:41",
+		"repository:" : "ls 7/25/2019 14:17",
+		"repositoryJson" : "PS 6/22/2014 16:55",
+		"statusMessage" : "ls 7/11/2019 18:11",
+		"token" : "ClassTest 6/20/2021 16:41",
+		"token:" : "ls 7/25/2019 14:17",
+		"update" : "vxr 7/4/2019 13:42",
+		"usePro" : "ls 7/3/2019 17:16",
+		"usePro:" : "ls 7/25/2019 14:17" } }
