@@ -6,7 +6,7 @@ testSelectedJob
 	temp := ATDDGitHubActionWorkflowJob 
 		newForId: 1 
 		name: 'idk dude' 
-		conclusion: 'successful'.
+		conclusion: #successful.
 	resultsWindow selectedHistory: 1.
 	originalJobs := resultsWindow jobs.
 	"jobs needs to be configured manually so that it sends a correct request to the mockAPI"
