@@ -32,5 +32,3 @@ testEditPauseResultsForSelectedGitHubActions
 	self assert: (browser selectedGitHubActions allSatisfy: [ :each | each paused not ]).
 	browser removeSelectedGitHubActions.
 	self assert: browser selectedGitHubActions isEmpty
-	
-	
