@@ -16,4 +16,5 @@ tearDown
 			browser gitHubActions addLast: each ].
 	browser resumeAll.
 	windowsToDelete do: [ :each | each changed: #close ].
+	mockAPI destroy.
 	self class testHasRun: false

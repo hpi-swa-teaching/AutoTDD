@@ -14,4 +14,5 @@ setUp
 	browser removeTravisStatuses: browser travisStatuses.
 	browser removeGitHubActions: browser gitHubActions.
 	windowsToDelete := OrderedCollection new.
-	windowsToDelete add: browser
+	windowsToDelete add: browser.
+	mockAPI := ATDDGitHubActionMockAPI new

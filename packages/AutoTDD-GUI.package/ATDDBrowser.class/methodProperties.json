@@ -76,7 +76,6 @@
 	"instance" : {
 		"buildButtonWithLabel:do:with:" : "SK 6/27/2021 12:34",
 		"buildGlobalButtonsWith:" : "ClassTest 6/20/2021 19:11",
-		"buildTestEntityUIFor:testingEntityType:with:" : "SK 6/19/2021 11:01",
 		"buildTestingEntitiesWith:" : "ClassTest 5/30/2021 16:48",
 		"buildTestingEntityButtonsOfType:with:" : "ClassTest 6/4/2021 15:02",
 		"buildTestingEntityHeaderOfType:with:" : "ClassTest 5/30/2021 16:23",
