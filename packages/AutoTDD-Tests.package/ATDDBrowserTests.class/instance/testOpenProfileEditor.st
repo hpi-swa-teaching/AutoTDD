@@ -1,7 +1,7 @@
 tests
 testOpenProfileEditor
 
-	| amount window|
+	| amount window |
 	
 	amount := ATDDProfileEditor allInstances size.
 	window := browser openProfileEditor.
