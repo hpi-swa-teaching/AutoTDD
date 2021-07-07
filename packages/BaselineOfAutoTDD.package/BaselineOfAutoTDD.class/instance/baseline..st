@@ -16,7 +16,8 @@ baseline: spec
                     with: [
                         spec
                             requires: #( 'libraries' 
-                                'AutoTDD-Exceptions' ) ];
+                                'AutoTDD-Exceptions'
+								'AutoTDD-Help' ) ];
                 package: 'AutoTDD-GUI'
                     with: [ spec requires: #( 'AutoTDD-Core' ) ];
                 postLoadDoIt: #postLoad;
@@ -24,6 +25,7 @@ baseline: spec
                 package: 'AutoTDD-Dummy-Failure-Tests';
                 package: 'AutoTDD-Dummy-Error-Tests';
                 package: 'AutoTDD-Dummy-Category';
+				package: 'AutoTDD-Help';
                 package: 'AutoTDD-Exceptions';
                 package: 'AutoTDD-Dummy-Setting-Tests';
                 package: 'AutoTDD-Tests'
