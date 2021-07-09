@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "BF 6/19/2021 10:35",
+	"commentStamp" : "ng 7/9/2021 18:34",
 	"instvars" : [
 		 ],
-	"name" : "ATDDAccessDeniedError",
+	"name" : "ATDDRateLimitError",
 	"pools" : [
 		 ],
-	"super" : "ATDDError",
+	"super" : "ATDDAccessDeniedError",
 	"type" : "normal" }

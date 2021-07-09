@@ -13,9 +13,9 @@ requestOn: aString
 		on: Error
 		do: [ :error |
 			[ ATDDConnectionError signal: 'Connection failed: ' , error messageText ] fork.
-			^ JsonObject new ].
-	^ response code
-		= 200
+			^ nil ].
+		
+	response code = 200
 		ifTrue: [
 			(response contentType includesSubstring: 'application/json')
 				ifTrue: [ ^ Json readFrom: response content readStream ].
@@ -24,4 +24,4 @@ requestOn: aString
 		] 
 		ifFalse: [
 			 self throwExceptionForResponseCode: response code.
-			 JsonObject new ]
+			 ^ nil ]

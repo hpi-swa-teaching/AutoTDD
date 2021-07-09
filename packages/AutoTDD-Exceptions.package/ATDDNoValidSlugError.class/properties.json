@@ -10,5 +10,5 @@
 	"name" : "ATDDNoValidSlugError",
 	"pools" : [
 		 ],
-	"super" : "Error",
+	"super" : "ATDDError",
 	"type" : "normal" }

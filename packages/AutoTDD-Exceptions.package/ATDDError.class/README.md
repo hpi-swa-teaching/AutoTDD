@@ -1,0 +1,1 @@
+An ATDDError is an abstraction of any Error in AutoTDD.

@@ -1,4 +1,4 @@
 accessing
-noValidSlugMessage
+defaultMessage
 	
 	^ 'No valid slug provided'
