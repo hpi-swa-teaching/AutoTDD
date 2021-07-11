@@ -4,12 +4,13 @@
 [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/AutoTDD/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/AutoTDD?branch=dev)
 
 ## About
-AutoTDD is an automated testing tool for continuously monitoring the test state of your project. You tests will be automatically executed when a method in your project changes. When a test fails, you will get instant feedback about what went wrong. It also displays current Travis build results.
+The Test Auto Runner (AutoTDD) is an automated testing tool for continuously monitoring the status of your project's tests. AutoTDD enables you to automatically execute tests upon altering your projects's methods. When a test fails, you will get instant feedback on what went wrong.
 
-![A screenshot of AutoTDD](https://spee.ch/d/screns.png)
+![A screenshot of AutoTDD](https://i.imgur.com/EuCCRDX.png)
 ## Installation
 1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
-2. Load the project with:
+2. Make sure you have [OSProcess](http://wiki.squeak.org/squeak/708) installed.
+3. Load the project with:
 ```smalltalk
 Metacello new
   baseline: 'AutoTDD';
@@ -17,10 +18,10 @@ Metacello new
   onConflict: [:ex | ex allow];
   load
 ```
-Now you can open the **Test Auto Runner** via *Apps*.
+You should now be able to open AutoTDD by clicking on *Test Auto Runner* via the *Apps* menu.
 
-### Upgrading from v2
-If you are upgrading from v2 of AutoTDD, please make sure to close **all** traffic lights and windows **and** that no tests are running anymore, otherwise your image will probably crash.
+### Upgrading from v2 / v3
+If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **all** currently running tests and close all AutoTDD-related windows.
 
 ## Sound Customizations
 If the [AutoTDD](https://github.com/hpi-swa-teaching/AutoTDD/tree/master/resources) folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's sounds into your image:
@@ -28,6 +29,17 @@ If the [AutoTDD](https://github.com/hpi-swa-teaching/AutoTDD/tree/master/resourc
 ATDDSoundPlayer new generateSoundMethods
 ```
 
+
+## FAQ
+
+### What permissions are needed for GitHub Actions Tokens?
+Answer
+
+### What kind of tests is AutoTDD suited for?
+Answer
+
+### How can I customize the test-runner?
+Answer (move Sound customization here and mention theming)
+
 ## Documentation
-A more technical documentation can either be found in the class comments or here:
-[Documentation](https://github.com/hpi-swa-teaching/AutoTDD/wiki)
+A more technical documentation can either be found in the class comments or [here](https://github.com/hpi-swa-teaching/AutoTDD/wiki).
