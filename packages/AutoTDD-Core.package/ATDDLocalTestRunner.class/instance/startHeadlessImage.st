@@ -1,4 +1,4 @@
 accessing
 startHeadlessImage
 
-	^ OSProcess command: Smalltalk vm vmFileName , ' -headless ' , Smalltalk imagePath 
+	^ OSProcess command: Smalltalk vm vmFileName , ' -headless ' , Smalltalk imageName
