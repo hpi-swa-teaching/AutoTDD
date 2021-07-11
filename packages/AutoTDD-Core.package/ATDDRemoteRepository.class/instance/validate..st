@@ -1,4 +1,4 @@
 action
 validate: aString
 	
-	(aString matchesRegex: self class validSlug) ifFalse: [ ATDDNoValidSlugError signal ]
+	(aString matchesRegex: self class validSlug) ifFalse: [ ATDDInvalidSlugError signal ]
