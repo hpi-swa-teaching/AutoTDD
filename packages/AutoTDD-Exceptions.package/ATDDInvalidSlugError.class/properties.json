@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "BF 6/19/2021 10:35",
+	"commentStamp" : "be 7/25/2019 10:29",
 	"instvars" : [
 		 ],
-	"name" : "ATDDAccessDeniedError",
+	"name" : "ATDDInvalidSlugError",
 	"pools" : [
 		 ],
 	"super" : "ATDDError",

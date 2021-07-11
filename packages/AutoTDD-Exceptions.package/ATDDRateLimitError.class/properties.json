@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "be 7/25/2019 10:29",
+	"commentStamp" : "ng 7/9/2021 18:34",
 	"instvars" : [
 		 ],
-	"name" : "ATDDNoValidSlugError",
+	"name" : "ATDDRateLimitError",
 	"pools" : [
 		 ],
-	"super" : "Error",
+	"super" : "ATDDAccessDeniedError",
 	"type" : "normal" }
