@@ -10,5 +10,5 @@
 	"name" : "ATDDConnectionError",
 	"pools" : [
 		 ],
-	"super" : "Error",
+	"super" : "ATDDError",
 	"type" : "normal" }

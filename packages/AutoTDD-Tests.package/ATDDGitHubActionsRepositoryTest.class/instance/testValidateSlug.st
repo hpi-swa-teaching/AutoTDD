@@ -2,14 +2,14 @@ tests
 testValidateSlug
 	
 	self
-		shouldnt: [ repository repository: 'a/b' ] raise: ATDDNoValidSlugError;
-		shouldnt: [ repository repository: 'a0/-b' ] raise: ATDDNoValidSlugError;
-		should: [ repository repository: 'a/' ] raise: ATDDNoValidSlugError;
-		should: [ repository repository: '/b' ] raise: ATDDNoValidSlugError;
-		should: [ repository repository: '/' ] raise: ATDDNoValidSlugError;
-		should: [ repository repository: 'a /b' ] raise: ATDDNoValidSlugError;
-		should: [ repository repository: 'a/ b' ] raise: ATDDNoValidSlugError;
-		should: [ repository repository: ' a/b' ] raise: ATDDNoValidSlugError;
-		should: [ repository repository: 'a/b ' ] raise: ATDDNoValidSlugError;
-		should: [ repository repository: 'a/b/c' ] raise: ATDDNoValidSlugError;
-		should: [ repository repository: 'ab' ] raise: ATDDNoValidSlugError
+		shouldnt: [ repository repository: 'a/b' ] raise: ATDDInvalidSlugError;
+		shouldnt: [ repository repository: 'a0/-b' ] raise: ATDDInvalidSlugError;
+		should: [ repository repository: 'a/' ] raise: ATDDInvalidSlugError;
+		should: [ repository repository: '/b' ] raise: ATDDInvalidSlugError;
+		should: [ repository repository: '/' ] raise: ATDDInvalidSlugError;
+		should: [ repository repository: 'a /b' ] raise: ATDDInvalidSlugError;
+		should: [ repository repository: 'a/ b' ] raise: ATDDInvalidSlugError;
+		should: [ repository repository: ' a/b' ] raise: ATDDInvalidSlugError;
+		should: [ repository repository: 'a/b ' ] raise: ATDDInvalidSlugError;
+		should: [ repository repository: 'a/b/c' ] raise: ATDDInvalidSlugError;
+		should: [ repository repository: 'ab' ] raise: ATDDInvalidSlugError

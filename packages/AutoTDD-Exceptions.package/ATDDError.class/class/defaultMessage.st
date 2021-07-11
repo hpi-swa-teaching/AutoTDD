@@ -1,0 +1,4 @@
+accessing
+defaultMessage
+
+	^ self subclassResponsibility

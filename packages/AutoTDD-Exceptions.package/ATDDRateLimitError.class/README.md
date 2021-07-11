@@ -1,0 +1,1 @@
+An ATDDRateLimitError is an ATDDAccessDeniedError that was thrown because the API's rate limit was exceeded.
