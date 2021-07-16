@@ -1,4 +1,5 @@
-# AutoTDD with GitHub Actions & Travis-CI Support
+![AutoTDD_Banner](https://user-images.githubusercontent.com/58258541/126001012-dac234d9-e242-4ac0-86d1-0b227f237321.png)
+
 
 [![CI](https://github.com/hpi-swa-teaching/AutoTDD/workflows/CI/badge.svg?branch=dev)](https://github.com/hpi-swa-teaching/AutoTDD/actions)
 [![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/AutoTDD/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/AutoTDD?branch=dev)
