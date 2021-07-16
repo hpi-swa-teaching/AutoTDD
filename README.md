@@ -39,7 +39,7 @@ If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **al
 
 ## 🔊 Sound Customizations
 
-If the <kbd>AutoTDD</kbd> folder is present in your <kbd>Resources</kbd> folder, you can use the following commands to reload AutoTDD's sounds into your image:
+If the `AutoTDD` folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's sounds into your image:
 
 ```smalltalk
 ATDDSoundPlayer new generateSoundMethods
