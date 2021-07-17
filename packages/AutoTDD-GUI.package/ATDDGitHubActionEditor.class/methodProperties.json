@@ -10,6 +10,8 @@
 		"tokenHelpLabel" : "sw 5/25/2021 20:51" },
 	"instance" : {
 		"applyChanges" : "BF 6/18/2021 14:54",
+		"client" : "ng 7/17/2021 13:04",
+		"client:" : "ng 7/17/2021 13:03",
 		"gitHubAction" : "sw 5/25/2021 19:21",
-		"makesValidRequest" : "ng 7/9/2021 18:14",
+		"makesValidRequest" : "ng 7/17/2021 13:04",
 		"save" : "ng 7/9/2021 18:37" } }
