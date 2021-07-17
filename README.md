@@ -20,8 +20,7 @@ The Test Auto Runner (AutoTDD) is an automated testing tool for continuously mon
 ## 💾 Installation
   
 1. Make sure you have [<img src="https://squeak.de/static/img/favicon.png" width="16" height="16"> Metacello-Work](https://github.com/Metacello/metacello) installed.
-2. Make sure you have [💿 OSProcess](http://wiki.squeak.org/squeak/708) installed.
-3. Load the project with:
+2. Load the project with:
 
 ```smalltalk
 Metacello new
@@ -37,27 +36,28 @@ You should now be able to open AutoTDD by clicking on <kbd>Test Auto Runner</kbd
 
 If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **all** currently running tests and close all AutoTDD-related windows.
 
-## 🔊 Sound Customizations
+## ☝️ FAQ
 
-If the `AutoTDD` folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's sounds into your image:
+### What permissions are needed for GitHub Actions Tokens?
+
+> GitHub Actions tokens require **repo** and **workflow** permissions. See the image below for a reference.
+
+![Test](https://user-images.githubusercontent.com/38653851/126034965-364d8e97-7de5-47a1-a42c-4ee5a62f73f1.png)
+
+### What kind of tests is AutoTDD suited for?
+
+> AutoTDD runs respective tests as soon as any relevant files undergo changes. As such, your tests will run quite frequently. Due to this, it is not advised to use AutoTDD for obtrusive or long-winded tests. This especially includes GUI tests where windows are opened / closed frequently.
+
+### How can I customize the test-runner?
+
+> AutoTDD supports customization for sounds as well as themes. To change feedback sounds AutoTDD, swap out the respective sound files in the `Resources/AutoTDD/sounds` directory and reload the sound player with:
 
 ```smalltalk
 ATDDSoundPlayer new generateSoundMethods
 ```
 
-## ☝️ FAQ
+> AutoTDD also supports various color schemes depending on the currently selected theme in your image. To change the look and feel of the gui, select a new theme from `Extras 🠖 Themes & Colors`
 
-### What permissions are needed for GitHub Actions Tokens?
-
-> TODO: Answer
-
-### What kind of tests is AutoTDD suited for?
-
-> TODO: Answer
-
-### How can I customize the test-runner?
-
-> TODO: Answer (move Sound customization here and mention theming)
 
 ## Documentation
 
