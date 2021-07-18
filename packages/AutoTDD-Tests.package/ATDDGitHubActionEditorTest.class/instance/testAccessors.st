@@ -1,4 +1,4 @@
-as yet unclassified
+tests
 testAccessors
 	
 	| testClient |
@@ -6,5 +6,3 @@ testAccessors
 	testClient := ATDDGitHubActionsClient new.
 	editor client: testClient.
 	self assert: editor client equals: testClient
-
-	

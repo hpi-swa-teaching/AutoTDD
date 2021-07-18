@@ -9,7 +9,8 @@
 		"browser",
 		"mockApi",
 		"windowsToDelete",
-		"editor" ],
+		"editor",
+		"pretestsGitHubActions" ],
 	"name" : "ATDDGitHubActionEditorTest",
 	"pools" : [
 		 ],
