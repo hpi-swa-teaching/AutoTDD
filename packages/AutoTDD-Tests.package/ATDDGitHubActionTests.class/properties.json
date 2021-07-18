@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"repository" ],
-	"name" : "ATDDTravisRepositoryTest",
+		"gitHubAction",
+		"gitHubActionMockApi" ],
+	"name" : "ATDDGitHubActionTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

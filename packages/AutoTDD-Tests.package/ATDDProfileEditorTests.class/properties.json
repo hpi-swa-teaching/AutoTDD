@@ -6,9 +6,12 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"gitHubAction",
-		"gitHubActionMockApi" ],
-	"name" : "ATDDGitHubActionTest",
+		"profile",
+		"profileEditor",
+		"anotherProfileEditor",
+		"userGitHubToken",
+		"userTravisToken" ],
+	"name" : "ATDDProfileEditorTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
