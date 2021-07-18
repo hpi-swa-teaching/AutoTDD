@@ -4,10 +4,10 @@
 		 ],
 	"classvars" : [
 		"Process" ],
-	"commentStamp" : "BF 7/18/2021 15:53",
+	"commentStamp" : "BF 7/18/2021 15:55",
 	"instvars" : [
 		 ],
-	"name" : "ATDDHeadlessImage",
+	"name" : "ATDDTestingImage",
 	"pools" : [
 		 ],
 	"super" : "Object",
