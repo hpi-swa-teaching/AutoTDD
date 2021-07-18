@@ -1,15 +1,29 @@
-# AutoTDD with GitHub Actions & Travis-CI Support
+![AutoTDD_Banner](https://user-images.githubusercontent.com/58258541/126001012-dac234d9-e242-4ac0-86d1-0b227f237321.png)
 
-[![CI](https://github.com/hpi-swa-teaching/AutoTDD/workflows/CI/badge.svg?branch=dev)](https://github.com/hpi-swa-teaching/AutoTDD/actions)
-[![Coverage Status](https://coveralls.io/repos/github/hpi-swa-teaching/AutoTDD/badge.svg?branch=dev)](https://coveralls.io/github/hpi-swa-teaching/AutoTDD?branch=dev)
+---
 
-## About
-AutoTDD is an automated testing tool for continuously monitoring the test state of your project. You tests will be automatically executed when a method in your project changes. When a test fails, you will get instant feedback about what went wrong. It also displays current Travis build results.
+<p align="center">
+  <a href="https://github.com/hpi-swa-teaching/AutoTDD/actions">
+    <img src="https://github.com/hpi-swa-teaching/AutoTDD/workflows/CI/badge.svg?branch=dev" />
+  </a>
+  <a href="https://coveralls.io/github/hpi-swa-teaching/AutoTDD?branch=dev">
+    <img src="https://coveralls.io/repos/github/hpi-swa-teaching/AutoTDD/badge.svg?branch=dev" />
+  </a>
+</p>
 
-![A screenshot of AutoTDD](https://spee.ch/d/screns.png)
-## Installation
-1. Make sure you have [metacello-work](https://github.com/dalehenrich/metacello-work) installed.
-2. Load the project with:
+## 💡 About
+
+The Test Auto Runner (AutoTDD) is an automated testing tool which helps you continuously monitor the status of your project by enabling you to automatically run tests on changes to your project. When a test fails, you will get instant feedback on what went wrong. AutoTDD also supports integration with CI tools such as **GitHub Actions** and **Travis CI**.
+
+![A screenshot of AutoTDD](https://user-images.githubusercontent.com/38653851/126059400-d8b96865-1f08-4f6b-81e6-f919c3055424.png)
+
+## 💾 Installation
+
+### Via Metacello (recommended)
+
+1. Make sure you have [<img src="https://squeak.de/static/img/favicon.png" width="16" height="16"> Metacello-Work](https://github.com/Metacello/metacello) installed.
+2. In a new workspace load the project into your image by running:
+
 ```smalltalk
 Metacello new
   baseline: 'AutoTDD';
@@ -17,17 +31,41 @@ Metacello new
   onConflict: [:ex | ex allow];
   load
 ```
-Now you can open the **Test Auto Runner** via *Apps*.
 
-### Upgrading from v2
-If you are upgrading from v2 of AutoTDD, please make sure to close **all** traffic lights and windows **and** that no tests are running anymore, otherwise your image will probably crash.
+You should now be able to open AutoTDD by clicking on <kbd>Test Auto Runner</kbd> via the <kbd>Apps</kbd> menu.
 
-## Sound Customizations
-If the [AutoTDD](https://github.com/hpi-swa-teaching/AutoTDD/tree/master/resources) folder is present in your `Resources` folder, you can use the following commands to reload AutoTDD's sounds into your image:
-```smalltalk
-ATDDSoundPlayer new generateSoundMethods
-```
+### Via direct SAR-Installation
+
+1. Download the latest `AutoTDD.sar` file from the project's [Releases](https://github.com/hpi-swa-teaching/AutoTDD/releases).
+2. Drag and drop `AutoTDD.sar` into your image and select <kbd>install SAR</kbd>.
+
+![Sar Popup](https://user-images.githubusercontent.com/38653851/126059197-f00de748-cbf6-466a-910d-bd5f8a4831bd.png)
+
+You should now be able to open AutoTDD by clicking on <kbd>Test Auto Runner</kbd> via the <kbd>Apps</kbd> menu.
+
+### 📦 Upgrading from v2 / v3
+
+If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **all** currently running tests and close all AutoTDD-related windows before proceeding with the installation.
+
+## ☝️ FAQ
+
+### What permissions are needed for GitHub Actions Tokens?
+
+> GitHub Actions tokens require **repo** and **workflow** permissions.
+
+### What kind of tests is AutoTDD suited for?
+
+> AutoTDD runs user-specified tests as soon as any relevant classes / methods undergo changes. As such, your tests will run quite frequently. Due to this, it is not advised to use AutoTDD for obtrusive or long-winded tests. This especially includes GUI tests where windows are opened / closed frequently. 
+
+### How can I customize the test-runner?
+
+> AutoTDD supports customization for sounds as well as themes. To change what sounds AutoTDD uses, swap out the respective files in the `Resources/AutoTDD/sounds` directory and reload the sound player with:
+> ```smalltalk
+> ATDDSoundPlayer new generateSoundMethods
+> ```
+> AutoTDD also supports various color schemes depending on the currently selected theme in your image. To change the look and feel of the GUI, select a new theme from `Extras → Themes & Colors`
+
 
 ## Documentation
-A more technical documentation can either be found in the class comments or here:
-[Documentation](https://github.com/hpi-swa-teaching/AutoTDD/wiki)
+
+> A more detailed and technical documentation can either be found in the class comments under the [AutoTDD Wiki](https://github.com/hpi-swa-teaching/AutoTDD/wiki).
