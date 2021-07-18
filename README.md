@@ -67,7 +67,7 @@ If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **al
 ATDDSoundPlayer new generateSoundMethods
 ```
 
-> AutoTDD also supports various color schemes depending on the currently selected theme in your image. To change the look and feel of the GUI, select a new theme from `Extras 🠖 Themes & Colors`
+> AutoTDD also supports various color schemes depending on the currently selected theme in your image. To change the look and feel of the GUI, select a new theme from `Extras → Themes & Colors`
 
 
 ## Documentation
