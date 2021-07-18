@@ -51,7 +51,7 @@ If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **al
 
 ### What permissions are needed for GitHub Actions Tokens?
 
-> GitHub Actions tokens require **repo** and **workflow** permissions. See the image below for a reference.
+> GitHub Actions tokens require **repo** and **workflow** permissions.
 
 ### What kind of tests is AutoTDD suited for?
 
