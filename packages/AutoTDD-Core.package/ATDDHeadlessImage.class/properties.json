@@ -3,10 +3,10 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"Process" ],
 	"commentStamp" : "",
 	"instvars" : [
-		"process" ],
+		 ],
 	"name" : "ATDDHeadlessImage",
 	"pools" : [
 		 ],

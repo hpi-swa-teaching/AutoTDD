@@ -1,8 +1,9 @@
 {
 	"class" : {
+		"process" : "BF 7/18/2021 14:51",
+		"process:" : "BF 7/18/2021 14:52",
+		"run" : "BF 7/18/2021 15:16",
+		"shutDown:" : "BF 7/18/2021 15:33",
 		"startServer" : "ng 7/16/2021 17:30" },
 	"instance" : {
-		"initialize" : "ng 7/18/2021 14:36",
-		"process" : "ng 7/16/2021 17:57",
-		"process:" : "ng 7/16/2021 17:57",
-		"shutDown:" : "ng 7/18/2021 14:43" } }
+		 } }
