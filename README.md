@@ -13,14 +13,16 @@
 
 ## 💡 About
 
-The Test Auto Runner (AutoTDD) is an automated testing tool for continuously monitoring the status of your project's tests. AutoTDD enables you to automatically execute tests upon altering your projects's methods. When a test fails, you will get instant feedback on what went wrong.
+The Test Auto Runner (AutoTDD) is an automated testing tool which helps you continuously monitor the status of your project by enabling you to automatically run tests on changes to your project. When a test fails, you will get instant feedback on what went wrong. AutoTDD also supports integration with CI tools such as **GitHub Actions** and **Travis CI**.
 
-![A screenshot of AutoTDD](https://i.imgur.com/EuCCRDX.png)
+![A screenshot of AutoTDD](https://user-images.githubusercontent.com/38653851/126059400-d8b96865-1f08-4f6b-81e6-f919c3055424.png)
 
 ## 💾 Installation
-  
+
+### Via Metacello  (recommended)
+
 1. Make sure you have [<img src="https://squeak.de/static/img/favicon.png" width="16" height="16"> Metacello-Work](https://github.com/Metacello/metacello) installed.
-2. Load the project with:
+2. In a new workspace load the project into your image by running:
 
 ```smalltalk
 Metacello new
@@ -32,9 +34,18 @@ Metacello new
 
 You should now be able to open AutoTDD by clicking on <kbd>Test Auto Runner</kbd> via the <kbd>Apps</kbd> menu.
 
-### Upgrading from v2 / v3
+### Via direct SAR-Installation
 
-If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **all** currently running tests and close all AutoTDD-related windows.
+1. Download the latest <kbd>AutoTDD.sar</kbd> file from the project's [Releases](https://github.com/hpi-swa-teaching/AutoTDD/releases).
+2. Drag and drop <kbd>AutoTDD.sar</kbd> into your image and select <kbd>install SAR</kbd>.
+
+![Sar Popup](https://user-images.githubusercontent.com/38653851/126059197-f00de748-cbf6-466a-910d-bd5f8a4831bd.png)
+
+You should now be able to open AutoTDD by clicking on <kbd>Test Auto Runner</kbd> via the <kbd>Apps</kbd> menu.
+
+### 📦 Upgrading from v2 / v3
+
+If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **all** currently running tests and close all AutoTDD-related windows before proceeding with the installation.
 
 ## ☝️ FAQ
 
@@ -42,23 +53,23 @@ If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **al
 
 > GitHub Actions tokens require **repo** and **workflow** permissions. See the image below for a reference.
 
-![Test](https://user-images.githubusercontent.com/38653851/126034965-364d8e97-7de5-47a1-a42c-4ee5a62f73f1.png)
+<img src="https://user-images.githubusercontent.com/38653851/126034965-364d8e97-7de5-47a1-a42c-4ee5a62f73f1.png" width="40%">
 
 ### What kind of tests is AutoTDD suited for?
 
-> AutoTDD runs respective tests as soon as any relevant files undergo changes. As such, your tests will run quite frequently. Due to this, it is not advised to use AutoTDD for obtrusive or long-winded tests. This especially includes GUI tests where windows are opened / closed frequently.
+> AutoTDD runs user-specified tests as soon as any relevant classes / methods undergo changes. As such, your tests will run quite frequently. Due to this, it is not advised to use AutoTDD for obtrusive or long-winded tests. This especially includes GUI tests where windows are opened / closed frequently. 
 
 ### How can I customize the test-runner?
 
-> AutoTDD supports customization for sounds as well as themes. To change feedback sounds AutoTDD, swap out the respective sound files in the `Resources/AutoTDD/sounds` directory and reload the sound player with:
+> AutoTDD supports customization for sounds as well as themes. To change what sounds AutoTDD uses, swap out the respective files in the `Resources/AutoTDD/sounds` directory and reload the sound player with:
 
 ```smalltalk
 ATDDSoundPlayer new generateSoundMethods
 ```
 
-> AutoTDD also supports various color schemes depending on the currently selected theme in your image. To change the look and feel of the gui, select a new theme from `Extras 🠖 Themes & Colors`
+> AutoTDD also supports various color schemes depending on the currently selected theme in your image. To change the look and feel of the GUI, select a new theme from `Extras 🠖 Themes & Colors`
 
 
 ## Documentation
 
-> A more technical documentation can either be found in the class comments or here: [AutoTDD Wiki](https://github.com/hpi-swa-teaching/AutoTDD/wiki).
+> A more detailed and technical documentation can either be found in the class comments under the [AutoTDD Wiki](https://github.com/hpi-swa-teaching/AutoTDD/wiki).
