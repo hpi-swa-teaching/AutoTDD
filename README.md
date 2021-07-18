@@ -19,7 +19,7 @@ The Test Auto Runner (AutoTDD) is an automated testing tool which helps you cont
 
 ## 💾 Installation
 
-### Via Metacello  (recommended)
+### Via Metacello (recommended)
 
 1. Make sure you have [<img src="https://squeak.de/static/img/favicon.png" width="16" height="16"> Metacello-Work](https://github.com/Metacello/metacello) installed.
 2. In a new workspace load the project into your image by running:
@@ -36,8 +36,8 @@ You should now be able to open AutoTDD by clicking on <kbd>Test Auto Runner</kbd
 
 ### Via direct SAR-Installation
 
-1. Download the latest <kbd>AutoTDD.sar</kbd> file from the project's [Releases](https://github.com/hpi-swa-teaching/AutoTDD/releases).
-2. Drag and drop <kbd>AutoTDD.sar</kbd> into your image and select <kbd>install SAR</kbd>.
+1. Download the latest `AutoTDD.sar` file from the project's [Releases](https://github.com/hpi-swa-teaching/AutoTDD/releases).
+2. Drag and drop `AutoTDD.sar` into your image and select <kbd>install SAR</kbd>.
 
 ![Sar Popup](https://user-images.githubusercontent.com/38653851/126059197-f00de748-cbf6-466a-910d-bd5f8a4831bd.png)
 
@@ -53,8 +53,6 @@ If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **al
 
 > GitHub Actions tokens require **repo** and **workflow** permissions. See the image below for a reference.
 
-<img src="https://user-images.githubusercontent.com/38653851/126034965-364d8e97-7de5-47a1-a42c-4ee5a62f73f1.png" width="40%">
-
 ### What kind of tests is AutoTDD suited for?
 
 > AutoTDD runs user-specified tests as soon as any relevant classes / methods undergo changes. As such, your tests will run quite frequently. Due to this, it is not advised to use AutoTDD for obtrusive or long-winded tests. This especially includes GUI tests where windows are opened / closed frequently. 
@@ -62,11 +60,9 @@ If you are upgrading from AutoTDD **v2** or **v3** please make sure to stop **al
 ### How can I customize the test-runner?
 
 > AutoTDD supports customization for sounds as well as themes. To change what sounds AutoTDD uses, swap out the respective files in the `Resources/AutoTDD/sounds` directory and reload the sound player with:
-
-```smalltalk
-ATDDSoundPlayer new generateSoundMethods
-```
-
+> ```smalltalk
+> ATDDSoundPlayer new generateSoundMethods
+> ```
 > AutoTDD also supports various color schemes depending on the currently selected theme in your image. To change the look and feel of the GUI, select a new theme from `Extras → Themes & Colors`
 
 
