@@ -15,7 +15,7 @@
 
 The Test Auto Runner (AutoTDD) is an automated testing tool which helps you continuously monitor the status of your project by enabling you to automatically run tests on changes to your project. When a test fails, you will get instant feedback on what went wrong. AutoTDD also supports integration with CI tools such as **GitHub Actions** and **Travis CI**.
 
-![A screenshot of AutoTDD](https://user-images.githubusercontent.com/38653851/126059400-d8b96865-1f08-4f6b-81e6-f919c3055424.png)
+![A screenshot of AutoTDD](https://user-images.githubusercontent.com/38653851/126144139-4dffdea3-d33c-4f1c-a29a-f77c796bd258.png)
 
 ## 💾 Installation
 
