@@ -1,4 +1,4 @@
 accessing
 process
 
-	^ Process
+	^ process

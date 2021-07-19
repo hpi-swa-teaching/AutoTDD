@@ -1,1 +1,1 @@
-An ATDDTestingImage is a second image that is being opened in order to run tests in parallel. To make this seamless to the user the image is opened headless.
+An ATDDTestingImage is a second image that is being opened in order to run tests in parallel. To make this seamless to the user the image is opened headlessly.

@@ -1,10 +1,10 @@
 {
 	"category" : "AutoTDD-Core",
 	"classinstvars" : [
-		 ],
+		"process" ],
 	"classvars" : [
-		"Process" ],
-	"commentStamp" : "BF 7/18/2021 15:55",
+		 ],
+	"commentStamp" : "BF 7/19/2021 18:19",
 	"instvars" : [
 		 ],
 	"name" : "ATDDTestingImage",

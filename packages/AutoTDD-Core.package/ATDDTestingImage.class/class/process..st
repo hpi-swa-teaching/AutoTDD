@@ -1,4 +1,4 @@
 accessing
 process: anOSProcess
 
-	Process := anOSProcess
+	process := anOSProcess
