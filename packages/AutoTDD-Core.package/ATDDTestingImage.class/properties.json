@@ -1,0 +1,14 @@
+{
+	"category" : "AutoTDD-Core",
+	"classinstvars" : [
+		"process" ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "BF 7/19/2021 18:19",
+	"instvars" : [
+		 ],
+	"name" : "ATDDTestingImage",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
