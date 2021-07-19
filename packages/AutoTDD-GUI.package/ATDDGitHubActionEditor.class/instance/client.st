@@ -1,4 +1,4 @@
 action
 client
 
-	^ client ifNil: [ ATDDGitHubActionsClient new ]
+	^ client ifNil: [ client := ATDDGitHubActionsClient new ]
