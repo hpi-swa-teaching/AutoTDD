@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "ATDDSoundPlayerTest",
+		"gitHubActionsClient",
+		"gitHubActionMockApi" ],
+	"name" : "ATDDGitHubActionsClientTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

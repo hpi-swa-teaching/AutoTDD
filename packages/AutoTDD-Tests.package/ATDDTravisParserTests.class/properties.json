@@ -6,12 +6,8 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"profile",
-		"profileEditor",
-		"anotherProfileEditor",
-		"userGitHubToken",
-		"userTravisToken" ],
-	"name" : "ATDDProfileEditorTest",
+		 ],
+	"name" : "ATDDTravisParserTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

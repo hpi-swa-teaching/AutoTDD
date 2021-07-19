@@ -6,8 +6,10 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"client" ],
-	"name" : "ATDDRemoteClientTest",
+		"profile",
+		"userGitHubToken",
+		"userTravisToken" ],
+	"name" : "ATDDProfileTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

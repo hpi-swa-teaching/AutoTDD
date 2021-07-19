@@ -6,8 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"testingEntity" ],
-	"name" : "ATDDTestingEntityTest",
+		"repository",
+		"mockAPI" ],
+	"name" : "ATDDGitHubActionsRepositoryTests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",
