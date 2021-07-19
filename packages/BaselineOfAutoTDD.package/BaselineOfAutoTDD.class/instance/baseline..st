@@ -19,6 +19,7 @@ baseline: spec
                     'AutoTDD-Exceptions'
                     'OSProcess') ];
         package: 'AutoTDD-GUI' with: [ spec requires: #( 'AutoTDD-Core' ) ];
+		package: 'AutoTDD-Help'; 
         postLoadDoIt: #postLoad;
         package: 'AutoTDD-Dummy-Success-Tests';
         package: 'AutoTDD-Dummy-Failure-Tests';
@@ -29,7 +30,7 @@ baseline: spec
         package: 'AutoTDD-Tests' with: [ spec requires: #( 'default' 'dummies' ) ];
         yourself.
     spec
-        group: 'default' with: #( 'AutoTDD-Core' 'AutoTDD-GUI' );
+        group: 'default' with: #( 'AutoTDD-Core' 'AutoTDD-GUI' 'AutoTDD-Help');
         group: 'libraries' with: #( 'JSON' );
         group: 'dummies' with: #(
             'AutoTDD-Dummy-Success-Tests'
