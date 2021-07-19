@@ -1,0 +1,18 @@
+{
+	"category" : "AutoTDD-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"browser",
+		"mockApi",
+		"windowsToDelete",
+		"editor",
+		"pretestsGitHubActions" ],
+	"name" : "ATDDGitHubActionEditorTest",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }
