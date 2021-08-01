@@ -1,4 +1,4 @@
 constants
 defaultUserAgent
 	
-	^ 'AutoTDD/' , SystemVersion current version
+	^ 'AutoTDD/', SystemVersion current version

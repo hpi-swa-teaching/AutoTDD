@@ -1,4 +1,4 @@
 accessing
 token
 	
-	^ token ifNil: [ token := '' ]
+	^ token ifNil: [ token := String empty ]
