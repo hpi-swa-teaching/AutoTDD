@@ -1,4 +1,4 @@
 converting
 asString
 	
-	^ self name , ' (' , self pausedString , ', ' , self statusMessage , ')'
+	^ self name, ' (', self pausedString, ', ', self statusMessage, ')'

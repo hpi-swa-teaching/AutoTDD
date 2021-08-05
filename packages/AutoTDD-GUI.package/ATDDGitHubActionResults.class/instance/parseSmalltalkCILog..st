@@ -5,7 +5,7 @@ parseSmalltalkCILog: aString
 	
 	log := Text new.
 	shouldIncludeLine := false.
-	parsedLine := ''.
+	parsedLine := String empty.
 	
 	aString linesDo: [ :line |
 		"start of logging"

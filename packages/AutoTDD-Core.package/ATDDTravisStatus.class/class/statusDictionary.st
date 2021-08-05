@@ -12,5 +12,4 @@ statusDictionary
 			'received' -> #pending.
 			'started' -> #pending.
 			'unknown' -> #pending.
-			'not available' -> #pending
-		}
+			'not available' -> #pending }

@@ -7,11 +7,11 @@ requestOn: aString
 	[
 			response := self httpGet: url do: [ :request |
 				request headerAt: 'Accept' put: self mimeType.
-				self usePro ifTrue: [ request headerAt: 'Authorization' put: 'token ' , self token ] ].
+				self usePro ifTrue: [ request headerAt: 'Authorization' put: 'token ', self token ] ].
 			response content; close ]
 		on: Error
 		do: [ :error |
-			[ ATDDConnectionError signal: 'Connection failed: ' , error messageText ] fork.
+			[ ATDDConnectionError signal: 'Connection failed: ', error messageText ] fork.
 			^ JsonObject new ].
 	
 	^ response code

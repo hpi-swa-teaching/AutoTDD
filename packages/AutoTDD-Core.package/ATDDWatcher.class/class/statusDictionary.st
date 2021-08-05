@@ -9,5 +9,4 @@ statusDictionary
 			'executing' -> #pending.
 			'unexecuted' -> #pending.
 			'executed' -> #pending.
-			'unknown' -> #pending
-		}
+			'unknown' -> #pending }

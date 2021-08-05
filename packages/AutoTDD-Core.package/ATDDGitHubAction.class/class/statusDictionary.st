@@ -11,5 +11,4 @@ statusDictionary
 			'stale' -> #pending.
 			'success' -> #successful.
 			'timed_out' -> #error.
-      		'unknown' -> #pending
-		}
+      		'unknown' -> #pending }

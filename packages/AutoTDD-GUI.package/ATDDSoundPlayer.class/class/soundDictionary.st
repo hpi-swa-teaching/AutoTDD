@@ -2,7 +2,6 @@ constants
 soundDictionary
 	
 	^ IdentityDictionary newFrom: { 
-		#error -> 'fail' .
+		#error -> 'fail'.
 		#failure -> 'fail'.
-		#successful -> 'success'
-	}
+		#successful -> 'success' }

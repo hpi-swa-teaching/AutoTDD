@@ -1,4 +1,4 @@
 converting
 asString
 	
-	^ (self name , ' (' , self watchingStatus , ', ' , self internalStatusMessage , ')')
+	^ (self name, ' (', self watchingStatus, ', ', self internalStatusMessage, ')')

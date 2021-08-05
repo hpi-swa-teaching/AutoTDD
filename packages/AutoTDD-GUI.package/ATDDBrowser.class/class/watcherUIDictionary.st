@@ -1,8 +1,6 @@
 constants
 watcherUIDictionary
 	
-	^ Dictionary
-		newFrom: {
-			'listDictionary' -> self watcherListDictionary.
-			'functionalityDictionary' -> self watcherFunctionalityDictionary
-		}
+	^ Dictionary newFrom: {
+		'listDictionary' -> self watcherListDictionary.
+		'functionalityDictionary' -> self watcherFunctionalityDictionary }

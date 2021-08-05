@@ -7,7 +7,7 @@ statusMessage
 	
 	^ (buildInfo at: #conclusion) = #unknown
 		ifTrue: [ 'not available' ]
-		ifFalse: [ (buildInfo at: #conclusion) 
-					, ' message: ', (buildInfo at: #message)
-					, ' branch: ' , (buildInfo at: #branch)
-					, ' author: ' , (buildInfo at: #author) ]
+		ifFalse: [ (buildInfo at: #conclusion),
+					' message: ', (buildInfo at: #message),
+					' branch: ', (buildInfo at: #branch),
+					' author: ', (buildInfo at: #author) ]

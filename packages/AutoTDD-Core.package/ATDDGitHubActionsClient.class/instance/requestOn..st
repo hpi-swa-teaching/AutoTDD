@@ -7,12 +7,12 @@ requestOn: aString
 	[
 			response := self httpGet: url do: [ :request |
 				request headerAt: 'Accept' put: self mimeType.
-				self token ifNotEmpty: [request headerAt: 'Authorization' put: ('token ' , self token)]
+				self token ifNotEmpty: [request headerAt: 'Authorization' put: ('token ', self token)]
 			].
 			response content; close ]
 		on: Error
 		do: [ :error |
-			[ ATDDConnectionError signal: 'Connection failed: ' , error messageText ] fork.
+			[ ATDDConnectionError signal: 'Connection failed: ', error messageText ] fork.
 			^ nil ].
 		
 	response code = 200
