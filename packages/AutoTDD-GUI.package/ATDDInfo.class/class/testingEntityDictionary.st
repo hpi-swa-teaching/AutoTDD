@@ -1,7 +1,5 @@
 constants
 testingEntityDictionary
 
-	^ IdentityDictionary
-		newFrom: {
-			#watcher -> ATDDWatcherInfo
-		}
+	^ IdentityDictionary newFrom: {
+		#watcher -> ATDDWatcherInfo }

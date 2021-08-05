@@ -2,13 +2,13 @@
 	"class" : {
 		"defaultName" : "ls 7/25/2019 15:02",
 		"notExecutedText" : "ls 5/30/2019 19:43",
-		"statusDictionary" : "ClassTest 5/29/2021 20:00",
+		"statusDictionary" : "SK 8/5/2021 16:09",
 		"symbol" : "sw 5/25/2021 22:27" },
 	"instance" : {
 		"addChangeListener" : "swi 5/16/2019 00:44",
 		"allTestClasses" : "swi 6/12/2019 18:56",
 		"applyDefaultConfiguration" : "ls 7/25/2019 15:03",
-		"asString" : "sw 5/28/2021 22:10",
+		"asString" : "SK 8/5/2021 16:07",
 		"categoriesToTest" : "swi 6/12/2019 18:23",
 		"categoriesToTest:" : "ls 7/25/2019 15:04",
 		"categoriesToWatch" : "swi 6/12/2019 18:27",

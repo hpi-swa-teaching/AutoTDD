@@ -2,13 +2,13 @@
 	"class" : {
 		 },
 	"instance" : {
-		"getJsonForBuild:" : "CW 2/25/2016 10:14",
-		"getJsonForBuildsOfRepository:" : "PS 5/19/2014 17:44",
-		"getJsonForLog:" : "CW 2/25/2016 10:12",
-		"getTextForLog:" : "maf 12/5/2017 14:41",
+		"getJsonForBuild:" : "SK 8/1/2021 11:25",
+		"getJsonForBuildsOfRepository:" : "SK 8/1/2021 11:25",
+		"getJsonForLog:" : "SK 8/1/2021 11:25",
+		"getTextForLog:" : "SK 8/1/2021 11:25",
 		"mimeType" : "PS 5/18/2014 18:04",
-		"requestAPIOn:" : "ClassTest 6/27/2021 15:44",
-		"requestOn:" : "ClassTest 6/27/2021 15:58",
+		"requestAPIOn:" : "SK 8/1/2021 11:27",
+		"requestOn:" : "SK 8/5/2021 16:05",
 		"travisApiUrl" : "PS 6/19/2014 09:57",
 		"usePro" : "PS 6/19/2014 09:56",
 		"usePro:" : "ls 7/25/2019 15:20" } }

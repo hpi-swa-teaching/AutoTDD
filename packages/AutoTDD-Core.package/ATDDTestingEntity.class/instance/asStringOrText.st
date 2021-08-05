@@ -1,4 +1,4 @@
 accessing
 asStringOrText
 
-^ self asString asText addAttribute: (TextColor color: self statusColor)
+	^ self asString asText addAttribute: (TextColor color: self statusColor)

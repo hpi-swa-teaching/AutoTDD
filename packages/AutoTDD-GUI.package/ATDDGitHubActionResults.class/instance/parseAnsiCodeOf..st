@@ -14,7 +14,7 @@ parseAnsiCodeOf: aString
 	].
 			
 	"Remove all Ansi Codes"
-	parsedLine := parsedLine copyWithRegex: '\[\d+m' matchesReplacedWith: ''.
+	parsedLine := parsedLine copyWithRegex: '\[\d+m' matchesReplacedWith: String empty.
 	parsedLine := match ifNil: [ parsedLine ].
 		
 	prefixColorDictonary ifNotNil: [

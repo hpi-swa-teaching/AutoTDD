@@ -9,4 +9,4 @@ label
 		addAll: self gitHubActions;
 		yourself.
 	
-	^ ATDDBrowser baseTitle , ': Overview for ', (items collect: [ :each | each name ]) asCommaString
+	^ ATDDBrowser baseTitle, ': Overview for ', (items collect: [ :each | each name ]) asCommaString

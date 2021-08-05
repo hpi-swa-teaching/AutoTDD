@@ -1,0 +1,1 @@
+The ATDDGitHubActionMockAPI simulates the response of the GitHub Actions API in order to prevent rate-limiting. 

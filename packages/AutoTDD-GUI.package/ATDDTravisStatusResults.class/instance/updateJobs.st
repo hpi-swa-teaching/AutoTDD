@@ -9,7 +9,7 @@ updateJobs
 		jobs: (matrix
 				collect: [ :job |
 					Text new
-						append: '#' , (job at: #number) , String space , (job at: #env);
+						append: '#', (job at: #number), String space, (job at: #env);
 						addAttribute: (TextColor color: (self colorForInternalStatus: (job at: #state))) ]);
 		selectedJob: 0;
 		changed: #jobs;

@@ -1,5 +1,5 @@
 initialization
 initializeTargetName
 	
-	targetName := ValueHolder new contents: ''.
+	targetName := ValueHolder new contents: String empty.
 	targetName addDependent: self

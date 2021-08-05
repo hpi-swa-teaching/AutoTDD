@@ -1,4 +1,4 @@
 data-processing
 getJsonForBuild: aString
 	
-	^ self requestOn: 'builds/' , aString
+	^ self requestOn: 'builds/', aString

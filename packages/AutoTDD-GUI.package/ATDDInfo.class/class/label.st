@@ -1,4 +1,4 @@
 building
 label
 	
-	^ ATDDBrowser baseTitle , ': Info for ' , self targetName
+	^ ATDDBrowser baseTitle, ': Info for ', self targetName

@@ -1,0 +1,1 @@
+ATDDBrowserTests validate the functionality of the main browser GUI.

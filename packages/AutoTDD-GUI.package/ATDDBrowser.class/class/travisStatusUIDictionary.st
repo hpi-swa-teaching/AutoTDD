@@ -1,8 +1,6 @@
 constants
 travisStatusUIDictionary
 	
-	^ Dictionary
-		newFrom: {
-			'listDictionary' -> self travisStatusListDictionary.
-			'functionalityDictionary' -> self travisStatusFunctionalityDictionary
-		}
+	^ Dictionary newFrom: {
+		'listDictionary' -> self travisStatusListDictionary.
+		'functionalityDictionary' -> self travisStatusFunctionalityDictionary }

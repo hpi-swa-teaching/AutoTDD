@@ -1,5 +1,5 @@
 initialization
 initializeInterval
 	
-	refreshInterval := ValueHolder new contents: ''.
+	refreshInterval := ValueHolder new contents: String empty.
 	refreshInterval addDependent: self

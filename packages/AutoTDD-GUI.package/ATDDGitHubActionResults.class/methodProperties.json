@@ -1,6 +1,6 @@
 {
 	"class" : {
-		"ansiCodeDictonary" : "ClassTest 6/25/2021 22:33",
+		"ansiCodeDictonary" : "SK 8/5/2021 16:22",
 		"defaultCheckBoxHeight" : "BF 6/18/2021 16:26",
 		"isAbstract" : "ls 7/25/2019 08:44",
 		"parser" : "sw 5/21/2021 20:55",
@@ -12,12 +12,12 @@
 		"buildSimplifyLogCheckBoxWith:" : "BF 6/20/2021 16:31",
 		"colorForSelectedHistory" : "ClassTest 5/29/2021 19:12",
 		"history" : "ClassTest 5/29/2021 19:12",
-		"historyInfoForSelectedHistory" : "ng 5/23/2021 09:15",
+		"historyInfoForSelectedHistory" : "SK 8/5/2021 16:13",
 		"isSmalltalkCILog:" : "BF 6/11/2021 21:10",
 		"jobLogTextFrame" : "BF 6/18/2021 16:26",
-		"jobNames" : "ng 5/26/2021 14:18",
-		"parseAnsiCodeOf:" : "ClassTest 6/14/2021 11:17",
-		"parseSmalltalkCILog:" : "BF 6/11/2021 19:48",
+		"jobNames" : "SK 8/5/2021 16:13",
+		"parseAnsiCodeOf:" : "SK 8/5/2021 16:14",
+		"parseSmalltalkCILog:" : "SK 8/5/2021 16:14",
 		"selectedJob:" : "ng 5/26/2021 14:54",
 		"shouldSimplifyLog" : "BF 6/21/2021 11:50",
 		"shouldSimplifyLog:" : "BF 6/20/2021 16:32",
@@ -25,5 +25,5 @@
 		"simplifyLogCheckBoxFrame" : "BF 6/20/2021 16:35",
 		"simplifyLogCheckBoxLabel" : "BF 6/20/2021 16:35",
 		"simplifyLogCheckBoxState" : "BF 6/20/2021 16:36",
-		"updateJobLogForId:" : "ng 7/9/2021 18:26",
+		"updateJobLogForId:" : "SK 8/5/2021 16:14",
 		"updateJobs" : "BF 6/25/2021 17:13" } }

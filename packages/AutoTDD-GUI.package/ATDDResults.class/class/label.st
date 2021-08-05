@@ -1,4 +1,4 @@
 constants
 label
 	
-	^ ATDDBrowser baseTitle , ': Results for ' , self targetName
+	^ ATDDBrowser baseTitle, ': Results for ', self targetName

@@ -1,4 +1,4 @@
 accessing
 latestWorkflowJson
 	
-	^ self client getJsonForLatestWorkflowRunForRepository: repository.
+	^ self client getJsonForLatestWorkflowRunForRepository: repository
